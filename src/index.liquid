@@ -8,7 +8,7 @@ description: Transform your legacy systems into modern, high-performance applica
   <div class="container">
     <div class="hero-content">
       <h1>Modernize Your Legacy Systems</h1>
-      <p class="hero-subtitle">Transform outdated applications into modern, scalable solutions that drive business growth.</p>
+      <p class="hero-subtitle">We transform outdated enterprise applications into modern, scalable solutions that drive business growth and delight users.</p>
       <div class="hero-cta">
         <a href="/contact" class="btn-primary btn-lg">Start Your Transformation</a>
         <a href="/portfolio" class="btn-secondary btn-lg">View Portfolio</a>
@@ -17,24 +17,48 @@ description: Transform your legacy systems into modern, high-performance applica
   </div>
 </section>
 
+<section class="stats-section">
+  <div class="container">
+    <div class="stats-grid">
+      <div class="stat-item">
+        <h3>300%</h3>
+        <p>Average Performance Boost</p>
+      </div>
+      <div class="stat-item">
+        <h3>50+</h3>
+        <p>Systems Modernized</p>
+      </div>
+      <div class="stat-item">
+        <h3>98%</h3>
+        <p>Client Satisfaction</p>
+      </div>
+      <div class="stat-item">
+        <h3>24/7</h3>
+        <p>Support Available</p>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="services-preview">
   <div class="container">
     <h2>What We Do</h2>
+    <p class="section-subtitle">Comprehensive modernization services tailored to your business needs</p>
     <div class="services-grid">
       <div class="service-card">
         <div class="service-icon">🔄</div>
         <h3>Legacy Modernization</h3>
-        <p>Migrate outdated systems to modern architectures without disrupting your business operations.</p>
+        <p>Seamlessly migrate outdated systems to modern cloud-native architectures without disrupting your business operations or losing critical data.</p>
       </div>
       <div class="service-card">
         <div class="service-icon">🎨</div>
         <h3>UI/UX Redesign</h3>
-        <p>Transform dated interfaces into intuitive, modern experiences that users love.</p>
+        <p>Transform dated, clunky interfaces into intuitive, modern experiences that users love and increase productivity across your organization.</p>
       </div>
       <div class="service-card">
         <div class="service-icon">⚡</div>
         <h3>Performance Optimization</h3>
-        <p>Dramatically improve speed, reliability, and scalability of your existing systems.</p>
+        <p>Dramatically improve speed, reliability, and scalability of your existing systems through advanced optimization techniques and modern infrastructure.</p>
       </div>
     </div>
   </div>
@@ -43,33 +67,82 @@ description: Transform your legacy systems into modern, high-performance applica
 <section class="portfolio-preview">
   <div class="container">
     <h2>Featured Transformations</h2>
-    <p class="section-subtitle">See how we've helped businesses modernize their legacy systems</p>
-    <div class="portfolio-grid">
+    <p class="section-subtitle">See how we've helped businesses modernize their critical systems</p>
+    
+    <div class="portfolio-slider">
       <div class="portfolio-item">
-        <div class="before-after">
-          <div class="before">
-            <span class="badge">Before</span>
-            <div class="placeholder-image">Legacy System</div>
-          </div>
-          <div class="after">
-            <span class="badge">After</span>
-            <div class="placeholder-image">Modern Solution</div>
+        <div class="before-after-container">
+          <div class="before-after">
+            <div class="before">
+              <span class="badge">Before</span>
+              <div class="placeholder-image">
+                <span>Legacy CRM System<br/>Slow • Outdated • Complex</span>
+              </div>
+            </div>
+            <div class="after">
+              <span class="badge">After</span>
+              <div class="placeholder-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                <span>Modern Cloud Solution<br/>Fast • Intuitive • Scalable</span>
+              </div>
+            </div>
+            <div class="slider-handle" id="slider"></div>
           </div>
         </div>
         <h3>Enterprise CRM Modernization</h3>
-        <p>Transformed a 15-year-old CRM into a cloud-native solution, improving performance by 300%.</p>
+        <p>Transformed a 15-year-old on-premise CRM system into a modern cloud-native solution. The new platform improved data processing speed by 300%, reduced operational costs by 40%, and increased user adoption by 85%.</p>
       </div>
     </div>
+    
     <div class="text-center">
-      <a href="/portfolio" class="btn-primary">View All Projects</a>
+      <a href="/portfolio" class="btn-primary btn-lg">View All Projects</a>
     </div>
   </div>
 </section>
 
 <section class="cta-section">
   <div class="container">
-    <h2>Ready to Modernize?</h2>
-    <p>Let's discuss how we can transform your legacy systems into modern, efficient solutions.</p>
+    <h2>Ready to Modernize Your Systems?</h2>
+    <p>Let's discuss how we can transform your legacy applications into modern, efficient solutions that drive real business value.</p>
     <a href="/contact" class="btn-primary btn-lg">Get in Touch</a>
   </div>
 </section>
+
+<script>
+  // Before/After Slider
+  const slider = document.getElementById('slider');
+  const afterDiv = document.querySelector('.after');
+  const container = document.querySelector('.before-after-container');
+  
+  let isDragging = false;
+  
+  function updateSlider(x) {
+    const rect = container.getBoundingClientRect();
+    const pos = ((x - rect.left) / rect.width) * 100;
+    const clampedPos = Math.max(0, Math.min(100, pos));
+    
+    slider.style.left = clampedPos + '%';
+    afterDiv.style.clipPath = `inset(0 ${100 - clampedPos}% 0 0)`;
+  }
+  
+  slider.addEventListener('mousedown', () => isDragging = true);
+  document.addEventListener('mouseup', () => isDragging = false);
+  
+  container.addEventListener('mousemove', (e) => {
+    if (isDragging) updateSlider(e.clientX);
+  });
+  
+  container.addEventListener('click', (e) => {
+    updateSlider(e.clientX);
+  });
+  
+  // Touch support
+  slider.addEventListener('touchstart', () => isDragging = true);
+  document.addEventListener('touchend', () => isDragging = false);
+  
+  container.addEventListener('touchmove', (e) => {
+    if (isDragging) {
+      e.preventDefault();
+      updateSlider(e.touches[0].clientX);
+    }
+  });
+</script>
