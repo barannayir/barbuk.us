@@ -3,9 +3,71 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Primary Meta Tags -->
   <title>{{ title }} | Barbuk - Legacy System Modernization</title>
-  <meta name="description" content="{{ description | default: 'Transform your legacy systems into modern, high-performance applications. Expert B2B software modernization services.' }}">
+  <meta name="title" content="{{ title }} | Barbuk - Legacy System Modernization">
+  <meta name="description" content="{{ description | default: 'Transform your legacy systems into modern, high-performance applications. Expert B2B software modernization, AI integration, and workflow automation services.' }}">
+  <meta name="keywords" content="legacy system modernization, enterprise software modernization, ASP.NET modernization, UI/UX redesign, workflow automation, AI integration, cloud migration, B2B software services">
+  <meta name="author" content="Barbuk">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://barbuk.us{{ page.url }}">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://barbuk.us{{ page.url }}">
+  <meta property="og:title" content="{{ title }} | Barbuk - Legacy System Modernization">
+  <meta property="og:description" content="{{ description | default: 'Transform your legacy systems into modern, high-performance applications. Expert B2B software modernization services.' }}">
+  <meta property="og:image" content="https://barbuk.us/assets/images/og-image.png">
+  <meta property="og:site_name" content="Barbuk">
+  
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://barbuk.us{{ page.url }}">
+  <meta property="twitter:title" content="{{ title }} | Barbuk - Legacy System Modernization">
+  <meta property="twitter:description" content="{{ description | default: 'Transform your legacy systems into modern, high-performance applications.' }}">
+  <meta property="twitter:image" content="https://barbuk.us/assets/images/og-image.png">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/assets/images/favicon.png">
+  
+  <!-- Preconnect for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <!-- Stylesheet -->
   <link rel="stylesheet" href="/assets/css/style.css">
+  
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Barbuk",
+    "url": "https://barbuk.us",
+    "logo": "https://barbuk.us/assets/images/logo.png",
+    "description": "Expert B2B software modernization services. Transform legacy systems into modern, high-performance applications with AI integration and workflow automation.",
+    "foundingDate": "2026",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "Customer Service",
+      "email": "hello@barbuk.us",
+      "availableLanguage": "English"
+    },
+    "sameAs": [
+      "https://github.com/barbuk-dev"
+    ],
+    "areaServed": "Worldwide",
+    "serviceType": [
+      "Legacy System Modernization",
+      "UI/UX Redesign",
+      "Workflow Automation",
+      "AI Integration",
+      "Cloud Migration",
+      "Performance Optimization"
+    ]
+  }
+  </script>
 </head>
 <body>
   {% include "header.liquid" %}

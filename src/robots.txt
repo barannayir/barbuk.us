@@ -1,0 +1,14 @@
+# Barbuk.us - Legacy System Modernization
+# https://barbuk.us/robots.txt
+
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://barbuk.us/sitemap.xml
+
+# Disallow admin/demo pages from indexing
+Disallow: /demos/
+
+# Crawl-delay for politeness
+Crawl-delay: 1
