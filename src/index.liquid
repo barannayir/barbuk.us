@@ -151,16 +151,18 @@ description: Transform your legacy systems into modern, high-performance applica
     afterDiv.style.clipPath = `inset(0 ${100 - clampedPos}% 0 0)`;
     
     // Badge visibility based on position
+    // When slider is on the left (showing legacy), hide "After" badge
     if (clampedPos < 20) {
-      badgeBefore.style.opacity = '0';
-    } else {
-      badgeBefore.style.opacity = '1';
-    }
-    
-    if (clampedPos > 80) {
       badgeAfter.style.opacity = '0';
     } else {
       badgeAfter.style.opacity = '1';
+    }
+    
+    // When slider is on the right (showing modern), hide "Before" badge
+    if (clampedPos > 80) {
+      badgeBefore.style.opacity = '0';
+    } else {
+      badgeBefore.style.opacity = '1';
     }
   }
   
