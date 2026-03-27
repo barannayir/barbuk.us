@@ -89,15 +89,15 @@ description: Transform your legacy systems into modern, high-performance applica
         <div class="before-after-container">
           <div class="before-after">
             <div class="before">
-              <span class="badge">Before</span>
               <iframe src="/demos/legacy-admin.html" style="width: 100%; height: 100%; border: none; background: white;"></iframe>
             </div>
             <div class="after">
-              <span class="badge">After</span>
               <iframe src="/demos/modern-admin.html" style="width: 100%; height: 100%; border: none;"></iframe>
             </div>
             <div class="slider-handle" id="slider"></div>
           </div>
+          <div class="badge-before">Before</div>
+          <div class="badge-after">After</div>
         </div>
         <h3>Enterprise Admin Panel Transformation</h3>
         <p>We rebuilt a 15-year-old ASP.NET admin panel with outdated Windows-style UI into a modern, responsive dashboard with real-time updates and AI-powered insights. The new system reduced task completion time by 60% and increased user satisfaction scores from 42% to 94%.</p>
@@ -137,6 +137,8 @@ description: Transform your legacy systems into modern, high-performance applica
   const slider = document.getElementById('slider');
   const afterDiv = document.querySelector('.after');
   const container = document.querySelector('.before-after-container');
+  const badgeBefore = document.querySelector('.badge-before');
+  const badgeAfter = document.querySelector('.badge-after');
   
   let isDragging = false;
   
@@ -147,6 +149,19 @@ description: Transform your legacy systems into modern, high-performance applica
     
     slider.style.left = clampedPos + '%';
     afterDiv.style.clipPath = `inset(0 ${100 - clampedPos}% 0 0)`;
+    
+    // Badge visibility based on position
+    if (clampedPos < 20) {
+      badgeBefore.style.opacity = '0';
+    } else {
+      badgeBefore.style.opacity = '1';
+    }
+    
+    if (clampedPos > 80) {
+      badgeAfter.style.opacity = '0';
+    } else {
+      badgeAfter.style.opacity = '1';
+    }
   }
   
   slider.addEventListener('mousedown', () => isDragging = true);
