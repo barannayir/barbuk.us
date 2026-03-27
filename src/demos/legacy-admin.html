@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Enterprise Management System v3.2</title>
+<style>
+body {
+  font-family: "MS Sans Serif", Arial, sans-serif;
+  background: #ECE9D8;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background: linear-gradient(to bottom, #0054E3 0%, #0041B8 100%);
+  color: white;
+  padding: 8px;
+  border-bottom: 2px solid #003399;
+}
+.header h1 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+.menu {
+  background: #D4D0C8;
+  border: 1px solid #808080;
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+  padding: 0;
+  margin: 0;
+}
+.menu table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.menu td {
+  padding: 6px 12px;
+  border-right: 1px solid #808080;
+  cursor: pointer;
+  font-size: 11px;
+}
+.menu td:hover {
+  background: #316AC5;
+  color: white;
+}
+.content {
+  padding: 12px;
+}
+.panel {
+  background: #F0F0F0;
+  border: 2px solid;
+  border-color: white #808080 #808080 white;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.panel-header {
+  background: #000080;
+  color: white;
+  padding: 4px;
+  font-weight: bold;
+  font-size: 11px;
+  margin: -10px -10px 10px -10px;
+}
+table.data {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #808080;
+  background: white;
+  font-size: 11px;
+}
+table.data th {
+  background: #D4D0C8;
+  border: 1px solid;
+  border-color: white #808080 #808080 white;
+  padding: 4px;
+  font-weight: bold;
+  text-align: left;
+}
+table.data td {
+  border: 1px solid #C0C0C0;
+  padding: 4px;
+}
+table.data tr:hover {
+  background: #FFFFCC;
+}
+.btn {
+  background: #D4D0C8;
+  border: 2px solid;
+  border-color: white #808080 #808080 white;
+  padding: 4px 12px;
+  font-size: 11px;
+  cursor: pointer;
+  font-family: "MS Sans Serif", Arial, sans-serif;
+}
+.btn:active {
+  border-color: #808080 white white #808080;
+}
+.textbox {
+  border: 2px solid;
+  border-color: #808080 white white #808080;
+  padding: 2px;
+  font-size: 11px;
+  font-family: "MS Sans Serif", Arial, sans-serif;
+}
+.status-bar {
+  background: #D4D0C8;
+  border-top: 1px solid white;
+  padding: 4px 8px;
+  font-size: 11px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Enterprise Resource Management System v3.2.1 Build 2847</h1>
+</div>
+
+<div class="menu">
+  <table>
+    <tr>
+      <td><u>F</u>ile</td>
+      <td><u>E</u>dit</td>
+      <td><u>V</u>iew</td>
+      <td><u>R</u>eports</td>
+      <td><u>T</u>ools</td>
+      <td><u>W</u>indow</td>
+      <td><u>H</u>elp</td>
+    </tr>
+  </table>
+</div>
+
+<div class="content">
+  <div class="panel">
+    <div class="panel-header">Customer Management Dashboard</div>
+    
+    <table cellpadding="0" cellspacing="0" width="100%">
+      <tr>
+        <td width="150" valign="top">
+          <fieldset style="border: 2px groove #D4D0C8; padding: 8px;">
+            <legend style="font-weight: bold; font-size: 11px;">Search Criteria</legend>
+            <table cellpadding="4">
+              <tr>
+                <td>Customer ID:</td>
+              </tr>
+              <tr>
+                <td><input type="text" class="textbox" value="" style="width: 100px;"></td>
+              </tr>
+              <tr>
+                <td>Status:</td>
+              </tr>
+              <tr>
+                <td>
+                  <select class="textbox" style="width: 106px;">
+                    <option>-- All --</option>
+                    <option>Active</option>
+                    <option>Inactive</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td><br><button class="btn">Search</button> <button class="btn">Clear</button></td>
+              </tr>
+            </table>
+          </fieldset>
+        </td>
+        <td valign="top" style="padding-left: 10px;">
+          <table class="data">
+            <thead>
+              <tr>
+                <th width="30">#</th>
+                <th>Customer Name</th>
+                <th>Email Address</th>
+                <th>Phone</th>
+                <th>Status</th>
+                <th>Last Modified</th>
+                <th width="80">Actions</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>001</td>
+                <td>Acme Corporation Ltd.</td>
+                <td>contact@acme.com</td>
+                <td>(555) 123-4567</td>
+                <td>Active</td>
+                <td>12/15/2008 3:42 PM</td>
+                <td><button class="btn">Edit</button></td>
+              </tr>
+              <tr>
+                <td>002</td>
+                <td>Global Industries Inc</td>
+                <td>info@global.net</td>
+                <td>(555) 987-6543</td>
+                <td>Active</td>
+                <td>11/28/2008 9:15 AM</td>
+                <td><button class="btn">Edit</button></td>
+              </tr>
+              <tr>
+                <td>003</td>
+                <td>TechStart Solutions</td>
+                <td>hello@techstart.org</td>
+                <td>(555) 456-7890</td>
+                <td>Inactive</td>
+                <td>10/03/2008 2:18 PM</td>
+                <td><button class="btn">Edit</button></td>
+              </tr>
+              <tr>
+                <td>004</td>
+                <td>Enterprise Systems Co</td>
+                <td>admin@enterprise.com</td>
+                <td>(555) 234-5678</td>
+                <td>Active</td>
+                <td>09/17/2008 11:03 AM</td>
+                <td><button class="btn">Edit</button></td>
+              </tr>
+              <tr>
+                <td>005</td>
+                <td>Modern Web Services</td>
+                <td>support@modernweb.io</td>
+                <td>(555) 876-5432</td>
+                <td>Active</td>
+                <td>08/22/2008 4:27 PM</td>
+                <td><button class="btn">Edit</button></td>
+              </tr>
+            </tbody>
+          </table>
+          <p style="margin-top: 10px;">
+            <button class="btn">New Customer</button>
+            <button class="btn">Export to Excel</button>
+            <button class="btn">Print Report</button>
+            <button class="btn">Refresh Data</button>
+          </p>
+        </td>
+      </tr>
+    </table>
+  </div>
+  
+  <div class="panel">
+    <div class="panel-header">Quick Statistics</div>
+    <table width="100%" cellpadding="8">
+      <tr>
+        <td width="25%"><b>Total Customers:</b> 1,247</td>
+        <td width="25%"><b>Active:</b> 1,089</td>
+        <td width="25%"><b>Pending:</b> 43</td>
+        <td width="25%"><b>Inactive:</b> 115</td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<div class="status-bar">
+  Ready | Server: SQL2005-PROD | User: Administrator | Database: CustomerDB_v3 | Last Sync: 01/15/2009 8:42:17 AM
+</div>
+
+</body>
+</html>
