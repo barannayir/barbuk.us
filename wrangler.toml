@@ -1,0 +1,13 @@
+name = "barbuk-us"
+compatibility_date = "2026-03-27"
+
+[assets]
+directory = "./dist/"
+
+[[routes]]
+pattern = "barbuk.us"
+custom_domain = true
+
+[[routes]]
+pattern = "www.barbuk.us"
+custom_domain = true
