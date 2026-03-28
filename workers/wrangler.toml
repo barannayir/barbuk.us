@@ -1,0 +1,6 @@
+name = "barbuk-contact-form"
+main = "contact-form.js"
+compatibility_date = "2026-03-27"
+
+# Workers.dev subdomain (ücretsiz)
+workers_dev = true

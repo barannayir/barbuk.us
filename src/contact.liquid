@@ -19,7 +19,9 @@ description: Get in touch with Barbuk for a free consultation about your legacy 
         <h2>Send Us a Message</h2>
         <p>We typically respond within 24 hours.</p>
         
-        <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <form class="contact-form" id="contactForm">
+          <div id="formMessage" class="form-message" style="display: none;"></div>
+          
           <div class="form-group">
             <label for="name">Your Name *</label>
             <input type="text" id="name" name="name" required placeholder="John Doe">
@@ -39,13 +41,13 @@ description: Get in touch with Barbuk for a free consultation about your legacy 
             <label for="project">Project Type *</label>
             <select id="project" name="project" required>
               <option value="">Select a service...</option>
-              <option value="legacy-modernization">Legacy System Modernization</option>
-              <option value="ui-redesign">UI/UX Redesign</option>
-              <option value="performance">Performance Optimization</option>
-              <option value="ai-integration">AI Integration</option>
-              <option value="automation">Workflow Automation</option>
-              <option value="cloud-migration">Cloud Migration</option>
-              <option value="other">Other / Not Sure</option>
+              <option value="Legacy System Modernization">Legacy System Modernization</option>
+              <option value="UI/UX Redesign">UI/UX Redesign</option>
+              <option value="Performance Optimization">Performance Optimization</option>
+              <option value="AI Integration">AI Integration</option>
+              <option value="Workflow Automation">Workflow Automation</option>
+              <option value="Cloud Migration">Cloud Migration</option>
+              <option value="Other / Not Sure">Other / Not Sure</option>
             </select>
           </div>
           
@@ -54,8 +56,57 @@ description: Get in touch with Barbuk for a free consultation about your legacy 
             <textarea id="message" name="message" rows="6" required placeholder="Describe your current system, challenges, and what you'd like to achieve..."></textarea>
           </div>
           
-          <button type="submit" class="btn-primary btn-lg">Send Message</button>
+          <button type="submit" class="btn-primary btn-lg" id="submitBtn">
+            <span id="btnText">Send Message</span>
+            <span id="btnLoader" style="display: none;">Sending...</span>
+          </button>
         </form>
+        
+        <script>
+          document.getElementById('contactForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            const form = e.target;
+            const submitBtn = document.getElementById('submitBtn');
+            const btnText = document.getElementById('btnText');
+            const btnLoader = document.getElementById('btnLoader');
+            const formMessage = document.getElementById('formMessage');
+            
+            // Disable form
+            submitBtn.disabled = true;
+            btnText.style.display = 'none';
+            btnLoader.style.display = 'inline';
+            formMessage.style.display = 'none';
+            
+            try {
+              const formData = new FormData(form);
+              
+              const response = await fetch('https://barbuk-contact-form.barannayir.workers.dev', {
+                method: 'POST',
+                body: formData
+              });
+              
+              const result = await response.json();
+              
+              if (result.success) {
+                formMessage.textContent = result.message;
+                formMessage.className = 'form-message success';
+                formMessage.style.display = 'block';
+                form.reset();
+              } else {
+                throw new Error(result.error || 'Failed to send message');
+              }
+            } catch (error) {
+              formMessage.textContent = error.message || 'Failed to send message. Please try emailing us directly at hello@barbuk.us';
+              formMessage.className = 'form-message error';
+              formMessage.style.display = 'block';
+            } finally {
+              submitBtn.disabled = false;
+              btnText.style.display = 'inline';
+              btnLoader.style.display = 'none';
+            }
+          });
+        </script>
       </div>
       
       <div class="contact-info">
