@@ -40,53 +40,47 @@ export default {
         });
       }
 
-      // Email body
-      const emailBody = `
-New Contact Form Submission from Barbuk.us
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+      // Telegram configuration
+      const TELEGRAM_BOT_TOKEN = '8654463682:AAH1i9ZZtvctgE1W_8hLIaBy0KSGyqmatOE';
+      const TELEGRAM_CHAT_ID = '929009215';
 
-👤 Name: ${name}
-📧 Email: ${email}
-🏢 Company: ${company}
-📋 Project Type: ${project}
+      // Telegram message (formatted for readability)
+      const telegramMessage = `
+🚀 <b>New Contact Form Submission</b>
 
-💬 Message:
+👤 <b>Name:</b> ${name}
+📧 <b>Email:</b> ${email}
+🏢 <b>Company:</b> ${company}
+📋 <b>Project Type:</b> ${project}
+
+💬 <b>Message:</b>
 ${message}
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Sent from: https://barbuk.us/contact
-Time: ${new Date().toLocaleString('en-US', { timeZone: 'Europe/Istanbul' })} (Istanbul)
+━━━━━━━━━━━━━━━━━━━━━━━
+🌐 <b>From:</b> https://barbuk.us/contact
+🕒 <b>Time:</b> ${new Date().toLocaleString('en-US', { timeZone: 'Europe/Istanbul' })}
       `.trim();
 
-      // Send email via MailChannels (free on Cloudflare Workers)
-      const emailResponse = await fetch('https://api.mailchannels.net/tx/v1/send', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          personalizations: [
-            {
-              to: [{ email: 'hello@barbuk.us', name: 'Barbuk Team' }],
-              reply_to: { email: email, name: name }
-            }
-          ],
-          from: {
-            email: 'noreply@barbuk.us',
-            name: 'Barbuk Contact Form'
+      // Send Telegram notification
+      const telegramResponse = await fetch(
+        `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`,
+        {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
           },
-          subject: `🚀 New Contact: ${project} - ${name}`,
-          content: [
-            {
-              type: 'text/plain',
-              value: emailBody
-            }
-          ]
-        })
-      });
+          body: JSON.stringify({
+            chat_id: TELEGRAM_CHAT_ID,
+            text: telegramMessage,
+            parse_mode: 'HTML'
+          })
+        }
+      );
 
-      if (!emailResponse.ok) {
-        throw new Error('Failed to send email');
+      if (!telegramResponse.ok) {
+        const error = await telegramResponse.text();
+        console.error('Telegram API error:', error);
+        throw new Error('Failed to send Telegram notification');
       }
 
       // Success response
