@@ -89,6 +89,15 @@ description: Get in touch with Barbuk for a free consultation about your legacy 
               const result = await response.json();
               
               if (result.success) {
+                // Send conversion event to Google Analytics
+                if (typeof gtag !== 'undefined') {
+                  gtag('event', 'form_submit', {
+                    event_category: 'engagement',
+                    event_label: 'contact_form',
+                    value: 1
+                  });
+                }
+                
                 formMessage.textContent = result.message;
                 formMessage.className = 'form-message success';
                 formMessage.style.display = 'block';
