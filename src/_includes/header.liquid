@@ -23,18 +23,15 @@
       <!-- Language Switcher -->
       {%- assign currentLang = page.url | detectLang -%}
       <div class="lang-switcher" id="langSwitcher">
-        <button class="lang-current" id="langToggle" aria-label="Language" aria-haspopup="true" aria-expanded="false">
+        <button class="lang-current" id="langToggle" aria-label="{{ i18n.meta[currentLang].native }}" title="{{ i18n.meta[currentLang].native }}" aria-haspopup="true" aria-expanded="false">
           <span class="flag" aria-hidden="true">{{ i18n.meta[currentLang].flag }}</span>
-          <span class="lang-code">{{ currentLang | upcase }}</span>
           <span class="chev" aria-hidden="true">▾</span>
         </button>
         <ul class="lang-menu" id="langMenu" role="menu">
           {%- for code in i18n.languages -%}
             <li>
-              <a href="{{ page.url | urlByLang: code }}" data-lang="{{ code }}" class="lang-option{% if code == currentLang %} is-active{% endif %}" role="menuitem">
+              <a href="{{ page.url | urlByLang: code }}" data-lang="{{ code }}" class="lang-option{% if code == currentLang %} is-active{% endif %}" role="menuitem" title="{{ i18n.meta[code].native }}" aria-label="{{ i18n.meta[code].native }}">
                 <span class="flag" aria-hidden="true">{{ i18n.meta[code].flag }}</span>
-                <span class="name">{{ i18n.meta[code].native }}</span>
-                <span class="native">{{ i18n.meta[code].name }}</span>
               </a>
             </li>
           {%- endfor -%}
