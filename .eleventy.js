@@ -90,6 +90,12 @@ module.exports = function(eleventyConfig) {
     return m ? m[1] : "en";
   });
 
+  // --- Cache-buster timestamp for static assets ---
+  // Her build'de farklı değer döner → CDN cache yenen (özellikle static asset cache HIT sorunu)
+  eleventyConfig.addGlobalData("buildTimestamp", function() {
+    return Date.now().toString(36);
+  });
+
   return {
     dir: {
       input: "src",

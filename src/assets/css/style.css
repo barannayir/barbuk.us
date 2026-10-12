@@ -6,20 +6,28 @@
 }
 
 :root {
-  /* Modern Dark - B2B teknoloji paleti (gece mavisi + cyan + electric blue + amber CTA) */
+  /* Midnight Blueprint — 2026 tasarım trend (Vercel/Linear/Stripe DNA)
+     "Calm base + expressive accent + visible material texture" */
   --primary: #3b82f6;
   --primary-dark: #1d4ed8;
   --primary-light: #60a5fa;
   --secondary: #22d3ee;
-  --dark: #0a0e1a;
-  --dark-light: #131a2e;
+  --bg-base: #0f1729;        /* sıcak lacivert (göz yormaz) */
+  --bg-elevated: #1a2238;    /* kart yüzeyleri */
+  --bg-subtle: #162033;      /* alt bölümler */
+  --bg-mesh-1: #1e3a8a;      /* hero gradient mesh accent */
+  --bg-mesh-2: #06b6d4;
+  --dark: var(--bg-base);
+  --dark-light: var(--bg-elevated);
   --gray: #94a3b8;
   --light: #f1f5f9;
-  --border: #1e293b;
+  --border: rgba(148, 163, 184, 0.12);
+  --border-strong: rgba(148, 163, 184, 0.24);
   --accent: #f59e0b;
   --accent-dark: #d97706;
-  --surface: #0f172a;
-  --surface-elevated: #1a2235;
+  --accent-glow: rgba(245, 158, 11, 0.18);
+  --surface: var(--bg-base);
+  --surface-elevated: var(--bg-elevated);
   --text-primary: #f1f5f9;
   --text-secondary: #94a3b8;
   --text-muted: #64748b;
@@ -28,7 +36,8 @@
   --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
   --shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.6);
   --shadow-xl: 0 25px 50px -12px rgba(0, 0, 0, 0.7);
-  --shadow-glow: 0 0 30px rgba(59, 130, 246, 0.25);
+  --shadow-glow: 0 0 40px rgba(34, 211, 238, 0.15);
+  --shadow-card: 0 4px 24px rgba(0, 0, 0, 0.25);
 }
 
 html {
@@ -53,14 +62,14 @@ body {
 
 /* Header & Navigation */
 .header {
-  background: rgba(10, 14, 26, 0.85);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  box-shadow: 0 1px 0 rgba(59, 130, 246, 0.15);
+  background: rgba(15, 23, 41, 0.82);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  box-shadow: 0 1px 0 rgba(34, 211, 238, 0.12);
   position: sticky;
   top: 0;
   z-index: 1000;
-  border-bottom: 1px solid rgba(59, 130, 246, 0.2);
+  border-bottom: 1px solid var(--border);
 }
 
 .nav {
@@ -185,21 +194,18 @@ body {
   border-radius: 1rem;
 }
 
-/* Hero Section with Gradient Animation */
+/* Hero Section — Midnight Blueprint Mesh
+   Radial gradient mesh (2 ellipse) — yumuşak, sıcak, modern. Sert sınır yok. */
 .hero {
-  background: linear-gradient(-45deg, #0a0e1a, #131a2e, #1d4ed8, #22d3ee);
-  background-size: 400% 400%;
-  animation: gradientShift 15s ease infinite;
+  background:
+    radial-gradient(ellipse 80% 60% at 25% 0%, var(--bg-mesh-1) 0%, transparent 55%),
+    radial-gradient(ellipse 70% 50% at 75% 0%, rgba(6, 182, 212, 0.35) 0%, transparent 60%),
+    linear-gradient(180deg, var(--bg-base) 0%, var(--bg-elevated) 100%);
   color: #fff;
-  padding: 8rem 0 6rem;
+  padding: 8rem 0 8rem;
   position: relative;
   overflow: hidden;
-}
-
-@keyframes gradientShift {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
+  border-bottom: 1px solid var(--border);
 }
 
 .hero::before {
@@ -272,10 +278,10 @@ body {
   50% { transform: translateY(-10px); }
 }
 
-/* Services Section */
+/* Services Section — Yumuşak geçiş: hero sonu → services → portfolio */
 .services-preview {
   padding: 7rem 0;
-  background: linear-gradient(180deg, var(--surface) 0%, var(--dark-light) 100%);
+  background: linear-gradient(180deg, var(--bg-elevated) 0%, var(--bg-base) 100%);
 }
 
 .services-preview h2 {
@@ -363,7 +369,7 @@ body {
 /* Portfolio Section with Slider */
 .portfolio-preview {
   padding: 7rem 0;
-  background: var(--dark);
+  background: var(--bg-base);
   color: #fff;
 }
 
@@ -518,11 +524,14 @@ body {
   font-size: 1.125rem;
 }
 
-/* Stats Section */
+/* Stats Section — Hero ile organik geçiş
+   Hero'dan gelen sıcak mavi → sıcak cyan-blue. Mesh hero ile uyumlu. */
 .stats-section {
-  background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+  background: linear-gradient(135deg, #1d4ed8 0%, #22d3ee 100%);
   padding: 5rem 0;
   color: #fff;
+  position: relative;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .stats-grid {
@@ -547,9 +556,9 @@ body {
   opacity: 0.9;
 }
 
-/* CTA Section */
+/* CTA Section — services → cta → footer organik gradient zinciri */
 .cta-section {
-  background: linear-gradient(180deg, var(--dark-light) 0%, var(--surface) 100%);
+  background: linear-gradient(180deg, var(--bg-base) 0%, var(--bg-elevated) 100%);
   padding: 7rem 0;
   text-align: center;
 }
