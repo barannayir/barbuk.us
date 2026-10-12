@@ -21,16 +21,20 @@
       </ul>
 
       <!-- Language Switcher -->
-      <div class="lang-switcher">
-        <button class="lang-current" id="langToggle" aria-label="Language" aria-haspopup="true">
-          <span class="lang-code">{{ page.lang | default: 'en' | upcase }}</span>
-          <span class="lang-arrow">▾</span>
+      {%- assign currentLang = page.url | detectLang -%}
+      <div class="lang-switcher" id="langSwitcher">
+        <button class="lang-current" id="langToggle" aria-label="Language" aria-haspopup="true" aria-expanded="false">
+          <span class="flag" aria-hidden="true">{{ i18n.meta[currentLang].flag }}</span>
+          <span class="lang-code">{{ currentLang | upcase }}</span>
+          <span class="chev" aria-hidden="true">▾</span>
         </button>
-        <ul class="lang-menu" id="langMenu">
+        <ul class="lang-menu" id="langMenu" role="menu">
           {%- for code in i18n.languages -%}
             <li>
-              <a href="{{ page.url | localizedUrl: code }}" data-lang="{{ code }}" class="lang-option">
-                {{ i18n.meta[code].native }}
+              <a href="{{ page.url | urlByLang: code }}" data-lang="{{ code }}" class="lang-option{% if code == currentLang %} is-active{% endif %}" role="menuitem">
+                <span class="flag" aria-hidden="true">{{ i18n.meta[code].flag }}</span>
+                <span class="name">{{ i18n.meta[code].native }}</span>
+                <span class="native">{{ i18n.meta[code].name }}</span>
               </a>
             </li>
           {%- endfor -%}
@@ -60,18 +64,30 @@
   }
 
   // Language Switcher Toggle
+  const langSwitcher = document.getElementById('langSwitcher');
   const langToggle = document.getElementById('langToggle');
   const langMenu = document.getElementById('langMenu');
 
-  if (langToggle && langMenu) {
+  if (langSwitcher && langToggle && langMenu) {
     langToggle.addEventListener('click', (e) => {
       e.stopPropagation();
-      langMenu.classList.toggle('open');
+      const isOpen = langSwitcher.classList.toggle('open');
+      langToggle.setAttribute('aria-expanded', String(isOpen));
     });
 
     document.addEventListener('click', (e) => {
-      if (!langToggle.contains(e.target) && !langMenu.contains(e.target)) {
-        langMenu.classList.remove('open');
+      if (!langSwitcher.contains(e.target)) {
+        langSwitcher.classList.remove('open');
+        langToggle.setAttribute('aria-expanded', 'false');
+      }
+    });
+
+    // ESC ile kapat
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && langSwitcher.classList.contains('open')) {
+        langSwitcher.classList.remove('open');
+        langToggle.setAttribute('aria-expanded', 'false');
+        langToggle.focus();
       }
     });
 
@@ -82,10 +98,33 @@
         try { localStorage.setItem('barbuk_lang', lang); } catch (e) {}
       });
     });
-
-    // Mevcut dili işaretle
-    const currentLang = document.documentElement.lang || 'en';
-    const currentOpt = document.querySelector(`.lang-option[data-lang="${currentLang}"]`);
-    if (currentOpt) currentOpt.classList.add('active');
   }
+
+  // Accept-Language auto-redirect (sadece kök, sadece ilk ziyaret, sadece İngilizce kök'teyse)
+  (function() {
+    const path = window.location.pathname;
+    const isRoot = path === '/' || path === '/index.html' || path === '';
+    const supportedLangs = ['en', 'de', 'fr', 'nl', 'it', 'es'];
+    const defaultLang = 'en';
+
+    // Mevcut dil (path'ten tahmin)
+    const seg = path.split('/').filter(Boolean)[0];
+    const currentLang = supportedLangs.includes(seg) ? seg : defaultLang;
+
+    // localStorage zaten varsa kullanıcı seçmiş demektir — karışma
+    let stored = null;
+    try { stored = localStorage.getItem('barbuk_lang'); } catch (e) {}
+    if (stored) return;
+
+    // Kök'te değilsek zaten bir dildeyiz
+    if (!isRoot) return;
+
+    // Accept-Language'dan dil tespit et
+    const browserLang = (navigator.language || navigator.userLanguage || defaultLang).toLowerCase().split('-')[0];
+    if (!supportedLangs.includes(browserLang)) return;
+    if (browserLang === currentLang) return;
+
+    // Redirect: /de/, /fr/ vb. → yönlendir
+    window.location.replace('/' + browserLang + '/');
+  })();
 </script>

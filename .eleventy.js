@@ -67,6 +67,29 @@ module.exports = function(eleventyConfig) {
   // NOT: i18n globalData'sı src/_data/i18n.json üzerinden otomatik gelir.
   // addGlobalData("i18n", ...) çağrısı yapılmıyor — aksi halde array duplicate oluyor.
 
+  // --- i18n: currentLang global data (her sayfada mevcut dili verir) ---
+  eleventyConfig.addGlobalData("currentLang", function() {
+    return "en"; // Layout'larda dynamic override edilecek (page URL'den)
+  });
+
+  // --- i18n: language switcher için tüm dillerdeki URL'ler ---
+  eleventyConfig.addFilter("urlByLang", function(currentUrl, lang) {
+    const url = currentUrl || "/";
+    if (url === "/" || url === "") {
+      return lang === "en" ? "/" : `/${lang}/`;
+    }
+    const stripped = url.replace(/^\/(de|fr|nl|it|es)(?=\/|$)/, "") || "/";
+    return lang === "en" ? stripped : `/${lang}${stripped}`;
+  });
+
+  // --- i18n: page URL'den mevcut dil tespiti ---
+  eleventyConfig.addFilter("detectLang", function(url) {
+    const u = url || "/";
+    if (u === "/" || u === "" || u === "/index.html") return "en";
+    const m = u.match(/^\/(de|fr|nl|it|es)(?=\/|$)/);
+    return m ? m[1] : "en";
+  });
+
   return {
     dir: {
       input: "src",

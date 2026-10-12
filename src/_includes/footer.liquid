@@ -28,6 +28,18 @@
           <li><a href="https://github.com/barbuk-dev" target="_blank">{{ i18n.footer.connect_github | default: 'GitHub' }}</a></li>
         </ul>
       </div>
+      <div class="footer-col">
+        <h4>{{ i18n.footer.languages_heading | default: 'Languages' }}</h4>
+        <div class="footer-languages">
+          {%- assign currentLang = page.url | detectLang -%}
+          {%- for code in i18n.languages -%}
+            <a href="{{ '/contact' | urlByLang: code }}" data-lang="{{ code }}"{% if code == currentLang %} class="is-active"{% endif %}>
+              <span class="flag" aria-hidden="true">{{ i18n.meta[code].flag }}</span>
+              <span>{{ i18n.meta[code].name }}</span>
+            </a>
+          {%- endfor -%}
+        </div>
+      </div>
     </div>
     <div class="footer-bottom">
       <p>{{ i18n.footer.copyright | default: '© 2026 Barbuk. All rights reserved.' }}</p>
