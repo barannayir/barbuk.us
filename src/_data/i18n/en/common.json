@@ -5,7 +5,8 @@
     "services": "Services",
     "about": "About",
     "contact": "Contact",
-    "menu_aria": "Menu"
+    "menu_aria": "Menu",
+    "insights": "Insights"
   },
   "footer": {
     "tagline": "Modernizing legacy systems for forward-thinking businesses.",

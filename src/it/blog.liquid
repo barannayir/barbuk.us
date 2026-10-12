@@ -1,0 +1,44 @@
+---
+layout: base.liquid
+title: Approfondimenti | Barbuk
+description: Articoli sulla modernizzazione dei sistemi legacy, integrazione IA e best practice di ingegneria del software B2B.
+permalink: /it/blog/index.html
+---
+
+<section class="blog-index">
+  <header class="page-header">
+    <h1>Approfondimenti</h1>
+    <p class="page-subtitle">Riflessioni pratiche su modernizzazione legacy, integrazione IA e ingegneria del software B2B.</p>
+  </header>
+
+  <div class="post-list">
+    {%- for post in collections.blogPosts -%}
+      {%- assign postLang = "en" -%}
+      {%- assign pathParts = post.url | split: "/" -%}
+      {%- for part in pathParts -%}
+        {%- if part == "de" or part == "fr" or part == "nl" or part == "it" or part == "es" -%}
+          {%- assign postLang = part -%}
+        {%- endif -%}
+      {%- endfor -%}
+      {%- assign pageLang = "en" -%}
+      {%- assign pageParts = page.url | split: "/" -%}
+      {%- for part in pageParts -%}
+        {%- if part == "de" or part == "fr" or part == "nl" or part == "it" or part == "es" -%}
+          {%- assign pageLang = part -%}
+        {%- endif -%}
+      {%- endfor -%}
+      {%- if postLang == pageLang -%}
+        {%- assign slug = post.fileSlug -%}
+        {%- assign pt = slug | lookupPostI18n: postLang -%}
+        <article class="post-card">
+          <h2><a href="{{ post.url }}">{{ pt.title | default: post.data.title }}</a></h2>
+          <p class="post-excerpt">{{ pt.excerpt | default: post.data.description }}</p>
+          <p class="post-meta">
+            <time datetime="{{ post.date | date: '%Y-%m-%d' }}" data-localize="date">{{ post.date | date: '%Y-%m-%d' }}</time>
+            {%- if pt.reading_time %} · <span>{{ pt.reading_time }}</span>{%- endif %}
+          </p>
+        </article>
+      {%- endif -%}
+    {%- endfor -%}
+  </div>
+</section>

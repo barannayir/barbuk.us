@@ -90,6 +90,39 @@ module.exports = function(eleventyConfig) {
     return m ? m[1] : "en";
   });
 
+  // --- Blog: posts collection (frontmatter tag: post) ---
+  eleventyConfig.addCollection("blogPosts", function(collectionApi) {
+    return collectionApi.getFilteredByGlob("src/posts/*.md").sort(function(a, b) {
+      return b.date - a.date;
+    });
+  });
+
+  // --- Blog: per-language post i18n lookup ---
+  // Kullanım: {{ "hidden-cost" | lookupPostI18n: "de" }} -> { title, description, excerpt, og_image }
+  // src/_data/i18n-posts/<lang>/<slug>.json dosyasını yükler (EN fallback)
+  eleventyConfig.addFilter("lookupPostI18n", function(slug, lang) {
+    const path = require("path");
+    const fs = require("fs");
+    const tryLoad = function(l) {
+      const f = path.join(__dirname, "src", "_data", "i18n-posts", l, `${slug}.json`);
+      try { return JSON.parse(fs.readFileSync(f, "utf8")); } catch (e) { return null; }
+    };
+    return tryLoad(lang) || tryLoad("en") || {};
+  });
+
+  // --- Blog: build blog permalinks for 6 languages from a slug ---
+  // Returns array suitable for Eleventy permalink frontmatter
+  eleventyConfig.addFilter("blogPermalinks", function(slug) {
+    return [
+      `/blog/${slug}/index.html`,
+      `/de/blog/${slug}/index.html`,
+      `/fr/blog/${slug}/index.html`,
+      `/nl/blog/${slug}/index.html`,
+      `/it/blog/${slug}/index.html`,
+      `/es/blog/${slug}/index.html`
+    ];
+  });
+
   // --- Cache-buster timestamp for static assets ---
   // Her build'de farklı değer döner → CDN cache yenen (özellikle static asset cache HIT sorunu)
   eleventyConfig.addGlobalData("buildTimestamp", function() {

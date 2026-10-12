@@ -171,6 +171,11 @@
   }
   </script>
   {%- endif -%}
+  <!-- RSS autodiscovery -->
+  {%- assign rssLang = page.url | detectLang -%}
+  {%- assign rssUrl = '/blog/rss.xml' -%}
+  {%- if rssLang != 'en' -%}{%- assign rssUrl = '/' | append: rssLang | append: rssUrl -%}{%- endif -%}
+  <link rel="alternate" type="application/rss+xml" title="{{ site_title }} - {{ i18n.nav.insights | default: 'Insights' }}" href="{{ rssUrl }}" />
 </head>
 <body>
   {% include "header.liquid" %}
@@ -180,5 +185,20 @@
   </main>
   
   {% include "footer.liquid" %}
+
+<script>
+  // Localize <time data-localize="date"> elements via Intl.DateTimeFormat
+  (function() {
+    var locale = (document.documentElement.lang || 'en');
+    if (locale === 'en') return; // EN already human-readable via ISO fallback
+    var nodes = document.querySelectorAll('time[data-localize="date"]');
+    if (!nodes.length) return;
+    nodes.forEach(function(el) {
+      var d = new Date(el.getAttribute('datetime'));
+      if (isNaN(d.getTime())) return;
+      el.textContent = new Intl.DateTimeFormat(locale, { year: 'numeric', month: 'long', day: 'numeric' }).format(d);
+    });
+  })();
+</script>
 </body>
 </html>

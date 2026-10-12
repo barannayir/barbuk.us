@@ -1,0 +1,36 @@
+---
+permalink: /nl/blog/rss.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Inzichten | Barbuk</title>
+    <link>https://barbuk.us/nl/blog/</link>
+    <description>Artikelen over legacy-systeemmodernisering, AI-integratie en B2B-software-engineering.</description>
+    <language>nl</language>
+    <lastBuildDate>{{ "now" | date: "%a, %d %b %Y %H:%M:%S +0000" }}</lastBuildDate>
+    <atom:link href="https://barbuk.us/nl/blog/rss.xml" rel="self" type="application/rss+xml" />
+
+    {%- for post in collections.blogPosts -%}
+      {%- assign postLang = "en" -%}
+      {%- assign pathParts = post.url | split: "/" -%}
+      {%- for part in pathParts -%}
+        {%- if part == "de" or part == "fr" or part == "nl" or part == "it" or part == "es" -%}
+          {%- assign postLang = part -%}
+        {%- endif -%}
+      {%- endfor -%}
+      {%- if postLang == "nl" -%}
+        {%- assign slug = post.fileSlug -%}
+        {%- assign pt = slug | lookupPostI18n: postLang -%}
+        <item>
+          <title>{{ pt.title | default: post.data.title }}</title>
+          <link>https://barbuk.us{{ post.url }}</link>
+          <guid isPermaLink="true">https://barbuk.us{{ post.url }}</guid>
+          <description><![CDATA[{{ pt.excerpt | default: post.data.description }}]]></description>
+          <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S +0000" }}</pubDate>
+        </item>
+      {%- endif -%}
+    {%- endfor -%}
+  </channel>
+</rss>

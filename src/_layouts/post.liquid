@@ -1,0 +1,60 @@
+---
+layout: base.liquid
+---
+{%- assign postSlug = page.fileSlug -%}
+{%- assign currentLang = "en" -%}
+{%- assign pathParts = page.url | split: "/" -%}
+{%- for part in pathParts -%}
+  {%- if part == "de" or part == "fr" or part == "nl" or part == "it" or part == "es" -%}
+    {%- assign currentLang = part -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- assign t = postSlug | lookupPostI18n: currentLang -%}
+<article class="post">
+  <header class="post-header">
+    <p class="post-eyebrow">Barbuk Insights</p>
+    <h1>{{ t.title | default: title }}</h1>
+    <p class="post-meta">
+      <time datetime="{{ page.date | date: '%Y-%m-%d' }}" data-localize="date">{{ page.date | date: '%Y-%m-%d' }}</time>
+      {%- if author %} · <span class="author">{{ author }}</span>{%- endif %}
+      {%- if t.reading_time %} · <span class="reading-time">{{ t.reading_time }}</span>{%- endif %}
+    </p>
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+  <footer class="post-footer">
+    <a class="back-link" href="{{ "/blog/" | localizedUrl: currentLang }}">← {{ t.back_to_blog | default: "Back to all insights" }}</a>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "{{ t.title | default: title }}",
+      "description": "{{ t.description | default: description }}",
+      "datePublished": "{{ page.date | date: '%Y-%m-%d' }}",
+      "dateModified": "{{ page.date | date: '%Y-%m-%d' }}",
+      "author": {
+        "@type": "Organization",
+        "name": "Barbuk",
+        "url": "https://barbuk.us"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Barbuk",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://barbuk.us/assets/images/logo.png"
+        }
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://barbuk.us{{ page.url }}"
+      },
+      "inLanguage": "{{ i18n.meta[currentLang].hreflang }}"
+    }
+    </script>
+  </footer>
+</article>

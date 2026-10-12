@@ -1,0 +1,83 @@
+---
+permalink: /sitemap.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  {%- assign staticPages = "home,services,portfolio,about,contact,blog" | split: "," -%}
+  {%- assign langs = "en,de,fr,nl,it,es" | split: "," -%}
+  {%- assign hreflangMap = "en:en-US,de:de-DE,fr:fr-FR,nl:nl-NL,it:it-IT,es:es-ES" | split: "," -%}
+
+  {%- for pageKey in staticPages -%}
+    {%- for lang in langs -%}
+      {%- assign loc = "https://barbuk.us/" -%}
+      {%- if lang != "en" -%}
+        {%- assign loc = loc | append: lang | append: "/" -%}
+      {%- endif -%}
+      {%- if pageKey != "home" -%}
+        {%- assign loc = loc | append: pageKey | append: "/" -%}
+      {%- endif -%}
+
+      {%- assign priority = "0.7" -%}
+      {%- assign changefreq = "monthly" -%}
+      {%- if pageKey == "home" -%}
+        {%- assign priority = "1.0" -%}
+        {%- assign changefreq = "weekly" -%}
+      {%- elsif pageKey == "services" or pageKey == "portfolio" -%}
+        {%- assign priority = "0.9" -%}
+        {%- assign changefreq = "weekly" -%}
+      {%- elsif pageKey == "contact" -%}
+        {%- assign priority = "0.8" -%}
+      {%- elsif pageKey == "blog" -%}
+        {%- assign priority = "0.8" -%}
+        {%- assign changefreq = "weekly" -%}
+      {%- endif -%}
+
+      <url>
+        <loc>{{ loc }}</loc>
+        <lastmod>{{ "now" | date: "%Y-%m-%d" }}</lastmod>
+        <changefreq>{{ changefreq }}</changefreq>
+        <priority>{{ priority }}</priority>
+
+        {%- for altLang in langs -%}
+          {%- assign altLoc = "https://barbuk.us/" -%}
+          {%- if altLang != "en" -%}
+            {%- assign altLoc = altLoc | append: altLang | append: "/" -%}
+          {%- endif -%}
+          {%- if pageKey != "home" -%}
+            {%- assign altLoc = altLoc | append: pageKey | append: "/" -%}
+          {%- endif -%}
+          {%- assign altHreflang = altLang -%}
+          {%- if altLang == "en" -%}{%- assign altHreflang = "en-US" -%}{%- endif -%}
+          {%- if altLang == "de" -%}{%- assign altHreflang = "de-DE" -%}{%- endif -%}
+          {%- if altLang == "fr" -%}{%- assign altHreflang = "fr-FR" -%}{%- endif -%}
+          {%- if altLang == "nl" -%}{%- assign altHreflang = "nl-NL" -%}{%- endif -%}
+          {%- if altLang == "it" -%}{%- assign altHreflang = "it-IT" -%}{%- endif -%}
+          {%- if altLang == "es" -%}{%- assign altHreflang = "es-ES" -%}{%- endif -%}
+          <xhtml:link rel="alternate" hreflang="{{ altHreflang }}" href="{{ altLoc }}"/>
+        {%- endfor -%}
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://barbuk.us/{% if pageKey != 'home' %}{{ pageKey }}/{% endif %}"/>
+      </url>
+    {%- endfor -%}
+  {%- endfor -%}
+
+  {%- for post in collections.blogPosts -%}
+    {%- assign postLang = "en" -%}
+    {%- assign pathParts = post.url | split: "/" -%}
+    {%- for part in pathParts -%}
+      {%- if part == "de" or part == "fr" or part == "nl" or part == "it" or part == "es" -%}
+        {%- assign postLang = part -%}
+      {%- endif -%}
+    {%- endfor -%}
+    <url>
+      <loc>https://barbuk.us{{ post.url }}</loc>
+      <lastmod>{{ post.date | date: "%Y-%m-%d" }}</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+    </url>
+  {%- endfor -%}
+
+</urlset>
