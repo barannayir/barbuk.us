@@ -1,0 +1,75 @@
+{
+  "page_hero": {
+    "title": "Notre portfolio",
+    "subtitle": "De vraies transformations. De vrais résultats. Découvrez comment nous avons aidé des entreprises à moderniser leurs systèmes existants."
+  },
+  "badges": {
+    "before": "Avant",
+    "after": "Après"
+  },
+  "projects": [
+    {
+      "id": "admin_panel",
+      "title": "Transformation d'un panneau d'administration d'entreprise",
+      "tag": "ASP.NET existant → React moderne",
+      "description": "Nous avons reconstruit un panneau d'administration ASP.NET vieux de 15 ans, à l'interface Windows désuète, en un tableau de bord moderne et responsive, doté de mises à jour en temps réel et d'analyses propulsées par l'IA.",
+      "stats": [
+        {"value": "60%", "label": "Exécution des tâches plus rapide"},
+        {"value": "94%", "label": "Satisfaction des utilisateurs"},
+        {"value": "Zéro", "label": "Temps d'arrêt lors de la migration"}
+      ],
+      "tech_label": "Technologies :",
+      "tech_list": "React, Node.js, PostgreSQL, Tailwind CSS, WebSocket"
+    },
+    {
+      "id": "ecommerce",
+      "title": "Refonte d'une plateforme e-commerce",
+      "tag": "PHP 5.6 → Next.js",
+      "description": "Un site e-commerce en PHP vieux de 10 ans a été entièrement reconstruit avec Next.js moderne, en intégrant le rendu côté serveur, des recommandations produit par IA et une expérience utilisateur remarquable.",
+      "image_before_label": "Avant : PHP existant",
+      "image_after_label": "Après : Next.js",
+      "stats": [
+        {"value": "320%", "label": "Hausse des conversions"},
+        {"value": "1,2s", "label": "Temps de chargement des pages"},
+        {"value": "87%", "label": "De réduction de l'abandon de panier"}
+      ],
+      "tech_label": "Technologies :",
+      "tech_list": "Next.js, TypeScript, Stripe, Vercel, recommandation produit par IA"
+    },
+    {
+      "id": "crm",
+      "title": "Modernisation d'un CRM existant",
+      "tag": "VB.NET → Cloud-native SaaS",
+      "description": "Un CRM VB.NET uniquement desktop a été transformé en plateforme SaaS cloud-native moderne, avec accès mobile, scoring de leads par IA et workflows automatisés.",
+      "image_before_label": "Avant : VB.NET desktop",
+      "image_after_label": "Après : Cloud SaaS",
+      "stats": [
+        {"value": "450%", "label": "D'adoption utilisateur en plus"},
+        {"value": "24/7", "label": "Disponibilité cloud"},
+        {"value": "92%", "label": "Réduction des coûts"}
+      ],
+      "tech_label": "Technologies :",
+      "tech_list": "Vue.js, AWS, Lambda, DynamoDB, scoring de leads par IA"
+    },
+    {
+      "id": "erp",
+      "title": "Mise à niveau d'un système ERP de manufacturing",
+      "tag": "Oracle Forms → Progressive Web App",
+      "description": "Migration d'un système ERP Oracle Forms 6i critique vers une Progressive Web App moderne, avec fonctionnalités hors ligne, synchronisation en temps réel et accès mobile à l'entrepôt.",
+      "image_before_label": "Avant : Oracle Forms",
+      "image_after_label": "Après : PWA",
+      "stats": [
+        {"value": "75%", "label": "Saisie des données plus rapide"},
+        {"value": "100%", "label": "Accès mobile"},
+        {"value": "$180K", "label": "Économies annuelles"}
+      ],
+      "tech_label": "Technologies :",
+      "tech_list": "Angular, PWA, Offline-First, Azure, synchronisation en temps réel"
+    }
+  ],
+  "cta": {
+    "title": "Prêt à transformer votre système ?",
+    "subtitle": "Discutons de la façon dont nous pouvons moderniser vos applications existantes en solutions haute performance.",
+    "button": "Commencer"
+  }
+}

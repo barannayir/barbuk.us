@@ -1,0 +1,97 @@
+{
+  "page_hero": {
+    "title": "Contactez-nous",
+    "subtitle": "Discutons de la façon dont nous pouvons transformer vos systèmes existants. Consultation gratuite, sans engagement."
+  },
+  "form_section": {
+    "title": "Envoyez-nous un message",
+    "intro": "Nous répondons généralement sous 24 heures.",
+    "fields": {
+      "name_label": "Votre nom *",
+      "name_placeholder": "Jean Dupont",
+      "email_label": "Adresse e-mail *",
+      "email_placeholder": "jean@entreprise.com",
+      "company_label": "Nom de l'entreprise",
+      "company_placeholder": "Votre société",
+      "project_label": "Type de projet *",
+      "project_placeholder": "Sélectionnez un service...",
+      "message_label": "Parlez-nous de votre projet *",
+      "message_placeholder": "Décrivez votre système actuel, vos défis et ce que vous souhaitez accomplir...",
+      "submit_button": "Envoyer le message",
+      "submitting_button": "Envoi en cours..."
+    },
+    "project_options": [
+      "Modernisation de systèmes existants",
+      "Refonte UI/UX",
+      "Optimisation des performances",
+      "Intégration de l'IA",
+      "Automatisation des workflows",
+      "Migration vers le cloud",
+      "Autre / Pas sûr"
+    ],
+    "error_fallback": "Échec de l'envoi du message. Veuillez nous écrire directement à hello@barbuk.us."
+  },
+  "contact_methods": {
+    "title": "Autres moyens de nous contacter",
+    "methods": [
+      {
+        "title": "E-mail",
+        "link": "hello@barbuk.us",
+        "description": "Pour les demandes générales"
+      },
+      {
+        "title": "Demandes commerciales",
+        "link": "info@barbuk.us",
+        "description": "Pour les partenariats et les contrats d'entreprise"
+      },
+      {
+        "title": "Support",
+        "link": "support@barbuk.us",
+        "description": "Pour les clients existants"
+      },
+      {
+        "title": "GitHub",
+        "link": "@barbuk-dev",
+        "url": "https://github.com/barbuk-dev",
+        "description": "Découvrez nos projets open-source"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Questions fréquentes",
+    "items": [
+      {
+        "question": "Combien de temps prend un projet type ?",
+        "answer": "La plupart des projets : 6 à 12 semaines. Migrations complexes en entreprise : 3 à 6 mois. Nous livrons progressivement — vous voyez les avancées rapidement."
+      },
+      {
+        "question": "Proposez-vous des devis à prix fixe ?",
+        "answer": "Oui ! Après un appel de découverte, nous fournissons une proposition détaillée à prix fixe. Pas de surprises à la facturation horaire."
+      },
+      {
+        "question": "Pouvez-vous travailler avec notre équipe existante ?",
+        "answer": "Absolument. Nous pouvons renforcer votre équipe, former vos développeurs, ou prendre en charge l'intégralité du projet — selon ce qui vous convient le mieux."
+      }
+    ]
+  },
+  "trust_section": {
+    "cards": [
+      {
+        "title": "Réponse sous 24 heures",
+        "description": "Nous répondons à toutes les demandes sous un jour ouvré."
+      },
+      {
+        "title": "NDA disponible",
+        "description": "Nous sommes heureux de signer un NDA avant de discuter de votre projet."
+      },
+      {
+        "title": "Consultation gratuite",
+        "description": "Appel de découverte de 30 minutes pour comprendre vos besoins — sans engagement."
+      },
+      {
+        "title": "Tarification transparente",
+        "description": "Devis détaillés avec des livrables et des délais clairs."
+      }
+    ]
+  }
+}

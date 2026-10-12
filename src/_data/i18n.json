@@ -1,0 +1,12 @@
+{
+  "default": "en",
+  "languages": ["en", "de", "fr", "nl", "it", "es"],
+  "meta": {
+    "en": { "name": "English",   "native": "English",    "hreflang": "en-US" },
+    "de": { "name": "German",    "native": "Deutsch",    "hreflang": "de-DE" },
+    "fr": { "name": "French",    "native": "Français",   "hreflang": "fr-FR" },
+    "nl": { "name": "Dutch",     "native": "Nederlands", "hreflang": "nl-NL" },
+    "it": { "name": "Italian",   "native": "Italiano",   "hreflang": "it-IT" },
+    "es": { "name": "Spanish",   "native": "Español",    "hreflang": "es-ES" }
+  }
+}

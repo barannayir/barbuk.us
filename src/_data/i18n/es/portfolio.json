@@ -1,0 +1,75 @@
+{
+  "page_hero": {
+    "title": "Nuestro portafolio",
+    "subtitle": "Transformaciones reales. Resultados reales. Descubra cómo hemos ayudado a empresas a modernizar sus sistemas heredados."
+  },
+  "badges": {
+    "before": "Antes",
+    "after": "Después"
+  },
+  "projects": [
+    {
+      "id": "admin_panel",
+      "title": "Transformación del panel de administración empresarial",
+      "tag": "ASP.NET heredado → React moderno",
+      "description": "Reconstruimos un panel de administración ASP.NET con 15 años de antigüedad y una interfaz anticuada estilo Windows, transformándolo en un panel de control moderno y responsive, con actualizaciones en tiempo real e información valiosa impulsada por IA.",
+      "stats": [
+        {"value": "60%", "label": "Finalización de tareas más rápida"},
+        {"value": "94%", "label": "Satisfacción del usuario"},
+        {"value": "Cero", "label": "Migración sin tiempo de inactividad"}
+      ],
+      "tech_label": "Tecnologías:",
+      "tech_list": "React, Node.js, PostgreSQL, Tailwind CSS, WebSocket"
+    },
+    {
+      "id": "ecommerce",
+      "title": "Rediseño de plataforma de e-commerce",
+      "tag": "PHP 5.6 → Next.js",
+      "description": "Un sitio de e-commerce basado en PHP con 10 años de antigüedad fue reconstruido por completo con Next.js moderno, implementando renderizado del lado del servidor, recomendaciones de productos con IA y una experiencia de usuario excepcional.",
+      "image_before_label": "Antes: PHP heredado",
+      "image_after_label": "Después: Next.js",
+      "stats": [
+        {"value": "320%", "label": "Aumento de conversiones"},
+        {"value": "1,2s", "label": "Tiempo de carga de página"},
+        {"value": "87%", "label": "Reducción del abandono del carrito"}
+      ],
+      "tech_label": "Tecnologías:",
+      "tech_list": "Next.js, TypeScript, Stripe, Vercel, AI Product Matching"
+    },
+    {
+      "id": "crm",
+      "title": "Modernización de CRM heredado",
+      "tag": "VB.NET → Cloud-Native SaaS",
+      "description": "Un CRM de escritorio en VB.NET transformado en una plataforma SaaS moderna cloud-native con acceso móvil, scoring de leads impulsado por IA y flujos de trabajo automatizados.",
+      "image_before_label": "Antes: VB.NET de escritorio",
+      "image_after_label": "Después: Cloud SaaS",
+      "stats": [
+        {"value": "450%", "label": "Mayor adopción por parte de los usuarios"},
+        {"value": "24/7", "label": "Disponibilidad en la nube"},
+        {"value": "92%", "label": "Reducción de costes"}
+      ],
+      "tech_label": "Tecnologías:",
+      "tech_list": "Vue.js, AWS, Lambda, DynamoDB, AI Lead Scoring"
+    },
+    {
+      "id": "erp",
+      "title": "Modernización del sistema ERP de manufactura",
+      "tag": "Oracle Forms → Progressive Web App",
+      "description": "Migramos un sistema ERP crítico basado en Oracle Forms 6i a una Progressive Web App moderna con capacidades offline, sincronización en tiempo real y acceso móvil al almacén.",
+      "image_before_label": "Antes: Oracle Forms",
+      "image_after_label": "Después: PWA",
+      "stats": [
+        {"value": "75%", "label": "Entrada de datos más rápida"},
+        {"value": "100%", "label": "Acceso móvil"},
+        {"value": "180.000 $", "label": "Ahorro anual"}
+      ],
+      "tech_label": "Tecnologías:",
+      "tech_list": "Angular, PWA, Offline-First, Azure, Real-time Sync"
+    }
+  ],
+  "cta": {
+    "title": "¿Listo para transformar su sistema?",
+    "subtitle": "Hablemos sobre cómo podemos modernizar sus aplicaciones heredadas en soluciones de alto rendimiento.",
+    "button": "Comenzar"
+  }
+}

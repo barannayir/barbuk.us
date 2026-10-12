@@ -1,0 +1,98 @@
+<section class="page-hero">
+  <div class="container">
+    <h1>{{ t.page_hero.title }}</h1>
+    <p class="page-subtitle">{{ t.page_hero.subtitle }}</p>
+  </div>
+</section>
+
+<section class="about-story">
+  <div class="container">
+    <div class="story-content">
+      <h2>{{ t.story_section.title }}</h2>
+      {% for paragraph in t.story_section.paragraphs %}
+      <p>{{ paragraph }}</p>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="mission-section">
+  <div class="container">
+    <div class="mission-grid">
+      <div class="mission-card">
+        <div class="mission-icon">🎯</div>
+        <h3>{{ t.mission_section.mission.title }}</h3>
+        <p>{{ t.mission_section.mission.description }}</p>
+      </div>
+
+      <div class="mission-card">
+        <div class="mission-icon">💡</div>
+        <h3>{{ t.mission_section.vision.title }}</h3>
+        <p>{{ t.mission_section.vision.description }}</p>
+      </div>
+
+      <div class="mission-card">
+        <div class="mission-icon">⚡</div>
+        <h3>{{ t.mission_section.values.title }}</h3>
+        <ul>
+          {% for item in t.mission_section.values.items %}
+          <li><strong>{{ item.label }}</strong> {{ item.text }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="why-us-section">
+  <div class="container">
+    <h2>{{ t.why_us_section.title }}</h2>
+    <p class="section-subtitle">{{ t.why_us_section.subtitle }}</p>
+
+    <div class="why-us-grid">
+      {% for card in t.why_us_section.cards %}
+      <div class="why-card">
+        <h3>{{ card.title }}</h3>
+        <p>{{ card.description }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="team-section">
+  <div class="container">
+    <h2>{{ t.expertise_section.title }}</h2>
+    <p class="section-subtitle">{{ t.expertise_section.subtitle }}</p>
+
+    <div class="expertise-grid">
+      {% for card in t.expertise_section.cards %}
+      <div class="expertise-card">
+        <h3>{{ card.title }}</h3>
+        <p>{{ card.description }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="clients-section">
+  <div class="container">
+    <h2>{{ t.clients_section.title }}</h2>
+    <p class="section-subtitle">{{ t.clients_section.subtitle }}</p>
+
+    <div class="industries-grid">
+      {% for industry in t.clients_section.industries %}
+      <div class="industry-tag">{{ industry }}</div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="cta-section">
+  <div class="container">
+    <h2>{{ t.cta_section.title }}</h2>
+    <p>{{ t.cta_section.subtitle }}</p>
+    <a href="/contact" class="btn-primary btn-lg">{{ t.cta_section.button }}</a>
+  </div>
+</section>

@@ -5,10 +5,68 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/robots.txt");
   eleventyConfig.addPassthroughCopy("src/sitemap.xml");
   eleventyConfig.addPassthroughCopy({"src/assets/images": "assets/images"});
-  
+
   // Watch CSS files
   eleventyConfig.addWatchTarget("src/assets/css/");
-  
+
+  // --- i18n: localizedUrl filter ---
+  // Kullanım: {{ "/services" | localizedUrl("de") }} -> "/de/services/"
+  eleventyConfig.addFilter("localizedUrl", function(url, lang) {
+    if (!lang || lang === "en") return url;
+    if (url === "/" || url === "") return `/${lang}/`;
+    return `/${lang}${url}`;
+  });
+
+  // --- i18n: lookupI18n filter ---
+  // Kullanım: {{ "index" | lookupI18n: "de" }} -> { hero_title: "..." }
+  // src/_data/i18n/<lang>/<page>.json dosyasını yükler
+  eleventyConfig.addFilter("lookupI18n", function(pageKey, lang) {
+    const path = require("path");
+    const fs = require("fs");
+    const langDir = path.join(__dirname, "src", "_data", "i18n", lang);
+    const file = path.join(langDir, `${pageKey}.json`);
+    try {
+      const raw = fs.readFileSync(file, "utf8");
+      return JSON.parse(raw);
+    } catch (e) {
+      // Fallback: İngilizce
+      const fallback = path.join(__dirname, "src", "_data", "i18n", "en", `${pageKey}.json`);
+      try {
+        return JSON.parse(fs.readFileSync(fallback, "utf8"));
+      } catch (e2) {
+        console.warn(`[i18n] Missing: ${file}`);
+        return {};
+      }
+    }
+  });
+
+  // --- i18n: altlangs helper ---
+  // Belirli bir sayfa URL'si için tüm dillerdeki eşdeğer URL'leri üretir
+  eleventyConfig.addFilter("altLangs", function(currentUrl, languages) {
+    const url = currentUrl || "/";
+    return languages.map(function(lang) {
+      let path;
+      if (url === "/" || url === "") {
+        path = lang === "en" ? "/" : `/${lang}/`;
+      } else {
+        // Mevcut dil prefix'i varsa kaldır
+        const stripped = url.replace(/^\/(de|fr|nl|it|es)(?=\/|$)/, "") || "/";
+        path = lang === "en" ? stripped : `/${lang}${stripped}`;
+      }
+      return { lang: lang, url: path };
+    });
+  });
+
+  // --- i18n collection: sadece i18n_key işaretli sayfalar ---
+  eleventyConfig.addCollection("i18nPages", function(collectionApi) {
+    return collectionApi.getAll().filter(function(item) {
+      return item.data && item.data.i18n_key;
+    });
+  });
+
+  // NOT: i18n globalData'sı src/_data/i18n.json üzerinden otomatik gelir.
+  // addGlobalData("i18n", ...) çağrısı yapılmıyor — aksi halde array duplicate oluyor.
+
   return {
     dir: {
       input: "src",

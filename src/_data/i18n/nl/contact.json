@@ -1,0 +1,97 @@
+{
+  "page_hero": {
+    "title": "Neem contact op",
+    "subtitle": "Laten we bespreken hoe we uw verouderde systemen kunnen transformeren. Gratis consult, zonder verplichtingen."
+  },
+  "form_section": {
+    "title": "Stuur ons een bericht",
+    "intro": "We reageren doorgaans binnen 24 uur.",
+    "fields": {
+      "name_label": "Uw naam *",
+      "name_placeholder": "Jan de Vries",
+      "email_label": "E-mailadres *",
+      "email_placeholder": "jan@bedrijf.nl",
+      "company_label": "Bedrijfsnaam",
+      "company_placeholder": "Acme Corporation",
+      "project_label": "Projecttype *",
+      "project_placeholder": "Selecteer een dienst...",
+      "message_label": "Vertel ons over uw project *",
+      "message_placeholder": "Beschrijf uw huidige systeem, uitdagingen en wat u wilt bereiken...",
+      "submit_button": "Bericht versturen",
+      "submitting_button": "Verzenden..."
+    },
+    "project_options": [
+      "Legacy System Modernization",
+      "UI/UX Redesign",
+      "Performance Optimization",
+      "AI Integration",
+      "Workflow Automation",
+      "Cloud Migration",
+      "Other / Not Sure"
+    ],
+    "error_fallback": "Verzenden van bericht mislukt. Probeer ons direct te e-mailen via hello@barbuk.us"
+  },
+  "contact_methods": {
+    "title": "Andere manieren om ons te bereiken",
+    "methods": [
+      {
+        "title": "E-mail",
+        "link": "hello@barbuk.us",
+        "description": "Voor algemene vragen"
+      },
+      {
+        "title": "Zakelijke aanvragen",
+        "link": "info@barbuk.us",
+        "description": "Voor partnerschappen en enterprise-deals"
+      },
+      {
+        "title": "Ondersteuning",
+        "link": "support@barbuk.us",
+        "description": "Voor bestaande klanten"
+      },
+      {
+        "title": "GitHub",
+        "link": "@barbuk-dev",
+        "url": "https://github.com/barbuk-dev",
+        "description": "Bekijk onze open-source projecten"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Veelgestelde vragen",
+    "items": [
+      {
+        "question": "Hoe lang duurt een gemiddeld project?",
+        "answer": "De meeste projecten: 6-12 weken. Complexe enterprise-migraties: 3-6 maanden. We leveren incrementeel—u ziet snel vooruitgang."
+      },
+      {
+        "question": "Bieden jullie vaste prijzen aan?",
+        "answer": "Ja! Na een kennismakingsgesprek bieden we een gedetailleerd voorstel met vaste prijs. Geen verrassingen in de urenfacturatie."
+      },
+      {
+        "question": "Kunnen jullie samenwerken met ons bestaande team?",
+        "answer": "Absoluut. We kunnen uw team versterken, uw ontwikkelaars trainen, of het hele project oppakken—wat het beste werkt."
+      }
+    ]
+  },
+  "trust_section": {
+    "cards": [
+      {
+        "title": "24-uurs reactie",
+        "description": "We reageren op alle aanvragen binnen één werkdag."
+      },
+      {
+        "title": "NDA beschikbaar",
+        "description": "We tekenen graag een NDA voordat we uw project bespreken."
+      },
+      {
+        "title": "Gratis consult",
+        "description": "Kennismakingsgesprek van 30 minuten om uw behoeften te begrijpen—geen verplichtingen."
+      },
+      {
+        "title": "Transparante prijzen",
+        "description": "Gedetailleerde offertes met duidelijke deliverables en tijdlijnen."
+      }
+    ]
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "page_hero": {
+    "title": "Kontakt aufnehmen",
+    "subtitle": "Lassen Sie uns besprechen, wie wir Ihre Legacy-Systeme transformieren können. Kostenlose Beratung, kein Druck."
+  },
+  "form_section": {
+    "title": "Senden Sie uns eine Nachricht",
+    "intro": "Wir antworten in der Regel innerhalb von 24 Stunden.",
+    "fields": {
+      "name_label": "Ihr Name *",
+      "name_placeholder": "Max Mustermann",
+      "email_label": "E-Mail-Adresse *",
+      "email_placeholder": "max@firma.de",
+      "company_label": "Firmenname",
+      "company_placeholder": "Mustermann GmbH",
+      "project_label": "Projektart *",
+      "project_placeholder": "Wählen Sie einen Service...",
+      "message_label": "Erzählen Sie uns von Ihrem Projekt *",
+      "message_placeholder": "Beschreiben Sie Ihr aktuelles System, Ihre Herausforderungen und was Sie erreichen möchten...",
+      "submit_button": "Nachricht senden",
+      "submitting_button": "Wird gesendet..."
+    },
+    "project_options": [
+      "Modernisierung von Legacy-Systemen",
+      "UI/UX-Neugestaltung",
+      "Leistungsoptimierung",
+      "KI-Integration",
+      "Workflow-Automatisierung",
+      "Cloud-Migration",
+      "Andere / Nicht sicher"
+    ],
+    "error_fallback": "Nachricht konnte nicht gesendet werden. Bitte kontaktieren Sie uns direkt per E-Mail unter hello@barbuk.us"
+  },
+  "contact_methods": {
+    "title": "Weitere Kontaktmöglichkeiten",
+    "methods": [
+      {
+        "title": "E-Mail",
+        "link": "hello@barbuk.us",
+        "description": "Für allgemeine Anfragen"
+      },
+      {
+        "title": "Geschäftsanfragen",
+        "link": "info@barbuk.us",
+        "description": "Für Partnerschaften und Enterprise-Deals"
+      },
+      {
+        "title": "Support",
+        "link": "support@barbuk.us",
+        "description": "Für bestehende Kunden"
+      },
+      {
+        "title": "GitHub",
+        "link": "@barbuk-dev",
+        "url": "https://github.com/barbuk-dev",
+        "description": "Entdecken Sie unsere Open-Source-Projekte"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Häufige Fragen",
+    "items": [
+      {
+        "question": "Wie lange dauert ein typisches Projekt?",
+        "answer": "Die meisten Projekte: 6–12 Wochen. Komplexe Enterprise-Migrationen: 3–6 Monate. Wir liefern inkrementell – Sie sehen schnell Fortschritte."
+      },
+      {
+        "question": "Bieten Sie Festpreisangebote an?",
+        "answer": "Ja! Nach einem Erstgespräch erhalten Sie ein detailliertes Festpreisangebot. Keine Überraschungen bei der stundenbasierten Abrechnung."
+      },
+      {
+        "question": "Können Sie mit unserem bestehenden Team zusammenarbeiten?",
+        "answer": "Absolut. Wir können Ihr Team verstärken, Ihre Entwickler schulen oder das gesamte Projekt übernehmen – was immer am besten passt."
+      }
+    ]
+  },
+  "trust_section": {
+    "cards": [
+      {
+        "title": "24-Stunden-Antwort",
+        "description": "Wir beantworten alle Anfragen innerhalb eines Werktags."
+      },
+      {
+        "title": "NDA verfügbar",
+        "description": "Wir unterzeichnen gerne eine NDA, bevor wir Ihr Projekt besprechen."
+      },
+      {
+        "title": "Kostenlose Beratung",
+        "description": "30-minütiges Erstgespräch, um Ihre Bedürfnisse zu verstehen – unverbindlich."
+      },
+      {
+        "title": "Transparente Preise",
+        "description": "Detaillierte Angebote mit klaren Lieferobjekten und Zeitplänen."
+      }
+    ]
+  }
+}

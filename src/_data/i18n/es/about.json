@@ -1,0 +1,113 @@
+{
+  "page_hero": {
+    "title": "Sobre Barbuk",
+    "subtitle": "Tenemos la misión de liberar a las empresas del purgatorio de los sistemas heredados."
+  },
+  "story_section": {
+    "title": "Nuestra historia",
+    "paragraphs": [
+      "Fundada en 2026, Barbuk surgió de una simple observación: innumerables empresas están atrapadas en el purgatorio de los sistemas heredados, gastando millones en mantener tecnología obsoleta mientras sus competidores avanzan con soluciones modernas impulsadas por IA.",
+      "Lo hemos visto todo: sistemas Oracle Forms 6i ejecutando operaciones críticas, aplicaciones ASP.NET WebForms del año 2005 gestionando millones en transacciones, aplicaciones de escritorio en VB.NET que no pueden escalar más allá de una sola oficina. Estos sistemas funcionan, apenas, pero están frenando a las empresas.",
+      "Nuestros fundadores pasaron una década en software empresarial, siendo testigos directos del dolor de la deuda técnica. Sabíamos que tenía que haber una mejor forma. No el caos del rip-and-replace. No consultores eternos de \"transformación digital\" facturando por horas sin resultados tangibles. Sino un enfoque pragmático y probado en batalla que modernice los sistemas sin destruir lo que funciona.",
+      "Eso es Barbuk. Somos el equipo al que llama cuando la modernización de sistemas heredados ya no es opcional."
+    ]
+  },
+  "mission_section": {
+    "mission": {
+      "title": "Nuestra misión",
+      "description": "Transformar los sistemas heredados en soluciones modernas y de alto rendimiento que impulsen el crecimiento empresarial, sin el riesgo, el tiempo de inactividad ni los sobrecostes que azotan a los proyectos de modernización tradicionales."
+    },
+    "vision": {
+      "title": "Nuestra visión",
+      "description": "Un mundo en el que ninguna empresa esté secuestrada por tecnología obsoleta. Donde la modernización sea incremental, segura y accesible para empresas de todos los tamaños."
+    },
+    "values": {
+      "title": "Nuestros valores",
+      "items": [
+        {"label": "Pragmatismo sobre perfección:", "text": "Entregamos soluciones funcionales e iteramos rápido"},
+        {"label": "Transparencia:", "text": "Sin costes ocultos ni ampliaciones de alcance injustificadas"},
+        {"label": "Orientación a resultados:", "text": "Nos medimos por resultados de negocio, no por líneas de código"},
+        {"label": "Empatía:", "text": "Entendemos el miedo a cambiar sistemas críticos"}
+      ]
+    }
+  },
+  "why_us_section": {
+    "title": "¿Por qué elegir Barbuk?",
+    "subtitle": "Lo que nos diferencia de las consultoras tradicionales",
+    "cards": [
+      {
+        "title": "Migraciones sin tiempo de inactividad",
+        "description": "Nuestro enfoque de migración por fases mantiene su negocio en funcionamiento. Nunca hemos incumplido un plazo ni causado tiempos de inactividad no planificados."
+      },
+      {
+        "title": "Proyectos a precio cerrado",
+        "description": "Sin contratos de consultoría abiertos. Recibe un presupuesto detallado por adelantado, y eso es lo que paga. Sin sorpresas."
+      },
+      {
+        "title": "Entrega rápida",
+        "description": "Entregamos en semanas, no en trimestres. Las entregas incrementales le permiten ver el progreso y el ROI rápidamente."
+      },
+      {
+        "title": "Enfoque IA primero",
+        "description": "Todo proyecto de modernización incluye oportunidades de integración de IA. Chatbots, analítica predictiva, automatización: lo integramos desde el día uno."
+      },
+      {
+        "title": "Resultados medibles",
+        "description": "Medimos las mejoras de rendimiento, la satisfacción del usuario y el ahorro de costes. Verá el ROI de forma clara y cuantificable."
+      },
+      {
+        "title": "Seguridad empresarial",
+        "description": "Procesos conformes con SOC 2. Migración de datos cifrada. Pistas de auditoría. Nos tomamos la seguridad muy en serio."
+      }
+    ]
+  },
+  "expertise_section": {
+    "title": "Nuestra experiencia",
+    "subtitle": "Más de 15 años de experiencia combinada en modernización de software empresarial",
+    "cards": [
+      {
+        "title": "Desarrollo full-stack",
+        "description": "React, Vue, Angular, Node.js, .NET, Python: dominamos todos los frameworks modernos."
+      },
+      {
+        "title": "Arquitectura y DevOps",
+        "description": "Microservicios, cloud-native, pipelines de CI/CD, Kubernetes: construimos para escalar."
+      },
+      {
+        "title": "Migraciones de bases de datos",
+        "description": "Oracle → PostgreSQL, SQL Server → MySQL, bases de datos heredadas a bases de datos modernas en la nube."
+      },
+      {
+        "title": "Diseño UI/UX",
+        "description": "Diseñadores certificados que han lanzado productos usados por millones de personas."
+      },
+      {
+        "title": "IA y Machine Learning",
+        "description": "NLP, visión por computadora, analítica predictiva: integramos IA que realmente funciona."
+      },
+      {
+        "title": "Plataformas cloud",
+        "description": "Certificados en AWS, Azure y Google Cloud. Conocemos las nubes a fondo."
+      }
+    ]
+  },
+  "clients_section": {
+    "title": "Confían en nosotros",
+    "subtitle": "Empresas de múltiples sectores confían en nosotros para modernizar sus sistemas críticos",
+    "industries": [
+      "Manufactura",
+      "Servicios financieros",
+      "Sanidad",
+      "E-Commerce",
+      "SaaS empresarial",
+      "Logística",
+      "Educación",
+      "Construcción"
+    ]
+  },
+  "cta_section": {
+    "title": "¿Listo para modernizar?",
+    "subtitle": "Hablemos sobre su sistema heredado. Consulta gratuita y sin compromiso.",
+    "button": "Contáctenos"
+  }
+}

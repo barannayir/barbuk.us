@@ -1,0 +1,158 @@
+{
+  "page_hero": {
+    "title": "Unsere Leistungen",
+    "subtitle": "End-to-End-Modernisierungsleistungen, die Ihre Legacy-Systeme in leistungsstarke, KI-gestützte Lösungen verwandeln."
+  },
+  "services": [
+    {
+      "id": "legacy_modernization",
+      "icon": "🔄",
+      "title": "Legacy-Modernisierung",
+      "intro": "Migrieren Sie veraltete Systeme nahtlos in moderne Cloud-native Architekturen, ohne Ihre Geschäftsprozesse zu unterbrechen oder kritische Daten zu verlieren.",
+      "what_we_do_label": "Was wir tun:",
+      "features": [
+        {"label": "Architektur-Bewertung:", "text": "Tiefgehende Analyse Ihres aktuellen Systems, der Abhängigkeiten und der Migrationsrisiken"},
+        {"label": "Inkrementelle Migration:", "text": "Phasenweiser Ansatz, der Ausfallzeiten und Geschäftsunterbrechungen minimiert"},
+        {"label": "Datenmigration:", "text": "Sichere Übertragung aller historischen Daten mit Validierung und Integritätsprüfungen"},
+        {"label": "Legacy-Integration:", "text": "Brücke zwischen alten und neuen Systemen während der Übergangsphase"},
+        {"label": "Test & Qualitätssicherung:", "text": "Umfassende Tests zur Sicherstellung von Funktionsgleichheit und Zuverlässigkeit"}
+      ],
+      "tech_label": "Technologien, mit denen wir arbeiten:",
+      "tech_stack": [
+        "ASP.NET → .NET Core",
+        "PHP 5.x → Laravel/Symfony",
+        "Oracle Forms → Modernes Web",
+        "VB.NET → Cloud SaaS",
+        "Legacy Java → Spring Boot"
+      ]
+    },
+    {
+      "id": "uiux_redesign",
+      "icon": "🎨",
+      "title": "UI/UX-Redesign",
+      "intro": "Verwandeln Sie veraltete, schwerfällige Oberflächen in intuitive, moderne Erlebnisse, die Ihre Nutzer lieben und die Produktivität in Ihrem Unternehmen steigern.",
+      "what_we_do_label": "Was wir tun:",
+      "features": [
+        {"label": "Nutzerforschung:", "text": "Wir verstehen die Bedürfnisse, Schmerzpunkte und Workflows Ihrer Nutzer"},
+        {"label": "Wireframing & Prototyping:", "text": "Interaktive Mockups, bevor die Entwicklung beginnt"},
+        {"label": "Design-Systeme:", "text": "Konsistente, skalierbare Komponentenbibliotheken für Ihre Marke"},
+        {"label": "Barrierefreiheit:", "text": "WCAG 2.1 AA-Konformität für inklusive Nutzererlebnisse"},
+        {"label": "Responsive Design:", "text": "Pixelgenau auf Desktop, Tablet und mobilen Geräten"}
+      ],
+      "tech_label": "Design-Tools & Frameworks:",
+      "tech_stack": [
+        "Figma",
+        "Tailwind CSS",
+        "Material Design",
+        "Ant Design",
+        "Individuelle Design-Systeme"
+      ]
+    },
+    {
+      "id": "performance_optimization",
+      "icon": "⚡",
+      "title": "Performance-Optimierung",
+      "intro": "Verbessern Sie Geschwindigkeit, Zuverlässigkeit und Skalierbarkeit Ihrer bestehenden Systeme deutlich durch fortschrittliche Optimierungstechniken und moderne Infrastruktur.",
+      "what_we_do_label": "Was wir tun:",
+      "features": [
+        {"label": "Performance-Audits:", "text": "Identifikation von Engpässen, langsamen Abfragen und Ressourcenlecks"},
+        {"label": "Datenbank-Optimierung:", "text": "Query-Tuning, Indizierung, Caching-Strategien"},
+        {"label": "Frontend-Optimierung:", "text": "Code-Splitting, Lazy Loading, Bildoptimierung"},
+        {"label": "CDN & Caching:", "text": "Globale Content-Auslieferung und intelligente Caching-Schichten"},
+        {"label": "Lasttests:", "text": "Stresstests, um sicherzustellen, dass Ihr System Spitzenlasten bewältigt"}
+      ],
+      "tech_label": "Performance-Stack:",
+      "tech_stack": [
+        "Redis",
+        "Cloudflare CDN",
+        "Nginx",
+        "Database Tuning",
+        "WebP/AVIF-Bilder"
+      ]
+    },
+    {
+      "id": "ai_integration",
+      "icon": "🤖",
+      "title": "KI-Integration",
+      "intro": "Integrieren Sie intelligente KI-Funktionen in Ihre Workflows – von Natural Language Processing bis hin zu Predictive Analytics – und verändern Sie so die Arbeitsweise Ihres Teams.",
+      "what_we_do_label": "Was wir tun:",
+      "features": [
+        {"label": "KI-Strategie:", "text": "Identifikation wirkungsstarker KI-Anwendungsfälle für Ihr Unternehmen"},
+        {"label": "Natural Language Processing:", "text": "Chatbots, Sentiment-Analyse, Dokumentenverständnis"},
+        {"label": "Predictive Analytics:", "text": "Trends prognostizieren, Anomalien erkennen, Entscheidungen optimieren"},
+        {"label": "Computer Vision:", "text": "Bilderkennung, OCR, automatisierte Qualitätskontrolle"},
+        {"label": "Individuelle KI-Modelle:", "text": "Modelle auf Basis Ihrer proprietären Daten trainieren, für einen Wettbewerbsvorteil"}
+      ],
+      "tech_label": "KI-Technologien:",
+      "tech_stack": [
+        "OpenAI GPT",
+        "Google Gemini",
+        "Claude",
+        "TensorFlow",
+        "PyTorch",
+        "LangChain"
+      ]
+    },
+    {
+      "id": "workflow_automation",
+      "icon": "🔗",
+      "title": "Workflow-Automatisierung",
+      "intro": "Eliminieren Sie repetitive Aufgaben und optimieren Sie Geschäftsprozesse mit intelligenter Automatisierung, die Fehler reduziert und Ihr Team für strategische Aufgaben freispielt.",
+      "what_we_do_label": "Was wir tun:",
+      "features": [
+        {"label": "Prozessanalyse:", "text": "Aktuelle Workflows abbilden und Automatisierungspotenziale identifizieren"},
+        {"label": "RPA-Implementierung:", "text": "Repetitive Aufgaben über mehrere Systeme hinweg automatisieren"},
+        {"label": "API-Integrationen:", "text": "Heterogene Systeme für einen nahtlosen Datenfluss verbinden"},
+        {"label": "Genehmigungs-Workflows:", "text": "Automatisierte Weiterleitung, Benachrichtigungen und Compliance-Tracking"},
+        {"label": "Monitoring & Benachrichtigungen:", "text": "Echtzeit-Benachrichtigungen, wenn eine Automatisierung Aufmerksamkeit benötigt"}
+      ],
+      "tech_label": "Automatisierungstools:",
+      "tech_stack": [
+        "Zapier",
+        "n8n",
+        "Apache Airflow",
+        "Individuelle APIs",
+        "Webhooks"
+      ]
+    },
+    {
+      "id": "cloud_migration",
+      "icon": "☁️",
+      "title": "Cloud-Migration",
+      "intro": "Migrieren Sie Legacy-On-Premise-Systeme in eine moderne Cloud-Infrastruktur ohne Ausfallzeiten und gewährleisten Sie Skalierbarkeit sowie Kosteneffizienz.",
+      "what_we_do_label": "Was wir tun:",
+      "features": [
+        {"label": "Cloud-Strategie:", "text": "AWS, Azure oder Google Cloud – wir helfen Ihnen, die richtige Plattform zu wählen"},
+        {"label": "Lift & Shift:", "text": "Schnelle Migration für Systeme, die sofort von der Cloud profitieren sollen"},
+        {"label": "Re-Architektur:", "text": "Anwendungen modernisieren, um Cloud-native Dienste optimal zu nutzen"},
+        {"label": "Kostenoptimierung:", "text": "Right-Sizing, Reserved Instances und Auto-Scaling-Strategien"},
+        {"label": "Sicherheit & Compliance:", "text": "Verschlüsselung, IAM, Audit-Trails und Compliance-Zertifizierungen"}
+      ],
+      "tech_label": "Cloud-Plattformen:",
+      "tech_stack": [
+        "AWS",
+        "Azure",
+        "Google Cloud",
+        "Cloudflare Workers",
+        "Vercel"
+      ]
+    }
+  ],
+  "process": {
+    "title": "Unser Vorgehen",
+    "subtitle": "Eine bewährte Methodik, die Ergebnisse liefert",
+    "steps": [
+      {"number": "1", "title": "Analyse & Bewertung", "text": "Tiefgehender Einblick in Ihr aktuelles System, Ihre Geschäftsziele und technischen Rahmenbedingungen."},
+      {"number": "2", "title": "Strategie & Planung", "text": "Detaillierte Roadmap mit Meilensteinen, Zeitplänen und Risikominimierungsstrategien."},
+      {"number": "3", "title": "Design & Prototyping", "text": "Interaktive Prototypen und Architekturkonzepte zu Ihrer Freigabe."},
+      {"number": "4", "title": "Entwicklung & Tests", "text": "Agile Entwicklung mit kontinuierlichen Tests und Kundenfeedback-Schleifen."},
+      {"number": "5", "title": "Migration & Launch", "text": "Deployment ohne Ausfallzeiten mit umfassendem Monitoring und Rollback-Plänen."},
+      {"number": "6", "title": "Support & Optimierung", "text": "Laufender Support, Performance-Tuning und kontinuierliche Verbesserung."}
+    ]
+  },
+  "cta": {
+    "title": "Lassen Sie uns Ihr System modernisieren",
+    "subtitle": "Vereinbaren Sie ein kostenloses Beratungsgespräch, um Ihre Modernisierungsanforderungen zu besprechen.",
+    "button": "Loslegen"
+  }
+}

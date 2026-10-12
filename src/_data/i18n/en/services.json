@@ -1,0 +1,158 @@
+{
+  "page_hero": {
+    "title": "Our Services",
+    "subtitle": "End-to-end modernization services that transform your legacy systems into high-performance, AI-powered solutions."
+  },
+  "services": [
+    {
+      "id": "legacy_modernization",
+      "icon": "🔄",
+      "title": "Legacy Modernization",
+      "intro": "Seamlessly migrate outdated systems to modern cloud-native architectures without disrupting your business operations or losing critical data.",
+      "what_we_do_label": "What We Do:",
+      "features": [
+        {"label": "Architecture Assessment:", "text": "Deep analysis of your current system, dependencies, and migration risks"},
+        {"label": "Incremental Migration:", "text": "Phased approach that minimizes downtime and business disruption"},
+        {"label": "Data Migration:", "text": "Secure transfer of all historical data with validation and integrity checks"},
+        {"label": "Legacy Integration:", "text": "Bridge old and new systems during transition periods"},
+        {"label": "Testing & QA:", "text": "Comprehensive testing to ensure feature parity and reliability"}
+      ],
+      "tech_label": "Technologies We Work With:",
+      "tech_stack": [
+        "ASP.NET → .NET Core",
+        "PHP 5.x → Laravel/Symfony",
+        "Oracle Forms → Modern Web",
+        "VB.NET → Cloud SaaS",
+        "Legacy Java → Spring Boot"
+      ]
+    },
+    {
+      "id": "uiux_redesign",
+      "icon": "🎨",
+      "title": "UI/UX Redesign",
+      "intro": "Transform dated, clunky interfaces into intuitive, modern experiences that users love and increase productivity across your organization.",
+      "what_we_do_label": "What We Do:",
+      "features": [
+        {"label": "User Research:", "text": "Understand your users' needs, pain points, and workflows"},
+        {"label": "Wireframing & Prototyping:", "text": "Interactive mockups before development begins"},
+        {"label": "Design Systems:", "text": "Consistent, scalable component libraries for your brand"},
+        {"label": "Accessibility:", "text": "WCAG 2.1 AA compliance for inclusive user experiences"},
+        {"label": "Responsive Design:", "text": "Pixel-perfect on desktop, tablet, and mobile devices"}
+      ],
+      "tech_label": "Design Tools & Frameworks:",
+      "tech_stack": [
+        "Figma",
+        "Tailwind CSS",
+        "Material Design",
+        "Ant Design",
+        "Custom Design Systems"
+      ]
+    },
+    {
+      "id": "performance_optimization",
+      "icon": "⚡",
+      "title": "Performance Optimization",
+      "intro": "Dramatically improve speed, reliability, and scalability of your existing systems through advanced optimization techniques and modern infrastructure.",
+      "what_we_do_label": "What We Do:",
+      "features": [
+        {"label": "Performance Audits:", "text": "Identify bottlenecks, slow queries, and resource leaks"},
+        {"label": "Database Optimization:", "text": "Query tuning, indexing, caching strategies"},
+        {"label": "Frontend Optimization:", "text": "Code splitting, lazy loading, image optimization"},
+        {"label": "CDN & Caching:", "text": "Global content delivery and intelligent caching layers"},
+        {"label": "Load Testing:", "text": "Stress tests to ensure your system handles peak traffic"}
+      ],
+      "tech_label": "Performance Stack:",
+      "tech_stack": [
+        "Redis",
+        "Cloudflare CDN",
+        "Nginx",
+        "Database Tuning",
+        "WebP/AVIF Images"
+      ]
+    },
+    {
+      "id": "ai_integration",
+      "icon": "🤖",
+      "title": "AI Integration",
+      "intro": "Embed intelligent AI capabilities into your workflows—from natural language processing to predictive analytics—transforming how your team works.",
+      "what_we_do_label": "What We Do:",
+      "features": [
+        {"label": "AI Strategy:", "text": "Identify high-impact AI use cases for your business"},
+        {"label": "Natural Language Processing:", "text": "Chatbots, sentiment analysis, document understanding"},
+        {"label": "Predictive Analytics:", "text": "Forecast trends, detect anomalies, optimize decisions"},
+        {"label": "Computer Vision:", "text": "Image recognition, OCR, quality control automation"},
+        {"label": "Custom AI Models:", "text": "Train models on your proprietary data for competitive advantage"}
+      ],
+      "tech_label": "AI Technologies:",
+      "tech_stack": [
+        "OpenAI GPT",
+        "Google Gemini",
+        "Claude",
+        "TensorFlow",
+        "PyTorch",
+        "LangChain"
+      ]
+    },
+    {
+      "id": "workflow_automation",
+      "icon": "🔗",
+      "title": "Workflow Automation",
+      "intro": "Eliminate repetitive tasks and streamline business processes with smart automation that reduces errors and frees up your team for strategic work.",
+      "what_we_do_label": "What We Do:",
+      "features": [
+        {"label": "Process Analysis:", "text": "Map current workflows and identify automation opportunities"},
+        {"label": "RPA Implementation:", "text": "Automate repetitive tasks across multiple systems"},
+        {"label": "API Integrations:", "text": "Connect disparate systems for seamless data flow"},
+        {"label": "Approval Workflows:", "text": "Automated routing, notifications, and compliance tracking"},
+        {"label": "Monitoring & Alerts:", "text": "Real-time notifications when automation needs attention"}
+      ],
+      "tech_label": "Automation Tools:",
+      "tech_stack": [
+        "Zapier",
+        "n8n",
+        "Apache Airflow",
+        "Custom APIs",
+        "Webhooks"
+      ]
+    },
+    {
+      "id": "cloud_migration",
+      "icon": "☁️",
+      "title": "Cloud Migration",
+      "intro": "Migrate legacy on-premise systems to modern cloud infrastructure with zero downtime, ensuring scalability and cost efficiency.",
+      "what_we_do_label": "What We Do:",
+      "features": [
+        {"label": "Cloud Strategy:", "text": "AWS, Azure, or Google Cloud—we help you choose the right platform"},
+        {"label": "Lift & Shift:", "text": "Quick migration for systems that need immediate cloud benefits"},
+        {"label": "Re-architecture:", "text": "Modernize applications to leverage cloud-native services"},
+        {"label": "Cost Optimization:", "text": "Right-sizing, reserved instances, and auto-scaling strategies"},
+        {"label": "Security & Compliance:", "text": "Encryption, IAM, audit trails, and compliance certifications"}
+      ],
+      "tech_label": "Cloud Platforms:",
+      "tech_stack": [
+        "AWS",
+        "Azure",
+        "Google Cloud",
+        "Cloudflare Workers",
+        "Vercel"
+      ]
+    }
+  ],
+  "process": {
+    "title": "Our Process",
+    "subtitle": "A proven methodology that delivers results",
+    "steps": [
+      {"number": "1", "title": "Discovery & Assessment", "text": "Deep dive into your current system, business goals, and technical constraints."},
+      {"number": "2", "title": "Strategy & Planning", "text": "Detailed roadmap with milestones, timelines, and risk mitigation strategies."},
+      {"number": "3", "title": "Design & Prototyping", "text": "Interactive prototypes and architecture designs for your approval."},
+      {"number": "4", "title": "Development & Testing", "text": "Agile development with continuous testing and client feedback loops."},
+      {"number": "5", "title": "Migration & Launch", "text": "Zero-downtime deployment with comprehensive monitoring and rollback plans."},
+      {"number": "6", "title": "Support & Optimization", "text": "Ongoing support, performance tuning, and continuous improvement."}
+    ]
+  },
+  "cta": {
+    "title": "Let's Modernize Your System",
+    "subtitle": "Schedule a free consultation to discuss your modernization needs.",
+    "button": "Get Started"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "page_hero": {
+    "title": "Our Portfolio",
+    "subtitle": "Real transformations. Real results. See how we've helped businesses modernize their legacy systems."
+  },
+  "badges": {
+    "before": "Before",
+    "after": "After"
+  },
+  "projects": [
+    {
+      "id": "admin_panel",
+      "title": "Enterprise Admin Panel Transformation",
+      "tag": "Legacy ASP.NET → Modern React",
+      "description": "We rebuilt a 15-year-old ASP.NET admin panel with outdated Windows-style UI into a modern, responsive dashboard with real-time updates and AI-powered insights.",
+      "stats": [
+        {"value": "60%", "label": "Faster Task Completion"},
+        {"value": "94%", "label": "User Satisfaction"},
+        {"value": "Zero", "label": "Downtime Migration"}
+      ],
+      "tech_label": "Technologies:",
+      "tech_list": "React, Node.js, PostgreSQL, Tailwind CSS, WebSocket"
+    },
+    {
+      "id": "ecommerce",
+      "title": "E-Commerce Platform Redesign",
+      "tag": "PHP 5.6 → Next.js",
+      "description": "A 10-year-old PHP-based e-commerce site was completely rebuilt with modern Next.js, implementing server-side rendering, AI product recommendations, and a stunning user experience.",
+      "image_before_label": "Before: Legacy PHP",
+      "image_after_label": "After: Next.js",
+      "stats": [
+        {"value": "320%", "label": "Increase in Conversions"},
+        {"value": "1.2s", "label": "Page Load Time"},
+        {"value": "87%", "label": "Reduced Cart Abandonment"}
+      ],
+      "tech_label": "Technologies:",
+      "tech_list": "Next.js, TypeScript, Stripe, Vercel, AI Product Matching"
+    },
+    {
+      "id": "crm",
+      "title": "Legacy CRM Modernization",
+      "tag": "VB.NET → Cloud-Native SaaS",
+      "description": "Desktop-only VB.NET CRM transformed into a modern cloud-native SaaS platform with mobile access, AI-powered lead scoring, and automated workflows.",
+      "image_before_label": "Before: Desktop VB.NET",
+      "image_after_label": "After: Cloud SaaS",
+      "stats": [
+        {"value": "450%", "label": "More User Adoption"},
+        {"value": "24/7", "label": "Cloud Availability"},
+        {"value": "92%", "label": "Cost Reduction"}
+      ],
+      "tech_label": "Technologies:",
+      "tech_list": "Vue.js, AWS, Lambda, DynamoDB, AI Lead Scoring"
+    },
+    {
+      "id": "erp",
+      "title": "Manufacturing ERP System Upgrade",
+      "tag": "Oracle Forms → Progressive Web App",
+      "description": "Migrated a mission-critical Oracle Forms 6i ERP system to a modern Progressive Web App with offline capabilities, real-time sync, and mobile warehouse access.",
+      "image_before_label": "Before: Oracle Forms",
+      "image_after_label": "After: PWA",
+      "stats": [
+        {"value": "75%", "label": "Faster Data Entry"},
+        {"value": "100%", "label": "Mobile Access"},
+        {"value": "$180K", "label": "Annual Savings"}
+      ],
+      "tech_label": "Technologies:",
+      "tech_list": "Angular, PWA, Offline-First, Azure, Real-time Sync"
+    }
+  ],
+  "cta": {
+    "title": "Ready to Transform Your System?",
+    "subtitle": "Let's discuss how we can modernize your legacy applications into high-performance solutions.",
+    "button": "Get Started"
+  }
+}

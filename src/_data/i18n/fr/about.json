@@ -1,0 +1,113 @@
+{
+  "page_hero": {
+    "title": "À propos de Barbuk",
+    "subtitle": "Nous avons pour mission de sortir les entreprises du purgatoire des systèmes existants."
+  },
+  "story_section": {
+    "title": "Notre histoire",
+    "paragraphs": [
+      "Fondée en 2026, Barbuk est née d'un constat simple : d'innombrables entreprises sont piégées dans le purgatoire des systèmes existants — elles dépensent des millions à maintenir des technologies dépassées pendant que leurs concurrents avancent avec des solutions modernes, propulsées par l'IA.",
+      "Nous les avons vus, tous : les systèmes Oracle Forms 6i pilotant des opérations critiques, les applications ASP.NET WebForms de 2005 traitant des millions de transactions, les applications desktop VB.NET qui ne passent pas l'échelle d'un seul bureau. Ces systèmes fonctionnent — à peine — mais ils freinent les entreprises.",
+      "Nos fondateurs ont passé une décennie dans le logiciel d'entreprise et constaté de leurs propres yeux la douleur de la dette technique. Nous savions qu'il devait exister une meilleure voie. Ni le chaos du tout-casser-pour-tout-refaire. Ni ces consultants en « transformation numérique » qui facturent à l'heure sans livrer de résultats tangibles. Mais une approche pragmatique, éprouvée sur le terrain, qui modernise les systèmes sans détruire ce qui fonctionne.",
+      "C'est Barbuk. Nous sommes l'équipe que vous appelez lorsque la modernisation des systèmes existants n'est plus une option."
+    ]
+  },
+  "mission_section": {
+    "mission": {
+      "title": "Notre mission",
+      "description": "Transformer les systèmes existants en solutions modernes et performantes qui accélèrent la croissance de votre entreprise — sans les risques, les interruptions ou les dépassements budgétaires qui plombent les projets de modernisation classiques."
+    },
+    "vision": {
+      "title": "Notre vision",
+      "description": "Un monde où aucune entreprise n'est prise en otage par une technologie dépassée. Où la modernisation est incrémentielle, sûre et accessible à des entreprises de toutes tailles."
+    },
+    "values": {
+      "title": "Nos valeurs",
+      "items": [
+        {"label": "Le pragmatisme avant la perfection :", "text": "Nous livrons des solutions qui fonctionnent et itérons rapidement"},
+        {"label": "Transparence :", "text": "Pas de coûts cachés, pas de dérive des besoins"},
+        {"label": "Axés sur les résultats :", "text": "Nous sommes jugés sur les résultats métier, pas sur le nombre de lignes de code"},
+        {"label": "Empathie :", "text": "Nous comprenons la peur de modifier des systèmes critiques"}
+      ]
+    }
+  },
+  "why_us_section": {
+    "title": "Pourquoi choisir Barbuk ?",
+    "subtitle": "Ce qui nous distingue des cabinets de conseil traditionnels",
+    "cards": [
+      {
+        "title": "Migrations sans temps d'arrêt",
+        "description": "Notre approche de migration par phases permet à votre activité de continuer à tourner. Nous n'avons jamais manqué un délai ni provoqué d'interruption non planifiée."
+      },
+      {
+        "title": "Projets à prix fixe",
+        "description": "Pas de contrat de conseil sans plafond. Vous recevez dès le départ un devis détaillé, et c'est ce que vous payez. Pas de mauvaise surprise."
+      },
+      {
+        "title": "Livraison rapide",
+        "description": "Nous livrons en semaines, pas en trimestres. Des livraisons incrémentielles signifient que vous voyez rapidement les progrès — et le ROI."
+      },
+      {
+        "title": "Approche IA-first",
+        "description": "Chaque projet de modernisation intègre des opportunités d'intégration d'IA. Chatbots, analyse prédictive, automatisation — nous les intégrons dès le premier jour."
+      },
+      {
+        "title": "Résultats mesurables",
+        "description": "Nous suivons les gains de performance, la satisfaction des utilisateurs et les économies. Vous verrez le ROI noir sur blanc."
+      },
+      {
+        "title": "Sécurité entreprise",
+        "description": "Processus conformes SOC 2. Migration chiffrée des données. Pistes d'audit. Nous prenons la sécurité au sérieux."
+      }
+    ]
+  },
+  "expertise_section": {
+    "title": "Notre expertise",
+    "subtitle": "Plus de 15 ans d'expérience cumulée dans la modernisation de logiciels d'entreprise",
+    "cards": [
+      {
+        "title": "Développement full-stack",
+        "description": "React, Vue, Angular, Node.js, .NET, Python — nous parlons tous les frameworks modernes."
+      },
+      {
+        "title": "Architecture & DevOps",
+        "description": "Microservices, cloud-native, pipelines CI/CD, Kubernetes — nous construisons pour passer à l'échelle."
+      },
+      {
+        "title": "Migrations de bases de données",
+        "description": "Oracle → PostgreSQL, SQL Server → MySQL, bases existantes vers bases cloud modernes."
+      },
+      {
+        "title": "Design UI/UX",
+        "description": "Designers certifiés qui ont livré des produits utilisés par des millions d'utilisateurs."
+      },
+      {
+        "title": "IA & machine learning",
+        "description": "NLP, vision par ordinateur, analyse prédictive — nous intégrons une IA qui fonctionne réellement."
+      },
+      {
+        "title": "Plateformes cloud",
+        "description": "Certifiés AWS, Azure, Google Cloud. Nous connaissons les clouds sur le bout des doigts."
+      }
+    ]
+  },
+  "clients_section": {
+    "title": "Ils nous font confiance",
+    "subtitle": "Des entreprises de tous secteurs nous confient la modernisation de leurs systèmes critiques",
+    "industries": [
+      "Industrie manufacturière",
+      "Services financiers",
+      "Santé",
+      "E-commerce",
+      "SaaS entreprise",
+      "Logistique",
+      "Éducation",
+      "BTP"
+    ]
+  },
+  "cta_section": {
+    "title": "Prêt à moderniser ?",
+    "subtitle": "Parlons de votre système existant. Consultation gratuite, sans engagement.",
+    "button": "Contactez-nous"
+  }
+}

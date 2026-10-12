@@ -1,0 +1,161 @@
+<section class="page-hero">
+  <div class="container">
+    <h1>{{ t.page_hero.title }}</h1>
+    <p class="page-subtitle">{{ t.page_hero.subtitle }}</p>
+  </div>
+</section>
+
+<section class="portfolio-grid-section">
+  <div class="container">
+    {% for project in t.projects %}
+    <div class="portfolio-project" id="{{ project.id }}">
+      <div class="project-header">
+        <h2>{{ project.title }}</h2>
+        <span class="project-tag">{{ project.tag }}</span>
+      </div>
+
+      {% if project.id == "admin_panel" %}
+      <div class="before-after-container">
+        <div class="before-after">
+          <div class="before">
+            <iframe src="/demos/legacy-admin.html" style="width: 100%; height: 100%; border: none; background: white;"></iframe>
+          </div>
+          <div class="after">
+            <iframe src="/demos/modern-admin.html" style="width: 100%; height: 100%; border: none;"></iframe>
+          </div>
+          <div class="slider-handle" data-slider="slider1"></div>
+        </div>
+        <div class="badge-before">{{ t.badges.before }}</div>
+        <div class="badge-after">{{ t.badges.after }}</div>
+      </div>
+      {% else %}
+      <div class="project-image-grid">
+        <div class="project-image legacy">
+          <div class="image-label">{{ project.image_before_label }}</div>
+          <div class="placeholder-demo" style="background: #ECE9D8; padding: 1.5rem; font-family: 'MS Sans Serif', sans-serif;">
+            <div style="background: linear-gradient(180deg, #0054E3 0%, #0049C6 100%); color: white; padding: 0.5rem 1rem; margin: -1.5rem -1.5rem 1rem; display: flex; align-items: center; justify-content: space-between;">
+              <span style="font-weight: bold;">{{ project.title }}</span>
+              <span style="font-size: 0.75rem;">[ _ □ X ]</span>
+            </div>
+            <div style="background: #F0F0F0; border: 2px solid #808080; padding: 1rem;">
+              <div style="display: flex; gap: 0.5rem; margin-bottom: 1rem; flex-wrap: wrap;">
+                <button style="background: linear-gradient(180deg, #fff, #ddd); border: 1px solid #000; padding: 0.25rem 0.75rem; font-size: 0.75rem;">File</button>
+                <button style="background: linear-gradient(180deg, #fff, #ddd); border: 1px solid #000; padding: 0.25rem 0.75rem; font-size: 0.75rem;">Edit</button>
+                <button style="background: linear-gradient(180deg, #fff, #ddd); border: 1px solid #000; padding: 0.25rem 0.75rem; font-size: 0.75rem;">View</button>
+              </div>
+              <div style="background: white; border: 2px inset #808080; padding: 0.75rem; font-size: 0.8rem;">
+                <div><strong>Item:</strong> [___________________]</div>
+                <div><strong>Name:</strong> [___________________]</div>
+                <div><strong>Value:</strong> [___________________]</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="project-image modern">
+          <div class="image-label">{{ project.image_after_label }}</div>
+          <div class="placeholder-demo" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 2rem; color: white;">
+            <div style="background: rgba(255,255,255,0.95); border-radius: 1.5rem; padding: 2rem; backdrop-filter: blur(10px); box-shadow: 0 25px 80px rgba(0,0,0,0.4);">
+              <div style="color: #1a202c; margin-bottom: 1.5rem; font-size: 1.25rem; font-weight: 700;">{{ project.title }}</div>
+              <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1rem; margin-bottom: 1.5rem;">
+                <div style="background: linear-gradient(135deg, #667eea, #764ba2); color: white; padding: 1rem; border-radius: 0.75rem; text-align: center;">
+                  <div style="font-size: 0.75rem; opacity: 0.9;">{{ project.stats[0].label }}</div>
+                  <div style="font-size: 1.5rem; font-weight: 700; margin-top: 0.5rem;">{{ project.stats[0].value }}</div>
+                </div>
+                <div style="background: linear-gradient(135deg, #f093fb, #f5576c); color: white; padding: 1rem; border-radius: 0.75rem; text-align: center;">
+                  <div style="font-size: 0.75rem; opacity: 0.9;">{{ project.stats[1].label }}</div>
+                  <div style="font-size: 1.5rem; font-weight: 700; margin-top: 0.5rem;">{{ project.stats[1].value }}</div>
+                </div>
+                <div style="background: linear-gradient(135deg, #4facfe, #00f2fe); color: white; padding: 1rem; border-radius: 0.75rem; text-align: center;">
+                  <div style="font-size: 0.75rem; opacity: 0.9;">{{ project.stats[2].label }}</div>
+                  <div style="font-size: 1.5rem; font-weight: 700; margin-top: 0.5rem;">{{ project.stats[2].value }}</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endif %}
+
+      <div class="project-details">
+        <p>{{ project.description }}</p>
+
+        <div class="project-stats">
+          {% for stat in project.stats %}
+          <div class="stat">
+            <h4>{{ stat.value }}</h4>
+            <p>{{ stat.label }}</p>
+          </div>
+          {% endfor %}
+        </div>
+
+        <div class="project-tech">
+          <strong>{{ project.tech_label }}</strong> {{ project.tech_list }}
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="cta-section">
+  <div class="container">
+    <h2>{{ t.cta.title }}</h2>
+    <p>{{ t.cta.subtitle }}</p>
+    <a href="/contact" class="btn-primary btn-lg">{{ t.cta.button }}</a>
+  </div>
+</section>
+
+<script>
+  // Before/After Sliders for Portfolio
+  document.querySelectorAll('[data-slider]').forEach(slider => {
+    const container = slider.closest('.before-after-container');
+    const afterDiv = container.querySelector('.after');
+    const badgeBefore = container.querySelector('.badge-before');
+    const badgeAfter = container.querySelector('.badge-after');
+
+    let isDragging = false;
+
+    function updateSlider(x) {
+      const rect = container.getBoundingClientRect();
+      const pos = ((x - rect.left) / rect.width) * 100;
+      const clampedPos = Math.max(0, Math.min(100, pos));
+
+      slider.style.left = clampedPos + '%';
+      afterDiv.style.clipPath = `inset(0 ${100 - clampedPos}% 0 0)`;
+
+      if (clampedPos < 20) {
+        badgeAfter.style.opacity = '0';
+      } else {
+        badgeAfter.style.opacity = '1';
+      }
+
+      if (clampedPos > 80) {
+        badgeBefore.style.opacity = '0';
+      } else {
+        badgeBefore.style.opacity = '1';
+      }
+    }
+
+    slider.addEventListener('mousedown', () => isDragging = true);
+    document.addEventListener('mouseup', () => isDragging = false);
+
+    container.addEventListener('mousemove', (e) => {
+      if (isDragging) updateSlider(e.clientX);
+    });
+
+    container.addEventListener('click', (e) => {
+      updateSlider(e.clientX);
+    });
+
+    // Touch support
+    slider.addEventListener('touchstart', () => isDragging = true);
+    document.addEventListener('touchend', () => isDragging = false);
+
+    container.addEventListener('touchmove', (e) => {
+      if (isDragging) {
+        e.preventDefault();
+        updateSlider(e.touches[0].clientX);
+      }
+    });
+  });
+</script>

@@ -1,0 +1,158 @@
+{
+  "page_hero": {
+    "title": "Nuestros servicios",
+    "subtitle": "Servicios de modernización integrales que transforman sus sistemas heredados en soluciones modernas, de alto rendimiento e impulsadas por IA."
+  },
+  "services": [
+    {
+      "id": "legacy_modernization",
+      "icon": "🔄",
+      "title": "Modernización de sistemas heredados",
+      "intro": "Migramos sus sistemas obsoletos a arquitecturas modernas cloud-native sin interrumpir sus operaciones ni perder datos críticos.",
+      "what_we_do_label": "Qué hacemos:",
+      "features": [
+        {"label": "Evaluación de arquitectura:", "text": "Análisis profundo de su sistema actual, dependencias y riesgos de migración"},
+        {"label": "Migración incremental:", "text": "Enfoque por fases que minimiza el tiempo de inactividad y las interrupciones del negocio"},
+        {"label": "Migración de datos:", "text": "Transferencia segura de todos los datos históricos con validación y comprobaciones de integridad"},
+        {"label": "Integración con sistemas heredados:", "text": "Conectamos los sistemas antiguos con los nuevos durante los periodos de transición"},
+        {"label": "Pruebas y QA:", "text": "Pruebas exhaustivas para garantizar la paridad de funcionalidades y la fiabilidad"}
+      ],
+      "tech_label": "Tecnologías con las que trabajamos:",
+      "tech_stack": [
+        "ASP.NET → .NET Core",
+        "PHP 5.x → Laravel/Symfony",
+        "Oracle Forms → Web moderna",
+        "VB.NET → Cloud SaaS",
+        "Java heredado → Spring Boot"
+      ]
+    },
+    {
+      "id": "uiux_redesign",
+      "icon": "🎨",
+      "title": "Rediseño UI/UX",
+      "intro": "Transformamos interfaces anticuadas y rígidas en experiencias modernas e intuitivas que sus usuarios adorarán y que aumentan la productividad en toda su organización.",
+      "what_we_do_label": "Qué hacemos:",
+      "features": [
+        {"label": "Investigación de usuarios:", "text": "Comprendemos las necesidades, puntos de dolor y flujos de trabajo de sus usuarios"},
+        {"label": "Wireframes y prototipos:", "text": "Maquetas interactivas antes de comenzar el desarrollo"},
+        {"label": "Sistemas de diseño:", "text": "Bibliotecas de componentes consistentes y escalables para su marca"},
+        {"label": "Accesibilidad:", "text": "Cumplimiento de WCAG 2.1 AA para experiencias inclusivas"},
+        {"label": "Diseño responsive:", "text": "Pixel-perfect en escritorio, tableta y dispositivos móviles"}
+      ],
+      "tech_label": "Herramientas y frameworks de diseño:",
+      "tech_stack": [
+        "Figma",
+        "Tailwind CSS",
+        "Material Design",
+        "Ant Design",
+        "Sistemas de diseño a medida"
+      ]
+    },
+    {
+      "id": "performance_optimization",
+      "icon": "⚡",
+      "title": "Optimización del rendimiento",
+      "intro": "Mejoramos drásticamente la velocidad, fiabilidad y escalabilidad de sus sistemas actuales mediante técnicas avanzadas de optimización e infraestructura moderna.",
+      "what_we_do_label": "Qué hacemos:",
+      "features": [
+        {"label": "Auditorías de rendimiento:", "text": "Identificamos cuellos de botella, consultas lentas y fugas de recursos"},
+        {"label": "Optimización de la base de datos:", "text": "Ajuste de consultas, indexación y estrategias de caché"},
+        {"label": "Optimización del frontend:", "text": "Code splitting, carga diferida y optimización de imágenes"},
+        {"label": "CDN y caché:", "text": "Distribución global de contenido y capas de caché inteligentes"},
+        {"label": "Pruebas de carga:", "text": "Pruebas de estrés para garantizar que su sistema soporta picos de tráfico"}
+      ],
+      "tech_label": "Stack de rendimiento:",
+      "tech_stack": [
+        "Redis",
+        "Cloudflare CDN",
+        "Nginx",
+        "Ajuste de base de datos",
+        "Imágenes WebP/AVIF"
+      ]
+    },
+    {
+      "id": "ai_integration",
+      "icon": "🤖",
+      "title": "Integración de IA",
+      "intro": "Integramos capacidades de IA en sus flujos de trabajo, desde el procesamiento de lenguaje natural hasta el análisis predictivo, transformando la forma en que su equipo trabaja.",
+      "what_we_do_label": "Qué hacemos:",
+      "features": [
+        {"label": "Estrategia de IA:", "text": "Identificamos los casos de uso de IA de alto impacto para su negocio"},
+        {"label": "Procesamiento de lenguaje natural:", "text": "Chatbots, análisis de sentimiento y comprensión de documentos"},
+        {"label": "Analítica predictiva:", "text": "Previsión de tendencias, detección de anomalías y optimización de decisiones"},
+        {"label": "Visión por computadora:", "text": "Reconocimiento de imágenes, OCR y automatización del control de calidad"},
+        {"label": "Modelos de IA a medida:", "text": "Entrenamos modelos con sus datos propios para obtener ventaja competitiva"}
+      ],
+      "tech_label": "Tecnologías de IA:",
+      "tech_stack": [
+        "OpenAI GPT",
+        "Google Gemini",
+        "Claude",
+        "TensorFlow",
+        "PyTorch",
+        "LangChain"
+      ]
+    },
+    {
+      "id": "workflow_automation",
+      "icon": "🔗",
+      "title": "Automatización de flujos de trabajo",
+      "intro": "Eliminamos las tareas repetitivas y optimizamos los procesos de negocio con automatización inteligente que reduce errores y libera a su equipo para el trabajo estratégico.",
+      "what_we_do_label": "Qué hacemos:",
+      "features": [
+        {"label": "Análisis de procesos:", "text": "Mapeamos los flujos actuales e identificamos oportunidades de automatización"},
+        {"label": "Implementación de RPA:", "text": "Automatizamos tareas repetitivas en múltiples sistemas"},
+        {"label": "Integraciones de API:", "text": "Conectamos sistemas dispares para un flujo de datos sin interrupciones"},
+        {"label": "Flujos de aprobación:", "text": "Enrutamiento, notificaciones y seguimiento de cumplimiento automatizados"},
+        {"label": "Monitorización y alertas:", "text": "Notificaciones en tiempo real cuando la automatización requiere atención"}
+      ],
+      "tech_label": "Herramientas de automatización:",
+      "tech_stack": [
+        "Zapier",
+        "n8n",
+        "Apache Airflow",
+        "APIs a medida",
+        "Webhooks"
+      ]
+    },
+    {
+      "id": "cloud_migration",
+      "icon": "☁️",
+      "title": "Migración a la nube",
+      "intro": "Migramos sus sistemas legacy on-premise a infraestructura cloud moderna sin tiempo de inactividad, garantizando escalabilidad y eficiencia de costes.",
+      "what_we_do_label": "Qué hacemos:",
+      "features": [
+        {"label": "Estrategia cloud:", "text": "AWS, Azure o Google Cloud: le ayudamos a elegir la plataforma adecuada"},
+        {"label": "Lift & Shift:", "text": "Migración rápida para sistemas que necesitan beneficios cloud inmediatos"},
+        {"label": "Re-arquitectura:", "text": "Modernizamos las aplicaciones para aprovechar los servicios cloud-native"},
+        {"label": "Optimización de costes:", "text": "Right-sizing, instancias reservadas y estrategias de auto-scaling"},
+        {"label": "Seguridad y cumplimiento:", "text": "Cifrado, IAM, pistas de auditoría y certificaciones de cumplimiento"}
+      ],
+      "tech_label": "Plataformas cloud:",
+      "tech_stack": [
+        "AWS",
+        "Azure",
+        "Google Cloud",
+        "Cloudflare Workers",
+        "Vercel"
+      ]
+    }
+  ],
+  "process": {
+    "title": "Nuestro proceso",
+    "subtitle": "Una metodología probada que ofrece resultados",
+    "steps": [
+      {"number": "1", "title": "Descubrimiento y evaluación", "text": "Análisis profundo de su sistema actual, objetivos de negocio y limitaciones técnicas."},
+      {"number": "2", "title": "Estrategia y planificación", "text": "Hoja de ruta detallada con hitos, plazos y estrategias de mitigación de riesgos."},
+      {"number": "3", "title": "Diseño y prototipado", "text": "Prototipos interactivos y diseños de arquitectura para su aprobación."},
+      {"number": "4", "title": "Desarrollo y pruebas", "text": "Desarrollo ágil con pruebas continuas y bucles de retroalimentación con el cliente."},
+      {"number": "5", "title": "Migración y lanzamiento", "text": "Despliegue sin tiempo de inactividad con monitorización exhaustiva y planes de rollback."},
+      {"number": "6", "title": "Soporte y optimización", "text": "Soporte continuo, ajuste de rendimiento y mejora continua."}
+    ]
+  },
+  "cta": {
+    "title": "Modernicemos su sistema",
+    "subtitle": "Programe una consulta gratuita para analizar sus necesidades de modernización.",
+    "button": "Comenzar"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "nav": {
+    "home": "Home",
+    "portfolio": "Portfolio",
+    "services": "Servizi",
+    "about": "Chi siamo",
+    "contact": "Contatti",
+    "menu_aria": "Menu"
+  },
+  "footer": {
+    "tagline": "Modernizziamo i sistemi legacy per aziende orientate al futuro.",
+    "services_heading": "Servizi",
+    "services_modernization": "Modernizzazione dei sistemi legacy",
+    "services_uiux": "Riprogettazione UI/UX",
+    "services_performance": "Ottimizzazione delle prestazioni",
+    "company_heading": "Azienda",
+    "company_about": "Chi siamo",
+    "company_portfolio": "Portfolio",
+    "company_contact": "Contatti",
+    "connect_heading": "Connettiti",
+    "connect_github": "GitHub",
+    "copyright": "© 2026 Barbuk. Tutti i diritti riservati."
+  },
+  "site": {
+    "name": "Barbuk",
+    "domain": "barbuk.us"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "page_hero": {
+    "title": "Chi è Barbuk",
+    "subtitle": "La nostra missione è liberare le aziende dal purgatorio dei sistemi legacy."
+  },
+  "story_section": {
+    "title": "La nostra storia",
+    "paragraphs": [
+      "Fondata nel 2026, Barbuk nasce da un'osservazione semplice: innumerevoli aziende sono intrappolate nel purgatorio dei sistemi legacy, spendono milioni per mantenere tecnologie obsolete mentre i concorrenti corrono avanti con soluzioni moderne e basate sull'IA.",
+      "Abbiamo visto di tutto: sistemi Oracle Forms 6i che gestiscono operazioni mission-critical, applicazioni ASP.NET WebForms del 2005 che muovono milioni di transazioni, app desktop VB.NET che non riescono a scalare oltre un singolo ufficio. Questi sistemi funzionano, a malapena, ma frenano le aziende.",
+      "I nostri fondatori hanno trascorso un decennio nel software enterprise, sperimentando in modo diretto il peso del debito tecnico. Sapevamo che dovesse esserci un modo migliore. Non il caos del \"strappa e sostituisci\". Non consulenti di \"trasformazione digitale\" che fanno pagare a ore senza risultati concreti. Ma un approccio pragmatico, testato sul campo, che modernizza i sistemi senza distruggere ciò che funziona.",
+      "Questo è Barbuk. Siamo il team da chiamare quando la modernizzazione dei sistemi legacy non è più un'opzione."
+    ]
+  },
+  "mission_section": {
+    "mission": {
+      "title": "La nostra missione",
+      "description": "Trasformiamo i sistemi legacy in soluzioni moderne e ad alte prestazioni che guidano la crescita del business, senza i rischi, i tempi di inattività o gli sforamenti di budget che affliggono i progetti di modernizzazione tradizionali."
+    },
+    "vision": {
+      "title": "La nostra visione",
+      "description": "Un mondo in cui nessuna azienda è ostaggio di tecnologie obsolete. Dove la modernizzazione è incrementale, sicura e accessibile ad aziende di ogni dimensione."
+    },
+    "values": {
+      "title": "I nostri valori",
+      "items": [
+        {"label": "Pragmatismo prima della perfezione:", "text": "Rilasciamo soluzioni funzionanti e iteriamo rapidamente"},
+        {"label": "Trasparenza:", "text": "Nessun costo nascosto, nessuno scarto estremo di scope"},
+        {"label": "Orientamento ai risultati:", "text": "Veniamo misurati sui risultati di business, non sulle righe di codice"},
+        {"label": "Empatia:", "text": "Comprendiamo la paura di modificare sistemi critici"}
+      ]
+    }
+  },
+  "why_us_section": {
+    "title": "Perché scegliere Barbuk?",
+    "subtitle": "Cosa ci distingue dalle società di consulenza tradizionali",
+    "cards": [
+      {
+        "title": "Migrazioni senza tempi di inattività",
+        "description": "Il nostro approccio di migrazione per fasi mantiene la vostra attività operativa. Non abbiamo mai mancato una scadenza né causato downtime non pianificato."
+      },
+      {
+        "title": "Progetti a prezzo fisso",
+        "description": "Nessun contratto di consulenza senza fine. Ricevete un preventivo dettagliato fin dall'inizio e pagate esattamente quello. Nessuna sorpresa."
+      },
+      {
+        "title": "Consegna rapida",
+        "description": "Rilasciamo in settimane, non in trimestri. Le release incrementali vi permettono di vedere rapidamente i progressi e il ROI."
+      },
+      {
+        "title": "Approccio AI-first",
+        "description": "Ogni progetto di modernizzazione include opportunità di integrazione IA. Chatbot, analisi predittiva, automazione: li integriamo fin dal primo giorno."
+      },
+      {
+        "title": "Risultati misurabili",
+        "description": "Monitoriamo i miglioramenti delle prestazioni, la soddisfazione degli utenti e i risparmi sui costi. Vedrete il ROI in chiaro."
+      },
+      {
+        "title": "Sicurezza enterprise",
+        "description": "Processi conformi a SOC 2. Migrazione dei dati crittografata. Audit trail. Prendiamo la sicurezza sul serio."
+      }
+    ]
+  },
+  "expertise_section": {
+    "title": "Le nostre competenze",
+    "subtitle": "Più di 15 anni di esperienza combinata nella modernizzazione del software enterprise",
+    "cards": [
+      {
+        "title": "Sviluppo full-stack",
+        "description": "React, Vue, Angular, Node.js, .NET, Python: parliamo ogni framework moderno."
+      },
+      {
+        "title": "Architettura e DevOps",
+        "description": "Microservizi, cloud-native, pipeline CI/CD, Kubernetes: costruiamo per la scala."
+      },
+      {
+        "title": "Migrazione dei database",
+        "description": "Oracle → PostgreSQL, SQL Server → MySQL, dai database legacy ai moderni database cloud."
+      },
+      {
+        "title": "Design UI/UX",
+        "description": "Designer certificati che hanno rilasciato prodotti utilizzati da milioni di utenti."
+      },
+      {
+        "title": "IA e Machine Learning",
+        "description": "NLP, computer vision, analisi predittiva: integriamo IA che funziona davvero."
+      },
+      {
+        "title": "Piattaforme cloud",
+        "description": "Certificati su AWS, Azure e Google Cloud. Conosciamo i cloud nel dettaglio."
+      }
+    ]
+  },
+  "clients_section": {
+    "title": "Ci scelgono",
+    "subtitle": "Aziende di ogni settore si affidano a noi per modernizzare i loro sistemi critici",
+    "industries": [
+      "Manifatturiero",
+      "Servizi finanziari",
+      "Sanità",
+      "E-Commerce",
+      "Enterprise SaaS",
+      "Logistica",
+      "Istruzione",
+      "Costruzioni"
+    ]
+  },
+  "cta_section": {
+    "title": "Pronti a modernizzare?",
+    "subtitle": "Parliamo del vostro sistema legacy. Consulenza gratuita, senza pressioni.",
+    "button": "Contattaci"
+  }
+}

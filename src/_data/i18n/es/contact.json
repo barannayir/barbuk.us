@@ -1,0 +1,97 @@
+{
+  "page_hero": {
+    "title": "Contáctenos",
+    "subtitle": "Hablemos sobre cómo podemos transformar sus sistemas legacy. Consulta gratuita, sin compromiso."
+  },
+  "form_section": {
+    "title": "Envíenos un mensaje",
+    "intro": "Normalmente respondemos en un plazo de 24 horas.",
+    "fields": {
+      "name_label": "Su nombre *",
+      "name_placeholder": "Juan Pérez",
+      "email_label": "Dirección de correo electrónico *",
+      "email_placeholder": "juan@empresa.com",
+      "company_label": "Nombre de la empresa",
+      "company_placeholder": "Empresa Ejemplo S.A.",
+      "project_label": "Tipo de proyecto *",
+      "project_placeholder": "Seleccione un servicio...",
+      "message_label": "Cuéntenos sobre su proyecto *",
+      "message_placeholder": "Describa su sistema actual, los desafíos y lo que le gustaría lograr...",
+      "submit_button": "Enviar mensaje",
+      "submitting_button": "Enviando..."
+    },
+    "project_options": [
+      "Modernización de sistemas legacy",
+      "Rediseño de UI/UX",
+      "Optimización de rendimiento",
+      "Integración de IA",
+      "Automatización de flujos de trabajo",
+      "Migración a la nube",
+      "Otro / No estoy seguro"
+    ],
+    "error_fallback": "No se pudo enviar el mensaje. Por favor, intente escribirnos directamente a hello@barbuk.us"
+  },
+  "contact_methods": {
+    "title": "Otras formas de contactarnos",
+    "methods": [
+      {
+        "title": "Correo electrónico",
+        "link": "hello@barbuk.us",
+        "description": "Para consultas generales"
+      },
+      {
+        "title": "Consultas comerciales",
+        "link": "info@barbuk.us",
+        "description": "Para alianzas y acuerdos empresariales"
+      },
+      {
+        "title": "Soporte",
+        "link": "support@barbuk.us",
+        "description": "Para clientes actuales"
+      },
+      {
+        "title": "GitHub",
+        "link": "@barbuk-dev",
+        "url": "https://github.com/barbuk-dev",
+        "description": "Explore nuestros proyectos de código abierto"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "items": [
+      {
+        "question": "¿Cuánto dura un proyecto habitual?",
+        "answer": "La mayoría de los proyectos: de 6 a 12 semanas. Migraciones empresariales complejas: de 3 a 6 meses. Entregamos de forma incremental: verá el progreso rápidamente."
+      },
+      {
+        "question": "¿Ofrecen presupuestos con precio fijo?",
+        "answer": "¡Sí! Tras una llamada de descubrimiento, le proporcionamos una propuesta detallada con precio fijo. Sin sorpresas en la facturación por horas."
+      },
+      {
+        "question": "¿Pueden trabajar con nuestro equipo actual?",
+        "answer": "Por supuesto. Podemos reforzar a su equipo, formar a sus desarrolladores o encargarnos de todo el proyecto, lo que mejor le funcione."
+      }
+    ]
+  },
+  "trust_section": {
+    "cards": [
+      {
+        "title": "Respuesta en 24 horas",
+        "description": "Respondemos a todas las consultas en un día laborable."
+      },
+      {
+        "title": "NDA disponible",
+        "description": "Con mucho gusto firmaremos un NDA antes de hablar sobre su proyecto."
+      },
+      {
+        "title": "Consulta gratuita",
+        "description": "Llamada de descubrimiento de 30 minutos para entender sus necesidades, sin ningún compromiso."
+      },
+      {
+        "title": "Precios transparentes",
+        "description": "Presupuestos detallados con entregables y plazos claros."
+      }
+    ]
+  }
+}

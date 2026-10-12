@@ -1,0 +1,158 @@
+{
+  "page_hero": {
+    "title": "Onze Diensten",
+    "subtitle": "End-to-end moderniseringsdiensten die uw legacy-systemen omzetten in krachtige, AI-gestuurde oplossingen."
+  },
+  "services": [
+    {
+      "id": "legacy_modernization",
+      "icon": "🔄",
+      "title": "Legacy-modernisering",
+      "intro": "Migreer verouderde systemen naadloos naar moderne cloud-native architecturen, zonder uw bedrijfsvoering te verstoren of kritieke data te verliezen.",
+      "what_we_do_label": "Wat Wij Doen:",
+      "features": [
+        {"label": "Architectuurbeoordeling:", "text": "Diepgaande analyse van uw huidige systeem, afhankelijkheden en migratierisico's"},
+        {"label": "Stapsgewijze Migratie:", "text": "Gefaseerde aanpak die downtime en bedrijfsverstoring minimaliseert"},
+        {"label": "Datamigratie:", "text": "Veilige overdracht van alle historische data met validatie en integriteitscontroles"},
+        {"label": "Legacy-integratie:", "text": "Overbrugging van oude en nieuwe systemen tijdens overgangsperiodes"},
+        {"label": "Testen & QA:", "text": "Uitgebreide tests om feature-pariteit en betrouwbaarheid te waarborgen"}
+      ],
+      "tech_label": "Technologieën Waarmee Wij Werken:",
+      "tech_stack": [
+        "ASP.NET → .NET Core",
+        "PHP 5.x → Laravel/Symfony",
+        "Oracle Forms → Modern Web",
+        "VB.NET → Cloud SaaS",
+        "Legacy Java → Spring Boot"
+      ]
+    },
+    {
+      "id": "uiux_redesign",
+      "icon": "🎨",
+      "title": "UI/UX-herontwerp",
+      "intro": "Transformeer verouderde, logge interfaces in intuïtieve, moderne ervaringen waar gebruikers van houden en die de productiviteit binnen uw organisatie verhogen.",
+      "what_we_do_label": "Wat Wij Doen:",
+      "features": [
+        {"label": "Gebruikersonderzoek:", "text": "Inzicht in de behoeften, knelpunten en workflows van uw gebruikers"},
+        {"label": "Wireframing & Prototyping:", "text": "Interactieve mockups voordat de ontwikkeling begint"},
+        {"label": "Design Systems:", "text": "Consistente, schaalbare componentbibliotheken voor uw merk"},
+        {"label": "Toegankelijkheid:", "text": "WCAG 2.1 AA-conformiteit voor inclusieve gebruikerservaringen"},
+        {"label": "Responsive Design:", "text": "Pixel-perfect op desktop, tablet en mobiele apparaten"}
+      ],
+      "tech_label": "Design Tools & Frameworks:",
+      "tech_stack": [
+        "Figma",
+        "Tailwind CSS",
+        "Material Design",
+        "Ant Design",
+        "Custom Design Systems"
+      ]
+    },
+    {
+      "id": "performance_optimization",
+      "icon": "⚡",
+      "title": "Prestatie-optimalisatie",
+      "intro": "Verbeter de snelheid, betrouwbaarheid en schaalbaarheid van uw bestaande systemen drastisch met geavanceerde optimalisatietechnieken en moderne infrastructuur.",
+      "what_we_do_label": "Wat Wij Doen:",
+      "features": [
+        {"label": "Prestatie-audits:", "text": "Identificeer knelpunten, trage queries en geheugenlekken"},
+        {"label": "Database-optimalisatie:", "text": "Query-tuning, indexering en cachingstrategieën"},
+        {"label": "Frontend-optimalisatie:", "text": "Code splitting, lazy loading en afbeeldingsoptimalisatie"},
+        {"label": "CDN & Caching:", "text": "Wereldwijde content delivery en intelligente cachinglagen"},
+        {"label": "Load Testing:", "text": "Stresstests om ervoor te zorgen dat uw systeem piekbelasting aankan"}
+      ],
+      "tech_label": "Prestatie Stack:",
+      "tech_stack": [
+        "Redis",
+        "Cloudflare CDN",
+        "Nginx",
+        "Database Tuning",
+        "WebP/AVIF Images"
+      ]
+    },
+    {
+      "id": "ai_integration",
+      "icon": "🤖",
+      "title": "AI-integratie",
+      "intro": "Integreer intelligente AI-functionaliteiten in uw workflows—van natuurlijke taalverwerking tot predictive analytics—en transformeer de manier waarop uw team werkt.",
+      "what_we_do_label": "Wat Wij Doen:",
+      "features": [
+        {"label": "AI-strategie:", "text": "Identificeer AI-use cases met hoge impact voor uw bedrijf"},
+        {"label": "Natural Language Processing:", "text": "Chatbots, sentimentanalyse en documentbegrip"},
+        {"label": "Predictive Analytics:", "text": "Voorspel trends, detecteer afwijkingen en optimaliseer beslissingen"},
+        {"label": "Computer Vision:", "text": "Beeldherkenning, OCR en geautomatiseerde kwaliteitscontrole"},
+        {"label": "Custom AI-modellen:", "text": "Train modellen op uw eigen data voor concurrentievoordeel"}
+      ],
+      "tech_label": "AI-technologieën:",
+      "tech_stack": [
+        "OpenAI GPT",
+        "Google Gemini",
+        "Claude",
+        "TensorFlow",
+        "PyTorch",
+        "LangChain"
+      ]
+    },
+    {
+      "id": "workflow_automation",
+      "icon": "🔗",
+      "title": "Workflowautomatisering",
+      "intro": "Elimineer repetitieve taken en stroomlijn bedrijfsprocessen met slimme automatisering die fouten vermindert en uw team vrijmaakt voor strategisch werk.",
+      "what_we_do_label": "Wat Wij Doen:",
+      "features": [
+        {"label": "Procesanalyse:", "text": "Breng huidige workflows in kaart en identificeer automatiseringskansen"},
+        {"label": "RPA-implementatie:", "text": "Automatiseer repetitieve taken across meerdere systemen"},
+        {"label": "API-integraties:", "text": "Verbind disparate systemen voor naadloze gegevensuitwisseling"},
+        {"label": "Goedkeuringsworkflows:", "text": "Geautomatiseerde routering, meldingen en compliance-tracking"},
+        {"label": "Monitoring & Meldingen:", "text": "Realtime meldingen wanneer automatisering aandacht nodig heeft"}
+      ],
+      "tech_label": "Automatiseringstools:",
+      "tech_stack": [
+        "Zapier",
+        "n8n",
+        "Apache Airflow",
+        "Custom APIs",
+        "Webhooks"
+      ]
+    },
+    {
+      "id": "cloud_migration",
+      "icon": "☁️",
+      "title": "Cloudmigratie",
+      "intro": "Migreer legacy on-premise systemen naar moderne cloudinfrastructuur met nul downtime, en waarborg schaalbaarheid en kostenefficiëntie.",
+      "what_we_do_label": "Wat Wij Doen:",
+      "features": [
+        {"label": "Cloudstrategie:", "text": "AWS, Azure of Google Cloud—wij helpen u het juiste platform te kiezen"},
+        {"label": "Lift & Shift:", "text": "Snelle migratie voor systemen die direct cloudvoordelen nodig hebben"},
+        {"label": "Herarchitectuur:", "text": "Moderniseer applicaties om cloud-native services te benutten"},
+        {"label": "Kostenoptimalisatie:", "text": "Right-sizing, reserved instances en auto-scaling strategieën"},
+        {"label": "Beveiliging & Compliance:", "text": "Encryptie, IAM, audittrails en compliance-certificeringen"}
+      ],
+      "tech_label": "Cloudplatforms:",
+      "tech_stack": [
+        "AWS",
+        "Azure",
+        "Google Cloud",
+        "Cloudflare Workers",
+        "Vercel"
+      ]
+    }
+  ],
+  "process": {
+    "title": "Onze Werkwijze",
+    "subtitle": "Een bewezen methodologie die resultaten oplevert",
+    "steps": [
+      {"number": "1", "title": "Discovery & Assessment", "text": "Diepgaande duik in uw huidige systeem, bedrijfsdoelen en technische beperkingen."},
+      {"number": "2", "title": "Strategie & Planning", "text": "Gedetailleerde roadmap met mijlpalen, tijdlijnen en risicobeperkende strategieën."},
+      {"number": "3", "title": "Design & Prototyping", "text": "Interactieve prototypes en architectuurontwerpen ter goedkeuring."},
+      {"number": "4", "title": "Ontwikkeling & Testen", "text": "Agile ontwikkeling met continue tests en feedbackloops met de klant."},
+      {"number": "5", "title": "Migratie & Lancering", "text": "Zero-downtime implementatie met uitgebreide monitoring en rollback-plannen."},
+      {"number": "6", "title": "Ondersteuning & Optimalisatie", "text": "Continue ondersteuning, prestatietuning en voortdurende verbetering."}
+    ]
+  },
+  "cta": {
+    "title": "Laten Wij Uw Systeem Moderniseren",
+    "subtitle": "Plan een gratis consult om uw moderniseringsbehoeften te bespreken.",
+    "button": "Aan de slag"
+  }
+}

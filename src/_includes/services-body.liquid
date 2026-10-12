@@ -1,0 +1,61 @@
+<section class="page-hero">
+  <div class="container">
+    <h1>{{ t.page_hero.title }}</h1>
+    <p class="hero-subtitle">{{ t.page_hero.subtitle }}</p>
+  </div>
+</section>
+
+<section class="services-detail">
+  <div class="container">
+    {% for service in t.services %}
+    <div class="service-detail" id="{{ service.id }}">
+      <div class="service-icon-large">{{ service.icon }}</div>
+      <h2>{{ service.title }}</h2>
+      <p class="service-intro">{{ service.intro }}</p>
+
+      <div class="service-features">
+        <h3>{{ service.what_we_do_label }}</h3>
+        <ul>
+          {% for feature in service.features %}
+          <li><strong>{{ feature.label }}</strong> {{ feature.text }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      <div class="service-tech-stack">
+        <strong>{{ service.tech_label }}</strong>
+        <div class="tech-tags">
+          {% for tech in service.tech_stack %}
+          <span>{{ tech }}</span>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="process-section">
+  <div class="container">
+    <h2>{{ t.process.title }}</h2>
+    <p class="section-subtitle">{{ t.process.subtitle }}</p>
+
+    <div class="process-steps">
+      {% for step in t.process.steps %}
+      <div class="process-step">
+        <div class="step-number">{{ step.number }}</div>
+        <h3>{{ step.title }}</h3>
+        <p>{{ step.text }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="cta-section">
+  <div class="container">
+    <h2>{{ t.cta.title }}</h2>
+    <p>{{ t.cta.subtitle }}</p>
+    <a href="/contact" class="btn-primary btn-lg">{{ t.cta.button }}</a>
+  </div>
+</section>

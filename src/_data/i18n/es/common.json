@@ -1,0 +1,28 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "portfolio": "Portafolio",
+    "services": "Servicios",
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "menu_aria": "Menú"
+  },
+  "footer": {
+    "tagline": "Modernización de sistemas heredados para empresas visionarias.",
+    "services_heading": "Servicios",
+    "services_modernization": "Modernización de sistemas heredados",
+    "services_uiux": "Rediseño de UI/UX",
+    "services_performance": "Optimización del rendimiento",
+    "company_heading": "Empresa",
+    "company_about": "Nosotros",
+    "company_portfolio": "Portafolio",
+    "company_contact": "Contacto",
+    "connect_heading": "Conectar",
+    "connect_github": "GitHub",
+    "copyright": "© 2026 Barbuk. Todos los derechos reservados."
+  },
+  "site": {
+    "name": "Barbuk",
+    "domain": "barbuk.us"
+  }
+}

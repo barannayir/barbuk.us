@@ -1,0 +1,97 @@
+{
+  "page_hero": {
+    "title": "Get in Touch",
+    "subtitle": "Let's discuss how we can transform your legacy systems. Free consultation, no pressure."
+  },
+  "form_section": {
+    "title": "Send Us a Message",
+    "intro": "We typically respond within 24 hours.",
+    "fields": {
+      "name_label": "Your Name *",
+      "name_placeholder": "John Doe",
+      "email_label": "Email Address *",
+      "email_placeholder": "john@company.com",
+      "company_label": "Company Name",
+      "company_placeholder": "Acme Corporation",
+      "project_label": "Project Type *",
+      "project_placeholder": "Select a service...",
+      "message_label": "Tell Us About Your Project *",
+      "message_placeholder": "Describe your current system, challenges, and what you'd like to achieve...",
+      "submit_button": "Send Message",
+      "submitting_button": "Sending..."
+    },
+    "project_options": [
+      "Legacy System Modernization",
+      "UI/UX Redesign",
+      "Performance Optimization",
+      "AI Integration",
+      "Workflow Automation",
+      "Cloud Migration",
+      "Other / Not Sure"
+    ],
+    "error_fallback": "Failed to send message. Please try emailing us directly at hello@barbuk.us"
+  },
+  "contact_methods": {
+    "title": "Other Ways to Reach Us",
+    "methods": [
+      {
+        "title": "Email",
+        "link": "hello@barbuk.us",
+        "description": "For general inquiries"
+      },
+      {
+        "title": "Business Inquiries",
+        "link": "info@barbuk.us",
+        "description": "For partnerships and enterprise deals"
+      },
+      {
+        "title": "Support",
+        "link": "support@barbuk.us",
+        "description": "For existing clients"
+      },
+      {
+        "title": "GitHub",
+        "link": "@barbuk-dev",
+        "url": "https://github.com/barbuk-dev",
+        "description": "Check out our open-source projects"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Quick FAQs",
+    "items": [
+      {
+        "question": "How long does a typical project take?",
+        "answer": "Most projects: 6-12 weeks. Complex enterprise migrations: 3-6 months. We ship incrementally—you see progress fast."
+      },
+      {
+        "question": "Do you offer fixed-price quotes?",
+        "answer": "Yes! After a discovery call, we provide a detailed fixed-price proposal. No hourly billing surprises."
+      },
+      {
+        "question": "Can you work with our existing team?",
+        "answer": "Absolutely. We can augment your team, train your developers, or handle the entire project—whatever works best."
+      }
+    ]
+  },
+  "trust_section": {
+    "cards": [
+      {
+        "title": "24-Hour Response",
+        "description": "We respond to all inquiries within one business day."
+      },
+      {
+        "title": "NDA Available",
+        "description": "We're happy to sign an NDA before discussing your project."
+      },
+      {
+        "title": "Free Consultation",
+        "description": "30-minute discovery call to understand your needs—no strings attached."
+      },
+      {
+        "title": "Transparent Pricing",
+        "description": "Detailed quotes with clear deliverables and timelines."
+      }
+    ]
+  }
+}

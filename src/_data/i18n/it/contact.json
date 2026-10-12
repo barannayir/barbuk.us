@@ -1,0 +1,97 @@
+{
+  "page_hero": {
+    "title": "Contattaci",
+    "subtitle": "Parliamo di come possiamo trasformare i tuoi sistemi legacy. Consulenza gratuita, senza pressioni."
+  },
+  "form_section": {
+    "title": "Inviaci un messaggio",
+    "intro": "Di solito rispondiamo entro 24 ore.",
+    "fields": {
+      "name_label": "Il tuo nome *",
+      "name_placeholder": "Mario Rossi",
+      "email_label": "Indirizzo email *",
+      "email_placeholder": "mario@azienda.com",
+      "company_label": "Nome azienda",
+      "company_placeholder": "Acme S.r.l.",
+      "project_label": "Tipo di progetto *",
+      "project_placeholder": "Seleziona un servizio...",
+      "message_label": "Raccontaci il tuo progetto *",
+      "message_placeholder": "Descrivi il tuo sistema attuale, le sfide e cosa vorresti ottenere...",
+      "submit_button": "Invia messaggio",
+      "submitting_button": "Invio in corso..."
+    },
+    "project_options": [
+      "Modernizzazione di sistemi legacy",
+      "Riprogettazione UI/UX",
+      "Ottimizzazione delle prestazioni",
+      "Integrazione IA",
+      "Automazione dei flussi di lavoro",
+      "Migrazione al cloud",
+      "Altro / Non sono sicuro"
+    ],
+    "error_fallback": "Invio del messaggio non riuscito. Prova a scriverci direttamente a hello@barbuk.us"
+  },
+  "contact_methods": {
+    "title": "Altri modi per contattarci",
+    "methods": [
+      {
+        "title": "Email",
+        "link": "hello@barbuk.us",
+        "description": "Per richieste generali"
+      },
+      {
+        "title": "Richieste commerciali",
+        "link": "info@barbuk.us",
+        "description": "Per partnership e accordi aziendali"
+      },
+      {
+        "title": "Supporto",
+        "link": "support@barbuk.us",
+        "description": "Per clienti esistenti"
+      },
+      {
+        "title": "GitHub",
+        "link": "@barbuk-dev",
+        "url": "https://github.com/barbuk-dev",
+        "description": "Scopri i nostri progetti open-source"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Domande frequenti",
+    "items": [
+      {
+        "question": "Quanto dura in genere un progetto?",
+        "answer": "La maggior parte dei progetti: 6-12 settimane. Migrazioni aziendali complesse: 3-6 mesi. Rilasciamo in modo incrementale: vedrai i progressi rapidamente."
+      },
+      {
+        "question": "Offrite preventivi a prezzo fisso?",
+        "answer": "Sì! Dopo una call di analisi, forniamo un preventivo dettagliato a prezzo fisso. Nessuna sorpresa in fatturazione a ore."
+      },
+      {
+        "question": "Potete lavorare con il nostro team attuale?",
+        "answer": "Assolutamente. Possiamo potenziare il tuo team, formare i tuoi sviluppatori o gestire l'intero progetto: qualunque sia la soluzione migliore."
+      }
+    ]
+  },
+  "trust_section": {
+    "cards": [
+      {
+        "title": "Risposta in 24 ore",
+        "description": "Rispondiamo a tutte le richieste entro un giorno lavorativo."
+      },
+      {
+        "title": "NDA disponibile",
+        "description": "Siamo felici di firmare un NDA prima di discutere il tuo progetto."
+      },
+      {
+        "title": "Consulenza gratuita",
+        "description": "Call di analisi di 30 minuti per capire le tue esigenze, senza impegni."
+      },
+      {
+        "title": "Prezzi trasparenti",
+        "description": "Preventivi dettagliati con deliverable e tempistiche chiari."
+      }
+    ]
+  }
+}

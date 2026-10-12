@@ -1,0 +1,28 @@
+{
+  "nav": {
+    "home": "Home",
+    "portfolio": "Portfolio",
+    "services": "Diensten",
+    "about": "Over ons",
+    "contact": "Contact",
+    "menu_aria": "Menu"
+  },
+  "footer": {
+    "tagline": "Wij moderniseren legacy-systemen voor toekomstgerichte ondernemingen.",
+    "services_heading": "Diensten",
+    "services_modernization": "Legacy-modernisering",
+    "services_uiux": "UI/UX-redesign",
+    "services_performance": "Prestatieoptimalisatie",
+    "company_heading": "Bedrijf",
+    "company_about": "Over ons",
+    "company_portfolio": "Portfolio",
+    "company_contact": "Contact",
+    "connect_heading": "Contact",
+    "connect_github": "GitHub",
+    "copyright": "© 2026 Barbuk. Alle rechten voorbehouden."
+  },
+  "site": {
+    "name": "Barbuk",
+    "domain": "barbuk.us"
+  }
+}

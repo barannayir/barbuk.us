@@ -1,0 +1,75 @@
+{
+  "page_hero": {
+    "title": "Ons Portfolio",
+    "subtitle": "Echte transformaties. Echte resultaten. Ontdek hoe wij bedrijven hebben geholpen hun legacy-systemen te moderniseren."
+  },
+  "badges": {
+    "before": "Voor",
+    "after": "Na"
+  },
+  "projects": [
+    {
+      "id": "admin_panel",
+      "title": "Transformatie van Enterprise Admin Panel",
+      "tag": "Legacy ASP.NET → Modern React",
+      "description": "Wij hebben een 15 jaar oud ASP.NET-admin panel met verouderde Windows-stijl UI herbouwd tot een modern, responsief dashboard met realtime updates en AI-gestuurde inzichten.",
+      "stats": [
+        {"value": "60%", "label": "Snellere Taakvoltooiing"},
+        {"value": "94%", "label": "Gebruikerstevredenheid"},
+        {"value": "Nul", "label": "Downtime Migratie"}
+      ],
+      "tech_label": "Technologieën:",
+      "tech_list": "React, Node.js, PostgreSQL, Tailwind CSS, WebSocket"
+    },
+    {
+      "id": "ecommerce",
+      "title": "E-Commerce Platform Herontwerp",
+      "tag": "PHP 5.6 → Next.js",
+      "description": "Een 10 jaar oude PHP-gebaseerde e-commercesite is volledig herbouwd met moderne Next.js, met server-side rendering, AI-productaanbevelingen en een indrukwekkende gebruikerservaring.",
+      "image_before_label": "Voor: Legacy PHP",
+      "image_after_label": "Na: Next.js",
+      "stats": [
+        {"value": "320%", "label": "Stijging in Conversies"},
+        {"value": "1,2s", "label": "Pagina Laadtijd"},
+        {"value": "87%", "label": "Minder Verlaten Winkelwagens"}
+      ],
+      "tech_label": "Technologieën:",
+      "tech_list": "Next.js, TypeScript, Stripe, Vercel, AI Product Matching"
+    },
+    {
+      "id": "crm",
+      "title": "Legacy CRM-modernisering",
+      "tag": "VB.NET → Cloud-Native SaaS",
+      "description": "Alleen-desktop VB.NET CRM getransformeerd tot een modern cloud-native SaaS-platform met mobiele toegang, AI-gestuurde lead scoring en geautomatiseerde workflows.",
+      "image_before_label": "Voor: Desktop VB.NET",
+      "image_after_label": "Na: Cloud SaaS",
+      "stats": [
+        {"value": "450%", "label": "Meer Gebruikersadoptie"},
+        {"value": "24/7", "label": "Cloud Beschikbaarheid"},
+        {"value": "92%", "label": "Kostenreductie"}
+      ],
+      "tech_label": "Technologieën:",
+      "tech_list": "Vue.js, AWS, Lambda, DynamoDB, AI Lead Scoring"
+    },
+    {
+      "id": "erp",
+      "title": "Manufacturing ERP-systeem Upgrade",
+      "tag": "Oracle Forms → Progressive Web App",
+      "description": "Een missiekritisch Oracle Forms 6i ERP-systeem gemigreerd naar een moderne Progressive Web App met offline-mogelijkheden, realtime synchronisatie en mobiele magazijntoegang.",
+      "image_before_label": "Voor: Oracle Forms",
+      "image_after_label": "Na: PWA",
+      "stats": [
+        {"value": "75%", "label": "Snellere Data-invoer"},
+        {"value": "100%", "label": "Mobiele Toegang"},
+        {"value": "€180K", "label": "Jaarlijkse Besparing"}
+      ],
+      "tech_label": "Technologieën:",
+      "tech_list": "Angular, PWA, Offline-First, Azure, Real-time Sync"
+    }
+  ],
+  "cta": {
+    "title": "Klaar om Uw Systeem te Transformeren?",
+    "subtitle": "Laten wij bespreken hoe wij uw legacy-applicaties kunnen moderniseren tot krachtige oplossingen.",
+    "button": "Aan de slag"
+  }
+}

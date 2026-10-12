@@ -1,0 +1,113 @@
+{
+  "page_hero": {
+    "title": "Over Barbuk",
+    "subtitle": "Wij hebben ons tot missie gesteld om bedrijven te redden uit de legacy-system purgatory."
+  },
+  "story_section": {
+    "title": "Ons Verhaal",
+    "paragraphs": [
+      "Opgericht in 2026, is Barbuk ontstaan vanuit een eenvoudige observatie: talloze bedrijven zitten gevangen in legacy-system purgatory—zij besteden miljoenen aan het onderhouden van verouderde technologie terwijl concurrenten vooruitstormen met moderne, AI-gestuurde oplossingen.",
+      "Wij hebben het allemaal gezien: Oracle Forms 6i-systemen die missiekritieke operaties draaien, ASP.NET WebForms-apps uit 2005 die miljoenen aan transacties verwerken, VB.NET-desktopapps die niet verder kunnen schalen dan één kantoor. Deze systemen werken—nauwelijks—maar ze houden bedrijven tegen.",
+      "Onze oprichters hebben een decennium in enterprise software doorgebracht en de pijn van technical debt uit de eerste hand ervaren. Wij wisten dat er een betere manier moest zijn. Niet rip-and-replace chaos. Niet eindeloze \"digitale transformatie\"-consultants die per uur factureren zonder tastbare resultaten. Maar een pragmatische, in de praktijk bewezen aanpak die systemen moderniseert zonder te vernietigen wat werkt.",
+      "Dat is Barbuk. Wij zijn het team dat u belt wanneer legacy-modernisering niet langer optioneel is."
+    ]
+  },
+  "mission_section": {
+    "mission": {
+      "title": "Onze Missie",
+      "description": "Transformeer legacy-systemen naar moderne, krachtige oplossingen die bedrijfsgroei stimuleren—zonder de risico's, downtime of budgetoverschrijdingen die traditionele moderniseringsprojecten teisteren."
+    },
+    "vision": {
+      "title": "Onze Visie",
+      "description": "Een wereld waarin geen enkel bedrijf wordt gegijzeld door verouderde technologie. Waarin modernisering stapsgewijs, veilig en toegankelijk is voor bedrijven van elke omvang."
+    },
+    "values": {
+      "title": "Onze Waarden",
+      "items": [
+        {"label": "Pragmatisme boven perfectie:", "text": "Lever werkende oplossingen, iterere snel"},
+        {"label": "Transparantie:", "text": "Geen verborgen kosten, geen scope-creep"},
+        {"label": "Resultaatgericht:", "text": "Wij worden gemeten naar bedrijfsresultaten, niet naar regels code"},
+        {"label": "Empathie:", "text": "Wij begrijpen de angst om kritieke systemen te wijzigen"}
+      ]
+    }
+  },
+  "why_us_section": {
+    "title": "Waarom Barbuk?",
+    "subtitle": "Wat ons onderscheidt van traditionele adviesbureaus",
+    "cards": [
+      {
+        "title": "Zero-Downtime Migraties",
+        "description": "Onze gefaseerde migratieaanpak betekent dat uw bedrijf blijft draaien. Wij hebben nooit een deadline gemist of ongeplande downtime veroorzaakt."
+      },
+      {
+        "title": "Vaste-Prijs Projecten",
+        "description": "Geen open-eindige adviescontracten. U krijgt vooraf een gedetailleerde offerte, en dat is wat u betaalt. Geen verrassingen."
+      },
+      {
+        "title": "Snelle Levering",
+        "description": "Wij leveren in weken, niet in kwartalen. Incrementele releases betekenen dat u snel vooruitgang ziet—en ROI."
+      },
+      {
+        "title": "AI-First Aanpak",
+        "description": "Elk moderniseringsproject omvat AI-integratiekansen. Chatbots, predictive analytics, automatisering—wij bouwen het vanaf dag één in."
+      },
+      {
+        "title": "Meetbare Resultaten",
+        "description": "Wij volgen prestatiewinst, gebruikerstevredenheid en kostenbesparingen. U ziet de ROI zwart op wit."
+      },
+      {
+        "title": "Enterprise Beveiliging",
+        "description": "SOC 2-conforme processen. Versleutelde datamigratie. Audittrails. Wij nemen beveiliging serieus."
+      }
+    ]
+  },
+  "expertise_section": {
+    "title": "Onze Expertise",
+    "subtitle": "15+ jaar gecombineerde ervaring in enterprise softwaremodernisering",
+    "cards": [
+      {
+        "title": "Full-Stack Development",
+        "description": "React, Vue, Angular, Node.js, .NET, Python—wij spreken elk modern framework."
+      },
+      {
+        "title": "Architectuur & DevOps",
+        "description": "Microservices, cloud-native, CI/CD-pipelines, Kubernetes—wij bouwen voor schaal."
+      },
+      {
+        "title": "Databasemigraties",
+        "description": "Oracle → PostgreSQL, SQL Server → MySQL, legacy DB's naar moderne cloud-databases."
+      },
+      {
+        "title": "UI/UX Design",
+        "description": "Gecertificeerde designers die producten hebben geleverd die door miljoenen worden gebruikt."
+      },
+      {
+        "title": "AI & Machine Learning",
+        "description": "NLP, computer vision, predictive analytics—wij integreren AI die daadwerkelijk werkt."
+      },
+      {
+        "title": "Cloudplatforms",
+        "description": "AWS, Azure, Google Cloud gecertificeerd. Wij kennen de clouds van binnen en van buiten."
+      }
+    ]
+  },
+  "clients_section": {
+    "title": "Onze Klanten",
+    "subtitle": "Bedrijven across diverse industrieën vertrouwen ons voor de modernisering van hun kritieke systemen",
+    "industries": [
+      "Manufacturing",
+      "Financial Services",
+      "Healthcare",
+      "E-Commerce",
+      "Enterprise SaaS",
+      "Logistics",
+      "Education",
+      "Construction"
+    ]
+  },
+  "cta_section": {
+    "title": "Klaar om te Moderniseren?",
+    "subtitle": "Laten wij praten over uw legacy-systeem. Gratis consult, geen druk.",
+    "button": "Neem contact op"
+  }
+}

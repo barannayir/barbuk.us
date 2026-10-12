@@ -1,0 +1,113 @@
+{
+  "page_hero": {
+    "title": "About Barbuk",
+    "subtitle": "We're on a mission to rescue businesses from legacy system purgatory."
+  },
+  "story_section": {
+    "title": "Our Story",
+    "paragraphs": [
+      "Founded in 2026, Barbuk emerged from a simple observation: countless businesses are trapped in legacy system purgatory—spending millions maintaining outdated technology while competitors race ahead with modern, AI-powered solutions.",
+      "We've seen it all: Oracle Forms 6i systems running mission-critical operations, ASP.NET WebForms apps from 2005 handling millions in transactions, VB.NET desktop apps that can't scale beyond a single office. These systems work—barely—but they're holding businesses back.",
+      "Our founders spent a decade in enterprise software, witnessing the pain of technical debt firsthand. We knew there had to be a better way. Not rip-and-replace chaos. Not endless \"digital transformation\" consultants billing by the hour with no tangible results. But a pragmatic, battle-tested approach that modernizes systems without destroying what works.",
+      "That's Barbuk. We're the team you call when legacy modernization isn't optional anymore."
+    ]
+  },
+  "mission_section": {
+    "mission": {
+      "title": "Our Mission",
+      "description": "Transform legacy systems into modern, high-performance solutions that drive business growth—without the risk, downtime, or budget overruns that plague traditional modernization projects."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "description": "A world where no business is held hostage by outdated technology. Where modernization is incremental, safe, and accessible to companies of all sizes."
+    },
+    "values": {
+      "title": "Our Values",
+      "items": [
+        {"label": "Pragmatism over perfection:", "text": "Ship working solutions, iterate fast"},
+        {"label": "Transparency:", "text": "No hidden costs, no scope creep"},
+        {"label": "Results-driven:", "text": "We're measured by business outcomes, not lines of code"},
+        {"label": "Empathy:", "text": "We understand the fear of changing critical systems"}
+      ]
+    }
+  },
+  "why_us_section": {
+    "title": "Why Choose Barbuk?",
+    "subtitle": "What makes us different from traditional consulting firms",
+    "cards": [
+      {
+        "title": "Zero-Downtime Migrations",
+        "description": "Our phased migration approach means your business keeps running. We've never missed a deadline or caused unplanned downtime."
+      },
+      {
+        "title": "Fixed-Price Projects",
+        "description": "No open-ended consulting contracts. You get a detailed quote upfront, and that's what you pay. No surprises."
+      },
+      {
+        "title": "Fast Delivery",
+        "description": "We ship in weeks, not quarters. Incremental releases mean you see progress—and ROI—fast."
+      },
+      {
+        "title": "AI-First Approach",
+        "description": "Every modernization project includes AI integration opportunities. Chatbots, predictive analytics, automation—we build it in from day one."
+      },
+      {
+        "title": "Measurable Results",
+        "description": "We track performance gains, user satisfaction, and cost savings. You'll see the ROI in black and white."
+      },
+      {
+        "title": "Enterprise Security",
+        "description": "SOC 2 compliant processes. Encrypted data migration. Audit trails. We take security seriously."
+      }
+    ]
+  },
+  "expertise_section": {
+    "title": "Our Expertise",
+    "subtitle": "15+ years of combined experience in enterprise software modernization",
+    "cards": [
+      {
+        "title": "Full-Stack Development",
+        "description": "React, Vue, Angular, Node.js, .NET, Python—we speak every modern framework."
+      },
+      {
+        "title": "Architecture & DevOps",
+        "description": "Microservices, cloud-native, CI/CD pipelines, Kubernetes—we build for scale."
+      },
+      {
+        "title": "Database Migrations",
+        "description": "Oracle → PostgreSQL, SQL Server → MySQL, legacy DBs to modern cloud databases."
+      },
+      {
+        "title": "UI/UX Design",
+        "description": "Certified designers who've shipped products used by millions."
+      },
+      {
+        "title": "AI & Machine Learning",
+        "description": "NLP, computer vision, predictive analytics—we integrate AI that actually works."
+      },
+      {
+        "title": "Cloud Platforms",
+        "description": "AWS, Azure, Google Cloud certified. We know the clouds inside and out."
+      }
+    ]
+  },
+  "clients_section": {
+    "title": "Trusted By",
+    "subtitle": "Businesses across industries trust us to modernize their critical systems",
+    "industries": [
+      "Manufacturing",
+      "Financial Services",
+      "Healthcare",
+      "E-Commerce",
+      "Enterprise SaaS",
+      "Logistics",
+      "Education",
+      "Construction"
+    ]
+  },
+  "cta_section": {
+    "title": "Ready to Modernize?",
+    "subtitle": "Let's talk about your legacy system. Free consultation, no pressure.",
+    "button": "Get in Touch"
+  }
+}

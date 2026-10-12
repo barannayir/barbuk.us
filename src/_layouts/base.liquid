@@ -1,9 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+{%- assign currentLang = "en" -%}
+{%- assign pathParts = page.url | split: "/" -%}
+{%- for part in pathParts -%}
+  {%- if part == "de" or part == "fr" or part == "nl" or part == "it" or part == "es" -%}
+    {%- assign currentLang = part -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- assign cleanUrl = page.url | replace: "/de/", "/" | replace: "/fr/", "/" | replace: "/nl/", "/" | replace: "/it/", "/" | replace: "/es/", "/" -%}
+<html lang="{{ currentLang }}">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+
   <!-- Primary Meta Tags -->
   <title>{{ title }} | Barbuk - Legacy System Modernization</title>
   <meta name="title" content="{{ title }} | Barbuk - Legacy System Modernization">
@@ -12,6 +20,18 @@
   <meta name="author" content="Barbuk">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://barbuk.us{{ page.url }}">
+
+  <!-- Hreflang: regional codes for SEO -->
+  <link rel="alternate" hreflang="en-US" href="https://barbuk.us{{ cleanUrl }}">
+  <link rel="alternate" hreflang="de-DE" href="https://barbuk.us/de{{ cleanUrl }}">
+  <link rel="alternate" hreflang="fr-FR" href="https://barbuk.us/fr{{ cleanUrl }}">
+  <link rel="alternate" hreflang="nl-NL" href="https://barbuk.us/nl{{ cleanUrl }}">
+  <link rel="alternate" hreflang="it-IT" href="https://barbuk.us/it{{ cleanUrl }}">
+  <link rel="alternate" hreflang="es-ES" href="https://barbuk.us/es{{ cleanUrl }}">
+  <link rel="alternate" hreflang="x-default" href="https://barbuk.us{{ cleanUrl }}">
+
+  <!-- Open Graph locale -->
+  <meta property="og:locale" content="{{ i18n.meta[currentLang].hreflang | replace: '-', '_' }}">
   
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">

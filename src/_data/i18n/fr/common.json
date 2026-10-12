@@ -1,0 +1,28 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "portfolio": "Portfolio",
+    "services": "Services",
+    "about": "À propos",
+    "contact": "Contact",
+    "menu_aria": "Menu"
+  },
+  "footer": {
+    "tagline": "Modernisation des systèmes existants pour les entreprises tournées vers l'avenir.",
+    "services_heading": "Services",
+    "services_modernization": "Modernisation des systèmes existants",
+    "services_uiux": "Refonte UI/UX",
+    "services_performance": "Optimisation des performances",
+    "company_heading": "Entreprise",
+    "company_about": "À propos",
+    "company_portfolio": "Portfolio",
+    "company_contact": "Contact",
+    "connect_heading": "Suivez-nous",
+    "connect_github": "GitHub",
+    "copyright": "© 2026 Barbuk. Tous droits réservés."
+  },
+  "site": {
+    "name": "Barbuk",
+    "domain": "barbuk.us"
+  }
+}

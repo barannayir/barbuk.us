@@ -3,34 +3,34 @@
     <div class="footer-grid">
       <div class="footer-col">
         <h3>Barbuk</h3>
-        <p>Modernizing legacy systems for forward-thinking businesses.</p>
+        <p>{{ i18n.footer.tagline | default: 'Modernizing legacy systems for forward-thinking businesses.' }}</p>
       </div>
       <div class="footer-col">
-        <h4>Services</h4>
+        <h4>{{ i18n.footer.services_heading | default: 'Services' }}</h4>
         <ul>
-          <li><a href="/services#modernization">Legacy Modernization</a></li>
-          <li><a href="/services#ui-ux">UI/UX Redesign</a></li>
-          <li><a href="/services#performance">Performance Optimization</a></li>
+          <li><a href="{{ '/services' | localizedUrl: page.lang }}#modernization">{{ i18n.footer.services_modernization | default: 'Legacy Modernization' }}</a></li>
+          <li><a href="{{ '/services' | localizedUrl: page.lang }}#ui-ux">{{ i18n.footer.services_uiux | default: 'UI/UX Redesign' }}</a></li>
+          <li><a href="{{ '/services' | localizedUrl: page.lang }}#performance">{{ i18n.footer.services_performance | default: 'Performance Optimization' }}</a></li>
         </ul>
       </div>
       <div class="footer-col">
-        <h4>Company</h4>
+        <h4>{{ i18n.footer.company_heading | default: 'Company' }}</h4>
         <ul>
-          <li><a href="/about">About</a></li>
-          <li><a href="/portfolio">Portfolio</a></li>
-          <li><a href="/contact">Contact</a></li>
+          <li><a href="{{ '/about' | localizedUrl: page.lang }}">{{ i18n.footer.company_about | default: 'About' }}</a></li>
+          <li><a href="{{ '/portfolio' | localizedUrl: page.lang }}">{{ i18n.footer.company_portfolio | default: 'Portfolio' }}</a></li>
+          <li><a href="{{ '/contact' | localizedUrl: page.lang }}">{{ i18n.footer.company_contact | default: 'Contact' }}</a></li>
         </ul>
       </div>
       <div class="footer-col">
-        <h4>Connect</h4>
+        <h4>{{ i18n.footer.connect_heading | default: 'Connect' }}</h4>
         <ul>
           <li><a href="mailto:hello@barbuk.us">hello@barbuk.us</a></li>
-          <li><a href="https://github.com/barbuk-dev" target="_blank">GitHub</a></li>
+          <li><a href="https://github.com/barbuk-dev" target="_blank">{{ i18n.footer.connect_github | default: 'GitHub' }}</a></li>
         </ul>
       </div>
     </div>
     <div class="footer-bottom">
-      <p>&copy; 2026 Barbuk. All rights reserved.</p>
+      <p>{{ i18n.footer.copyright | default: '© 2026 Barbuk. All rights reserved.' }}</p>
     </div>
   </div>
 </footer>
