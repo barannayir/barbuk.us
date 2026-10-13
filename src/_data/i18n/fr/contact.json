@@ -29,7 +29,8 @@
       "Migration vers le cloud",
       "Autre / Pas sûr"
     ],
-    "error_fallback": "Échec de l'envoi du message. Veuillez nous écrire directement à hello@barbuk.us."
+    "error_fallback": "Échec de l'envoi du message. Veuillez nous écrire directement à hello@barbuk.us.",
+    "success_message": "Merci ! Nous vous répondrons sous 24 heures."
   },
   "contact_methods": {
     "title": "Autres moyens de nous contacter",

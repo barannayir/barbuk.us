@@ -29,7 +29,8 @@
       "Cloud-Migration",
       "Andere / Nicht sicher"
     ],
-    "error_fallback": "Nachricht konnte nicht gesendet werden. Bitte kontaktieren Sie uns direkt per E-Mail unter hello@barbuk.us"
+    "error_fallback": "Nachricht konnte nicht gesendet werden. Bitte kontaktieren Sie uns direkt per E-Mail unter hello@barbuk.us",
+    "success_message": "Vielen Dank! Wir melden uns innerhalb von 24 Stunden bei Ihnen."
   },
   "contact_methods": {
     "title": "Weitere Kontaktmöglichkeiten",

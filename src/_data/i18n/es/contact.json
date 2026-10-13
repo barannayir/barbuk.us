@@ -29,7 +29,8 @@
       "Migración a la nube",
       "Otro / No estoy seguro"
     ],
-    "error_fallback": "No se pudo enviar el mensaje. Por favor, intente escribirnos directamente a hello@barbuk.us"
+    "error_fallback": "No se pudo enviar el mensaje. Por favor, intente escribirnos directamente a hello@barbuk.us",
+    "success_message": "¡Gracias! Le responderemos en un plazo de 24 horas."
   },
   "contact_methods": {
     "title": "Otras formas de contactarnos",

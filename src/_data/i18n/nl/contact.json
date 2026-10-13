@@ -29,7 +29,8 @@
       "Cloud Migration",
       "Other / Not Sure"
     ],
-    "error_fallback": "Verzenden van bericht mislukt. Probeer ons direct te e-mailen via hello@barbuk.us"
+    "error_fallback": "Verzenden van bericht mislukt. Probeer ons direct te e-mailen via hello@barbuk.us",
+    "success_message": "Bedankt! We nemen binnen 24 uur contact met u op."
   },
   "contact_methods": {
     "title": "Andere manieren om ons te bereiken",

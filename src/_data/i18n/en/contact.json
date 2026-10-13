@@ -29,7 +29,8 @@
       "Cloud Migration",
       "Other / Not Sure"
     ],
-    "error_fallback": "Failed to send message. Please try emailing us directly at hello@barbuk.us"
+    "error_fallback": "Failed to send message. Please try emailing us directly at hello@barbuk.us",
+    "success_message": "Thank you! We will get back to you within 24 hours."
   },
   "contact_methods": {
     "title": "Other Ways to Reach Us",

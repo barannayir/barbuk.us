@@ -6,7 +6,7 @@
   "scripts": {
     "start": "eleventy --serve",
     "build": "eleventy",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --test workers/contact-form.test.js"
   },
   "keywords": [],
   "author": "",

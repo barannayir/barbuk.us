@@ -14,6 +14,12 @@
         <p>{{ t.form_section.intro }}</p>
 
         <form class="contact-form" id="contactForm">
+          <!-- Honeypot: bots auto-fill all fields, humans never see this. If filled, silent success + no Sheet write -->
+          <div style="position:absolute;left:-9999px;top:-9999px;opacity:0;pointer-events:none;height:0;width:0;" aria-hidden="true">
+            <label for="website_url">Website (leave blank)</label>
+            <input type="text" id="website_url" name="website_url" tabindex="-1" autocomplete="off" value="">
+          </div>
+          <input type="hidden" name="locale" value="{{ currentLang }}">
           <div id="formMessage" class="form-message" style="display: none;"></div>
 
           <div class="form-group">
@@ -54,6 +60,7 @@
 
         <script>
           const errorFallback = {{ t.form_section.error_fallback | jsonify }};
+          const successMessage = {{ t.form_section.success_message | jsonify }};
           document.getElementById('contactForm').addEventListener('submit', async (e) => {
             e.preventDefault();
 
@@ -87,7 +94,7 @@
                   });
                 }
 
-                formMessage.textContent = result.message;
+                formMessage.textContent = result.message || successMessage;
                 formMessage.className = 'form-message success';
                 formMessage.style.display = 'block';
                 form.reset();
