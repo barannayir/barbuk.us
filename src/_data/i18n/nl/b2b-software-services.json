@@ -1,0 +1,250 @@
+{
+  "page_hero": {
+    "title": "B2B softwarediensten | Maatwerk B2B-SaaS-ontwikkeling & enterprise-integratie",
+    "subtitle": "End-to-end B2B softwareontwikkeling: van maatwerk SaaS-platformen en B2B API-integraties tot enterprise workflow-automatisering – gebouwd door senior engineers die al een decennium B2B-producten opleveren."
+  },
+  "services_grid": {
+    "title": "Onze B2B softwarediensten",
+    "subtitle": "Zes praktijkgebieden die de volledige B2B softwarediensten-levenscyclus dekken – van maatwerkplatformen en SaaS-producten tot API's, integraties, automatisering en senior technische begeleiding voor B2B-teams die productiewerk opleveren."
+  },
+  "why_b2b": {
+    "section_title": "Waarom B2B softwarediensten een ander spel zijn",
+    "intro": "Consumentenapps en B2B-software leven in verschillende universums. Consumentenproducten kunnen ruwe kantjes vergeven omdat gebruikers in- en uitstromen; B2B-platformen leven of sterven op integratiediepte, audit trails, multi-tenancy en de onuitgesproken belofte dat het systeem over vijf jaar nog draait. B2B-werk behandelen als B2C-werk is dé grootste reden waarom softwareprojecten deadlines missen, budgetten overschrijden en twee jaar later in de rewrite-stapel belanden.",
+    "paragraphs": [
+      "B2B softwarediensten vereisen een andere kostenstructuur, een andere compliance-houding en een ander release-cadans dan consumentenproducten. Een typisch B2B-platform bedient honderden of duizenden zakelijke gebruikers – niet miljoenen anonieme bezoekers – dus is de optimalisatielens seat-based workflows, role-based permissies en granulaire audit trails, niet virale acquisitie en advertentiemonetisatie. De engineering-vragen verschuiven: in plaats van \"hoe maximaliseren we sessieduur\", vragen we \"hoe houden we contract-SLA's op 99,95% over zes klant-tenants en vier regio's\". Dat verschil cascadeert in architectuur, observability en on-call rotatie-ontwerp.",
+      "Besluitvormingscycli in B2B zijn trager en gelaagder. Een enkele POC kan de end-user manager, de IT-security reviewer, het inkoopteam, de juridisch adviseur en de executive sponsor betreffen – vaak over meerdere tijdzones. Elke architectuurkeuze moet een inkoopvragenlijst en een security review overleven: SOC 2 Type II, ISO 27001, HIPAA voor health-tech-klanten, PCI DSS voor fintech. B2B softwarediensten die compliance negeren bouwen technische schuld op die ze dubbel terugbetalen: één keer tijdens de volgende sales-cyclus, en opnieuw wanneer de audit faalt en de deal negentig dagen stilstaat.",
+      "Integratie is waar B2B-platformen winnen of verliezen. Elke klant heeft een bestaand ERP, CRM, identity provider, SSO-broker, payment processor en reporting warehouse. Het product dat op dag één uitkomt met vijf schone connectoren en een gedocumenteerde REST API presteert beter dan het mooie product dat met één uitkomt. B2B-SaaS-ontwikkeling is in de kern een integratieprobleem vermomd als feature-roadmap – want de feature is pas echt af als hij praat met NetSuite, Salesforce, HubSpot, Workday en de identity provider van de klant zonder handmatig data-wrangling.",
+      "Tot slot komen B2B-contracten met echte consequenties. Een consumentenapp kan een kapotte update uitbrengen en herstellen met een tweet; een B2B-platform dat een payroll-run, een klinische workflow of een logistieke dispatch breekt kan dat niet. Daarom beginnen onze B2B softwarediensten met operations: incident response playbooks, deployment runbooks, observability dashboards en rollback drills voordat we de eerste feature schrijven. Stabiliteit is geen deployment-zorg, het is een sales-feature – want elke downtime-incident duikt op in de volgende quarterly business review en de volgende contractverlenging."
+    ],
+    "stats": [
+      { "value": "73%", "label": "van B2B softwarediensten-omzet is terugkerend, vs. 11% in B2C" },
+      { "value": "5,3x", "label": "hogere customer lifetime value voor B2B vs. B2C-producten" },
+      { "value": "42%", "label": "van B2B-platformen noemt integratiefouten als belangrijkste churn-oorzaak" },
+      { "value": "12,4 mld $", "label": "jaarlijkse uitgaven aan B2B maatwerk softwareontwikkeling alleen al in de VS" }
+    ]
+  },
+  "services": [
+    {
+      "id": "custom-b2b-software",
+      "icon": "🧩",
+      "title": "Maatwerk B2B-software",
+      "intro": "Bespoke B2B-platformen gebouwd rond uw branche-workflows, niet geforceerd in een off-the-shelf SaaS. Wij ontwerpen en engineeren het exacte systeem dat uw operators, accountmanagers en customer success teams nodig hebben – en laten het meegroeien met uw business.",
+      "what_we_do_label": "Wat we leveren:",
+      "features": [
+        { "label": "Domeinmodellering:", "text": "Event storming workshops, bounded context mapping en domain-driven design vanaf dag één" },
+        { "label": "Modulaire monoliet eerst:", "text": "Start met één deploybare codebase, splits in microservices pas wanneer domeinen stabiliseren" },
+        { "label": "Multi-tenant architectuur:", "text": "Tenant-isolatiestrategieën (schema-per-tenant, row-level security of hybride) die schalen voorbij 1.000 klanten" },
+        { "label": "Audit trails & permissies:", "text": "Role-based access control, fijnmazige permissies en onveranderlijke audit logs voor compliance" },
+        { "label": "Workflow engine:", "text": "Configureerbare goedkeuringsflows, state machines en human-in-the-loop automatisering ingebouwd" }
+      ],
+      "tech_label": "Waar het draait:",
+      "tech_stack": ["ASP.NET Core", "Node.js", "Python", "PostgreSQL", "MongoDB", "Redis", "Kubernetes", "Azure", "AWS"]
+    },
+    {
+      "id": "saas-platform-development",
+      "icon": "☁️",
+      "title": "SaaS-platformontwikkeling",
+      "intro": "Productie-klare B2B-SaaS-ontwikkeling: subscription billing, tenant onboarding, usage metering en product-led growth instrumentatie – wij leveren het hele productoppervlak, niet alleen een checkout-knop bovenop een generieke CRUD-app.",
+      "what_we_do_label": "Wat we leveren:",
+      "features": [
+        { "label": "Stripe-integratie:", "text": "Subscriptions, metered billing, proratie, facturatie, belastingafhandeling en dunning flows correct bedraad" },
+        { "label": "Tenant onboarding:", "text": "Self-service aanmelding, configureerbare workspaces, SSO met Auth0 of uw IdP, en just-in-time provisioning" },
+        { "label": "Usage metering:", "text": "Event streams, aggregatie-pipelines en quota-enforcement zichtbaar in een klantgericht dashboard" },
+        { "label": "PLG-instrumentatie:", "text": "Product analytics, activatiefunnels, retentiecohorten en in-product nudges bedraad vanaf dag één" },
+        { "label": "Status & trust pages:", "text": "Realtime statuspagina, publieke uptime-historie en een trust center voor beveiligingsvragenlijsten" }
+      ],
+      "tech_label": "SaaS-stack:",
+      "tech_stack": ["Next.js", "React", "Node.js", "TypeScript", "Stripe Billing", "PostgreSQL", "Auth0", "Segment", "PostHog"]
+    },
+    {
+      "id": "b2b-api-development",
+      "icon": "🔌",
+      "title": "B2B API-ontwikkeling",
+      "intro": "REST-, GraphQL- en gRPC-API's ontworpen voor partner-ecosystemen. Wij ontwerpen versiebeheerde, goed gedocumenteerde en rate-limited API's waarmee uw klanten in één middag kunnen integreren – niet in een six-week professional services engagement.",
+      "what_we_do_label": "Wat we leveren:",
+      "features": [
+        { "label": "OpenAPI- & GraphQL-schema's:", "text": "Versiebeheerde contracten met backward compatibility garanties en machineleesbare documentatie" },
+        { "label": "API gateway & routing:", "text": "Gecentraliseerde verkeersregeling, JWT- of OAuth 2.0-auth, request signing en quota-enforcement" },
+        { "label": "Webhooks & event streams:", "text": "Betrouwbare uitgaande levering met retries, dead-letter queues en ondertekende payloads die klanten vertrouwen" },
+        { "label": "Developer portal:", "text": "Auto-gegenereerde referentiedocumentatie, sandbox-omgevingen en een SDK-pipeline voor Python, Node en Go" },
+        { "label": "Observability:", "text": "Per-tenant latency, foutpercentages en quotumverbruik ontsloten via dashboards en Prometheus-metrics" }
+      ],
+      "tech_label": "API-stack:",
+      "tech_stack": ["OpenAPI 3.1", "GraphQL", "gRPC", "Kong", "Apigee", "AWS API Gateway", "FastAPI", "Express", "Spectral"]
+    },
+    {
+      "id": "enterprise-integration",
+      "icon": "🔗",
+      "title": "Enterprise-integratie",
+      "intro": "B2B softwarediensten die uw product koppelen aan Salesforce, NetSuite, HubSpot, Workday, SAP en de identity provider van de klant. We bouwen betrouwbare, idempotente, observeerbare integraties die schema-wijzigingen van derden overleven.",
+      "what_we_do_label": "Wat we leveren:",
+      "features": [
+        { "label": "CRM- & ERP-connectoren:", "text": "Vooraf gebouwde patronen voor Salesforce, NetSuite, HubSpot, SAP en Dynamics met custom field mapping" },
+        { "label": "Identity federation:", "text": "SAML, OIDC, SCIM-provisioning en directory sync met Okta, Azure AD, Google Workspace en JumpCloud" },
+        { "label": "Data sync pipelines:", "text": "Change-data-capture streams, conflict resolution en bidirectionele sync met provenance tracking" },
+        { "label": "ETL & reverse ETL:", "text": "Verplaats data tussen operationele systemen en warehouses met Fivetran, Airbyte of maatwerk pipelines" },
+        { "label": "Resilience patronen:", "text": "Idempotency keys, exponentieel backoff, circuit breakers en dead-letter queues als standaard" }
+      ],
+      "tech_label": "Integratie-stack:",
+      "tech_stack": ["Salesforce", "NetSuite", "HubSpot", "SAP", "Okta", "Azure AD", "Kafka", "Airbyte", "Fivetran", "Workato"]
+    },
+    {
+      "id": "workflow-automation",
+      "icon": "⚙️",
+      "title": "Workflow-automatisering",
+      "intro": "Schaf repetitief handwerk af in sales, operations, finance en customer success. We bouwen event-driven automatisering die reageert op echte signalen – geen breekbare RPA-bots die bij elke UI-wijziging kapotgaan.",
+      "what_we_do_label": "Wat we leveren:",
+      "features": [
+        { "label": "Process discovery:", "text": "Process mining, interviews en time-and-motion studies om de automatiseringen met de hoogste hefboom te identificeren" },
+        { "label": "Event-driven architectuur:", "text": "Pub/sub patronen, event sourcing en outbox-patroon zodat automatiseringen op echte signalen vuren, niet op polls" },
+        { "label": "Human-in-the-loop:", "text": "Goedkeuringsqueues, exception handling en Slack- of e-mail-gebaseerde interventies wanneer automatisering hapert" },
+        { "label": "No-code bridges:", "text": "n8n-, Zapier- en Workato-integraties waar ze passen – zonder werk buiten hun enveloppe te forceren" },
+        { "label": "Audit & compliance:", "text": "Elke automatiseringsrun produceert een onveranderlijke logboekentry voor SOX-, ISO 27001- en HIPAA-audits" }
+      ],
+      "tech_label": "Automatisering-stack:",
+      "tech_stack": ["Temporal", "Apache Airflow", "n8n", "Zapier", "Workato", "Twilio", "Slack API", "SendGrid", "Postmark"]
+    },
+    {
+      "id": "technical-consulting",
+      "icon": "🧭",
+      "title": "Technische consultancy",
+      "intro": "Architectuurbeoordelingen, vendor-evaluaties, due diligence en fractional CTO-engagements voor B2B-teams die senior begeleiding nodig hebben zonder fulltime aanstelling. We brengen 10+ jaar B2B-SaaS-ontwikkelingslittekens mee naar elk engagement.",
+      "what_we_do_label": "Wat we leveren:",
+      "features": [
+        { "label": "Architectuurbeoordelingen:", "text": "Onafhankelijke audits van datamodellen, servicegrenzen en deploymenttopologie met een schriftelijk herstelplan" },
+        { "label": "Vendor- & stack-selectie:", "text": "Zij-aan-zij evaluaties van Stripe, Auth0, Postgres-opties en integratiepartners – gebaseerd op uw schaal" },
+        { "label": "Due diligence:", "text": "Technische deep-dives voor overnames, investeringen of partnerschapsevaluaties met identificatie van rode vlaggen" },
+        { "label": "Fractional CTO:", "text": "Senior leiderschap voor fundraising, aannameplannen, board-updates en architectuur-governance tijdens scale-up fasen" },
+        { "label": "Incidentbeoordelingen:", "text": "Blameless postmortems, root cause analysis en concrete proceswijzigingen na klant-impactvolle events" }
+      ],
+      "tech_label": "Engagement-formaten:",
+      "tech_stack": ["Architecture Diagrams (C4)", "ADR Templates", "Threat Models (STRIDE)", "Architecture Decision Records", "Runbooks"]
+    }
+  ],
+  "process": {
+    "title": "Ons engagementmodel",
+    "subtitle": "Een voorspelbaar delivery-model gebouwd rond de realiteit van B2B softwarediensten – compliance, integratie en lifecycle-ondersteuning vanaf dag één.",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Discovery & use case mapping",
+        "text": "We beginnen met stakeholderinterviews, workflowobservatie en een gedocumenteerde lijst van integratiepunten. De output is een schriftelijke brief die sales, security, IT en engineering op één lijn brengt over wat we daadwerkelijk bouwen – en waarom."
+      },
+      {
+        "number": "2",
+        "title": "Architectuur- & complianceplan",
+        "text": "We produceren een domeinmodel, deploymenttopologie en een complianceplan dat elke vereiste (SOC 2, HIPAA, PCI DSS, ISO 27001) koppelt aan specifieke technische controls. Niets wordt opgeleverd voordat dit plan is goedgekeurd door uw security reviewer."
+      },
+      {
+        "number": "3",
+        "title": "Iteratieve delivery in 2-wekelijkse sprints",
+        "text": "Werkende software elke twee weken: senior engineers, geen offshore hand-offs en één enkel Slack-kanaal voor alle stakeholders. Elke sprint eindigt met een demo-opname en een schriftelijke retro zodat het team in het openbaar leert."
+      },
+      {
+        "number": "4",
+        "title": "Integratie- & compliancevalidatie",
+        "text": "Vóór de launch draaien we de volledige integratiematrix tegen uw top-3 CRM/ERP-doelen, de gekozen identity provider en de payment processor. Compliance-evidence wordt continu verzameld – niet in paniek twee weken voor de audit."
+      },
+      {
+        "number": "5",
+        "title": "Launch, hyper-care & 30 dagen hardening",
+        "text": "Op de day-zero launch volgen 30 dagen hyper-care: 24/7 on-call, dagelijkse standups, deployment-freeze op verzoek en een war room voor elk klant-impactvol incident. Na dag 30 gaan we over op doorlopende support."
+      },
+      {
+        "number": "6",
+        "title": "Doorlopende support & continue verbetering",
+        "text": "Een dedicated support-pod handelt tickets, security patches, dependency-upgrades en roadmapvelocity af – en zorgt dat het platform dat u vandaag launcht het platform is waar u in jaar vijf trots op bent, niet in jaar één."
+      }
+    ]
+  },
+  "tech_stack": {
+    "title": "Engineeringstack waarin wij gespecialiseerd zijn",
+    "subtitle": "Bewezen combinaties gekozen voor talentbeschikbaarheid, lange-termijn support en operationele rijpheid – niet het framework van de maand.",
+    "categories": [
+      {
+        "name": "Frontend",
+        "items": ["React 18", "Next.js 14", "TypeScript", "Tailwind CSS", "Storybook"]
+      },
+      {
+        "name": "Backend & API",
+        "items": ["Node.js 20", "ASP.NET Core", "Python 3.12", "Go 1.22", "FastAPI", "GraphQL"]
+      },
+      {
+        "name": "Data & messaging",
+        "items": ["PostgreSQL 16", "MongoDB", "Redis", "Kafka", "Snowflake", "ClickHouse"]
+      },
+      {
+        "name": "Infrastructuur & DevOps",
+        "items": ["Docker", "Kubernetes", "Terraform", "GitHub Actions", "Datadog", "PagerDuty"]
+      },
+      {
+        "name": "Betalingen, identity & comms",
+        "items": ["Stripe Billing", "Auth0", "Twilio", "SendGrid", "Segment", "PostHog"]
+      }
+    ]
+  },
+  "case_study": {
+    "title": "Case study: B2B-SaaS-platform van een industriële distributeur",
+    "subtitle": "Hoe we een 40 jaar oude industriële distributeur hielpen om van telefonische en e-mailbestellingen over te stappen op een self-service B2B-portal – zonder 4.000 actieve klantrelaties te verstoren.",
+    "industry": "Industriële distributie & B2B-commerce",
+    "duration": "9 maanden",
+    "before": {
+      "heading": "Voorheen",
+      "items": [
+        "Bestellingen werden 100% via telefoon, fax en e-mail verwerkt – door 22 inside sales-medewerkers",
+        "Gemiddelde order-to-ship tijd: 3,4 dagen, met 18% herwerk op data-invoerfouten",
+        "Geen realtime voorraadzicht voor klanten; prijzen vereisten handmatige offertes",
+        "Klant-churn versnelde doordat jongere kopers self-service bestellen eisten"
+      ]
+    },
+    "after": {
+      "heading": "Daarna",
+      "items": [
+        "Multi-tenant B2B-portal met contractprijzen, realtime voorraad en re-order templates",
+        "Gemiddelde order-to-ship tijd: 11 uur, met herwerk onder 2,1%",
+        "EDI-integraties met 14 van de top 20 klant-ERPs, plus REST API's voor de rest",
+        "Inside sales-team herfocust op sleutelaccounts; 38% van bestellingen nu self-service"
+      ]
+    },
+    "metric": {
+      "value": "68%",
+      "label": "reductie in gemiddelde order-to-ship tijd, met 38% van bestellingen die naar self-service gingen en nul klant-datalekken in de 12 maanden na launch"
+    }
+  },
+  "faq": {
+    "title": "Veelgestelde vragen",
+    "subtitle": "Praktische antwoorden op de vragen die B2B-teams stellen voordat ze tekenen met een software services-partner.",
+    "items": [
+      {
+        "question": "Wat telt in uw definitie precies als B2B softwaredienst?",
+        "answer": "Wij definiëren B2B softwarediensten als alles wat gebouwd is voor zakelijke kopers, niet voor consumenten-eindgebruikers. Dat omvat multi-tenant SaaS-platformen, interne tools voor enterprise operators, partnergerichte API's en bespoke klantportalen. De kenmerkende eigenschappen zijn terugkerende relaties, integratie met bestaande enterprise-systemen (CRM, ERP, IdP), compliance-vereisten zoals SOC 2 of HIPAA, en per-seat of usage-based prijzen. Als uw product drie van die vier vakjes afvinkt, zit u stevig in B2B-territorium en is ons engagementmodel erop gebouwd."
+      },
+      {
+        "question": "Hoe verschilt B2B-SaaS-ontwikkeling van het bouwen van een gewone webapp?",
+        "answer": "Drie dingen, grotendeels. Ten eerste, multi-tenant architectuur met strikte data-isolatie – uw 30 klanten mogen elkaars records niet zien, zelfs niet als ze infrastructuur delen. Ten tweede, integratiediepte – elk B2B-platform moet praten met Salesforce, NetSuite, een SSO-provider en een payment processor, dus de API-oppervlakte moet vanaf dag één ontworpen zijn voor partnerconsumptie. Ten derde, operationele rijpheid – B2B-contracten bevatten SLA's, audit-rechten en beveiligingsvragenlijsten, dus observability, incident response en rollback-procedures maken deel uit van het product, geen afterthought. We bakken alle drie in de basisarchitectuur zodat u ze niet 12 maanden later hoeft te retrofitten."
+      },
+      {
+        "question": "Kunt u een half-af B2B-platform van een andere vendor overnemen?",
+        "answer": "Ja – dit is een significant aandeel van ons B2B maatwerk software-werk. Ons overname-playbook begint met een vier weken durende stabilisatiefase: volledige architectuurbeoordeling, audit van deployment-automatisering, dependency-inventarisatie en een schriftelijke assessment van wat reddbaar is, wat herbouwd moet worden en wat voor nu met rust gelaten moet worden. Vervolgens leveren we in 2-wekelijkse sprints met volledige transparantie via een gedeeld Linear- of Jira-bord, wekelijkse architectuur office hours en maandelijkse investor- of board-samenvattingen. De meeste overnames bereiken steady-state velocity binnen 8 tot 12 weken, afhankelijk van de complexiteit van de codebase."
+      },
+      {
+        "question": "Levert u B2B API-ontwikkeling met behoorlijke partnerdocumentatie?",
+        "answer": "Elke API die we opleveren gaat de deur uit met drie artefacten: een OpenAPI 3.1- of GraphQL-schema met expliciete versiebeheergaranties, een auto-gegenereerd referentieportaal (we gebruiken Stoplight Elements of Redocly) en minstens één SDK in de primaire taal van uw klanten – Python, Node of Go. We publiceren ook publieke changelogs, deprecation-timelines van minstens 12 maanden, en een sandbox-omgeving geseed met geanonimiseerde maar realistische data zodat integrators kunnen bouwen zonder uw supportteam te contacteren. Het hele punt is dat uw klanten in één middag kunnen integreren, niet in een six-week professional services engagement."
+      },
+      {
+        "question": "Hoe gaan jullie om met enterprise-integratie met legacy-ERPs en CRMs?",
+        "answer": "We behandelen elke integratie als een kritisch pad met expliciete SLO's en rollback-plannen. Het patroon dat we standaard gebruiken is event-driven, niet poll-driven: change-data-capture streams vanuit het bronsysteem, idempotente processoren die dubbele events overleven, dead-letter queues met alerting, en een replay runbook voor de onvermijdelijke schema-wijziging. Voor Salesforce, NetSuite, HubSpot en SAP hebben we vooraf gebouwde connector-templates die de initiële integratietijd met ongeveer 40% verkorten; voor klantspecifieke systemen gebruiken we dezelfde patronen met custom extractors. Elke integratie wordt opgeleverd met een schriftelijke operations guide die uw team aan een nieuwe on-call engineer kan overhandigen."
+      },
+      {
+        "question": "Wat kost een typisch B2B softwarediensten-engagement en hoe lang duurt het?",
+        "answer": "Grofweg: een gefocuste B2B-SaaS-MVP draait op 90K–180K $ over 4–6 maanden; een multi-tenant platform met volledige integratiediepte draait op 250K–750K $ over 6–12 maanden; een enterprise B2B-rebuild of grote scale-up engagement start rond 400K $ en schaalt op. We werken altijd vanuit een fixed-price voorstel na een betaalde 2-tot-4 weken discovery sprint, dus geen uur-facturatieverrassingen. De meeste klanten zien positieve ROI binnen 12 tot 18 maanden via lagere operationele kosten, snellere time-to-market voor nieuwe features, en verbeterde retentie door een product dat klanten daadwerkelijk willen gebruiken."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Klaar om B2B-software te bouwen die klanten verlengen?",
+    "subtitle": "Boek een gratis 30-minuten scoping call. We reviewen uw roadmap, integratiebeperkingen en compliancehouding – en stellen een delivery-model voor dat past bij uw tijdlijn en budget.",
+    "button": "Vraag een scoping call aan",
+    "secondary_button": "Bekijk alle diensten"
+  }
+}

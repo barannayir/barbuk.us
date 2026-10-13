@@ -1,0 +1,250 @@
+{
+  "page_hero": {
+    "title": "Servicios de software B2B | Desarrollo SaaS B2B a medida & integración enterprise",
+    "subtitle": "Desarrollo de software B2B de extremo a extremo: desde plataformas SaaS a medida e integraciones de API B2B hasta automatización de workflows enterprise – construido por ingenieros senior que llevan una década lanzando productos B2B."
+  },
+  "services_grid": {
+    "title": "Nuestros servicios de software B2B",
+    "subtitle": "Seis áreas de práctica cubriendo todo el ciclo de vida de los servicios de software B2B – desde plataformas a medida y productos SaaS hasta APIs, integraciones, automatización y guía técnica senior para equipos B2B que entregan trabajo en producción."
+  },
+  "why_b2b": {
+    "section_title": "Por qué los servicios de software B2B son otro juego",
+    "intro": "Las apps de consumo y el software B2B viven en universos diferentes. Los productos de consumo pueden perdonar aristas porque los usuarios van y vienen; las plataformas B2B viven o mueren por la profundidad de integración, las pistas de auditoría, la multi-tenancy y la promesa tácita de que el sistema seguirá funcionando dentro de cinco años. Tratar el trabajo B2B como B2C es la razón individual más grande por la que los proyectos de software pierden plazos, revientan presupuestos y acaban en la pila de reescritura dos años después.",
+    "paragraphs": [
+      "Los servicios de software B2B exigen una estructura de coste diferente, una postura de cumplimiento diferente y un ritmo de release diferente al de los productos de consumo. Una plataforma B2B típica sirve a cientos o miles de usuarios de negocio – no a millones de visitantes anónimos – por lo que la lente de optimización es workflows por asiento, permisos por rol y pistas de auditoría granulares, no adquisición viral y monetización por publicidad. Las preguntas de ingeniería cambian: en vez de preguntar \"cómo maximizamos la duración de la sesión\", preguntamos \"cómo mantenemos los SLA contractuales en 99,95% a lo largo de seis tenants de cliente y cuatro regiones\". Esa diferencia se propaga en cascada a la arquitectura, la observabilidad y el diseño de las rotaciones de on-call.",
+      "Los ciclos de decisión en B2B son más lentos y estratificados. Un único POC puede involucrar al manager del usuario final, al revisor de seguridad IT, al equipo de compras, al asesor legal y al sponsor ejecutivo – a menudo en múltiples zonas horarias. Cada elección arquitectónica tiene que sobrevivir a un cuestionario de compras y a una revisión de seguridad: SOC 2 Type II, ISO 27001, HIPAA para clientes health-tech, PCI DSS para fintech. Los servicios de software B2B que ignoran el cumplimiento acumulan deuda técnica que pagarán el doble: una vez durante el próximo ciclo de ventas, y otra cuando el audit falle y el deal se estanque durante noventa días.",
+      "La integración es donde las plataformas B2B ganan o pierden. Cada cliente tiene un ERP, CRM, identity provider, broker SSO, procesador de pagos y almacén de reporting ya existentes. El producto que sale el día uno con cinco conectores limpios y una API REST documentada supera al producto bonito que sale con uno. El desarrollo SaaS B2B es fundamentalmente un problema de integración disfrazado de roadmap de features – porque la feature no está realmente terminada hasta que habla con NetSuite, Salesforce, HubSpot, Workday y el identity provider del cliente sin data wrangling manual.",
+      "Por último, los contratos B2B vienen con consecuencias reales. Una app de consumo puede lanzar una actualización rota y recuperarse con un tweet; una plataforma B2B que rompe un run de payroll, un workflow clínico o un dispatch logístico no puede. Por eso nuestros servicios de software B2B empiezan por operaciones: playbooks de incident response, runbooks de despliegue, dashboards de observabilidad y drills de rollback antes de escribir la primera feature. La estabilidad no es una preocupación de despliegue, es una feature de ventas – porque cada incidente de downtime aparece en la siguiente quarterly business review y la siguiente renovación."
+    ],
+    "stats": [
+      { "value": "73%", "label": "de los ingresos de servicios de software B2B es recurrente, vs. 11% en B2C" },
+      { "value": "5,3x", "label": "mayor customer lifetime value para B2B vs. productos B2C" },
+      { "value": "42%", "label": "de las plataformas B2B cita los fallos de integración como primera causa de churn" },
+      { "value": "12,4 MM$", "label": "de gasto anual en desarrollo de software B2B a medida solo en EE.UU." }
+    ]
+  },
+  "services": [
+    {
+      "id": "custom-b2b-software",
+      "icon": "🧩",
+      "title": "Software B2B a medida",
+      "intro": "Plataformas B2B a medida construidas en torno a los workflows de tu sector, no forzadas dentro de un SaaS estándar. Diseñamos e ingenierizamos el sistema exacto que necesitan tus operadores, account managers y equipos de customer success – y lo hacemos evolucionar a medida que tu negocio crece.",
+      "what_we_do_label": "Qué entregamos:",
+      "features": [
+        { "label": "Modelado de dominio:", "text": "Workshops de event storming, mapping de bounded contexts y domain-driven design desde el día uno" },
+        { "label": "Monolito modular primero:", "text": "Empieza con un único codebase desplegable, divide en microservicios solo cuando los dominios se estabilizan" },
+        { "label": "Arquitectura multi-tenant:", "text": "Estrategias de aislamiento de tenant (schema-per-tenant, row-level security o híbrido) que escalan más allá de 1.000 clientes" },
+        { "label": "Pistas de auditoría & permisos:", "text": "Control de acceso por rol, permisos granulares y logs de auditoría inmutables para cumplimiento" },
+        { "label": "Motor de workflow:", "text": "Flujos de aprobación configurables, state machines y automatizaciones human-in-the-loop integradas" }
+      ],
+      "tech_label": "Donde corre:",
+      "tech_stack": ["ASP.NET Core", "Node.js", "Python", "PostgreSQL", "MongoDB", "Redis", "Kubernetes", "Azure", "AWS"]
+    },
+    {
+      "id": "saas-platform-development",
+      "icon": "☁️",
+      "title": "Desarrollo de plataforma SaaS",
+      "intro": "Desarrollo SaaS B2B de calidad producción: subscription billing, onboarding de tenant, usage metering e instrumentación product-led growth – entregamos la superficie de producto completa, no solo un botón de checkout sobre una app CRUD genérica.",
+      "what_we_do_label": "Qué entregamos:",
+      "features": [
+        { "label": "Integración con Stripe:", "text": "Subscriptions, metered billing, prorrateo, facturación, gestión de impuestos y flujos de dunning cableados correctamente" },
+        { "label": "Onboarding de tenant:", "text": "Registro self-service, workspaces configurables, SSO con Auth0 o tu IdP, y provisioning just-in-time" },
+        { "label": "Usage metering:", "text": "Streams de eventos, pipelines de agregación y aplicación de cuotas visibles en un dashboard orientado al cliente" },
+        { "label": "Instrumentación PLG:", "text": "Product analytics, funnels de activación, cohortes de retención y nudges in-product cableados desde el día uno" },
+        { "label": "Páginas de status & trust:", "text": "Página de status en tiempo real, histórico público de uptime y un trust center para cuestionarios de seguridad" }
+      ],
+      "tech_label": "Stack SaaS:",
+      "tech_stack": ["Next.js", "React", "Node.js", "TypeScript", "Stripe Billing", "PostgreSQL", "Auth0", "Segment", "PostHog"]
+    },
+    {
+      "id": "b2b-api-development",
+      "icon": "🔌",
+      "title": "Desarrollo de API B2B",
+      "intro": "APIs REST, GraphQL y gRPC diseñadas para ecosistemas de partners. Diseñamos APIs versionadas, bien documentadas y con rate-limit que tus clientes pueden integrar en una tarde – no en un engagement de professional services de seis semanas.",
+      "what_we_do_label": "Qué entregamos:",
+      "features": [
+        { "label": "Esquemas OpenAPI & GraphQL:", "text": "Contratos versionados con garantías de retrocompatibilidad y documentación legible por máquina" },
+        { "label": "API gateway & routing:", "text": "Control de tráfico centralizado, auth JWT u OAuth 2.0, request signing y aplicación de cuotas" },
+        { "label": "Webhooks & event streams:", "text": "Entrega saliente fiable con reintentos, dead-letter queues y payloads firmados en los que los clientes confían" },
+        { "label": "Developer portal:", "text": "Documentación de referencia autogenerada, entornos sandbox y un pipeline SDK para Python, Node y Go" },
+        { "label": "Observabilidad:", "text": "Latencia por tenant, tasas de error y consumo de cuota expuestos vía dashboards y métricas Prometheus" }
+      ],
+      "tech_label": "Stack de API:",
+      "tech_stack": ["OpenAPI 3.1", "GraphQL", "gRPC", "Kong", "Apigee", "AWS API Gateway", "FastAPI", "Express", "Spectral"]
+    },
+    {
+      "id": "enterprise-integration",
+      "icon": "🔗",
+      "title": "Integración enterprise",
+      "intro": "Servicios de software B2B que conectan tu producto con Salesforce, NetSuite, HubSpot, Workday, SAP y el identity provider del cliente. Construimos integraciones fiables, idempotentes y observables que sobreviven a cambios de esquema de terceros.",
+      "what_we_do_label": "Qué entregamos:",
+      "features": [
+        { "label": "Conectores CRM & ERP:", "text": "Patrones pre-construidos para Salesforce, NetSuite, HubSpot, SAP y Dynamics con mapping de campos custom" },
+        { "label": "Federación de identidad:", "text": "SAML, OIDC, provisioning SCIM y directory sync con Okta, Azure AD, Google Workspace y JumpCloud" },
+        { "label": "Pipelines de data sync:", "text": "Streams de change-data-capture, resolución de conflictos y sync bidireccional con tracking de procedencia" },
+        { "label": "ETL & reverse ETL:", "text": "Mueve datos entre sistemas operativos y almacenes con Fivetran, Airbyte o pipelines custom" },
+        { "label": "Patrones de resiliencia:", "text": "Idempotency keys, backoff exponencial, circuit breakers y dead-letter queues por defecto" }
+      ],
+      "tech_label": "Stack de integración:",
+      "tech_stack": ["Salesforce", "NetSuite", "HubSpot", "SAP", "Okta", "Azure AD", "Kafka", "Airbyte", "Fivetran", "Workato"]
+    },
+    {
+      "id": "workflow-automation",
+      "icon": "⚙️",
+      "title": "Automatización de workflows",
+      "intro": "Elimina el trabajo manual repetitivo en ventas, operaciones, finanzas y customer success. Construimos automatización event-driven que reacciona a señales reales – no bots RPA frágiles que se rompen con cada cambio de UI.",
+      "what_we_do_label": "Qué entregamos:",
+      "features": [
+        { "label": "Process discovery:", "text": "Process mining, entrevistas y estudios de tiempo y movimiento para identificar las automatizaciones de mayor apalancamiento" },
+        { "label": "Arquitectura event-driven:", "text": "Patrones pub/sub, event sourcing y outbox para que las automatizaciones disparen con señales reales, no con polls" },
+        { "label": "Human-in-the-loop:", "text": "Colas de aprobación, gestión de excepciones e intervenciones vía Slack o email cuando la automatización se atasca" },
+        { "label": "Puentes no-code:", "text": "Integraciones con n8n, Zapier y Workato donde encajan – sin forzar trabajo fuera de su sobre" },
+        { "label": "Auditoría & cumplimiento:", "text": "Cada ejecución de automatización produce una entrada de log inmutable para auditorías SOX, ISO 27001 y HIPAA" }
+      ],
+      "tech_label": "Stack de automatización:",
+      "tech_stack": ["Temporal", "Apache Airflow", "n8n", "Zapier", "Workato", "Twilio", "Slack API", "SendGrid", "Postmark"]
+    },
+    {
+      "id": "technical-consulting",
+      "icon": "🧭",
+      "title": "Consultoría técnica",
+      "intro": "Revisiones de arquitectura, evaluaciones de vendors, due diligence y engagements de fractional CTO para equipos B2B que necesitan guía senior sin una contratación a tiempo completo. Aportamos 10+ años de cicatrices de desarrollo SaaS B2B a cada engagement.",
+      "what_we_do_label": "Qué entregamos:",
+      "features": [
+        { "label": "Revisiones de arquitectura:", "text": "Auditorías independientes de modelos de datos, fronteras de servicio y topología de despliegue con un plan de remediación escrito" },
+        { "label": "Selección de vendor & stack:", "text": "Evaluaciones lado a lado sobre Stripe, Auth0, opciones de Postgres y partners de integración – basadas en tu escala" },
+        { "label": "Due diligence:", "text": "Deep-dives técnicos para adquisiciones, inversiones o evaluaciones de partnership con identificación de red flags" },
+        { "label": "Fractional CTO:", "text": "Liderazgo senior para fundraising, planes de contratación, updates al board y gobernanza de arquitectura durante fases de scale-up" },
+        { "label": "Revisiones de incidentes:", "text": "Postmortems blameless, root cause analysis y cambios de proceso concretos tras eventos con impacto en clientes" }
+      ],
+      "tech_label": "Formatos de engagement:",
+      "tech_stack": ["Architecture Diagrams (C4)", "ADR Templates", "Threat Models (STRIDE)", "Architecture Decision Records", "Runbooks"]
+    }
+  ],
+  "process": {
+    "title": "Nuestro modelo de engagement",
+    "subtitle": "Un modelo de delivery predecible construido en torno a las realidades de los servicios de software B2B – cumplimiento, integración y soporte de ciclo de vida desde el día uno.",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Discovery & mapping de use cases",
+        "text": "Empezamos con entrevistas a stakeholders, observación de workflows y una lista documentada de puntos de integración. La salida es un brief escrito que alinea a ventas, seguridad, IT e ingeniería sobre qué estamos construyendo realmente – y por qué."
+      },
+      {
+        "number": "2",
+        "title": "Plan de arquitectura & cumplimiento",
+        "text": "Producimos un modelo de dominio, una topología de despliegue y un plan de cumplimiento que mapea cada requisito (SOC 2, HIPAA, PCI DSS, ISO 27001) a controles técnicos específicos. Nada se entrega hasta que este plan esté firmado por tu revisor de seguridad."
+      },
+      {
+        "number": "3",
+        "title": "Delivery iterativa en sprints de 2 semanas",
+        "text": "Software funcional cada dos semanas: ingenieros senior, sin hand-offs offshore y un único canal de Slack para todos los stakeholders. Cada sprint termina con una grabación de demo y un retro escrito para que el equipo aprenda en público."
+      },
+      {
+        "number": "4",
+        "title": "Validación de integración & cumplimiento",
+        "text": "Antes del lanzamiento ejecutamos la matriz de integración completa contra tus top-3 objetivos de CRM/ERP, el identity provider elegido y el procesador de pagos. La evidencia de cumplimiento se recoge de forma continua – no en el pánico de dos semanas antes del audit."
+      },
+      {
+        "number": "5",
+        "title": "Lanzamiento, hyper-care & hardening de 30 días",
+        "text": "Al lanzamiento day-zero le siguen 30 días de hyper-care: on-call 24/7, standups diarios, freezes de despliegue bajo petición y una war room para cualquier incidente con impacto en clientes. Tras el día 30 transicionamos a soporte ongoing."
+      },
+      {
+        "number": "6",
+        "title": "Soporte ongoing & mejora continua",
+        "text": "Un pod de soporte dedicado gestiona tickets, parches de seguridad, upgrades de dependencias y velocidad de roadmap – asegurando que la plataforma que lanzas hoy es la plataforma de la que estás orgulloso en el año cinco, no en el año uno."
+      }
+    ]
+  },
+  "tech_stack": {
+    "title": "Stack de ingeniería en el que estamos especializados",
+    "subtitle": "Combinaciones probadas en batalla, elegidas por disponibilidad de talento, soporte a largo plazo y madurez operativa – no el framework del mes.",
+    "categories": [
+      {
+        "name": "Frontend",
+        "items": ["React 18", "Next.js 14", "TypeScript", "Tailwind CSS", "Storybook"]
+      },
+      {
+        "name": "Backend & API",
+        "items": ["Node.js 20", "ASP.NET Core", "Python 3.12", "Go 1.22", "FastAPI", "GraphQL"]
+      },
+      {
+        "name": "Datos & messaging",
+        "items": ["PostgreSQL 16", "MongoDB", "Redis", "Kafka", "Snowflake", "ClickHouse"]
+      },
+      {
+        "name": "Infraestructura & DevOps",
+        "items": ["Docker", "Kubernetes", "Terraform", "GitHub Actions", "Datadog", "PagerDuty"]
+      },
+      {
+        "name": "Pagos, identidad & comms",
+        "items": ["Stripe Billing", "Auth0", "Twilio", "SendGrid", "Segment", "PostHog"]
+      }
+    ]
+  },
+  "case_study": {
+    "title": "Caso de estudio: plataforma SaaS B2B de un distribuidor industrial",
+    "subtitle": "Cómo ayudamos a un distribuidor industrial de 40 años a pasar de pedidos por teléfono y email a un portal B2B self-service – sin afectar a 4.000 relaciones activas con clientes.",
+    "industry": "Distribución industrial & comercio B2B",
+    "duration": "9 meses",
+    "before": {
+      "heading": "Antes",
+      "items": [
+        "Toma de pedidos 100% por teléfono, fax y email – gestionada por 22 comerciales internos",
+        "Tiempo medio pedido-envío: 3,4 días, con 18% de retrabajo por errores de data entry",
+        "Sin visibilidad de inventario en tiempo real para clientes; precios requerían generación manual de cotizaciones",
+        "Churn de clientes acelerándose porque compradores más jóvenes exigían self-service"
+      ]
+    },
+    "after": {
+      "heading": "Después",
+      "items": [
+        "Portal B2B multi-tenant con precios contractuales, inventario en tiempo real y plantillas de re-pedido",
+        "Tiempo medio pedido-envío: 11 horas, con retrabajo por debajo del 2,1%",
+        "Integraciones EDI con 14 de los top 20 ERPs de clientes, además de APIs REST para el resto",
+        "Equipo de ventas internas reorientado a cuentas clave; 38% de pedidos ahora self-service"
+      ]
+    },
+    "metric": {
+      "value": "68%",
+      "label": "de reducción del tiempo medio pedido-envío, con 38% de pedidos moviéndose a self-service y cero brechas de datos de clientes en los 12 meses post-lanzamiento"
+    }
+  },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "subtitle": "Respuestas prácticas a las preguntas que los equipos B2B hacen antes de firmar con un partner de servicios de software.",
+    "items": [
+      {
+        "question": "¿Qué cuenta exactamente como servicio de software B2B en vuestra definición?",
+        "answer": "Definimos los servicios de software B2B como cualquier cosa construida para compradores de negocio, no para usuarios finales de consumo. Esto incluye plataformas SaaS multi-tenant, herramientas internas para operadores enterprise, APIs orientadas a partners y portales de cliente a medida. Los rasgos definitorios son relaciones recurrentes, integración con sistemas enterprise existentes (CRM, ERP, IdP), requisitos de cumplimiento como SOC 2 o HIPAA, y pricing por asiento o por uso. Si vuestro producto marca tres de esas cuatro casillas, estáis firmemente en territorio B2B y nuestro modelo de engagement está construido en torno a ello."
+      },
+      {
+        "question": "¿En qué se diferencia el desarrollo SaaS B2B de construir una web app normal?",
+        "answer": "Tres cosas, principalmente. Primero, arquitectura multi-tenant con aislamiento estricto de datos – vuestros 30 clientes no pueden ver los registros de los demás, incluso cuando comparten infraestructura. Segundo, profundidad de integración – cada plataforma B2B tiene que hablar con Salesforce, NetSuite, un provider SSO y un procesador de pagos, así que la superficie de la API tiene que estar diseñada para consumo de partners desde el día uno. Tercero, madurez operativa – los contratos B2B incluyen SLAs, derechos de auditoría y cuestionarios de seguridad, así que la observabilidad, la incident response y los procedimientos de rollback son parte del producto, no una ocurrencia tardía. Los tres quedan integrados en la arquitectura base para que no los retroadaptéis 12 meses después."
+      },
+      {
+        "question": "¿Podéis haceros cargo de una plataforma B2B a medio construir de otro vendor?",
+        "answer": "Sí – es una parte significativa de nuestro trabajo de software B2B a medida. Nuestro playbook de takeover empieza con una fase de estabilización de cuatro semanas: revisión completa de arquitectura, auditoría de automatización de despliegue, inventario de dependencias y un assessment escrito de qué es salvable, qué hay que reconstruir, y qué se debe dejar tranquilo por ahora. Luego entregamos en sprints de 2 semanas con total transparencia vía un board compartido de Linear o Jira, office hours de arquitectura semanales y resúmenes mensuales para inversores o board. La mayoría de takeovers alcanzan velocidad steady-state en 8 a 12 semanas, dependiendo de la complejidad del codebase."
+      },
+      {
+        "question": "¿Proporcionáis desarrollo de API B2B con documentación de partner adecuada?",
+        "answer": "Cada API que entregamos sale con tres artefactos: un esquema OpenAPI 3.1 o GraphQL con garantías explícitas de versionado, un portal de referencia autogenerado (usamos Stoplight Elements o Redocly) y al menos un SDK en el lenguaje principal de vuestros clientes – Python, Node o Go. También publicamos changelogs públicos, timelines de deprecación de al menos 12 meses y un entorno sandbox sembrado con datos anonimizados pero realistas para que los integradores puedan construir sin contactar a vuestro equipo de soporte. La idea es que vuestros clientes puedan integrar en una tarde, no en un engagement de professional services de seis semanas."
+      },
+      {
+        "question": "¿Cómo gestionáis la integración enterprise con ERPs y CRMs legacy?",
+        "answer": "Tratamos cada integración como un camino crítico con SLOs y planes de rollback explícitos. El patrón por defecto es event-driven, no poll-driven: streams de change-data-capture desde el sistema origen, procesadores idempotentes que sobreviven a eventos duplicados, dead-letter queues con alerting, y un runbook de replay para el inevitable cambio de esquema. Para Salesforce, NetSuite, HubSpot y SAP tenemos plantillas de conector pre-construidas que recortan el tiempo inicial de integración en aproximadamente un 40%; para sistemas específicos del cliente usamos los mismos patrones con extractores custom. Cada integración se entrega con una guía de operaciones escrita que vuestro equipo puede pasar a un nuevo ingeniero de on-call."
+      },
+      {
+        "question": "¿Cuánto cuesta y cuánto dura un engagement típico de servicios de software B2B?",
+        "answer": "Aproximadamente: un MVP SaaS B2B enfocado va de 90 K$ a 180 K$ en 4 a 6 meses; una plataforma multi-tenant con profundidad de integración completa va de 250 K$ a 750 K$ en 6 a 12 meses; un rebuild B2B enterprise o un engagement de scale-up importante arranca alrededor de 400 K$ y escala hacia arriba. Siempre trabajamos desde una propuesta a precio fijo tras un sprint de discovery de pago de 2 a 4 semanas, así que no hay sorpresas de facturación por horas. La mayoría de los clientes ven ROI positivo en 12 a 18 meses vía menores costes operativos, time-to-market más rápido para nuevas features y mejor retención gracias a un producto que los clientes realmente quieren usar."
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Listos para construir software B2B que los clientes renuevan?",
+    "subtitle": "Reserva una scoping call gratuita de 30 minutos. Revisaremos vuestra roadmap, restricciones de integración y postura de cumplimiento – y propondremos un modelo de delivery que encaje con vuestra timeline y presupuesto.",
+    "button": "Solicitar una scoping call",
+    "secondary_button": "Ver todos los servicios"
+  }
+}

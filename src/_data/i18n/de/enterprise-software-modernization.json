@@ -1,0 +1,326 @@
+{
+  "page_hero": {
+    "title": "Enterprise-Software-Modernisierung",
+    "subtitle": "Rettung alternder .NET Framework-, Java EE- und Legacy-Enterprise-Plattformen mit Zero-Downtime-Modernisierung. ASP.NET zu .NET 8, Monolith zu Microservices, On-Prem zu Cloud. 18 Monate durchschnittliche Amortisation."
+  },
+  "why_modernize": {
+    "section_title": "Warum Enterprise-Software modernisieren?",
+    "intro": "Enterprise-Software ist das Rückgrat von B2B-Operationen, doch die meisten Enterprise-Plattformen im produktiven Einsatz wurden vor Cloud, Containern oder moderner CI/CD gebaut. Modernisierung ist nicht optional – sie ist der Preis, um wettbewerbsfähig, sicher und für Engineering-Talente attraktiv zu bleiben.",
+    "paragraphs": [
+      "Der häufigste Auslöser für Enterprise-Modernisierung ist technische Schuld, die einen Bruchpunkt erreicht. Eine Gartner-Umfrage 2024 ergab, dass 65% der Großunternehmen mindestens eine kritische Anwendung haben, die kein aktueller Mitarbeiter vollständig versteht, und 38% haben eine Produktiv-Anwendung, die von genau einem Entwickler unterstützt wird – oft kurz vor dem Ruhestand. Wenn dieser Entwickler geht, wird die Anwendung nicht nur langsamer; sie wird nicht mehr wartbar. Modernisierung ist die einzige Versicherung gegen Verlust institutionellen Wissens.",
+      "Der zweite Treiber sind die Kosten des Verbleibs auf Legacy-Plattformen. Lizenzkosten für Legacy-Enterprise-Software (Oracle, WebLogic, klassisches ASP, Windows Server 2008) summieren sich Jahr für Jahr, während die Kosten cloud-nativer Äquivalente seit 2018 um 70% gesunken sind. Eine typische Enterprise-.NET-Framework-4.5-Anwendung auf 12 Windows-Server-VMs kostet 180.000 $/Jahr an Lizenz, Infrastruktur und Betrieb. Die gleiche Workload auf .NET 8 + AKS kostet 42.000 $/Jahr und läuft 3x schneller. Die 3-Jahres-TCO-Differenz beträgt 414.000 $ – mehr als genug, um das Modernisierungsprojekt zu finanzieren.",
+      "Drittens ist Enterprise-Integration heute eine Wettbewerbsanforderung. Moderne B2B-Software spricht mit Dutzenden externer Systemen: Payment-Gateways, KYC-Provider, ERP, CRM, Supply-Chain-APIs, Identity-Provider, Observability-Plattformen. Legacy-Enterprise-Systeme wurden in einer Ära von File-Drops und Batch-ETL gebaut und integrieren sich in das moderne Ökosystem über fragile Punkt-zu-Punkt-Verbindungen, die jedes Mal brechen, wenn ein Anbieter eine API ändert. Eine modernisierte Plattform mit REST-APIs, Event-Streams und Service Mesh fügt sich sauber in dieses Ökosystem ein, mit ordnungsgemäßer Authentifizierung, Observability und Fehlerbehandlung.",
+      "Schließlich schaltet Enterprise-Modernisierung KI und Automatisierung frei. Sie können keinen modernen LLM-gestützten Workflow auf ein 15 Jahre altes Java-EE-Monolith auf WebLogic 10g aufsetzen – Deployment-Modell, Authentifizierung, Datenzugriff und Observability sind alle falsch. Modernisierung gibt Ihnen eine Plattform, auf der KI-Integration ein 6-Wochen-Projekt statt einer 2-Jahres-Replatforming-Übung ist. Die Unternehmen, die zuerst modernisieren, sichern sich die KI-Produktivitätsgewinne; die Unternehmen, die warten, verbringen das nächste Jahrzehnt mit Integrationsschulden."
+    ],
+    "stats": [
+      {
+        "value": "65%",
+        "label": "der Unternehmen haben mindestens eine unwartbare kritische Anwendung"
+      },
+      {
+        "value": "70%",
+        "label": "Kostenrückgang cloud-nativer Infrastruktur seit 2018"
+      },
+      {
+        "value": "18 Mo",
+        "label": "durchschnittliche Amortisationszeit für Enterprise-Modernisierung"
+      },
+      {
+        "value": "3x",
+        "label": "Performance-Verbesserung nach .NET Framework → .NET 8 Migration"
+      }
+    ]
+  },
+  "services": [
+    {
+      "id": "dotnet-modernization",
+      "icon": "🟣",
+      "title": ".NET Framework zu .NET 8 Modernisierung",
+      "intro": "Migration von ASP.NET Web Forms, MVC 5, .NET Framework 4.x und klassischen VB6-Anwendungen auf .NET 8 und ASP.NET Core. Wir erhalten Geschäftslogik, modernisieren die Datenzugriffsschicht und liefern eine cloud-fähige Codebasis.",
+      "what_we_do_label": "Was wir tun:",
+      "features": [
+        {
+          "label": "Web Forms → Razor Pages:",
+          "text": "Konvertierung von Server Controls, ViewState und Postbacks in moderne Razor Pages und Blazor-Komponenten"
+        },
+        {
+          "label": "Entity Framework 6 → EF Core:",
+          "text": "Modernisierung der Datenzugriffsschicht mit EF Core, async/await und Connection Resiliency"
+        },
+        {
+          "label": "WCF → gRPC/REST:",
+          "text": "Ersatz von WCF-Services durch gRPC oder REST-APIs unter Erhalt der Contracts und Hinzufügung von OpenAPI-Dokumentation"
+        },
+        {
+          "label": ".NET Remoting → SignalR:",
+          "text": "Migration von Echtzeit-Kommunikation zu SignalR oder WebSockets mit ordnungsgemäßer Authentifizierung und Skalierung"
+        }
+      ]
+    },
+    {
+      "id": "java-modernization",
+      "icon": "☕",
+      "title": "Java EE zu Spring Boot 3",
+      "intro": "Modernisierung von Java EE, Spring 4 und WebLogic/WebSphere-Anwendungen auf Spring Boot 3 mit cloud-nativem Deployment. Reduzierung der Container-Image-Größe um 80%, Verkürzung der Startup-Zeit von Minuten auf Sekunden.",
+      "what_we_do_label": "Was wir tun:",
+      "features": [
+        {
+          "label": "Java EE → Jakarta EE:",
+          "text": "Migration von javax.* zu jakarta.* Namespace, Aktualisierung der Abhängigkeiten und Modernisierung des Builds mit Maven/Gradle"
+        },
+        {
+          "label": "EJB → Spring Boot:",
+          "text": "Ersatz von Enterprise JavaBeans durch Spring-Boot-Services, Wegfall des Application-Server-Overheads"
+        },
+        {
+          "label": "JSP → Thymeleaf/React:",
+          "text": "Modernisierung des Server-Side-Renderings mit Thymeleaf oder Aufteilung in ein React-Frontend mit REST-APIs"
+        },
+        {
+          "label": "Container-Hardening:",
+          "text": "Distroless Images, Multi-Stage-Builds und ordnungsgemäßes JVM-Tuning für produktives Kubernetes"
+        }
+      ]
+    },
+    {
+      "id": "microservices",
+      "icon": "🔗",
+      "title": "Monolith zu Microservices",
+      "intro": "Zerlegung von Enterprise-Monolithen in sauber abgegrenzte Microservices mit Strangler-Fig-Pattern, Event-Driven-Architektur und API-Gateway. Wir schreiben nicht neu – wir extrahieren inkrementell Services, während der Monolith in Produktion bleibt.",
+      "what_we_do_label": "Was wir tun:",
+      "features": [
+        {
+          "label": "Domain-Driven Design:",
+          "text": "Identifikation von Bounded Contexts, Aggregate Roots und Service-Grenzen mittels Event Storming"
+        },
+        {
+          "label": "Strangler-Fig-Pattern:",
+          "text": "Traffic-Routing vom Monolith zu neuen Services über API-Gateway, mit sicherem Rollback in jedem Schritt"
+        },
+        {
+          "label": "Event-Driven Architecture:",
+          "text": "RabbitMQ, Kafka oder Azure Service Bus für asynchrone Workflows, Saga-Pattern für verteilte Transaktionen"
+        },
+        {
+          "label": "Service Mesh:",
+          "text": "Istio, Linkerd oder Consul Connect für mTLS, Traffic-Management und Observability"
+        }
+      ]
+    },
+    {
+      "id": "performance-optimization",
+      "icon": "⚡",
+      "title": "Performance- und Skalierbarkeits-Optimierung",
+      "intro": "Diagnose und Behebung von Performance-Engpässen in Enterprise-Anwendungen: langsame Datenbankabfragen, blockierendes I/O, ineffizientes Caching und synchrone Ketten. Oft 5–10x Verbesserung mit gezielten Änderungen.",
+      "what_we_do_label": "Was wir tun:",
+      "features": [
+        {
+          "label": "Datenbank-Optimierung:",
+          "text": "Query-Plan-Analyse, Index-Strategie, Read Replicas und Connection Pooling (PgBouncer, HikariCP)"
+        },
+        {
+          "label": "Async-Patterns:",
+          "text": "Ersatz synchroner Ketten durch async/await, Message Queues und Event-Driven-Workflows"
+        },
+        {
+          "label": "Caching-Strategie:",
+          "text": "Redis, In-Memory-Caches und CDN-Integration mit ordnungsgemäßer Cache-Invalidierung und -Warming"
+        },
+        {
+          "label": "Load-Testing:",
+          "text": "k6, JMeter, Gatling für realistische Lasttests, Engpass-Identifikation vor Produktion"
+        }
+      ]
+    },
+    {
+      "id": "security-hardening",
+      "icon": "🔒",
+      "title": "Security-Hardening & Compliance",
+      "intro": "Bringen Sie Enterprise-Anwendungen in Compliance mit SOC 2, PCI DSS, HIPAA und GDPR. Modernisierung von Authentifizierung, Verschlüsselung, Audit-Logging und Vulnerability Management. Bestehen Sie Ihr nächstes Audit mit Zuversicht.",
+      "what_we_do_label": "Was wir tun:",
+      "features": [
+        {
+          "label": "Authentifizierung:",
+          "text": "Migration von Custom-Auth zu OAuth 2.0, OIDC, SAML 2.0 und Integration mit Auth0, Okta, Azure AD"
+        },
+        {
+          "label": "Verschlüsselung:",
+          "text": "TLS 1.3 überall, Verschlüsselung at rest mit KMS-verwalteten Schlüsseln, automatische Credential-Rotation"
+        },
+        {
+          "label": "Audit-Logging:",
+          "text": "Strukturierte Audit-Logs, unveränderlicher Speicher, SIEM-Integration und Compliance-Dashboards"
+        },
+        {
+          "label": "Vulnerability Management:",
+          "text": "SCA, SAST, DAST, Container-Scanning und Dependency-Updates in CI/CD"
+        }
+      ]
+    },
+    {
+      "id": "cloud-migration",
+      "icon": "☁️",
+      "title": "Enterprise Cloud-Migration",
+      "intro": "Umzug von Enterprise-Workloads aus On-Premises-Datenzentren zu AWS, Azure oder GCP. Lift-and-Shift, Re-Platform oder vollständiges Cloud-Native-Redesign – wir wählen die richtige Strategie für jede Anwendung.",
+      "what_we_do_label": "Was wir tun:",
+      "features": [
+        {
+          "label": "Migration-Assessment:",
+          "text": "Anwendungsportfolio-Analyse, Abhängigkeits-Mapping und 6Rs-Strategie (rehost, replatform, refactor, repurchase, retire, retain)"
+        },
+        {
+          "label": "Azure-Migration:",
+          "text": "Azure Migrate, Azure Arc, AKS, App Service und Azure SQL Managed Instance"
+        },
+        {
+          "label": "AWS-Migration:",
+          "text": "AWS Migration Hub, ECS, EKS, Fargate, RDS und Aurora mit DMS für Datenbank-Migration"
+        },
+        {
+          "label": "Hybrid Cloud:",
+          "text": "Azure Arc, AWS Outposts oder Anthos für Workloads, die während des Übergangs On-Premises bleiben müssen"
+        }
+      ]
+    }
+  ],
+  "process": {
+    "section_title": "Unser Enterprise-Modernisierungs-Prozess",
+    "intro": "Wir modernisieren Enterprise-Systeme, ohne sie offline zu nehmen. Unser Strangler-Fig-Ansatz ermöglicht es Ihnen, kontinuierlich Wert zu liefern, während das Legacy-System an Bedeutung verliert.",
+    "steps": [
+      {
+        "title": "1. Assessment & Roadmap",
+        "description": "4-Wochen-Engagement zur Inventarisierung Ihres Anwendungsportfolios, Bewertung von Modernisierungskandidaten und Erstellung einer sequenzierten 24-Monats-Roadmap mit Kostenschätzungen und Risikoprofilen."
+      },
+      {
+        "title": "2. Architektur & Proof of Concept",
+        "description": "8-Wochen-Phase zur Validierung der Zielarchitektur mit einem End-to-End migrierten Proof-of-Concept-Service. Stakeholder sehen funktionierenden Code, nicht Folien."
+      },
+      {
+        "title": "3. Inkrementelle Migration",
+        "description": "Extraktion von Services einzeln mittels Strangler-Fig-Pattern. Jede Migration ist ein 6–10-Wochen-Sprint mit Produktiv-Traffic, sicherem Rollback und messbaren Erfolgskriterien."
+      },
+      {
+        "title": "4. Plattform-Hardening",
+        "description": "CI/CD, Observability, Security-Scanning und Incident Response für die neue Plattform. Das Team, das das neue System betreibt, ist geschult und zuversichtlich, bevor das Legacy-System außer Betrieb geht."
+      },
+      {
+        "title": "5. Legacy-Stilllegung",
+        "description": "Stilllegung des Legacy-Systems, sobald der Traffic vollständig migriert ist. Datenarchivierung gemäß Compliance-Anforderungen, Erfassung institutionellen Wissens und Freigabe von Infrastrukturbudget."
+      }
+    ]
+  },
+  "tech_stack": {
+    "section_title": "Unser Enterprise-Modernisierungs-Stack",
+    "intro": "Wir nutzen moderne, bewährte, gut unterstützte Technologie für die Teile Ihres Stacks, die 10+ Jahre laufen müssen. Die Plattformwahl ist weniger wichtig als diszipliniertes Engineering.",
+    "categories": [
+      {
+        "name": ".NET-Stack",
+        "items": [
+          ".NET 8",
+          "ASP.NET Core",
+          "Entity Framework Core",
+          "Blazor",
+          "SignalR",
+          "gRPC"
+        ]
+      },
+      {
+        "name": "Java-Stack",
+        "items": [
+          "Spring Boot 3",
+          "Jakarta EE",
+          "Hibernate",
+          "Micronaut",
+          "Quarkus",
+          "Gradle"
+        ]
+      },
+      {
+        "name": "Microservices",
+        "items": [
+          "Kubernetes",
+          "Istio",
+          "Linkerd",
+          "Dapr",
+          "RabbitMQ",
+          "Apache Kafka"
+        ]
+      },
+      {
+        "name": "Datenbanken",
+        "items": [
+          "PostgreSQL",
+          "SQL Server",
+          "Azure Cosmos DB",
+          "MongoDB",
+          "Redis",
+          "Elasticsearch"
+        ]
+      },
+      {
+        "name": "Cloud-Plattformen",
+        "items": [
+          "Microsoft Azure",
+          "Amazon Web Services",
+          "Google Cloud",
+          "Azure Arc",
+          "AWS Outposts"
+        ]
+      },
+      {
+        "name": "Observability",
+        "items": [
+          "Prometheus",
+          "Grafana",
+          "OpenTelemetry",
+          "Datadog",
+          "New Relic",
+          "Elastic APM"
+        ]
+      }
+    ]
+  },
+  "case_study": {
+    "section_title": "Fallstudie: Fertigungs-ERP — .NET-Modernisierung",
+    "industry": "Fertigung (Mid-Market, 4 Werke, 1.200 Nutzer)",
+    "challenge": "Custom-ERP auf .NET Framework 4.5 + Windows Server 2008 + SQL Server 2008. Seitenladezeiten von 8–12 Sekunden. Das ursprüngliche Entwicklerteam hatte das Unternehmen alle verlassen; 3 Beratungsfirmen lehnten das Projekt ab.",
+    "solution": "18-monatige Strangler-Fig-Migration auf .NET 8 + AKS + Azure SQL. Extraktion von 14 Services aus dem Monolith, Datenbank-Migration zu Azure SQL Managed Instance mit minimaler Downtime, Deployment eines Observability-Stacks mit Datadog. Schulung des internen Teams zum Betrieb der neuen Plattform.",
+    "results": [
+      "Seitenladezeiten sanken von 8–12s auf 200–400ms (30x Verbesserung)",
+      "Infrastrukturkosten von 180.000 $/Jahr auf 48.000 $/Jahr reduziert (-73%)",
+      "Deployment-Frequenz von vierteljährlich auf 3x pro Woche gesteigert",
+      "P99 API-Latenz unter 250ms; 99,95% Verfügbarkeit über 12 Monate"
+    ]
+  },
+  "faq": {
+    "section_title": "Häufig gestellte Fragen",
+    "items": [
+      {
+        "question": "Wie lange dauert eine Enterprise-Software-Modernisierung?",
+        "answer": "Eine fokussierte Einzelanwendungs-Modernisierung (z.B. .NET Framework 4.5 zu .NET 8) dauert typischerweise 6–12 Monate, abhängig von Anwendungsgröße, Testabdeckung und Integrationsoberfläche. Ein vollständiges Enterprise-Portfolio-Modernisierungsprogramm dauert 18–36 Monate. Wir liefern kontinuierlich Wert während des gesamten Engagements – jeder Sprint liefert funktionierenden Code in Produktion."
+      },
+      {
+        "question": "Können Sie modernisieren, ohne das System offline zu nehmen?",
+        "answer": "Ja. Wir nutzen das Strangler-Fig-Pattern: das neue System wächst neben dem Legacy-System, mit Traffic, der inkrementell über API-Gateway geroutet wird. Zu jedem Zeitpunkt können wir zum Legacy-System zurückrollen, falls etwas schief geht. Die meisten unserer Modernisierungen haben null kundensichtbare Downtime."
+      },
+      {
+        "question": "Wie gehen Sie mit dem Problem des institutionellen Wissens um?",
+        "answer": "Wir beginnen jedes Engagement mit einer Wissenserfassungs-Phase: Interviews mit ursprünglichen Entwicklern, automatisierte Code-Analyse und Dokumentation von Geschäftsregeln, Edge-Cases und tribalen Workarounds. Dieses Wissen wird via Tests, Kommentare und Runbooks im neuen System verankert. Wenn das Legacy-System stillgelegt wird, ist das institutionelle Wissen vollständig in der neuen Plattform erfasst."
+      },
+      {
+        "question": "Was kostet eine typische Enterprise-Modernisierung?",
+        "answer": "Eine fokussierte Einzelanwendungs-Modernisierung liegt zwischen 200.000–800.000 $, abhängig von Größe, Komplexität und Zielarchitektur. Ein Portfolio-Modernisierungsprogramm liegt typischerweise zwischen 1,2–5 Mio. $ über 18–36 Monate. Wir bieten einen Festpreisvorschlag nach der 4-Wochen-Assessment-Phase, sodass Sie die Kosten vor der Build-Verpflichtung kennen."
+      },
+      {
+        "question": "Sollten wir von Grund auf neu schreiben oder inkrementell modernisieren?",
+        "answer": "Fast immer inkrementell. Big-Bang-Rewrites haben laut Branchenforschung eine Fehlerquote von über 70%. Das Strangler-Fig-Pattern ist sicherer, liefert kontinuierlich Wert und ermöglicht Kurskorrekturen auf Basis echten Produktiv-Feedbacks. Wir empfehlen Rewrite nur für Anwendungen, die so klein, so isoliert oder so kaputt sind, dass eine inkrementelle Migration nicht kosteneffizient ist."
+      }
+    ]
+  },
+  "cta": {
+    "section_title": "Bereit, Ihre Enterprise-Software zu modernisieren?",
+    "intro": "Buchen Sie eine kostenlose 30-Minuten-Beratung. Wir reviewen Ihr Anwendungsportfolio, identifizieren die Modernisierungskandidaten mit höchstem ROI und schlagen ein Festpreis-Engagement vor.",
+    "button": "Kostenlose Beratung buchen",
+    "secondary_button": "Alle Services ansehen"
+  }
+}

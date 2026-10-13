@@ -1,0 +1,326 @@
+{
+  "page_hero": {
+    "title": "Enterprise softwaremodernisering diensten",
+    "subtitle": "Red verouderde .NET Framework-, Java EE- en legacy enterprise-platformen met zero-downtime modernisering. ASP.NET naar .NET 8, monoliet naar microservices, on-prem naar cloud. Gemiddelde terugverdientijd 18 maanden."
+  },
+  "why_modernize": {
+    "section_title": "Waarom uw enterprise-software moderniseren?",
+    "intro": "Enterprise-software is de ruggengraat van B2B-operaties, maar de meeste enterprise-platformen die vandaag in productie zijn, werden gebouwd vóór de cloud, containers of moderne CI/CD. Modernisering is niet optioneel – het is de prijs om competitief, veilig en aantrekkelijk te blijven voor engineeringtalent.",
+    "paragraphs": [
+      "De meest voorkomende trigger voor enterprise-modernisering is technische schuld die een breekpunt bereikt. Uit een Gartner-enquête van 2024 bleek dat 65% van de grote ondernemingen minstens één kritieke applicatie heeft die geen enkele huidige medewerker volledig begrijpt, en 38% heeft een applicatie in productie die door exact één ontwikkelaar wordt ondersteund – vaak bijna met pensioen. Wanneer die ontwikkelaar vertrekt, vertraagt de applicatie niet alleen; hij wordt ononderhoudbaar. Modernisering is de enige verzekering tegen verlies van institutionele kennis.",
+      "De tweede drijfveer is de kost van het op legacy-platformen blijven. Licentiekosten voor legacy enterprise-software (Oracle, WebLogic, klassiek ASP, Windows Server 2008) stapelen jaar na jaar op, terwijl de kosten van cloud-native equivalenten sinds 2018 met 70% zijn gedaald. Een typische enterprise .NET Framework 4.5-applicatie die draait op 12 Windows Server VM's kost 180K $/jaar aan licenties, infrastructuur en operatie. Dezelfde workload op .NET 8 + AKS kost 42K $/jaar en draait 3x sneller. Het 3-jaars TCO-verschil is 414K $ – meer dan genoeg om het moderniseringsproject te financieren.",
+      "Ten derde is enterprise-integratie nu een concurrentiële vereiste. Moderne B2B-software praat met tientallen externe systemen: payment gateways, KYC-providers, ERP, CRM, supply chain APIs, identity providers, observability-platformen. Legacy enterprise-systemen werden gebouwd in een tijdperk van filedrops en batch-ETL, en ze integreren met het moderne ecosysteem via fragiele point-to-point verbindingen die breken telkens wanneer een leverancier een API wijzigt. Een gemoderniseerd platform met REST APIs, event streams en een service mesh koppelt schoon aan dit ecosysteem, met correcte authenticatie, observability en foutafhandeling.",
+      "Tot slot ontgrendelt enterprise-modernisering AI en automatisering. U kunt geen moderne LLM-gedreven workflow op een 15 jaar oude Java EE-monoliet op WebLogic 10g pluggen – het deploymentmodel, de authenticatie, de data-toegang en de observability zijn allemaal verkeerd. Modernisering geeft u een platform waar AI-integratie een project van 6 weken is in plaats van een 2-jarig re-platformingstraject. De bedrijven die als eerste moderniseren, kapen de AI-productiviteitswinsten; de bedrijven die wachten, brengen het volgende decennium door met integratieschuld."
+    ],
+    "stats": [
+      {
+        "value": "65%",
+        "label": "van de ondernemingen heeft minstens één ononderhoudbare kritieke applicatie"
+      },
+      {
+        "value": "70%",
+        "label": "daling van cloud-native infrastructuurkosten sinds 2018"
+      },
+      {
+        "value": "18 mnd",
+        "label": "gemiddelde terugverdientijd voor enterprise-modernisering"
+      },
+      {
+        "value": "3x",
+        "label": "performanceverbetering na .NET Framework → .NET 8 migratie"
+      }
+    ]
+  },
+  "services": [
+    {
+      "id": "dotnet-modernization",
+      "icon": "🟣",
+      "title": ".NET Framework naar .NET 8 modernisering",
+      "intro": "Migreer ASP.NET Web Forms, MVC 5, .NET Framework 4.x en klassieke VB6-applicaties naar .NET 8 en ASP.NET Core. We behouden de businesslogica, moderniseren de datatoegangslaag en leveren een cloud-klare codebase.",
+      "what_we_do_label": "Wat we doen:",
+      "features": [
+        {
+          "label": "Web Forms → Razor Pages:",
+          "text": "Conversie van server controls, ViewState en postbacks naar moderne Razor Pages en Blazor-componenten"
+        },
+        {
+          "label": "Entity Framework 6 → EF Core:",
+          "text": "Modernisering van de datatoegangslaag met EF Core, async/await en connection resiliency"
+        },
+        {
+          "label": "WCF → gRPC/REST:",
+          "text": "Vervang WCF-services door gRPC of REST APIs, behoud van contracten en toevoeging van OpenAPI-documentatie"
+        },
+        {
+          "label": ".NET Remoting → SignalR:",
+          "text": "Migratie van realtime communicatie naar SignalR of WebSockets met correcte authenticatie en schaalvergroting"
+        }
+      ]
+    },
+    {
+      "id": "java-modernization",
+      "icon": "☕",
+      "title": "Java EE naar Spring Boot 3",
+      "intro": "Moderniseer Java EE, Spring 4 en WebLogic/WebSphere-applicaties naar Spring Boot 3 met cloud-native deployment. Verklein container image met 80%, breng opstarttijd terug van minuten naar seconden.",
+      "what_we_do_label": "Wat we doen:",
+      "features": [
+        {
+          "label": "Java EE → Jakarta EE:",
+          "text": "Migratie van javax.* naar jakarta.* namespace, update van dependencies en modernisering van de build met Maven/Gradle"
+        },
+        {
+          "label": "EJB → Spring Boot:",
+          "text": "Vervang Enterprise JavaBeans door Spring Boot-services, elimineer de overhead van de applicatieserver"
+        },
+        {
+          "label": "JSP → Thymeleaf/React:",
+          "text": "Moderniseer server-side rendering met Thymeleaf, of splits een React-frontend af met REST APIs"
+        },
+        {
+          "label": "Container hardening:",
+          "text": "Distroless images, multi-stage builds en correct JVM-tuning voor productie Kubernetes"
+        }
+      ]
+    },
+    {
+      "id": "microservices",
+      "icon": "🔗",
+      "title": "Monoliet naar microservices",
+      "intro": "Decomposeer enterprise-monolieten tot goed afgebakende microservices met strangler-fig pattern, event-driven architectuur en API gateway. We herschrijven niet – we extraheren incrementeel services terwijl de monoliet in productie blijft.",
+      "what_we_do_label": "Wat we doen:",
+      "features": [
+        {
+          "label": "Domain-Driven Design:",
+          "text": "Identificeer bounded contexts, aggregate roots en servicegrenzen via event storming"
+        },
+        {
+          "label": "Strangler-Fig pattern:",
+          "text": "Verkeer van monoliet naar nieuwe services routeren via API gateway, met veilige rollback bij elke stap"
+        },
+        {
+          "label": "Event-driven architectuur:",
+          "text": "RabbitMQ, Kafka of Azure Service Bus voor async workflows, saga pattern voor gedistribueerde transacties"
+        },
+        {
+          "label": "Service mesh:",
+          "text": "Istio, Linkerd of Consul Connect voor mTLS, traffic management en observability"
+        }
+      ]
+    },
+    {
+      "id": "performance-optimization",
+      "icon": "⚡",
+      "title": "Performance- en schaalbaarheidsoptimalisatie",
+      "intro": "Diagnose en fix van performanceknelpunten in enterprise-applicaties: trage databasequeries, blokkerende I/O, inefficiënte caching en synchrone ketens. Vaak 5–10x verbetering met gerichte aanpassingen.",
+      "what_we_do_label": "Wat we doen:",
+      "features": [
+        {
+          "label": "Database-optimalisatie:",
+          "text": "Query-plan analyse, indexstrategie, read replicas en connection pooling (PgBouncer, HikariCP)"
+        },
+        {
+          "label": "Async-patronen:",
+          "text": "Vervang synchrone ketens door async/await, message queues en event-driven workflows"
+        },
+        {
+          "label": "Cachingstrategie:",
+          "text": "Redis, in-memory caches en CDN-integratie met correcte cache-invalidatie en -warming"
+        },
+        {
+          "label": "Load testing:",
+          "text": "k6, JMeter, Gatling voor realistische loadtests, identificatie van knelpunten vóór productie"
+        }
+      ]
+    },
+    {
+      "id": "security-hardening",
+      "icon": "🔒",
+      "title": "Security hardening & compliance",
+      "intro": "Breng enterprise-applicaties in compliance met SOC 2, PCI DSS, HIPAA en GDPR. Moderniseer authenticatie, versleuteling, audit logging en vulnerability management. Slaag met vertrouwen voor uw volgende audit.",
+      "what_we_do_label": "Wat we doen:",
+      "features": [
+        {
+          "label": "Authenticatie:",
+          "text": "Migreer van custom auth naar OAuth 2.0, OIDC, SAML 2.0 en integreer met Auth0, Okta, Azure AD"
+        },
+        {
+          "label": "Versleuteling:",
+          "text": "TLS 1.3 overal, versleutel data at rest met KMS-beheerde sleutels, roteer credentials automatisch"
+        },
+        {
+          "label": "Audit logging:",
+          "text": "Gestructureerde auditlogs, onveranderlijke opslag, SIEM-integratie en compliance-dashboards"
+        },
+        {
+          "label": "Vulnerability management:",
+          "text": "SCA, SAST, DAST, container scanning en dependency-updates in CI/CD"
+        }
+      ]
+    },
+    {
+      "id": "cloud-migration",
+      "icon": "☁️",
+      "title": "Enterprise cloudmigratie",
+      "intro": "Verplaats enterprise-workloads van on-premises datacenters naar AWS, Azure of GCP. Lift-and-shift, re-platform of volledig cloud-native redesign – we kiezen de juiste strategie voor elke applicatie.",
+      "what_we_do_label": "Wat we doen:",
+      "features": [
+        {
+          "label": "Migratie-assessment:",
+          "text": "Applicatieportfolio-analyse, afhankelijkheidsmapping en 6Rs-strategie (rehost, replatform, refactor, repurchase, retire, retain)"
+        },
+        {
+          "label": "Azure-migratie:",
+          "text": "Azure Migrate, Azure Arc, AKS, App Service en Azure SQL Managed Instance"
+        },
+        {
+          "label": "AWS-migratie:",
+          "text": "AWS Migration Hub, ECS, EKS, Fargate, RDS en Aurora met DMS voor databasemigratie"
+        },
+        {
+          "label": "Hybride cloud:",
+          "text": "Azure Arc, AWS Outposts of Anthos voor workloads die tijdens de overgang on-premises moeten blijven"
+        }
+      ]
+    }
+  ],
+  "process": {
+    "section_title": "Ons enterprise-moderniseringsproces",
+    "intro": "We moderniseren enterprise-systemen zonder ze offline te halen. Onze strangler-fig aanpak laat u continu waarde leveren terwijl het legacy-systeem in belang afneemt.",
+    "steps": [
+      {
+        "title": "1. Assessment & roadmap",
+        "description": "4-weken engagement om uw applicatieportfolio te inventariseren, moderniseringskandidaten te scoren en een gescheiden 24-maanden roadmap te produceren met kostenramingen en risicoprofielen."
+      },
+      {
+        "title": "2. Architectuur & proof of concept",
+        "description": "8-weken fase om de doelarchitectuur te valideren met een end-to-end gemigreerde proof-of-concept service. Stakeholders zien werkende code, geen slides."
+      },
+      {
+        "title": "3. Incrementele migratie",
+        "description": "Extraheer services één voor één via strangler-fig pattern. Elke migratie is een sprint van 6–10 weken met productieverkeer, veilige rollback en meetbare succescriteria."
+      },
+      {
+        "title": "4. Platform hardening",
+        "description": "CI/CD, observability, security scanning en incident response voor het nieuwe platform. Het team dat het nieuwe systeem draait, is getraind en zeker vóór legacy-uitfasering."
+      },
+      {
+        "title": "5. Legacy-uitfasering",
+        "description": "Decommissioneer het legacy-systeem zodra al het verkeer is gemigreerd. Archiveer data volgens compliance-vereisten, leg institutionele kennis vast en maak infrastructuurbudget vrij."
+      }
+    ]
+  },
+  "tech_stack": {
+    "section_title": "Onze enterprise-moderniseringsstack",
+    "intro": "We gebruiken moderne, bewezen, goed ondersteunde technologie voor de delen van uw stack die 10+ jaar moeten draaien. De platformkeuze is minder belangrijk dan gedisciplineerd engineering.",
+    "categories": [
+      {
+        "name": ".NET-stack",
+        "items": [
+          ".NET 8",
+          "ASP.NET Core",
+          "Entity Framework Core",
+          "Blazor",
+          "SignalR",
+          "gRPC"
+        ]
+      },
+      {
+        "name": "Java-stack",
+        "items": [
+          "Spring Boot 3",
+          "Jakarta EE",
+          "Hibernate",
+          "Micronaut",
+          "Quarkus",
+          "Gradle"
+        ]
+      },
+      {
+        "name": "Microservices",
+        "items": [
+          "Kubernetes",
+          "Istio",
+          "Linkerd",
+          "Dapr",
+          "RabbitMQ",
+          "Apache Kafka"
+        ]
+      },
+      {
+        "name": "Databases",
+        "items": [
+          "PostgreSQL",
+          "SQL Server",
+          "Azure Cosmos DB",
+          "MongoDB",
+          "Redis",
+          "Elasticsearch"
+        ]
+      },
+      {
+        "name": "Cloudplatformen",
+        "items": [
+          "Microsoft Azure",
+          "Amazon Web Services",
+          "Google Cloud",
+          "Azure Arc",
+          "AWS Outposts"
+        ]
+      },
+      {
+        "name": "Observability",
+        "items": [
+          "Prometheus",
+          "Grafana",
+          "OpenTelemetry",
+          "Datadog",
+          "New Relic",
+          "Elastic APM"
+        ]
+      }
+    ]
+  },
+  "case_study": {
+    "section_title": "Case study: productie-ERP — .NET-modernisering",
+    "industry": "Productie (mid-market, 4 fabrieken, 1.200 gebruikers)",
+    "challenge": "Maatwerk-ERP op .NET Framework 4.5 + Windows Server 2008 + SQL Server 2008. Paginalaadtijden van 8–12 seconden. Het oorspronkelijke ontwikkelteam was allemaal vertrokken; 3 adviesbureaus wezen het project af.",
+    "solution": "18-maanden strangler-fig migratie naar .NET 8 + AKS + Azure SQL. Extractie van 14 services uit de monoliet, databasemigratie naar Azure SQL Managed Instance met minimale downtime, deployment van observability-stack met Datadog. Training van intern team om het nieuwe platform te beheren.",
+    "results": [
+      "Paginalaadtijden gedaald van 8–12s naar 200–400ms (30x verbetering)",
+      "Infrastructuurkosten verlaagd van 180K $/jaar naar 48K $/jaar (-73%)",
+      "Deployment-frequentie verhoogd van kwartaal naar 3x per week",
+      "P99 API-latentie onder 250ms; 99,95% uptime over 12 maanden"
+    ]
+  },
+  "faq": {
+    "section_title": "Veelgestelde vragen",
+    "items": [
+      {
+        "question": "Hoe lang duurt enterprise-softwaremodernisering?",
+        "answer": "Een gerichte modernisering van één applicatie (bijv. .NET Framework 4.5 naar .NET 8) duurt doorgaans 6–12 maanden, afhankelijk van applicatiegrootte, testdekking en integratieoppervlak. Een volledig enterprise-portfoliomoderniseringsprogramma duurt 18–36 maanden. Wij leveren continu waarde gedurende het hele engagement – elke sprint levert werkende code in productie."
+      },
+      {
+        "question": "Kunt u moderniseren zonder het systeem offline te halen?",
+        "answer": "Ja. We gebruiken het strangler-fig pattern: het nieuwe systeem groeit naast het legacy-systeem, met verkeer dat incrementeel wordt gerouteerd via API gateway. Op elk moment kunnen we terugrollen naar het legacy-systeem als er iets misgaat. De meeste van onze moderniseringen hebben nul klant-zichtbare downtime."
+      },
+      {
+        "question": "Hoe gaan jullie om met het probleem van institutionele kennis?",
+        "answer": "We beginnen elk engagement met een kennis-vastleggingsfase: interviews met oorspronkelijke ontwikkelaars, geautomatiseerde code-analyse en documentatie van businessregels, edge cases en tribale workarounds. Deze kennis wordt in het nieuwe systeem vastgelegd via tests, commentaar en runbooks. Wanneer het legacy-systeem wordt uitgefaseerd, is de institutionele kennis volledig vastgelegd in het nieuwe platform."
+      },
+      {
+        "question": "Wat is de typische kost van enterprise-modernisering?",
+        "answer": "Een gerichte modernisering van één applicatie varieert van 200K–800K $, afhankelijk van grootte, complexiteit en doelarchitectuur. Een portfoliomoderniseringsprogramma varieert doorgaans van 1,2M–5M $ over 18–36 maanden. We bieden een fixed-price voorstel na de 4-weken assessmentfase, zodat u de kost kent voordat u zich committeert aan de bouw."
+      },
+      {
+        "question": "Moeten we helemaal opnieuw schrijven of incrementeel moderniseren?",
+        "answer": "Bijna altijd incrementeel. Big-bang rewrites hebben een faalpercentage van meer dan 70% volgens brancheonderzoek. Het strangler-fig pattern is veiliger, levert continu waarde en laat u bijsturen op basis van echte productiefeedback. We bevelen rewrite alleen aan voor applicaties die zo klein, zo geïsoleerd of zo kapot zijn dat incrementele migratie niet kosteneffectief is."
+      }
+    ]
+  },
+  "cta": {
+    "section_title": "Klaar om uw enterprise-software te moderniseren?",
+    "intro": "Boek een gratis consult van 30 minuten. We reviewen uw applicatieportfolio, identificeren de moderniseringskandidaten met de hoogste ROI en stellen een fixed-price engagement voor.",
+    "button": "Boek gratis consult",
+    "secondary_button": "Bekijk alle diensten"
+  }
+}
