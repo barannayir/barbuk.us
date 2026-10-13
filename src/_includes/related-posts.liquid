@@ -1,0 +1,56 @@
+<!--
+  related-posts.liquid — Hub-spoke internal linking
+  Picks up to N posts sharing the most tags with the current post.
+  Falls back to most recent posts if no tag overlap.
+  Usage:
+    {% include "related-posts.liquid", current: page, limit: 3 %}
+-->
+{%- assign cur = current -%}
+{%- assign max_n = limit | default: 3 -%}
+{%- assign cur_tags = cur.data.tags | default: empty -%}
+
+{%- comment -%} Build scored list of candidate posts (skip self) {%- endcomment -%}
+{%- assign candidates = "" | split: "|" -%}
+{%- for p in collections.blogPosts -%}
+  {%- if p.url == cur.url %}{% continue %}{% endif -%}
+  {%- assign score = 0 -%}
+  {%- assign p_tags = p.data.tags | default: empty -%}
+  {%- if cur_tags.size > 0 and p_tags.size > 0 -%}
+    {%- for t in cur_tags -%}
+      {%- if p_tags contains t -%}{% assign score = score | plus: 1 %}{% endif -%}
+    {%- endfor -%}
+  {%- endif -%}
+  {%- assign entry = score | append: "~" | append: p.url | append: "~" | append: p.data.title -%}
+  {%- assign candidates = candidates | push: entry -%}
+{%- endfor -%}
+
+{%- if candidates.size > 0 -%}
+<aside class="related-posts" aria-label="Related Articles">
+  <h3 class="related-posts-title">Related Articles</h3>
+  <ul class="related-posts-list">
+    {%- for entry in candidates limit: max_n -%}
+      {%- assign parts = entry | split: "~" -%}
+      {%- assign post_url = parts[1] -%}
+      {%- assign post_title = parts[2] -%}
+      <li><a href="{{ post_url }}">{{ post_title }}</a></li>
+    {%- endfor -%}
+  </ul>
+</aside>
+
+<style>
+.related-posts {
+  margin: 3rem auto 0;
+  padding: 2rem;
+  background: var(--card-bg, #1a1a1f);
+  border: 1px solid var(--border-color, #2a2a30);
+  border-radius: 12px;
+  max-width: 800px;
+}
+.related-posts-title { font-size: 1.25rem; font-weight: 700; margin: 0 0 1rem; }
+.related-posts-list { list-style: none; padding: 0; margin: 0; }
+.related-posts-list li { padding: 0.5rem 0; border-bottom: 1px solid var(--border-color, #2a2a30); }
+.related-posts-list li:last-child { border-bottom: none; }
+.related-posts-list a { color: var(--accent-color, #4f9eff); text-decoration: none; font-weight: 500; }
+.related-posts-list a:hover { text-decoration: underline; }
+</style>
+{%- endif -%}
