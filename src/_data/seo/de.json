@@ -1,0 +1,42 @@
+{
+  "home": {
+    "title": "Legacy-System-Modernisierung",
+    "description": "Veraltete Unternehmenssoftware in moderne, KI-integrierte Anwendungen transformieren. Barbuk liefert Zero-Downtime-Modernisierung, Cloud-Migration und KI-Integration für B2B-Teams."
+  },
+  "services": {
+    "title": "Modernisierung von Unternehmenssoftware",
+    "description": "End-to-End-Modernisierung: ASP.NET zu .NET Core, Cloud-Migration, KI-Integration, UI/UX-Redesign. Zero-Downtime, 60% schnellere Aufgabenbearbeitung."
+  },
+  "portfolio": {
+    "title": "Legacy-Modernisierung Fallstudien",
+    "description": "Echte Vorher/Nachher-Transformationen: ASP.NET-Rebuilds, COBOL-zu-Cloud-Migrationen. Verifizierte Metriken: 60% schneller, 94% Zufriedenheit."
+  },
+  "about": {
+    "title": "Über Barbuk — Legacy-Modernisierungsexperten",
+    "description": "Gegründet von Veteranen der Unternehmenssoftware, spezialisiert auf Legacy-Modernisierung für B2B-Mittelstand. 50+ modernisierte Systeme, 98% Kundenzufriedenheit."
+  },
+  "contact": {
+    "title": "Kostenlose Legacy-Bewertung anfordern",
+    "description": "30-Minuten-Call mit unseren Architekten. Wir auditieren Ihr Legacy-System und skizzieren eine realistische Modernisierungs-Roadmap – kostenlos."
+  },
+  "legacy-modernization": {
+    "title": "Legacy-System-Modernisierung Services",
+    "description": "Zero-Downtime-Modernisierung: ASP.NET, COBOL, Java EE, PHP, VB.NET zu modernen Cloud-Native-Stacks. Strangler-Fig-Pattern. 60% schneller."
+  },
+  "ai-integration-services": {
+    "title": "KI-Integration für Unternehmen",
+    "description": "LLMs, Computer Vision und Vorhersagemodelle in Ihre bestehende Unternehmenssoftware integrieren. Produktionsreife KI-Integration, 5-10x ROI in 18 Monaten."
+  },
+  "cloud-migration-services": {
+    "title": "Cloud-Migration für B2B",
+    "description": "AWS-, Azure- und GCP-Migration mit FinOps. Lift-and-Shift, Re-Platform oder Refactor – Zero-Downtime, 40% TCO-Reduktion im Durchschnitt."
+  },
+  "enterprise-software-modernization": {
+    "title": "Modernisierung von Unternehmenssoftware Roadmap",
+    "description": "Strategische Modernisierung: Bewertung, Roadmap, phasengestaffelte Lieferung, Hyper-Care. Für regulierte Branchen und 1000+ Benutzer."
+  },
+  "b2b-software-services": {
+    "title": "B2B-Softwareentwicklung & Modernisierung",
+    "description": "End-to-End-B2B-Softwaredienstleistungen: Entwicklung, Modernisierung, Integrationen, Support. Nur Senior-Engineers, 6-Wochen-MVPs."
+  }
+}

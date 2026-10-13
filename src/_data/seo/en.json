@@ -1,0 +1,42 @@
+{
+  "home": {
+    "title": "Legacy System Modernization Services",
+    "description": "Transform outdated enterprise software into modern, AI-integrated applications. Barbuk delivers zero-downtime legacy modernization, cloud migration, and AI integration for B2B teams."
+  },
+  "services": {
+    "title": "Enterprise Software Modernization Services",
+    "description": "End-to-end modernization: ASP.NET to .NET Core, cloud migration, AI integration, UI/UX redesign, and workflow automation. Zero-downtime, 60% faster task completion."
+  },
+  "portfolio": {
+    "title": "Legacy Modernization Case Studies & Portfolio",
+    "description": "See real before/after transformations: ASP.NET rebuilds, COBOL-to-cloud migrations, AI-integrated CRM upgrades. Verified metrics: 60% faster, 94% satisfaction."
+  },
+  "about": {
+    "title": "About Barbuk — Legacy Modernization Experts",
+    "description": "Founded by enterprise software veterans, Barbuk specializes in legacy system modernization for mid-market B2B. ISO-aligned processes, 50+ systems modernized."
+  },
+  "contact": {
+    "title": "Get a Free Legacy Modernization Assessment",
+    "description": "Book a 30-minute call with our architects. We'll audit your legacy system, identify the 4 biggest cost leaks, and outline a realistic modernization roadmap."
+  },
+  "legacy-modernization": {
+    "title": "Legacy System Modernization Services",
+    "description": "Zero-downtime legacy system modernization: ASP.NET, COBOL, Java EE, PHP, VB.NET to modern cloud-native stacks. Strangler-fig patterns. 60% faster, 98% client satisfaction."
+  },
+  "ai-integration-services": {
+    "title": "AI Integration Services for Enterprise",
+    "description": "Integrate LLMs, computer vision, and predictive models into your existing enterprise software. Production-grade AI integration, 5-10x ROI within 18 months."
+  },
+  "cloud-migration-services": {
+    "title": "Cloud Migration Services for B2B",
+    "description": "AWS, Azure, and GCP migration with FinOps baked in. Lift-and-shift, re-platform, or refactor—zero downtime, 40% TCO reduction on average."
+  },
+  "enterprise-software-modernization": {
+    "title": "Enterprise Software Modernization Roadmap",
+    "description": "Strategic enterprise software modernization: assessment, roadmap, phased delivery, hyper-care. Built for regulated industries and 1000+ user bases."
+  },
+  "b2b-software-services": {
+    "title": "B2B Software Development & Modernization",
+    "description": "End-to-end B2B software services: custom development, modernization, integrations, and ongoing support. Senior-only engineers, 6-week MVPs."
+  }
+}

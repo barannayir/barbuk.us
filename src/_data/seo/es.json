@@ -1,0 +1,42 @@
+{
+  "home": {
+    "title": "Modernización de Sistemas Legacy",
+    "description": "Transforma software empresarial obsoleto en aplicaciones modernas e integradas con IA. Barbuk ofrece modernización sin tiempo de inactividad, migración a la nube e integración IA para B2B."
+  },
+  "services": {
+    "title": "Servicios de Modernización de Software",
+    "description": "Modernización de extremo a extremo: ASP.NET a .NET Core, migración a la nube, integración IA, rediseño UI/UX. Sin tiempo de inactividad, 60% más rápido."
+  },
+  "portfolio": {
+    "title": "Casos de Estudio Modernización Legacy",
+    "description": "Transformaciones reales antes/después: reconstrucciones ASP.NET, migraciones COBOL a la nube, actualizaciones CRM con IA. Métricas verificadas: 60% más rápido, 94% satisfacción."
+  },
+  "about": {
+    "title": "Sobre Barbuk — Expertos en Modernización",
+    "description": "Fundada por veteranos del software empresarial, Barbuk se especializa en modernización legacy para B2B mid-market. 50+ sistemas modernizados, 98% satisfacción."
+  },
+  "contact": {
+    "title": "Evaluación Gratuita de Modernización",
+    "description": "Llamada de 30 minutos con nuestros arquitectos. Auditamos tu sistema legacy y delineamos una hoja de ruta realista – gratis."
+  },
+  "legacy-modernization": {
+    "title": "Servicios de Modernización de Sistemas Legacy",
+    "description": "Modernización sin tiempo de inactividad: ASP.NET, COBOL, Java EE, PHP, VB.NET a stacks cloud-native modernos. Patrón Strangler-Fig. 60% más rápido."
+  },
+  "ai-integration-services": {
+    "title": "Servicios de Integración IA para Empresa",
+    "description": "Integra LLMs, visión por computador y modelos predictivos en tu software existente. Integración IA production-ready, ROI 5-10x en 18 meses."
+  },
+  "cloud-migration-services": {
+    "title": "Servicios de Migración a la Nube B2B",
+    "description": "Migración AWS, Azure y GCP con FinOps integrado. Lift-and-shift, re-platform o refactor – sin tiempo de inactividad, 40% reducción TCO promedio."
+  },
+  "enterprise-software-modernization": {
+    "title": "Hoja de Ruta Modernización Software Empresarial",
+    "description": "Modernización estratégica: evaluación, hoja de ruta, entrega por fases, hyper-care. Para industrias reguladas y bases 1000+ usuarios."
+  },
+  "b2b-software-services": {
+    "title": "Desarrollo de Software B2B & Modernización",
+    "description": "Servicios de software B2B de extremo a extremo: desarrollo, modernización, integraciones, soporte. Solo ingenieros senior, MVP en 6 semanas."
+  }
+}

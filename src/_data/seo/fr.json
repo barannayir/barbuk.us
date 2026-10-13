@@ -1,0 +1,42 @@
+{
+  "home": {
+    "title": "Modernisation des Systèmes Legacy",
+    "description": "Transformez vos logiciels d'entreprise obsolètes en applications modernes et intégrées à l'IA. Barbuk offre modernisation sans interruption, migration cloud et intégration IA pour B2B."
+  },
+  "services": {
+    "title": "Services de Modernisation de Logiciels",
+    "description": "Modernisation de bout en bout : ASP.NET vers .NET Core, migration cloud, intégration IA, refonte UI/UX. Sans interruption, 60% plus rapide."
+  },
+  "portfolio": {
+    "title": "Études de Cas Modernisation Legacy",
+    "description": "Transformations avant/après : refontes ASP.NET, migrations COBOL vers cloud, mises à niveau CRM IA. Métriques vérifiées : 60% plus rapide, 94% satisfaction."
+  },
+  "about": {
+    "title": "À Propos de Barbuk — Experts en Modernisation",
+    "description": "Fondé par des vétérans du logiciel d'entreprise, Barbuk se spécialise dans la modernisation legacy pour le B2B mid-market. 50+ systèmes modernisés, 98% satisfaction."
+  },
+  "contact": {
+    "title": "Évaluation Gratuite de Modernisation",
+    "description": "Appel de 30 minutes avec nos architectes. Nous auditons votre système legacy et proposons une feuille de route réaliste – gratuitement."
+  },
+  "legacy-modernization": {
+    "title": "Services de Modernisation de Systèmes Legacy",
+    "description": "Modernisation sans interruption : ASP.NET, COBOL, Java EE, PHP, VB.NET vers stacks cloud-native modernes. Pattern Strangler-Fig. 60% plus rapide."
+  },
+  "ai-integration-services": {
+    "title": "Services d'Intégration IA pour Entreprise",
+    "description": "Intégrez LLMs, vision par ordinateur et modèles prédictifs dans vos logiciels existants. Intégration IA production-ready, ROI 5-10x en 18 mois."
+  },
+  "cloud-migration-services": {
+    "title": "Services de Migration Cloud B2B",
+    "description": "Migration AWS, Azure et GCP avec FinOps intégré. Lift-and-shift, re-platform ou refactor – sans interruption, 40% de réduction TCO en moyenne."
+  },
+  "enterprise-software-modernization": {
+    "title": "Modernisation de Logiciels d'Entreprise Roadmap",
+    "description": "Modernisation stratégique : évaluation, roadmap, livraison phasée, hyper-care. Pour industries réglementées et bases 1000+ utilisateurs."
+  },
+  "b2b-software-services": {
+    "title": "Services de Développement B2B",
+    "description": "Services logiciels B2B de bout en bout : développement, modernisation, intégrations, support. Ingénieurs seniors uniquement, MVP en 6 semaines."
+  }
+}

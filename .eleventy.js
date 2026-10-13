@@ -40,6 +40,46 @@ module.exports = function(eleventyConfig) {
     }
   });
 
+  // --- SEO: per-page unique title + description lookup ---
+  // src/_data/seo/<lang>.json → { "<pageKey>": { title, description } }
+  // pageKey: URL'den türetilir (örn. /services/ → "services")
+  eleventyConfig.addFilter("seoTitle", function(fallback, pageUrl, lang) {
+    const path = require("path");
+    const fs = require("fs");
+    const slug = urlToSlug(pageUrl);
+    const tryLoad = (l) => {
+      const f = path.join(__dirname, "src", "_data", "seo", `${l}.json`);
+      try { return JSON.parse(fs.readFileSync(f, "utf8")); } catch (e) { return null; }
+    };
+    const data = tryLoad(lang) || tryLoad("en") || {};
+    return (data[slug] && data[slug].title) ? data[slug].title : fallback;
+  });
+
+  eleventyConfig.addFilter("seoDescription", function(fallback, pageUrl, lang) {
+    const path = require("path");
+    const fs = require("fs");
+    const slug = urlToSlug(pageUrl);
+    const tryLoad = (l) => {
+      const f = path.join(__dirname, "src", "_data", "seo", `${l}.json`);
+      try { return JSON.parse(fs.readFileSync(f, "utf8")); } catch (e) { return null; }
+    };
+    const data = tryLoad(lang) || tryLoad("en") || {};
+    return (data[slug] && data[slug].description) ? data[slug].description : fallback;
+  });
+
+  // --- URL → SEO slug helper (yardımcı) ---
+  function urlToSlug(url) {
+    if (!url) return "home";
+    let p = String(url).replace(/^\/+/, "").replace(/\/+$/, "");
+    if (!p) return "home";
+    const parts = p.split("/");
+    if (["de", "fr", "nl", "it", "es"].includes(parts[0])) {
+      parts.shift();
+    }
+    if (parts.length === 0 || parts[0] === "") return "home";
+    return parts[0];
+  }
+
   // --- i18n: altlangs helper ---
   // Belirli bir sayfa URL'si için tüm dillerdeki eşdeğer URL'leri üretir
   eleventyConfig.addFilter("altLangs", function(currentUrl, languages) {

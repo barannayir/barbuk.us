@@ -13,9 +13,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Primary Meta Tags -->
-  <title>{{ title }} | Barbuk - Legacy System Modernization</title>
-  <meta name="title" content="{{ title }} | Barbuk - Legacy System Modernization">
-  <meta name="description" content="{{ description | default: 'Transform your legacy systems into modern, high-performance applications. Expert B2B software modernization, AI integration, and workflow automation services.' }}">
+  <title>{{ title | seoTitle: page.url, currentLang }} | Barbuk - Legacy System Modernization</title>
+  <meta name="title" content="{{ title | seoTitle: page.url, currentLang }} | Barbuk - Legacy System Modernization">
+  <meta name="description" content="{{ description | seoDescription: page.url, currentLang | default: 'Transform your legacy systems into modern, high-performance applications. Expert B2B software modernization, AI integration, and workflow automation services.' }}">
   <meta name="keywords" content="legacy system modernization, enterprise software modernization, ASP.NET modernization, UI/UX redesign, workflow automation, AI integration, cloud migration, B2B software services">
   <meta name="author" content="Barbuk">
   <meta name="robots" content="index, follow">
@@ -36,8 +36,8 @@
   <!-- Open Graph / Facebook (per-locale image, secure_url, locale alternates) -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://barbuk.us{{ page.url }}">
-  <meta property="og:title" content="{{ title }} | Barbuk - Legacy System Modernization">
-  <meta property="og:description" content="{{ description | default: 'Transform your legacy systems into modern, high-performance applications. Expert B2B software modernization services.' }}">
+  <meta property="og:title" content="{{ title | seoTitle: page.url, currentLang }} | Barbuk - Legacy System Modernization">
+  <meta property="og:description" content="{{ description | seoDescription: page.url, currentLang | default: 'Transform your legacy systems into modern, high-performance applications. Expert B2B software modernization services.' }}">
   <meta property="og:image" content="https://barbuk.us/assets/images/og-image-{{ currentLang }}.png">
   <meta property="og:image:secure_url" content="https://barbuk.us/assets/images/og-image-{{ currentLang }}.png">
   <meta property="og:image:type" content="image/png">
@@ -54,8 +54,8 @@
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image">
   <meta property="twitter:url" content="https://barbuk.us{{ page.url }}">
-  <meta property="twitter:title" content="{{ title }} | Barbuk - Legacy System Modernization">
-  <meta property="twitter:description" content="{{ description | default: 'Transform your legacy systems into modern, high-performance applications.' }}">
+  <meta property="twitter:title" content="{{ title | seoTitle: page.url, currentLang }} | Barbuk - Legacy System Modernization">
+  <meta property="twitter:description" content="{{ description | seoDescription: page.url, currentLang | default: 'Transform your legacy systems into modern, high-performance applications.' }}">
   <meta property="twitter:image" content="https://barbuk.us/assets/images/og-image-{{ currentLang }}.png">
   <meta property="twitter:image:alt" content="{{ title }} - Barbuk">
 

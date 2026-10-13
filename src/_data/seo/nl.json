@@ -1,0 +1,42 @@
+{
+  "home": {
+    "title": "Legacy Systeem Modernisering",
+    "description": "Transformeer verouderde bedrijfssoftware naar moderne, AI-geïntegreerde applicaties. Barbuk levert zero-downtime modernisering, cloudmigratie en AI-integratie voor B2B-teams."
+  },
+  "services": {
+    "title": "Enterprise Software Modernisering Services",
+    "description": "End-to-end modernisering: ASP.NET naar .NET Core, cloudmigratie, AI-integratie, UI/UX-redesign. Zero-downtime, 60% snellere taakuitvoering."
+  },
+  "portfolio": {
+    "title": "Legacy Modernisering Cases",
+    "description": "Echte voor/na transformaties: ASP.NET-rebuilds, COBOL-naar-cloud migraties, AI-geïntegreerde CRM-upgrades. Geverifieerde metrics: 60% sneller, 94% tevredenheid."
+  },
+  "about": {
+    "title": "Over Barbuk — Legacy Modernisering Experts",
+    "description": "Opgericht door veteranen in bedrijfssoftware, gespecialiseerd in legacy modernisering voor B2B-middenmarkt. 50+ systemen gemoderniseerd, 98% klanttevredenheid."
+  },
+  "contact": {
+    "title": "Gratis Legacy Moderniserings Assessment",
+    "description": "30-minuten gesprek met onze architecten. We auditen uw legacy systeem en schetsen een realistische moderniserings-roadmap – gratis."
+  },
+  "legacy-modernization": {
+    "title": "Legacy Systeem Modernisering Services",
+    "description": "Zero-downtime modernisering: ASP.NET, COBOL, Java EE, PHP, VB.NET naar moderne cloud-native stacks. Strangler-Fig patroon. 60% sneller."
+  },
+  "ai-integration-services": {
+    "title": "AI Integratie Services voor Enterprise",
+    "description": "Integreer LLMs, computer vision en voorspellende modellen in uw bestaande bedrijfssoftware. Productie-klare AI-integratie, 5-10x ROI binnen 18 maanden."
+  },
+  "cloud-migration-services": {
+    "title": "Cloud Migratie Services voor B2B",
+    "description": "AWS, Azure en GCP migratie met FinOps ingebouwd. Lift-and-shift, re-platform of refactor – zero-downtime, 40% TCO-reductie gemiddeld."
+  },
+  "enterprise-software-modernization": {
+    "title": "Enterprise Software Modernisering Roadmap",
+    "description": "Strategische modernisering: assessment, roadmap, gefaseerde levering, hyper-care. Voor gereguleerde industrieën en 1000+ gebruikers."
+  },
+  "b2b-software-services": {
+    "title": "B2B Software Ontwikkeling & Modernisering",
+    "description": "End-to-end B2B softwarediensten: ontwikkeling, modernisering, integraties, support. Alleen senior engineers, MVP's in 6 weken."
+  }
+}
