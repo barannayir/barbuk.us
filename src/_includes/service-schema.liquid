@@ -1,0 +1,30 @@
+{%- comment -%}
+  Service JSON-LD schema generator.
+  Usage: {% include "service-schema.liquid" with services: t.services %}
+  Çıktı: <script type="application/ld+json"> with ItemList of Service entries.
+{%- endcomment -%}
+{%- if include.services -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "itemListElement": [
+    {%- for s in include.services -%}
+    {
+      "@type": "ListItem",
+      "position": {{ forloop.index }},
+      "item": {
+        "@type": "Service",
+        "name": {{ s.title | jsonify }},
+        "description": {{ s.intro | jsonify }},
+        "provider": {
+          "@type": "Organization",
+          "name": "Barbuk"
+        }
+      }
+    }{% unless forloop.last %},{% endunless %}
+    {%- endfor -%}
+  ]
+}
+</script>
+{%- endif -%}

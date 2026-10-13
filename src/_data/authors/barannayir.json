@@ -1,0 +1,25 @@
+{
+  "name": "Baran Nayir",
+  "jobTitle": "Founder & Lead Software Architect",
+  "description": "B2B software modernization expert with 10+ years of experience transforming legacy systems into modern, high-performance applications. Specializes in ASP.NET to .NET Core migrations, AI integration, and cloud-native architectures.",
+  "url": "https://barbuk.us/about/",
+  "email": "mailto:barannayir@gmail.com",
+  "image": "https://barbuk.us/assets/images/authors/baran-nayir.jpg",
+  "sameAs": [
+    "https://www.linkedin.com/in/barannayir/",
+    "https://github.com/barannayir"
+  ],
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Barbuk",
+    "url": "https://barbuk.us"
+  },
+  "knowsAbout": [
+    "Legacy System Modernization",
+    "ASP.NET to .NET Core Migration",
+    "Cloud Migration",
+    "AI Integration",
+    "Enterprise Software Architecture",
+    "Workflow Automation"
+  ]
+}

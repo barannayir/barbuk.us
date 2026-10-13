@@ -169,6 +169,22 @@ module.exports = function(eleventyConfig) {
     return Date.now().toString(36);
   });
 
+  // --- Author data global (E-E-A-T) ---
+  // src/_data/authors/<id>.json tüm sayfalarda {{ authors.<id> }} ile erişilebilir
+  eleventyConfig.addGlobalData("authors", function() {
+    const path = require("path");
+    const fs = require("fs");
+    const dir = path.join(__dirname, "src", "_data", "authors");
+    if (!fs.existsSync(dir)) return {};
+    const out = {};
+    for (const f of fs.readdirSync(dir)) {
+      if (!f.endsWith(".json")) continue;
+      const id = f.replace(/\.json$/, "");
+      try { out[id] = JSON.parse(fs.readFileSync(path.join(dir, f), "utf8")); } catch (e) {}
+    }
+    return out;
+  });
+
   return {
     dir: {
       input: "src",

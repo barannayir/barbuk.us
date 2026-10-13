@@ -1,0 +1,28 @@
+{%- comment -%}
+  Person JSON-LD author schema (E-E-A-T).
+  Usage: {% include "person-schema.liquid" with author: authors.barannayir %}
+  Çıktı: <script type="application/ld+json"> with Person.
+{%- endcomment -%}
+{%- if include.author -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": {{ include.author.name | jsonify }},
+  "jobTitle": {{ include.author.jobTitle | jsonify }},
+  "description": {{ include.author.description | jsonify }},
+  "url": {{ include.author.url | jsonify }},
+  {%- if include.author.image %}
+  "image": {{ include.author.image | jsonify }},
+  {%- endif %}
+  "email": {{ include.author.email | jsonify }},
+  "worksFor": {
+    "@type": "Organization",
+    "name": {{ include.author.worksFor.name | jsonify }},
+    "url": {{ include.author.worksFor.url | jsonify }}
+  }{% if include.author.sameAs %},
+  "sameAs": {{ include.author.sameAs | jsonify }}{% endif %}{% if include.author.knowsAbout %},
+  "knowsAbout": {{ include.author.knowsAbout | jsonify }}{% endif %}
+}
+</script>
+{%- endif -%}

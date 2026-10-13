@@ -26,6 +26,10 @@ layout: base.liquid
   </div>
 
   <footer class="post-footer">
+    <div class="author-bio">
+      <strong>{{ authors.barannayir.name }}</strong> — {{ authors.barannayir.jobTitle }}
+      <p>{{ authors.barannayir.description }}</p>
+    </div>
     <a class="back-link" href="{{ "/blog/" | localizedUrl: currentLang }}">← {{ t.back_to_blog | default: "Back to all insights" }}</a>
 
     <script type="application/ld+json">
@@ -37,9 +41,10 @@ layout: base.liquid
       "datePublished": "{{ page.date | date: '%Y-%m-%d' }}",
       "dateModified": "{{ page.date | date: '%Y-%m-%d' }}",
       "author": {
-        "@type": "Organization",
-        "name": "Barbuk",
-        "url": "https://barbuk.us"
+        "@type": "Person",
+        "name": "{{ authors.barannayir.name }}",
+        "url": "{{ authors.barannayir.url }}",
+        "jobTitle": "{{ authors.barannayir.jobTitle }}"
       },
       "publisher": {
         "@type": "Organization",
