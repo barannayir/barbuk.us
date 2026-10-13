@@ -6,6 +6,8 @@
   "scripts": {
     "start": "eleventy --serve",
     "build": "eleventy",
+    "prebuild": "node scripts/validate-jsonld.js",
+    "validate:jsonld": "node scripts/validate-jsonld.js",
     "test": "node --test workers/contact-form.test.js"
   },
   "keywords": [],

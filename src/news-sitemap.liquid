@@ -1,0 +1,40 @@
+---
+permalink: /news-sitemap.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+
+  {%- assign newsLangs = "en,de,fr,nl,it,es" | split: "," -%}
+  {%- for post in collections.blogPosts -%}
+    {%- assign postLang = "en" -%}
+    {%- assign pathParts = post.url | split: "/" -%}
+    {%- for part in pathParts -%}
+      {%- if newsLangs contains part -%}{%- assign postLang = part -%}{%- endif -%}
+    {%- endfor -%}
+    {%- assign newsName = "en_US" -%}
+    {%- case postLang -%}
+      {%- when "de" -%}{%- assign newsName = "de_DE" -%}
+      {%- when "fr" -%}{%- assign newsName = "fr_FR" -%}
+      {%- when "nl" -%}{%- assign newsName = "nl_NL" -%}
+      {%- when "it" -%}{%- assign newsName = "it_IT" -%}
+      {%- when "es" -%}{%- assign newsName = "es_ES" -%}
+    {%- endcase -%}
+    <url>
+      <loc>https://barbuk.us{{ post.url }}</loc>
+      <news:news>
+        <news:publication>
+          <news:name>Barbuk Insights</news:name>
+          <news:language>{{ newsName }}</news:language>
+        </news:publication>
+        <news:publication_date>{{ post.date | date: "%Y-%m-%dT%H:%M:%S+00:00" }}</news:publication_date>
+        <news:title>{{ post.data.title | escape }}</news:title>
+        {%- if post.data.tags and post.data.tags.size > 0 -%}
+        <news:keywords>{{ post.data.tags | join: ", " }}</news:keywords>
+        {%- endif -%}
+      </news:news>
+    </url>
+  {%- endfor -%}
+
+</urlset>
