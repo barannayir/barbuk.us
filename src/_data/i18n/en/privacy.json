@@ -1,0 +1,58 @@
+{
+  "title": "Privacy Policy",
+  "meta_description": "Privacy Policy for Barbuk (barbuk.us). How we collect, use, and protect your personal data. GDPR-compliant contact form handling.",
+  "page_hero": {
+    "title": "Privacy Policy",
+    "intro": "Last updated: 13 October 2026. This policy describes how Barbuk ('we', 'us', or 'our') collects, uses, and protects your personal data when you visit barbuk.us or use our services."
+  },
+  "sections": [
+    {
+      "heading": "1. Data Controller",
+      "body": "The data controller for barbuk.us is Barbuk. Contact: hello@barbuk.us."
+    },
+    {
+      "heading": "2. What Data We Collect",
+      "body": "We collect data you provide voluntarily: name, email, company, and message via the contact form. We do not use third-party analytics that track individual users (no Google Analytics, no Facebook Pixel)."
+    },
+    {
+      "heading": "3. Purpose of Processing",
+      "body": "Contact form submissions are processed solely to respond to your inquiry. We do not use your data for marketing, retargeting, or automated decision-making."
+    },
+    {
+      "heading": "4. Legal Basis (GDPR)",
+      "body": "Processing is based on Article 6(1)(a) GDPR (consent) for contact form submissions and Article 6(1)(f) GDPR (legitimate interest) for site operation and security."
+    },
+    {
+      "heading": "5. Data Storage and Retention",
+      "body": "Contact form submissions are stored in a private Google Sheet accessible only to the data controller. We retain submissions for 12 months unless a business relationship is established, in which case standard accounting retention rules apply."
+    },
+    {
+      "heading": "6. Your Rights",
+      "body": "Under GDPR you have the right to access, rectify, erase, restrict processing, data portability, and object to processing. Contact hello@barbuk.us to exercise these rights. You also have the right to lodge a complaint with your local data protection authority."
+    },
+    {
+      "heading": "7. Cookies",
+      "body": "barbuk.us does not use tracking cookies. We use only Cloudflare's essential cookies required for DDoS protection and bot detection."
+    },
+    {
+      "heading": "8. Third-Party Services",
+      "body": "We use Cloudflare Pages and Cloudflare Workers for hosting and contact form processing. We use Google Apps Script as a backend to append contact submissions to a private Google Sheet. These services have their own privacy policies."
+    },
+    {
+      "heading": "9. International Transfers",
+      "body": "Cloudflare and Google may process data outside the EEA. Both providers offer Standard Contractual Clauses or equivalent safeguards under GDPR."
+    },
+    {
+      "heading": "10. Security",
+      "body": "Contact form submissions are transmitted over HTTPS. Our Cloudflare Worker uses CORS validation and a honeypot field to prevent automated abuse. We do not store payment data."
+    },
+    {
+      "heading": "11. Changes to This Policy",
+      "body": "We may update this policy. The 'Last updated' date at the top reflects the most recent revision. Material changes will be highlighted on the homepage."
+    },
+    {
+      "heading": "12. Contact",
+      "body": "For privacy questions or to exercise your rights, email hello@barbuk.us."
+    }
+  ]
+}

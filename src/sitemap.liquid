@@ -7,7 +7,7 @@ eleventyExcludeFromCollections: true
         xmlns:xhtml="http://www.w3.org/1999/xhtml"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
-  {%- assign staticPages = "home,services,portfolio,about,contact,blog" | split: "," -%}
+  {%- assign staticPages = "home,services,portfolio,about,contact,blog,privacy,terms" | split: "," -%}
   {%- assign langs = "en,de,fr,nl,it,es" | split: "," -%}
   {%- assign hreflangMap = "en:en-US,de:de-DE,fr:fr-FR,nl:nl-NL,it:it-IT,es:es-ES" | split: "," -%}
 
@@ -34,6 +34,9 @@ eleventyExcludeFromCollections: true
       {%- elsif pageKey == "blog" -%}
         {%- assign priority = "0.8" -%}
         {%- assign changefreq = "weekly" -%}
+      {%- elsif pageKey == "privacy" or pageKey == "terms" -%}
+        {%- assign priority = "0.3" -%}
+        {%- assign changefreq = "yearly" -%}
       {%- endif -%}
 
       <url>

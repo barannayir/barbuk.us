@@ -1,0 +1,46 @@
+{
+  "title": "Terms of Service",
+  "meta_description": "Terms of Service for Barbuk (barbuk.us). Conditions for using our website and services.",
+  "page_hero": {
+    "title": "Terms of Service",
+    "intro": "Last updated: 13 October 2026. By accessing barbuk.us or engaging Barbuk for consulting or development services, you agree to these terms."
+  },
+  "sections": [
+    {
+      "heading": "1. About These Terms",
+      "body": "These terms govern your use of barbuk.us and any services provided by Barbuk. For service-specific contracts (e.g., a Statement of Work), the contract terms take precedence over these website terms."
+    },
+    {
+      "heading": "2. Use of the Website",
+      "body": "You may browse barbuk.us for informational purposes. You agree not to attempt to disrupt the site, scrape content at high volume, or use the site for unlawful purposes."
+    },
+    {
+      "heading": "3. Intellectual Property",
+      "body": "All content on barbuk.us (text, code samples, design, images) is © Barbuk unless otherwise noted. You may quote brief excerpts with attribution and a link back to the source page."
+    },
+    {
+      "heading": "4. No Warranty",
+      "body": "The information on this site is provided 'as is' without warranty of any kind. We do not guarantee that code examples are bug-free or suitable for production use without review."
+    },
+    {
+      "heading": "5. Professional Services",
+      "body": "Consulting, development, and modernization services are provided under separate written agreements. The information on this site does not constitute a binding offer."
+    },
+    {
+      "heading": "6. Limitation of Liability",
+      "body": "To the maximum extent permitted by law, Barbuk is not liable for any indirect, incidental, or consequential damages arising from your use of barbuk.us."
+    },
+    {
+      "heading": "7. Third-Party Links",
+      "body": "barbuk.us may link to third-party sites (e.g., GitHub, Microsoft Learn, AWS docs). We are not responsible for the content or practices of those sites."
+    },
+    {
+      "heading": "8. Governing Law",
+      "body": "These terms are governed by the laws of the Republic of Türkiye. Any disputes will be resolved in the courts of Istanbul unless otherwise required by mandatory consumer protection laws."
+    },
+    {
+      "heading": "9. Contact",
+      "body": "For questions about these terms, email hello@barbuk.us."
+    }
+  ]
+}
