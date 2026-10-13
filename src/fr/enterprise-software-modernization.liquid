@@ -30,24 +30,7 @@ permalink: /fr/enterprise-software-modernization/index.html
 </script>
 
 <!-- FAQPage JSON-LD -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {%- for item in t.faq.items -%}
-    {
-      "@type": "Question",
-      "name": {{ item.question | jsonify }},
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": {{ item.answer | jsonify }}
-      }
-    }{%- unless forloop.last -%},{%- endunless -%}
-    {%- endfor -%}
-  ]
-}
-</script>
+
 
 <!-- Hero Section -->
 <section class="page-hero">

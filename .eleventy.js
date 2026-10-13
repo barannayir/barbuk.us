@@ -17,10 +17,6 @@ module.exports = function(eleventyConfig) {
     return `/${lang}${url}`;
   });
 
-  // parseJson: parse a JSON string into an array/object (for breadcrumb-schema.liquid)
-  eleventyConfig.addFilter("parseJson", function(str) {
-    try { return JSON.parse(str); } catch (e) { return []; }
-  });
 
   // --- 11ty 3.x compat: dateToRfc3339 filter (was removed in 3.x) ---
   eleventyConfig.addFilter("dateToRfc3339", function(date) {
