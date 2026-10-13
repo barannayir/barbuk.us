@@ -1,0 +1,46 @@
+{
+  "title": "Términos de servicio",
+  "meta_description": "Términos de servicio de Barbuk (barbuk.us). Condiciones para el uso de nuestro sitio web y servicios.",
+  "page_hero": {
+    "title": "Términos de servicio",
+    "intro": "Última actualización: 13 de octubre de 2026. Al acceder a barbuk.us o contratar a Barbuk para servicios de consultoría o desarrollo, usted acepta estos términos."
+  },
+  "sections": [
+    {
+      "heading": "1. Sobre estos términos",
+      "body": "Estos términos rigen el uso de barbuk.us y de cualquier servicio prestado por Barbuk. Para los contratos específicos de un servicio (por ejemplo, un Statement of Work), los términos del contrato prevalecen sobre estos términos del sitio web."
+    },
+    {
+      "heading": "2. Uso del sitio web",
+      "body": "Puede navegar por barbuk.us con fines informativos. Se compromete a no intentar interrumpir el sitio, no realizar scraping de contenido a gran escala ni utilizar el sitio con fines ilegales."
+    },
+    {
+      "heading": "3. Propiedad intelectual",
+      "body": "Todo el contenido de barbuk.us (textos, ejemplos de código, diseño, imágenes) es © Barbuk, salvo que se indique lo contrario. Puede citar extractos breves con atribución y un enlace a la página de origen."
+    },
+    {
+      "heading": "4. Sin garantía",
+      "body": "La información de este sitio se proporciona «tal cual» sin garantía de ningún tipo. No garantizamos que los ejemplos de código estén libres de errores o sean adecuados para uso en producción sin revisión."
+    },
+    {
+      "heading": "5. Servicios profesionales",
+      "body": "Los servicios de consultoría, desarrollo y modernización se prestan en virtud de acuerdos escritos separados. La información de este sitio no constituye una oferta vinculante."
+    },
+    {
+      "heading": "6. Limitación de responsabilidad",
+      "body": "En la máxima medida permitida por la ley, Barbuk no es responsable de ningún daño indirecto, incidental o consecuente derivado del uso de barbuk.us."
+    },
+    {
+      "heading": "7. Enlaces de terceros",
+      "body": "barbuk.us puede enlazar a sitios de terceros (por ejemplo, GitHub, Microsoft Learn, documentación de AWS). No somos responsables del contenido ni de las prácticas de esos sitios."
+    },
+    {
+      "heading": "8. Ley aplicable",
+      "body": "Estos términos se rigen por las leyes de la República de Türkiye. Cualquier disputa se resolverá en los tribunales de Estambul, salvo que las leyes imperativas de protección al consumidor dispongan otra cosa."
+    },
+    {
+      "heading": "9. Contacto",
+      "body": "Para preguntas sobre estos términos, envíe un correo a hello@barbuk.us."
+    }
+  ]
+}

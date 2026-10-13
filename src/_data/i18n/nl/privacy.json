@@ -1,0 +1,58 @@
+{
+  "title": "Privacybeleid",
+  "meta_description": "Privacybeleid voor Barbuk (barbuk.us). Hoe wij uw persoonsgegevens verzamelen, gebruiken en beschermen. AVG-conforme verwerking van contactformulieren.",
+  "page_hero": {
+    "title": "Privacybeleid",
+    "intro": "Laatst bijgewerkt: 13 oktober 2026. Dit beleid beschrijft hoe Barbuk ('wij', 'ons' of 'onze') uw persoonsgegevens verzamelt, gebruikt en beschermt wanneer u barbuk.us bezoekt of onze diensten gebruikt."
+  },
+  "sections": [
+    {
+      "heading": "1. Verwerkingsverantwoordelijke",
+      "body": "De verwerkingsverantwoordelijke voor barbuk.us is Barbuk. Contact: hello@barbuk.us."
+    },
+    {
+      "heading": "2. Welke gegevens wij verzamelen",
+      "body": "Wij verzamelen gegevens die u vrijwillig verstrekt: naam, e-mail, bedrijf en bericht via het contactformulier. Wij gebruiken geen analyses van derden die individuele gebruikers volgen (geen Google Analytics, geen Facebook Pixel)."
+    },
+    {
+      "heading": "3. Doel van de verwerking",
+      "body": "Inzendingen via het contactformulier worden uitsluitend verwerkt om op uw verzoek te reageren. Wij gebruiken uw gegevens niet voor marketing, retargeting of geautomatiseerde besluitvorming."
+    },
+    {
+      "heading": "4. Rechtsgrond (AVG)",
+      "body": "De verwerking is gebaseerd op artikel 6, lid 1, onder a) AVG (toestemming) voor inzendingen via het contactformulier en artikel 6, lid 1, onder f) AVG (gerechtvaardigd belang) voor de werking en beveiliging van de site."
+    },
+    {
+      "heading": "5. Opslag en bewaartermijn",
+      "body": "Inzendingen via het contactformulier worden opgeslagen in een privé Google Sheet, die alleen toegankelijk is voor de verwerkingsverantwoordelijke. Wij bewaren inzendingen 12 maanden, tenzij een zakelijke relatie tot stand wordt gebracht, in welk geval de standaard boekhoudkundige bewaartermijnen gelden."
+    },
+    {
+      "heading": "6. Uw rechten",
+      "body": "Onder de AVG heeft u recht op inzage, rectificatie, wissing, beperking van de verwerking, overdraagbaarheid van gegevens en bezwaar tegen de verwerking. Neem contact op met hello@barbuk.us om deze rechten uit te oefenen. U heeft ook het recht om een klacht in te dienen bij uw lokale gegevensbeschermingsautoriteit."
+    },
+    {
+      "heading": "7. Cookies",
+      "body": "barbuk.us gebruikt geen trackingcookies. Wij gebruiken alleen de essentiële cookies van Cloudflare die nodig zijn voor DDoS-bescherming en botdetectie."
+    },
+    {
+      "heading": "8. Diensten van derden",
+      "body": "Wij gebruiken Cloudflare Pages en Cloudflare Workers voor hosting en verwerking van het contactformulier. Wij gebruiken Google Apps Script als backend om inzendingen van het contactformulier toe te voegen aan een privé Google Sheet. Deze diensten hebben hun eigen privacybeleid."
+    },
+    {
+      "heading": "9. Internationale doorgiften",
+      "body": "Cloudflare en Google kunnen gegevens buiten de EER verwerken. Beide aanbieders bieden Standard Contractual Clauses of gelijkwaardige waarborgen onder de AVG."
+    },
+    {
+      "heading": "10. Beveiliging",
+      "body": "Inzendingen via het contactformulier worden via HTTPS verzonden. Onze Cloudflare Worker gebruikt CORS-validatie en een honeypot-veld om geautomatiseerd misbruik te voorkomen. Wij slaan geen betalingsgegevens op."
+    },
+    {
+      "heading": "11. Wijzigingen in dit beleid",
+      "body": "Wij kunnen dit beleid bijwerken. De datum 'Laatst bijgewerkt' bovenaan geeft de meest recente herziening aan. Materiële wijzigingen worden op de homepage gemarkeerd."
+    },
+    {
+      "heading": "12. Contact",
+      "body": "Voor privacyvragen of om uw rechten uit te oefenen, e-mail hello@barbuk.us."
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "title": "Política de privacidad",
+  "meta_description": "Política de privacidad de Barbuk (barbuk.us). Cómo recopilamos, utilizamos y protegemos sus datos personales. Tratamiento del formulario de contacto conforme al RGPD.",
+  "page_hero": {
+    "title": "Política de privacidad",
+    "intro": "Última actualización: 13 de octubre de 2026. Esta política describe cómo Barbuk («nosotros» o «nuestro») recopila, utiliza y protege sus datos personales cuando visita barbuk.us o utiliza nuestros servicios."
+  },
+  "sections": [
+    {
+      "heading": "1. Responsable del tratamiento",
+      "body": "El responsable del tratamiento de barbuk.us es Barbuk. Contacto: hello@barbuk.us."
+    },
+    {
+      "heading": "2. Qué datos recopilamos",
+      "body": "Recopilamos los datos que usted proporciona voluntariamente: nombre, correo electrónico, empresa y mensaje a través del formulario de contacto. No utilizamos análisis de terceros que rastrean a usuarios individuales (ni Google Analytics, ni Facebook Pixel)."
+    },
+    {
+      "heading": "3. Finalidad del tratamiento",
+      "body": "Los envíos del formulario de contacto se tratan únicamente para responder a su consulta. No utilizamos sus datos con fines de marketing, remarketing o toma de decisiones automatizada."
+    },
+    {
+      "heading": "4. Base jurídica (RGPD)",
+      "body": "El tratamiento se basa en el artículo 6, apartado 1, letra a) del RGPD (consentimiento) para los envíos del formulario de contacto y en el artículo 6, apartado 1, letra f) del RGPD (interés legítimo) para el funcionamiento y la seguridad del sitio."
+    },
+    {
+      "heading": "5. Almacenamiento y conservación de datos",
+      "body": "Los envíos del formulario de contacto se almacenan en una Google Sheet privada, accesible solo para el responsable del tratamiento. Conservamos los envíos durante 12 meses, salvo que se establezca una relación comercial, en cuyo caso se aplican las normas estándar de conservación contable."
+    },
+    {
+      "heading": "6. Sus derechos",
+      "body": "Conforme al RGPD, usted tiene derecho de acceso, rectificación, supresión, limitación del tratamiento, portabilidad de los datos y oposición al tratamiento. Contacte con hello@barbuk.us para ejercer estos derechos. También tiene derecho a presentar una reclamación ante su autoridad local de protección de datos."
+    },
+    {
+      "heading": "7. Cookies",
+      "body": "barbuk.us no utiliza cookies de seguimiento. Solo utilizamos las cookies esenciales de Cloudflare necesarias para la protección DDoS y la detección de bots."
+    },
+    {
+      "heading": "8. Servicios de terceros",
+      "body": "Utilizamos Cloudflare Pages y Cloudflare Workers para el alojamiento y el procesamiento del formulario de contacto. Utilizamos Google Apps Script como backend para añadir los envíos del formulario de contacto a una Google Sheet privada. Estos servicios tienen sus propias políticas de privacidad."
+    },
+    {
+      "heading": "9. Transferencias internacionales",
+      "body": "Cloudflare y Google pueden tratar datos fuera del EEE. Ambos proveedores ofrecen Standard Contractual Clauses o garantías equivalentes conforme al RGPD."
+    },
+    {
+      "heading": "10. Seguridad",
+      "body": "Los envíos del formulario de contacto se transmiten a través de HTTPS. Nuestro Cloudflare Worker utiliza validación CORS y un campo honeypot para evitar el abuso automatizado. No almacenamos datos de pago."
+    },
+    {
+      "heading": "11. Cambios en esta política",
+      "body": "Podemos actualizar esta política. La fecha «Última actualización» en la parte superior refleja la revisión más reciente. Los cambios materiales se destacarán en la página de inicio."
+    },
+    {
+      "heading": "12. Contacto",
+      "body": "Para preguntas sobre privacidad o para ejercer sus derechos, envíe un correo a hello@barbuk.us."
+    }
+  ]
+}

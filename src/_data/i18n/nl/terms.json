@@ -1,0 +1,46 @@
+{
+  "title": "Servicevoorwaarden",
+  "meta_description": "Servicevoorwaarden voor Barbuk (barbuk.us). Voorwaarden voor het gebruik van onze website en diensten.",
+  "page_hero": {
+    "title": "Servicevoorwaarden",
+    "intro": "Laatst bijgewerkt: 13 oktober 2026. Door barbuk.us te bezoeken of Barbuk in te schakelen voor advies- of ontwikkelingsdiensten, gaat u akkoord met deze voorwaarden."
+  },
+  "sections": [
+    {
+      "heading": "1. Over deze voorwaarden",
+      "body": "Deze voorwaarden zijn van toepassing op uw gebruik van barbuk.us en alle door Barbuk geleverde diensten. Voor dienstspecifieke contracten (bijv. een Statement of Work) hebben de contractvoorwaarden voorrang op deze websitevoorwaarden."
+    },
+    {
+      "heading": "2. Gebruik van de website",
+      "body": "U mag barbuk.us voor informatieve doeleinden bezoeken. U stemt ermee in de site niet te verstoren, niet op grote schaal content te scrapen en de site niet voor onwettige doeleinden te gebruiken."
+    },
+    {
+      "heading": "3. Intellectueel eigendom",
+      "body": "Alle inhoud op barbuk.us (tekst, codevoorbeelden, ontwerp, afbeeldingen) is © Barbuk, tenzij anders vermeld. U mag korte fragmenten citeren met bronvermelding en een link naar de bronpagina."
+    },
+    {
+      "heading": "4. Geen garantie",
+      "body": "De informatie op deze site wordt 'zoals ze is' verstrekt, zonder enige garantie. Wij garanderen niet dat codevoorbeelden foutloos zijn of zonder controle geschikt zijn voor productiegebruik."
+    },
+    {
+      "heading": "5. Professionele diensten",
+      "body": "Advies-, ontwikkelings- en moderniseringsdiensten worden verleend onder afzonderlijke schriftelijke overeenkomsten. De informatie op deze site vormt geen bindend aanbod."
+    },
+    {
+      "heading": "6. Beperking van aansprakelijkheid",
+      "body": "Voor zover wettelijk toegestaan, is Barbuk niet aansprakelijk voor enige indirecte, incidentele of gevolgschade die voortvloeit uit uw gebruik van barbuk.us."
+    },
+    {
+      "heading": "7. Links naar derden",
+      "body": "barbuk.us kan links bevatten naar sites van derden (bijv. GitHub, Microsoft Learn, AWS-documentatie). Wij zijn niet verantwoordelijk voor de inhoud of praktijken van die sites."
+    },
+    {
+      "heading": "8. Toepasselijk recht",
+      "body": "Deze voorwaarden worden beheerst door het recht van de Republiek Türkiye. Geschillen worden beslecht door de rechtbanken van Istanbul, tenzij dwingende consumentenbeschermingswetten anders vereisen."
+    },
+    {
+      "heading": "9. Contact",
+      "body": "Voor vragen over deze voorwaarden, e-mail hello@barbuk.us."
+    }
+  ]
+}

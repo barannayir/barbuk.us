@@ -1,0 +1,58 @@
+{
+  "title": "Politique de confidentialité",
+  "meta_description": "Politique de confidentialité de Barbuk (barbuk.us). Comment nous collectons, utilisons et protégeons vos données personnelles. Traitement du formulaire de contact conforme au RGPD.",
+  "page_hero": {
+    "title": "Politique de confidentialité",
+    "intro": "Dernière mise à jour: 13 octobre 2026. Cette politique décrit comment Barbuk (« nous », « notre » ou « nos ») collecte, utilise et protège vos données personnelles lorsque vous visitez barbuk.us ou utilisez nos services."
+  },
+  "sections": [
+    {
+      "heading": "1. Responsable du traitement",
+      "body": "Le responsable du traitement de barbuk.us est Barbuk. Contact: hello@barbuk.us."
+    },
+    {
+      "heading": "2. Données que nous collectons",
+      "body": "Nous collectons les données que vous fournissez volontairement: nom, e-mail, entreprise et message via le formulaire de contact. Nous n'utilisons pas d'analyses tierces qui suivent les utilisateurs individuels (pas de Google Analytics, pas de Facebook Pixel)."
+    },
+    {
+      "heading": "3. Finalité du traitement",
+      "body": "Les soumissions du formulaire de contact sont traitées uniquement pour répondre à votre demande. Nous n'utilisons pas vos données à des fins de marketing, de reciblage ou de prise de décision automatisée."
+    },
+    {
+      "heading": "4. Base légale (RGPD)",
+      "body": "Le traitement est fondé sur l'article 6, paragraphe 1, point a) du RGPD (consentement) pour les soumissions du formulaire de contact et sur l'article 6, paragraphe 1, point f) du RGPD (intérêt légitime) pour le fonctionnement et la sécurité du site."
+    },
+    {
+      "heading": "5. Stockage et conservation des données",
+      "body": "Les soumissions du formulaire de contact sont stockées dans une Google Sheet privée, accessible uniquement au responsable du traitement. Nous conservons les soumissions pendant 12 mois, sauf si une relation commerciale est établie, auquel cas les règles standard de conservation comptable s'appliquent."
+    },
+    {
+      "heading": "6. Vos droits",
+      "body": "En vertu du RGPD, vous avez le droit d'accès, de rectification, d'effacement, de limitation du traitement, de portabilité des données et d'opposition au traitement. Contactez hello@barbuk.us pour exercer ces droits. Vous avez également le droit d'introduire une réclamation auprès de votre autorité locale de protection des données."
+    },
+    {
+      "heading": "7. Cookies",
+      "body": "barbuk.us n'utilise pas de cookies de suivi. Nous utilisons uniquement les cookies essentiels de Cloudflare nécessaires à la protection DDoS et à la détection des bots."
+    },
+    {
+      "heading": "8. Services tiers",
+      "body": "Nous utilisons Cloudflare Pages et Cloudflare Workers pour l'hébergement et le traitement du formulaire de contact. Nous utilisons Google Apps Script comme backend pour ajouter les soumissions du formulaire de contact à une Google Sheet privée. Ces services disposent de leurs propres politiques de confidentialité."
+    },
+    {
+      "heading": "9. Transferts internationaux",
+      "body": "Cloudflare et Google peuvent traiter des données en dehors de l'EEE. Les deux fournisseurs proposent des Standard Contractual Clauses ou des garanties équivalentes au titre du RGPD."
+    },
+    {
+      "heading": "10. Sécurité",
+      "body": "Les soumissions du formulaire de contact sont transmises via HTTPS. Notre Cloudflare Worker utilise la validation CORS et un champ honeypot pour empêcher les abus automatisés. Nous ne stockons pas de données de paiement."
+    },
+    {
+      "heading": "11. Modifications de cette politique",
+      "body": "Nous pouvons mettre à jour cette politique. La date « Dernière mise à jour » en haut reflète la révision la plus récente. Les modifications importantes seront mises en évidence sur la page d'accueil."
+    },
+    {
+      "heading": "12. Contact",
+      "body": "Pour toute question relative à la confidentialité ou pour exercer vos droits, envoyez un e-mail à hello@barbuk.us."
+    }
+  ]
+}

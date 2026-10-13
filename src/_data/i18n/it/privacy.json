@@ -1,0 +1,58 @@
+{
+  "title": "Informativa sulla privacy",
+  "meta_description": "Informativa sulla privacy di Barbuk (barbuk.us). Come raccogliamo, utilizziamo e proteggiamo i vostri dati personali. Gestione del modulo di contatto conforme al GDPR.",
+  "page_hero": {
+    "title": "Informativa sulla privacy",
+    "intro": "Ultimo aggiornamento: 13 ottobre 2026. Questa informativa descrive come Barbuk («noi» o «nostro») raccoglie, utilizza e protegge i vostri dati personali quando visitate barbuk.us o utilizzate i nostri servizi."
+  },
+  "sections": [
+    {
+      "heading": "1. Titolare del trattamento",
+      "body": "Il titolare del trattamento di barbuk.us è Barbuk. Contatto: hello@barbuk.us."
+    },
+    {
+      "heading": "2. Quali dati raccogliamo",
+      "body": "Raccogliamo i dati che fornite volontariamente: nome, email, azienda e messaggio tramite il modulo di contatto. Non utilizziamo analisi di terze parti che tracciano i singoli utenti (no Google Analytics, no Facebook Pixel)."
+    },
+    {
+      "heading": "3. Finalità del trattamento",
+      "body": "Gli invii tramite il modulo di contatto sono trattati esclusivamente per rispondere alla vostra richiesta. Non utilizziamo i vostri dati per marketing, retargeting o processi decisionali automatizzati."
+    },
+    {
+      "heading": "4. Base giuridica (GDPR)",
+      "body": "Il trattamento si basa sull'articolo 6, paragrafo 1, lettera a) del GDPR (consenso) per gli invii tramite il modulo di contatto e sull'articolo 6, paragrafo 1, lettera f) del GDPR (legittimo interesse) per il funzionamento e la sicurezza del sito."
+    },
+    {
+      "heading": "5. Conservazione dei dati",
+      "body": "Gli invii tramite il modulo di contatto sono memorizzati in un Google Sheet privato, accessibile solo al titolare del trattamento. Conserviamo gli invii per 12 mesi, salvo che venga instaurato un rapporto commerciale, nel qual caso si applicano le normali regole di conservazione contabile."
+    },
+    {
+      "heading": "6. I vostri diritti",
+      "body": "Ai sensi del GDPR avete il diritto di accesso, rettifica, cancellazione, limitazione del trattamento, portabilità dei dati e opposizione al trattamento. Contattate hello@barbuk.us per esercitare questi diritti. Avete anche il diritto di proporre reclamo all'autorità locale per la protezione dei dati."
+    },
+    {
+      "heading": "7. Cookie",
+      "body": "barbuk.us non utilizza cookie di tracciamento. Utilizziamo solo i cookie essenziali di Cloudflare necessari per la protezione DDoS e il rilevamento dei bot."
+    },
+    {
+      "heading": "8. Servizi di terze parti",
+      "body": "Utilizziamo Cloudflare Pages e Cloudflare Workers per l'hosting e l'elaborazione del modulo di contatto. Utilizziamo Google Apps Script come backend per aggiungere gli invii del modulo di contatto a un Google Sheet privato. Questi servizi hanno le loro informative sulla privacy."
+    },
+    {
+      "heading": "9. Trasferimenti internazionali",
+      "body": "Cloudflare e Google possono trattare dati al di fuori del SEE. Entrambi i fornitori offrono Standard Contractual Clauses o garanzie equivalenti ai sensi del GDPR."
+    },
+    {
+      "heading": "10. Sicurezza",
+      "body": "Gli invii tramite il modulo di contatto sono trasmessi via HTTPS. Il nostro Cloudflare Worker utilizza la convalida CORS e un campo honeypot per prevenire abusi automatizzati. Non memorizziamo dati di pagamento."
+    },
+    {
+      "heading": "11. Modifiche a questa informativa",
+      "body": "Possiamo aggiornare questa informativa. La data «Ultimo aggiornamento» in alto riflette la revisione più recente. Le modifiche sostanziali saranno evidenziate nella homepage."
+    },
+    {
+      "heading": "12. Contatti",
+      "body": "Per domande sulla privacy o per esercitare i vostri diritti, scrivete a hello@barbuk.us."
+    }
+  ]
+}

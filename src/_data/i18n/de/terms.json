@@ -1,0 +1,46 @@
+{
+  "title": "Nutzungsbedingungen",
+  "meta_description": "Nutzungsbedingungen für Barbuk (barbuk.us). Bedingungen für die Nutzung unserer Website und Dienste.",
+  "page_hero": {
+    "title": "Nutzungsbedingungen",
+    "intro": "Letzte Aktualisierung: 13. Oktober 2026. Durch den Zugriff auf barbuk.us oder die Beauftragung von Barbuk für Beratungs- oder Entwicklungsleistungen erklären Sie sich mit diesen Bedingungen einverstanden."
+  },
+  "sections": [
+    {
+      "heading": "1. Über diese Bedingungen",
+      "body": "Diese Bedingungen regeln Ihre Nutzung von barbuk.us und aller von Barbuk erbrachten Dienste. Für dienstbezogene Verträge (z. B. ein Statement of Work) haben die Vertragsbedingungen Vorrang vor diesen Website-Bedingungen."
+    },
+    {
+      "heading": "2. Nutzung der Website",
+      "body": "Sie dürfen barbuk.us zu Informationszwecken besuchen. Sie verpflichten sich, die Website nicht zu stören, Inhalte nicht in großem Umfang zu scrapen und die Website nicht für rechtswidrige Zwecke zu nutzen."
+    },
+    {
+      "heading": "3. Geistiges Eigentum",
+      "body": "Alle Inhalte auf barbuk.us (Texte, Codebeispiele, Design, Bilder) sind © Barbuk, sofern nicht anders angegeben. Sie dürfen kurze Auszüge mit Quellenangabe und einem Link zur Quellseite zitieren."
+    },
+    {
+      "heading": "4. Keine Gewährleistung",
+      "body": "Die Informationen auf dieser Website werden »wie besehen« ohne Gewährleistung jeglicher Art bereitgestellt. Wir garantieren nicht, dass Codebeispiele fehlerfrei oder ohne Überprüfung für den produktiven Einsatz geeignet sind."
+    },
+    {
+      "heading": "5. Professionelle Dienstleistungen",
+      "body": "Beratungs-, Entwicklungs- und Modernisierungsdienste werden im Rahmen separater schriftlicher Vereinbarungen erbracht. Die Informationen auf dieser Website stellen kein verbindliches Angebot dar."
+    },
+    {
+      "heading": "6. Haftungsbeschränkung",
+      "body": "Soweit gesetzlich zulässig, haftet Barbuk nicht für indirekte, zufällige oder Folgeschäden, die sich aus Ihrer Nutzung von barbuk.us ergeben."
+    },
+    {
+      "heading": "7. Links zu Dritten",
+      "body": "barbuk.us kann auf Websites Dritter verlinken (z. B. GitHub, Microsoft Learn, AWS-Dokumentation). Wir sind nicht verantwortlich für die Inhalte oder Praktiken dieser Websites."
+    },
+    {
+      "heading": "8. Anwendbares Recht",
+      "body": "Diese Bedingungen unterliegen dem Recht der Republik Türkei. Streitigkeiten werden vor den Gerichten Istanbuls beigelegt, sofern zwingende Verbraucherschutzgesetze nichts anderes erfordern."
+    },
+    {
+      "heading": "9. Kontakt",
+      "body": "Bei Fragen zu diesen Bedingungen senden Sie eine E-Mail an hello@barbuk.us."
+    }
+  ]
+}

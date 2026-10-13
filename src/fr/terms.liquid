@@ -1,0 +1,52 @@
+---
+layout: base
+permalink: /fr/terms/index.html
+i18n_key: terms
+lang: fr
+---
+{%- assign lang = "en" -%}
+{%- assign t = "terms" | lookupI18n: "fr" -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://barbuk.us/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": {{ t.page_hero.title | jsonify }},
+      "item": "https://barbuk.us/fr/terms/"
+    }
+  ]
+}
+</script>
+<article class="legal-page">
+  <header class="legal-hero">
+    <h1>{{ t.page_hero.title }}</h1>
+    <p class="legal-intro">{{ t.page_hero.intro }}</p>
+  </header>
+  <section class="legal-sections">
+    {%- for section in t.sections -%}
+    <div class="legal-section">
+      <h2>{{ section.heading }}</h2>
+      <p>{{ section.body }}</p>
+    </div>
+    {%- endfor -%}
+  </section>
+</article>
+<style>
+.legal-page { max-width: 800px; margin: 0 auto; padding: 3rem 1.5rem; }
+.legal-hero { margin-bottom: 2.5rem; }
+.legal-hero h1 { font-size: 2.5rem; margin: 0 0 0.75rem; }
+.legal-intro { color: var(--text-muted, #8a8a92); font-size: 1.1rem; line-height: 1.6; }
+.legal-section { margin: 2rem 0; padding-bottom: 1.5rem; border-bottom: 1px solid var(--border-color, #2a2a30); }
+.legal-section:last-child { border-bottom: none; }
+.legal-section h2 { font-size: 1.35rem; margin: 0 0 0.5rem; }
+.legal-section p { line-height: 1.7; color: var(--text-color, #d0d0d5); }
+</style>
