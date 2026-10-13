@@ -1,0 +1,84 @@
+<!--
+  faq-body.liquid — Standalone FAQPage schema generator + accessible accordion
+  Usage:
+    {% include "faq-body.liquid", items: t.faq.items %}
+  Where items is an array of {question, answer} objects.
+  Outputs:
+    1. <script type="application/ld+json"> FAQPage JSON-LD (Google rich result eligible)
+    2. <details>/<summary> accordion (semantic, no JS, accessible, crawlable)
+-->
+{%- assign faq_items = items -%}
+{%- if faq_items and faq_items.size > 0 -%}
+<!-- FAQPage JSON-LD (Google rich result) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {%- for item in faq_items -%}
+    {
+      "@type": "Question",
+      "name": {{ item.question | jsonify }},
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": {{ item.answer | jsonify }}
+      }
+    }{%- unless forloop.last -%},{%- endunless -%}
+    {%- endfor -%}
+  ]
+}
+</script>
+
+<!-- FAQ Accordion (semantic, accessible, no JS) -->
+<section class="faq-section" aria-label="Frequently Asked Questions">
+  <div class="container">
+    <h2 class="faq-section-title">{% if section_title %}{{ section_title }}{% else %}Frequently Asked Questions{% endif %}</h2>
+    <div class="faq-list">
+      {%- for item in faq_items -%}
+      <details class="faq-item" {% if forloop.first %}open{% endif %}>
+        <summary class="faq-question">
+          <span>{{ item.question }}</span>
+          <svg class="faq-chevron" width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+            <path d="M5 7.5L10 12.5L15 7.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </summary>
+        <div class="faq-answer">
+          <p>{{ item.answer }}</p>
+        </div>
+      </details>
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+
+<style>
+.faq-section { padding: 4rem 0; }
+.faq-section-title { font-size: 2rem; font-weight: 700; margin-bottom: 2rem; text-align: center; }
+.faq-list { max-width: 800px; margin: 0 auto; }
+.faq-item {
+  background: var(--card-bg, #1a1a1f);
+  border: 1px solid var(--border-color, #2a2a30);
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  overflow: hidden;
+  transition: border-color 0.2s;
+}
+.faq-item[open] { border-color: var(--accent-color, #4f9eff); }
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.25rem 1.5rem;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1.05rem;
+  list-style: none;
+  user-select: none;
+}
+.faq-question::-webkit-details-marker { display: none; }
+.faq-question:hover { background: rgba(255,255,255,0.02); }
+.faq-chevron { transition: transform 0.2s; flex-shrink: 0; margin-left: 1rem; }
+.faq-item[open] .faq-chevron { transform: rotate(180deg); }
+.faq-answer { padding: 0 1.5rem 1.25rem 1.5rem; line-height: 1.7; color: var(--text-muted, #b4b4b9); }
+</style>
+{%- endif -%}
