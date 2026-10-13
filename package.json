@@ -8,6 +8,7 @@
     "build": "eleventy",
     "prebuild": "node scripts/validate-jsonld.js",
     "validate:jsonld": "node scripts/validate-jsonld.js",
+    "validate:build": "node scripts/validate-build.js",
     "test": "node --test workers/contact-form.test.js"
   },
   "keywords": [],
