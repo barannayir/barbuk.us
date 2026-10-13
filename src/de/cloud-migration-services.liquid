@@ -1,0 +1,240 @@
+---
+layout: base.liquid
+title: Cloud Migration Services B2B | Barbuk
+description: Enterprise cloud migration services B2B — AWS migration, Azure migration, Kubernetes migration, FinOps optimization, and re-platform expertise. Zero downtime, predictable cost.
+i18n_key: cloud-migration-services
+permalink: /de/cloud-migration-services/index.html
+---
+{% assign t = "cloud-migration-services" | lookupI18n: "de" %}
+
+<section class="page-hero">
+  <div class="container">
+    <h1>{{ t.page_hero.title }}</h1>
+    <p class="hero-subtitle">{{ t.page_hero.subtitle }}</p>
+    <div class="hero-cta">
+      <a href="/contact" class="btn-primary btn-lg">{{ t.page_hero.cta_primary }}</a>
+      <a href="#approach" class="btn-secondary btn-lg">{{ t.page_hero.cta_secondary }}</a>
+    </div>
+  </div>
+</section>
+
+<section class="services-detail" id="why">
+  <div class="container">
+    <h2>{{ t.why_section.title }}</h2>
+    <p class="section-subtitle">{{ t.why_section.subtitle }}</p>
+
+    <div class="why-content">
+      <p>{{ t.why_section.paragraph_1 }}</p>
+      <p>{{ t.why_section.paragraph_2 }}</p>
+      <p>{{ t.why_section.paragraph_3 }}</p>
+      <p>{{ t.why_section.paragraph_4 }}</p>
+    </div>
+
+    <div class="stats-grid">
+      {% for stat in t.why_section.stats %}
+      <div class="stat-item">
+        <h3>{{ stat.value }}</h3>
+        <p>{{ stat.label }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="services-detail" id="services">
+  <div class="container">
+    <h2>Our Cloud Migration Services</h2>
+    <p class="section-subtitle">Six practice areas covering every dimension of an enterprise cloud migration — from hyperscaler selection to Kubernetes migration and FinOps optimization.</p>
+
+    {% for service in t.services %}
+    <div class="service-detail" id="{{ service.id }}">
+      <div class="service-icon-large">{{ service.icon }}</div>
+      <h2>{{ service.title }}</h2>
+      <p class="service-intro">{{ service.intro }}</p>
+
+      <div class="service-features">
+        <h3>{{ service.what_we_do_label }}</h3>
+        <ul>
+          {% for feature in service.features %}
+          <li><strong>{{ feature.label }}</strong> {{ feature.text }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      <div class="service-tech-stack">
+        <strong>{{ service.tech_label }}</strong>
+        <div class="tech-tags">
+          {% for tech in service.tech_stack %}
+          <span>{{ tech }}</span>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="process-section" id="approach">
+  <div class="container">
+    <h2>{{ t.process.title }}</h2>
+    <p class="section-subtitle">{{ t.process.subtitle }}</p>
+
+    <div class="process-steps">
+      {% for step in t.process.steps %}
+      <div class="process-step">
+        <div class="step-number">{{ step.number }}</div>
+        <h3>{{ step.title }}</h3>
+        <p>{{ step.text }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="tech-stack-section" id="tech-stack">
+  <div class="container">
+    <h2>{{ t.tech_stack.title }}</h2>
+    <p class="section-subtitle">{{ t.tech_stack.subtitle }}</p>
+
+    {% for category in t.tech_stack.categories %}
+    <div class="tech-category">
+      <h3>{{ category.name }}</h3>
+      <div class="tech-tags">
+        {% for item in category.items %}
+        <span>{{ item }}</span>
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="case-study-section" id="case-study">
+  <div class="container">
+    <h2>{{ t.case_study.title }}</h2>
+    <p class="section-subtitle">{{ t.case_study.subtitle }}</p>
+
+    <div class="case-study-meta">
+      <div class="meta-item">
+        <strong>{{ t.case_study.client_label }}:</strong> {{ t.case_study.client }}
+      </div>
+    </div>
+
+    <div class="case-study-body">
+      <h3>{{ t.case_study.challenge_label }}</h3>
+      <p>{{ t.case_study.challenge }}</p>
+
+      <h3>{{ t.case_study.approach_label }}</h3>
+      <p>{{ t.case_study.approach }}</p>
+
+      <div class="before-after-grid">
+        <div class="case-before">
+          <div class="image-label">{{ t.case_study.before_label }}</div>
+          <p>{{ t.case_study.before }}</p>
+        </div>
+        <div class="case-after">
+          <div class="image-label">{{ t.case_study.after_label }}</div>
+          <p>{{ t.case_study.after }}</p>
+        </div>
+      </div>
+
+      <h3>{{ t.case_study.results_label }}</h3>
+      <div class="stats-grid">
+        {% for result in t.case_study.results %}
+        <div class="stat-item">
+          <h3>{{ result.value }}</h3>
+          <p>{{ result.label }}</p>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="faq-section" id="faq">
+  <div class="container">
+    <h2>{{ t.faq.title }}</h2>
+    <p class="section-subtitle">{{ t.faq.subtitle }}</p>
+
+    <div class="faq-list">
+      {% for item in t.faq.items %}
+      <div class="faq-item">
+        <strong>Q: {{ item.question }}</strong>
+        <p>{{ item.answer }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="cta-section">
+  <div class="container">
+    <h2>{{ t.cta.title }}</h2>
+    <p>{{ t.cta.subtitle }}</p>
+    <a href="/contact" class="btn-primary btn-lg">{{ t.cta.button }}</a>
+  </div>
+</section>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {%- for faq in t.faq.items -%}
+    {
+      "@type": "Question",
+      "name": {{ faq.question | jsonify }},
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": {{ faq.answer | jsonify }}
+      }
+    }{% unless forloop.last %},{% endunless %}
+    {%- endfor -%}
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://barbuk.us/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Cloud Migration Services",
+      "item": "https://barbuk.us/de/cloud-migration-services/"
+    }
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "itemListElement": [
+    {%- for s in t.services -%}
+    {
+      "@type": "ListItem",
+      "position": {{ forloop.index }},
+      "item": {
+        "@type": "Service",
+        "name": {{ s.title | jsonify }},
+        "description": {{ s.intro | jsonify }},
+        "provider": {
+          "@type": "Organization",
+          "name": "Barbuk"
+        }
+      }
+    }{% unless forloop.last %},{% endunless %}
+    {%- endfor -%}
+  ]
+}
+</script>

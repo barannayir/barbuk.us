@@ -1,0 +1,216 @@
+{
+  "page_hero": {
+    "title": "Servizi di integrazione AI per l'impresa",
+    "subtitle": "Integrazione AI di livello produzione, modelli ML personalizzati e automazione dei workflow AI che trasformano i tuoi sistemi aziendali esistenti in driver di ricavi intelligenti e misurabili – senza rip-and-replace.",
+    "primary_cta_label": "Prenota una call strategica AI",
+    "secondary_cta_label": "Scarica la guida al ROI AI"
+  },
+  "why_ai_integration": {
+    "title": "Perché l'integrazione AI è ora una priorità a livello di consiglio",
+    "subtitle": "L'AI enterprise non è più un esperimento di ricerca. È una capacità operativa.",
+    "paragraphs": [
+      "Nel mid-market e nell'enterprise B2B, la conversazione sull'AI è passata in modo deciso da 'dovremmo?' a 'quanto velocemente e quanto in sicurezza?'. Le aziende che hanno integrato l'AI nei loro workflow core due o tre anni fa ora riportano ROI da 3x a 10x su quei deployment, mentre i loro concorrenti sono ancora ai piloti. Il divario si allarga ogni trimestre, e il costo dell'attesa si compone.",
+      "ai_baseline: L'integrazione AI enterprise significa molto più che collegare un LLM in un chatbot. Significa connettere modelli linguistici, analitica predittiva, computer vision e modelli di machine learning personalizzati ai sistemi operativi dove avviene il lavoro reale – il tuo CRM, ERP, ticketing, archivi documentali e portali rivolti al cliente. Significa costruire pipeline di retrieval sui tuoi dati proprietari, instrumentare ogni chiamata di modello così che il ROI AI sia misurabile, e incorporare guardrail così che la qualità dell'output e la conformità non siano negoziabili.",
+      "ai_decision_layer: Fatta bene, l'AI diventa uno strato decisionale che si posiziona sopra la tua infrastruttura esistente. Le approvazioni vengono instradate automaticamente. Le anomalie emergono prima di diventare incidenti. I documenti vengono riassunti, classificati e instradati senza triage umano. I team commerciali ricevono raccomandazioni di next-best-action ancorate alla tua vera storia di account. I team di supporto risolvono i ticket dal 40 al 70 percento più velocemente perché il sistema ha già il contesto.",
+      "ai_enterprise_realities: Questo non è il dominio del solo SaaS pronto all'uso. L'integrazione AI enterprise richiede modelli AI personalizzati per team B2B, database vettoriali per conoscenza proprietaria, layer di orchestrazione sicuri e framework rigorosi di misurazione del ROI AI. Le API generiche danno risultati generici. Il vero valore enterprise viene da sistemi che comprendono i tuoi dati, i tuoi workflow e la tua postura di rischio."
+    ],
+    "statistics": [
+      {"value": "5–10x", "label": "ROI medio dei deployment AI in produzione entro 18 mesi"},
+      {"value": "60–70%", "label": "Riduzione del tempo di attività di routine dopo automazione workflow AI"},
+      {"value": "92%", "label": "delle aziende ora cita l'AI tra le prime tre priorità strategiche"}
+    ]
+  },
+  "services": [
+    {
+      "id": "nlp_llm",
+      "icon": "💬",
+      "title": "Elaborazione del linguaggio naturale e integrazione LLM",
+      "intro": "Pipeline NLP di livello produzione costruite su modelli di classe GPT e Claude, ancorate ai tuoi dati proprietari tramite retrieval-augmented generation.",
+      "what_we_do_label": "Cosa facciamo:",
+      "features": [
+        {"label": "Retrieval-Augmented Generation (RAG):", "text": "Risposte LLM ancorate al tuo corpus documentale, storico ticket, knowledge base o libreria di contratti"},
+        {"label": "Document Intelligence:", "text": "Estrazione di dati strutturati da fatture, contratti, contratti di locazione e depositi regolatori con accuratezza >95% sui campi"},
+        {"label": "Analisi di sentiment e intento:", "text": "Classificazione in tempo reale di messaggi clienti, ticket di supporto e risposte a sondaggi"},
+        {"label": "AI conversazionale:", "text": "Assistenti multi-turno che scalano elegantemente verso l'umano quando la confidenza è bassa"},
+        {"label": "NLP multilingue:", "text": "Supporto nativo per inglese, tedesco, francese, olandese, italiano, spagnolo e turco"}
+      ],
+      "tech_label": "Modelli e framework:",
+      "tech_stack": ["OpenAI GPT-4o", "Claude Sonnet", "LangChain", "LlamaIndex", "Pinecone", "Azure OpenAI"]
+    },
+    {
+      "id": "predictive_analytics",
+      "icon": "📈",
+      "title": "Analitica predittiva e forecasting",
+      "intro": "Modelli di serie temporali, classificazione e rilevamento anomalie che trasformano i tuoi dati storici in segnali operativi lungimiranti.",
+      "what_we_do_label": "Cosa facciamo:",
+      "features": [
+        {"label": "Demand Forecasting:", "text": "Previsioni a livello di SKU, regione e canale che migliorano la rotazione del magazzino e riducono gli out-of-stock"},
+        {"label": "Churn e risk scoring:", "text": "Score di probabilità a livello di cliente che attivano workflow di retention prima che arrivi la disdetta"},
+        {"label": "Rilevamento anomalie:", "text": "Monitoraggio in tempo reale di transazioni, metriche di sistema e comportamenti utente con alert spiegabili"},
+        {"label": "Lead scoring:", "text": "Modelli di probabilità di conversione che ri-classificano la pipeline sulla base di migliaia di segnali comportamentali"},
+        {"label": "Validazione forecasting:", "text": "Backtesting, monitoraggio del drift e framework champion-challenger per mantenere onesti i modelli"}
+      ],
+      "tech_label": "Stack di modellazione:",
+      "tech_stack": ["scikit-learn", "XGBoost", "Prophet", "PyTorch Forecasting", "MLflow", "Optuna"]
+    },
+    {
+      "id": "computer_vision",
+      "icon": "👁️",
+      "title": "Computer vision e ispezione visiva",
+      "intro": "Modelli di comprensione di immagini e video per controllo qualità, OCR, ricerca visiva e automazione del field service.",
+      "what_we_do_label": "Cosa facciamo:",
+      "features": [
+        {"label": "Controllo qualità visivo:", "text": "Rilevamento difetti sulle linee di produzione al throughput di produzione e all'accuratezza richiesta"},
+        {"label": "OCR e digitalizzazione documenti:", "text": "Riconoscimento di scrittura manoscritta, multilingue e moduli strutturati per automazione back-office"},
+        {"label": "Ricerca visiva:", "text": "Trovare articoli visivamente simili nel tuo catalogo a partire da un'immagine di riferimento – utile per retail e ricambi"},
+        {"label": "Visione per il field service:", "text": "Modelli on-device che aiutano i tecnici a identificare componenti e verificare installazioni"},
+        {"label": "Analitica video:", "text": "Rilevamento eventi e sintesi attenti alla privacy per sicurezza e operations"}
+      ],
+      "tech_label": "Stack vision:",
+      "tech_stack": ["PyTorch", "YOLOv8", "Detectron2", "OpenCV", "Azure Computer Vision", "AWS Rekognition"]
+    },
+    {
+      "id": "custom_ml_models",
+      "icon": "🧠",
+      "title": "Modelli AI personalizzati B2B",
+      "intro": "Modelli di machine learning su misura addestrati sui tuoi dati proprietari quando le API pronte all'uso non bastano – e ti serve IP difendibile.",
+      "what_we_do_label": "Cosa facciamo:",
+      "features": [
+        {"label": "Fine-tuning specifico al dominio:", "text": "Adattare modelli foundation alla tua terminologia, policy e casi limite"},
+        {"label": "Modelli di forecasting proprietari:", "text": "Modelli costruiti da zero quando la forma dei tuoi dati o il tuo obiettivo non combacia con nessuna offerta vendor"},
+        {"label": "Sistemi di raccomandazione:", "text": "Motori di personalizzazione per cross-sell, next-best-offer e ranking dei contenuti"},
+        {"label": "Gestione del ciclo di vita dei modelli:", "text": "Versionamento, trigger di riaddestramento, rilevamento del drift e procedure di rollback"},
+        {"label": "Fondamenta MLOps:", "text": "Pipeline di addestramento riproducibili, feature store e CI/CD per i modelli"}
+      ],
+      "tech_label": "Stack modelli personalizzati:",
+      "tech_stack": ["PyTorch", "TensorFlow", "Hugging Face", "Ray", "Weights & Biases", "MLflow"]
+    },
+    {
+      "id": "ai_workflow_automation",
+      "icon": "⚙️",
+      "title": "Automazione dei workflow AI",
+      "intro": "Workflow agentici e potenziati da regole che combinano il ragionamento LLM con integrazioni deterministiche per automatizzare processi di business end-to-end.",
+      "what_we_do_label": "Cosa facciamo:",
+      "features": [
+        {"label": "Agentic Process Automation:", "text": "Workflow multi-step guidati da LLM che leggono, decidono, scrivono e verificano attraverso il tuo stack SaaS"},
+        {"label": "Automazione approvazione e triage:", "text": "Instradare le richieste, riassumere il contesto e precompilare le decisioni per gli approvatori umani"},
+        {"label": "Triage email e ticket:", "text": "Classificare, prioritizzare, redigere e instradare i messaggi in arrivo – con audit trail completo"},
+        {"label": "Design human-in-the-loop:", "text": "Escalation basata sulla confidenza così che l'umano mantenga il controllo sulle azioni ad alto rischio"},
+        {"label": "Osservabilità dei workflow:", "text": "Trace end-to-end, cost-per-run e dashboard di tasso di successo per ogni automazione"}
+      ],
+      "tech_label": "Stack di automazione:",
+      "tech_stack": ["LangChain", "LangGraph", "n8n", "Apache Airflow", "Temporal", "Zapier Enterprise"]
+    },
+    {
+      "id": "ai_roi_consulting",
+      "icon": "📊",
+      "title": "Misurazione del ROI AI e consulenza strategica",
+      "intro": "Prima di costruire qualcosa, ti serve un business case difendibile. Ti aiutiamo a prioritizzare i casi d'uso, dimensionare il valore e provare il ritorno.",
+      "what_we_do_label": "Cosa facciamo:",
+      "features": [
+        {"label": "Discovery di casi d'uso AI:", "text": "Workshop che fanno emergere, valutano e classificano 20-60 iniziative AI candidate nella tua azienda"},
+        {"label": "Business case e modellazione ROI:", "text": "Range di valore quantificati, costo di costruzione e time-to-value per i casi d'uso meglio classificati"},
+        {"label": "Decisioni build vs. buy:", "text": "Quando fare fine-tuning, quando chiamare un'API e quando comprare un prodotto vendor"},
+        {"label": "Framework di AI responsabile:", "text": "Governance su bias, privacy, sicurezza e spiegabilità fin dal primo giorno"},
+        {"label": "Setup dell'AI Center of Excellence:", "text": "Modelli operativi, KPI e strutture di team che rendono la capacità AI duratura, non legata al singolo progetto"}
+      ],
+      "tech_label": "Stack strategia e misurazione:",
+      "tech_stack": ["ROI Modeling", "Experiment Design", "KPI Trees", "Vendor Evaluation", "Responsible AI Toolkits"]
+    }
+  ],
+  "implementation_process": {
+    "title": "Il nostro approccio all'implementazione dell'integrazione AI",
+    "subtitle": "Una metodologia in sei passi ripetibile che porta valore AI misurabile in settimane, non trimestri.",
+    "steps": [
+      {"number": "1", "title": "Discovery e AI readiness assessment", "text": "Auditiamo il tuo panorama dati, i sistemi attuali, il contesto regolatorio e le capacità del team per determinare dove l'AI porterà ROI reale – e dove non deve ancora essere implementata."},
+      {"number": "2", "title": "Prioritizzazione dei casi d'uso e business case", "text": "Insieme valutiamo 20-60 casi d'uso candidati su valore, fattibilità, maturità dei dati e rischio. I primi tre-cinque vanno in un business case quantificato."},
+      {"number": "3", "title": "Architettura e design della pipeline dati", "text": "Progettiamo lo strato di inferenza, le pipeline di retrieval, i database vettoriali, i confini di sicurezza e i punti di integrazione con i tuoi sistemi enterprise esistenti."},
+      {"number": "4", "title": "Sprint di prototipazione e validazione", "text": "In uno sprint focalizzato di due-quattro settimane costruiamo un prototipo funzionante sui tuoi dati reali e validiamo accuratezza, latenza e accettazione utente."},
+      {"number": "5", "title": "Deployment in produzione e integrazione", "text": "Distribuiamo nel tuo ambiente – cloud, on-premise o ibrido – con CI/CD per i modelli, osservabilità, procedure di rollback e controlli human-in-the-loop."},
+      {"number": "6", "title": "Misurazione del ROI AI e miglioramento continuo", "text": "Strumentiamo ogni chiamata di modello, misuriamo i risultati di business contro la baseline e iteriamo. Aspettati una review trimestrale con un delta di ROI documentato."}
+    ]
+  },
+  "tech_stack": {
+    "title": "Il nostro stack AI enterprise",
+    "subtitle": "Vendor-agnostico per design. Scegliamo lo strumento giusto per il tuo ambiente, postura di sicurezza e investimenti esistenti.",
+    "categories": [
+      {
+        "name": "Linguaggi e core ML",
+        "items": ["Python", "scikit-learn", "NumPy", "pandas"]
+      },
+      {
+        "name": "Framework di deep learning",
+        "items": ["TensorFlow", "PyTorch", "Keras", "Hugging Face Transformers"]
+      },
+      {
+        "name": "Provider LLM e orchestrazione",
+        "items": ["OpenAI API", "Anthropic Claude", "Azure OpenAI Service", "AWS Bedrock", "LangChain", "LlamaIndex"]
+      },
+      {
+        "name": "Piattaforme AI cloud",
+        "items": ["Azure Cognitive Services", "AWS Bedrock", "Google Vertex AI", "Azure Machine Learning"]
+      },
+      {
+        "name": "Database vettoriali e retrieval",
+        "items": ["Pinecone", "Weaviate", "Qdrant", "pgvector", "Chroma"]
+      },
+      {
+        "name": "MLOps e osservabilità",
+        "items": ["MLflow", "Weights & Biases", "Arize", "LangSmith", "Prometheus + Grafana"]
+      }
+    ]
+  },
+  "case_study": {
+    "title": "Case study di integrazione AI: distributore di ricambi industriali",
+    "subtitle": "Come un distributore B2B di 240 persone ha usato l'automazione dei workflow AI e modelli ML personalizzati per ridurre il tempo preventivo-ordine dell'87 percento.",
+    "client_label": "Settore:",
+    "client": "Distribuzione B2B di ricambi industriali (mid-market, fatturato $180M)",
+    "before_label": "Prima dell'integrazione AI",
+    "after_label": "Dopo 9 mesi in produzione",
+    "before": [
+      "La generazione dei preventivi richiedeva 4-7 ore di incroci manuali su 12 database prodotto legacy.",
+      "Gli addetti al customer service passavano il 38% della giornata a cercare codici ricambio, compatibilità e prezzi.",
+      "Le previsioni di domanda venivano prodotte una volta a trimestre in Excel, con 28% di Mean Absolute Percentage Error.",
+      "Il triage email gestiva manualmente 1.200 messaggi in arrivo al giorno, con un tempo medio di prima risposta di 6 ore."
+    ],
+    "after": [
+      "La generazione dei preventivi ora si completa in meno di 8 minuti, con 96,4% di accuratezza sui controlli di compatibilità.",
+      "Gli addetti al customer service si concentrano sulle eccezioni; l'AI pre-risolve il 62% delle richieste di routine end-to-end.",
+      "Le previsioni settimanali girano automaticamente con 9,1% MAPE – un miglioramento del 67% nell'accuratezza.",
+      "Triage email in arrivo automatizzato al 71%, con tempo di prima risposta di 11 minuti per il resto."
+    ],
+    "metric_label": "Risultato verificato:",
+    "metric_value": "Preventivo-ordine 87% più veloce • $2,4M di risparmi annui • 9,1% MAPE forecast"
+  },
+  "faq": [
+    {
+      "question": "Quanto dura un tipico progetto enterprise di integrazione AI dal kickoff alla produzione?",
+      "answer": "La maggior parte dei progetti enterprise di integrazione AI consegna una prima capacità pronta per la produzione in 8-14 settimane. Questo include una o due settimane di discovery e prioritizzazione dei casi d'uso, uno sprint di prototipazione di due-quattro settimane sui tuoi dati reali, e un deployment in produzione di quattro-otto settimane con MLOps, osservabilità e strumentazione di misurazione del ROI AI. Programmi più grandi che coprono più casi d'uso si svolgono in onde di 6-12 mesi."
+    },
+    {
+      "question": "Dobbiamo sostituire i nostri sistemi esistenti per integrare l'AI?",
+      "answer": "No. La stragrande maggioranza dei nostri progetti enterprise di integrazione AI si appoggia sui tuoi CRM, ERP, ticketing, gestione documentale e data warehouse esistenti. Esponiamo le capacità AI tramite API, componenti UI incorporati e integrazioni event-driven, così che i tuoi sistemi sottostanti rimangono intatti. Il rip-and-replace non è quasi mai la risposta giusta per l'integrazione AI in un ambiente regolato o operativo."
+    },
+    {
+      "question": "Come misurate il ROI AI e lo dimostrate al nostro management?",
+      "answer": "Strumentiamo ogni chiamata di modello e ogni risultato di business. La misurazione del ROI AI parte da una misurazione di baseline del processo che stai potenziando – tempo, tasso di errore, conversione, costo per caso. Poi tracciamo le stesse metriche dopo il deployment e attribuiamo il delta a specifiche capacità AI. Ricevi una dashboard ROI mensile e una review executive trimestrale con l'impatto finanziario documentato, suddiviso per caso d'uso."
+    },
+    {
+      "question": "Potete lavorare con i nostri requisiti di data residency e sicurezza?",
+      "answer": "Sì. Distribuiamo nella tua VPC, on-premise o in una regione cloud sovrana secondo necessità. Supportiamo deployment LLM single-tenant, chiavi gestite dal cliente, endpoint modello privati e audit logging completo. Per i settori regolati, implementiamo data loss prevention, guardrail contro il prompt injection e review human-in-the-loop per ogni azione AI ad alto rischio."
+    },
+    {
+      "question": "Qual è la differenza tra chiamare un'API LLM e costruire modelli AI personalizzati B2B?",
+      "answer": "Chiamare un'API LLM è la via più veloce verso una capacità generica – chat, sintesi, classificazione. I modelli AI personalizzati B2B significano fare fine-tuning o addestrare modelli sui tuoi dati proprietari così che il sistema impari la tua terminologia, i tuoi casi limite e il tuo contesto competitivo. La maggior parte dei programmi enterprise usa entrambi: modelli foundation per il ragionamento generale, modelli personalizzati dove accuratezza, latenza, costo o difendibilità IP lo richiedono."
+    }
+  ],
+  "cta": {
+    "title": "Pronto a rendere l'AI una capacità operativa, non un pilota?",
+    "subtitle": "Prenota una call strategica AI di 30 minuti. Esamineremo i tuoi sistemi, identificheremo i tre casi d'uso AI a più alto ROI e tracceremo un realistico piano di consegna a 90 giorni.",
+    "button": "Prenota la tua call strategica AI"
+  },
+  "breadcrumb": {
+    "home_label": "Home",
+    "current_label": "Servizi di integrazione AI"
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "page_hero": {
+    "title": "AI-integratiediensten voor ondernemingen",
+    "subtitle": "Productie-klare AI-integratie, op maat gemaakte ML-modellen en AI-workflowautomatisering die uw bestaande bedrijfssystemen omzet in intelligente, meetbare omzetaanjagers – zonder rip-and-replace.",
+    "primary_cta_label": "Boek AI-strategiegesprek",
+    "secondary_cta_label": "Download AI-ROI-gids"
+  },
+  "why_ai_integration": {
+    "title": "Waarom AI-integratie nu een bestuursniveau-prioriteit is",
+    "subtitle": "Enterprise-AI is geen onderzoeksexperiment meer. Het is een operationele competentie.",
+    "paragraphs": [
+      "In het midmarket- en B2B-enterprise-segment is het AI-gesprek beslissend verschoven van 'zouden we?' naar 'hoe snel en hoe veilig?'. Ondernemingen die AI twee tot drie jaar geleden in hun kernworkflows integreerden, rapporteren nu 3x tot 10x ROI op die uitrol, terwijl hun concurrenten nog steeds pilots draaien. De kloof groeit elk kwartaal en de kosten van wachten stapelen zich op.",
+      "ai_baseline: Enterprise-AI-integratie betekent veel meer dan een LLM in een chatbot pluggen. Het betekent taalmodellen, predictive analytics, computer vision en op maat gemaakte machine-learning-modellen verbinden met de operationele systemen waar het echte werk gebeurt – uw CRM, ERP, ticketing, documentopslag en klantgerichte portals. Het betekent retrieval-pipelines bouwen over uw propriëtaire data, elke modelaanroep instrumenteren zodat AI-ROI meetbaar wordt, en guardrails inbouwen zodat outputkwaliteit en compliance niet onderhandelbaar zijn.",
+      "ai_decision_layer: Goed gedaan wordt AI een beslissingslaag boven uw bestaande infrastructuur. Goedkeuringen worden automatisch gerouteerd. Anomalieën komen naar boven voordat ze incidenten worden. Documenten worden samengevat, geclassificeerd en doorgestuurd zonder menselijke triage. Salesteams ontvangen next-best-action-aanbevelingen die geworteld zijn in uw echte accountgeschiedenis. Supportteams lossen tickets 40 tot 70 procent sneller op omdat het systeem de context al heeft.",
+      "ai_enterprise_realities: Dit is niet het domein van standaard-SaaS alleen. Enterprise-AI-integratie vereist custom-AI-modellen voor B2B-teams, vectordatabases voor propriëtaire kennis, beveiligde orkestratielagen en rigoureuze AI-ROI-meetframeworks. Generieke API's leveren generieke resultaten. Echte enterprise-waarde komt uit systemen die uw data, uw workflows en uw risicopostuur begrijpen."
+    ],
+    "statistics": [
+      {"value": "5–10x", "label": "Gemiddelde ROI van productie-AI-uitrol binnen 18 maanden"},
+      {"value": "60–70%", "label": "Reductie van routinetaaktijd na AI-workflowautomatisering"},
+      {"value": "92%", "label": "van ondernemingen noemt AI nu een top-3 strategische prioriteit"}
+    ]
+  },
+  "services": [
+    {
+      "id": "nlp_llm",
+      "icon": "💬",
+      "title": "Natural Language Processing & LLM-integratie",
+      "intro": "Productie-klare NLP-pipelines gebouwd op GPT- en Claude-klasse modellen, verankerd in uw propriëtaire data via retrieval-augmented generation.",
+      "what_we_do_label": "Wat we doen:",
+      "features": [
+        {"label": "Retrieval-Augmented Generation (RAG):", "text": "LLM-antwoorden verankerd in uw documentcorpus, tickethistorie, kennisbank of contractenbibliotheek"},
+        {"label": "Document Intelligence:", "text": "Gestructureerde data-extractie uit facturen, contracten, huurovereenkomsten en regelgevende dossiers met >95% veld-nauwkeurigheid"},
+        {"label": "Sentiment- en intent-analyse:", "text": "Realtime classificatie van klantberichten, supporttickets en enquêterespons"},
+        {"label": "Conversational AI:", "text": "Multi-turn assistenten die elegant naar mensen escaleren bij lage betrouwbaarheid"},
+        {"label": "Meertalige NLP:", "text": "Native ondersteuning voor Engels, Duits, Frans, Nederlands, Italiaans, Spaans en Turks"}
+      ],
+      "tech_label": "Modellen & frameworks:",
+      "tech_stack": ["OpenAI GPT-4o", "Claude Sonnet", "LangChain", "LlamaIndex", "Pinecone", "Azure OpenAI"]
+    },
+    {
+      "id": "predictive_analytics",
+      "icon": "📈",
+      "title": "Predictive analytics & forecasting",
+      "intro": "Tijdreeks-, classificatie- en anomaliedetectiemodellen die uw historische data omzetten in vooruitkijkende operationele signalen.",
+      "what_we_do_label": "Wat we doen:",
+      "features": [
+        {"label": "Demand Forecasting:", "text": "Voorspellingen op SKU-, regio- en kanaalniveau die voorraadrotatie verbeteren en out-of-stock verminderen"},
+        {"label": "Churn- & risicoscoring:", "text": "Klantniveau waarschijnlijkheidsscores die retention-workflows triggeren voordat de opzegging binnenkomt"},
+        {"label": "Anomaliedetectie:", "text": "Realtime monitoring van transacties, systeemmetrics en gebruikersgedrag met verklaarbare alerts"},
+        {"label": "Lead scoring:", "text": "Conversie-waarschijnlijkheidsmodellen die de pipeline herordenen op basis van duizenden gedragssignalen"},
+        {"label": "Forecasting-validatie:", "text": "Backtesting, drift-monitoring en champion-challenger-frameworks om modellen eerlijk te houden"}
+      ],
+      "tech_label": "Modeling-stack:",
+      "tech_stack": ["scikit-learn", "XGBoost", "Prophet", "PyTorch Forecasting", "MLflow", "Optuna"]
+    },
+    {
+      "id": "computer_vision",
+      "icon": "👁️",
+      "title": "Computer vision & visuele inspectie",
+      "intro": "Beeld- en video-begripsmodellen voor kwaliteitscontrole, OCR, visueel zoeken en field-service-automatisering.",
+      "what_we_do_label": "Wat we doen:",
+      "features": [
+        {"label": "Visuele kwaliteitscontrole:", "text": "Defectdetectie op productielijnen op productiedoorvoer en vereiste nauwkeurigheid"},
+        {"label": "OCR & documentdigitalisering:", "text": "Herkenning van handgeschreven, meertalige en gestructureerde formulieren voor backoffice-automatisering"},
+        {"label": "Visueel zoeken:", "text": "Visueel vergelijkbare items in uw catalogus vinden vanuit een referentiebeeld – nuttig voor retail en reserveonderdelen"},
+        {"label": "Field-service-vision:", "text": "On-device modellen die monteurs helpen componenten te identificeren en installaties te verifiëren"},
+        {"label": "Video-analytics:", "text": "Privacybewuste gebeurtenisdetectie en -samenvatting voor beveiliging en operaties"}
+      ],
+      "tech_label": "Vision-stack:",
+      "tech_stack": ["PyTorch", "YOLOv8", "Detectron2", "OpenCV", "Azure Computer Vision", "AWS Rekognition"]
+    },
+    {
+      "id": "custom_ml_models",
+      "icon": "🧠",
+      "title": "Custom-AI-modellen B2B",
+      "intro": "Op maat gemaakte machine-learning-modellen getraind op uw propriëtaire data wanneer standaard-API's niet volstaan – en u verdedigbare IP nodig heeft.",
+      "what_we_do_label": "Wat we doen:",
+      "features": [
+        {"label": "Domeinspecifieke fine-tuning:", "text": "Foundation-modellen aanpassen aan uw terminologie, beleid en edge cases"},
+        {"label": "Propriëtaire forecasting-modellen:", "text": "Modellen vanaf scratch gebouwd wanneer uw data-vorm of doel niet past bij een vendor-aanbod"},
+        {"label": "Recommendersystemen:", "text": "Personalisatie-engines voor cross-sell, next-best-offer en contentranking"},
+        {"label": "Model-lifecycle-beheer:", "text": "Versioning, retraining-triggers, drift-detectie en rollback-procedures"},
+        {"label": "MLOps-fundament:", "text": "Reproduceerbare trainings-pipelines, feature stores en CI/CD voor modellen"}
+      ],
+      "tech_label": "Custom-model-stack:",
+      "tech_stack": ["PyTorch", "TensorFlow", "Hugging Face", "Ray", "Weights & Biases", "MLflow"]
+    },
+    {
+      "id": "ai_workflow_automation",
+      "icon": "⚙️",
+      "title": "AI-workflowautomatisering",
+      "intro": "Agentische en regel-aangevulde workflows die LLM-redeneren combineren met deterministische integraties om end-to-end bedrijfsprocessen te automatiseren.",
+      "what_we_do_label": "Wat we doen:",
+      "features": [
+        {"label": "Agentic Process Automation:", "text": "Multi-stap LLM-gedreven workflows die lezen, beslissen, schrijven en verifiëren over uw SaaS-stack"},
+        {"label": "Goedkeurings- & triage-automatisering:", "text": "Verzoeken routeren, context samenvatten en beslissingen vooraf invullen voor menselijke goedkeurders"},
+        {"label": "E-mail- & tickettriage:", "text": "Inkomende berichten classificeren, prioriteren, opstellen en routeren – met volledige audittrail"},
+        {"label": "Human-in-the-loop-ontwerp:", "text": "Vertrouwens-gebaseerde escalatie zodat mensen controle houden over hoog-risicoacties"},
+        {"label": "Workflow-observability:", "text": "End-to-end traces, cost-per-run en succespercentage-dashboards voor elke automatisering"}
+      ],
+      "tech_label": "Automatisering-stack:",
+      "tech_stack": ["LangChain", "LangGraph", "n8n", "Apache Airflow", "Temporal", "Zapier Enterprise"]
+    },
+    {
+      "id": "ai_roi_consulting",
+      "icon": "📊",
+      "title": "AI-ROI-meting & strategieconsultancy",
+      "intro": "Voordat u iets bouwt, heeft u een verdedigbare business case nodig. Wij helpen u use cases te prioriteren, waarde te kwantificeren en return te bewijzen.",
+      "what_we_do_label": "Wat we doen:",
+      "features": [
+        {"label": "AI-use-case-discovery:", "text": "Workshops die 20-60 kandidaat-AI-initiatieven in uw bedrijf identificeren, scoren en rangschikken"},
+        {"label": "Business case & ROI-modellering:", "text": "Gekwantificeerde waardebereiken, bouwkosten en time-to-value voor de best gerangschikte use cases"},
+        {"label": "Build-vs.-buy-beslissingen:", "text": "Wanneer fine-tunen, wanneer een API aanroepen en wanneer een vendor-product kopen"},
+        {"label": "Responsible-AI-frameworks:", "text": "Governance voor bias, privacy, veiligheid en verklaarbaarheid vanaf dag één"},
+        {"label": "AI Center of Excellence-setup:", "text": "Operationele modellen, KPI's en teamstructuren die AI-capaciteit duurzaam maken, niet projectgebonden"}
+      ],
+      "tech_label": "Strategie- & meetstack:",
+      "tech_stack": ["ROI Modeling", "Experiment Design", "KPI Trees", "Vendor Evaluation", "Responsible AI Toolkits"]
+    }
+  ],
+  "implementation_process": {
+    "title": "Onze AI-integratie-implementatieaanpak",
+    "subtitle": "Een herhaalbare methodiek in zes stappen die meetbare AI-waarde oplevert in weken, niet kwartalen.",
+    "steps": [
+      {"number": "1", "title": "Discovery & AI-readiness-assessment", "text": "Wij auditen uw datalandschap, huidige systemen, regelgevende context en teamcapaciteiten om te bepalen waar AI echte ROI levert – en waar die nog niet moet worden uitgerold."},
+      {"number": "2", "title": "Use-case-prioritering & business case", "text": "Samen scoren wij 20-60 kandidaat-use-cases op waarde, haalbaarheid, datarijpheid en risico. De top drie tot vijf gaan in een gekwantificeerde business case."},
+      {"number": "3", "title": "Architectuur- & datapipeline-ontwerp", "text": "Wij ontwerpen de inferentielaag, retrieval-pipelines, vectordatabases, beveiligingsgrenzen en integratiepunten met uw bestaande enterprise-systemen."},
+      {"number": "4", "title": "Prototype- & validatiesprint", "text": "In een gerichte sprint van twee tot vier weken bouwen wij een werkend prototype op uw echte data en valideren nauwkeurigheid, latentie en gebruikersacceptatie."},
+      {"number": "5", "title": "Productie-implementatie & integratie", "text": "Wij implementeren in uw omgeving – cloud, on-premise of hybride – met CI/CD voor modellen, observability, rollback-procedures en human-in-the-loop-controles."},
+      {"number": "6", "title": "AI-ROI-meting & continue verbetering", "text": "Wij instrumenteren elke modelaanroep, meten bedrijfsresultaten tegen de baseline en itereren. Verwacht een kwartaalreview met gedocumenteerd ROI-delta."}
+    ]
+  },
+  "tech_stack": {
+    "title": "Onze enterprise-AI-stack",
+    "subtitle": "Vendor-agnostisch by design. Wij kiezen het juiste gereedschap voor uw omgeving, beveiligingspostuur en bestaande investeringen.",
+    "categories": [
+      {
+        "name": "Talen & core ML",
+        "items": ["Python", "scikit-learn", "NumPy", "pandas"]
+      },
+      {
+        "name": "Deep-learning-frameworks",
+        "items": ["TensorFlow", "PyTorch", "Keras", "Hugging Face Transformers"]
+      },
+      {
+        "name": "LLM-providers & orkestratie",
+        "items": ["OpenAI API", "Anthropic Claude", "Azure OpenAI Service", "AWS Bedrock", "LangChain", "LlamaIndex"]
+      },
+      {
+        "name": "Cloud-AI-platforms",
+        "items": ["Azure Cognitive Services", "AWS Bedrock", "Google Vertex AI", "Azure Machine Learning"]
+      },
+      {
+        "name": "Vectordatabases & retrieval",
+        "items": ["Pinecone", "Weaviate", "Qdrant", "pgvector", "Chroma"]
+      },
+      {
+        "name": "MLOps & observability",
+        "items": ["MLflow", "Weights & Biases", "Arize", "LangSmith", "Prometheus + Grafana"]
+      }
+    ]
+  },
+  "case_study": {
+    "title": "AI-integratie case study: industriële reserveonderdelendistributeur",
+    "subtitle": "Hoe een B2B-distributeur van 240 personen AI-workflowautomatisering en op maat gemaakte ML-modellen inzette om de offerte-naar-ordertijd met 87 procent te verkorten.",
+    "client_label": "Branche:",
+    "client": "B2B-industriële reserveonderdelendistributie (midmarket, $180M omzet)",
+    "before_label": "Vóór AI-integratie",
+    "after_label": "Na 9 maanden in productie",
+    "before": [
+      "Offertetrajecten vereisten 4-7 uur handmatig kruiselings refereren over 12 legacy-productdatabases.",
+      "Klantenservicemedewerkers besteedden 38% van hun dag aan het opzoeken van onderdeelnummers, compatibiliteit en prijzen.",
+      "Vraagvoorspellingen werden één keer per kwartaal in Excel gemaakt, met 28% Mean Absolute Percentage Error.",
+      "E-mailtriage verwerkte 1.200 inkomende berichten per dag handmatig, met 6 uur gemiddelde eerste reactietijd."
+    ],
+    "after": [
+      "Offertetrajecten voltooien nu in minder dan 8 minuten, met 96,4% nauwkeurigheid op compatibiliteitscontroles.",
+      "Klantenservicemedewerkers richten zich op uitzonderingen; AI lost 62% van de routinemaanvragen end-to-end op.",
+      "Wekelijkse vraagvoorspellingen draaien automatisch met 9,1% MAPE – een verbetering van 67% in prognosenauwkeurigheid.",
+      "Inkomende e-mailtriage 71% geautomatiseerd, met eerste reactietijd van 11 minuten voor de rest."
+    ],
+    "metric_label": "Geverifieerd resultaat:",
+    "metric_value": "87% snellere offerte-naar-order • $2,4M jaarlijkse besparingen • 9,1% forecast MAPE"
+  },
+  "faq": [
+    {
+      "question": "Hoe lang duurt een typisch enterprise-AI-integratieproject van kickoff tot productie?",
+      "answer": "De meeste enterprise-AI-integratieprojecten leveren een eerste productie-klare capaciteit in 8 tot 14 weken. Dit omvat één tot twee weken discovery en use-case-prioritering, een prototype-sprint van twee tot vier weken op uw echte data, en een productie-uitrol van vier tot acht weken met MLOps, observability en AI-ROI-meetinstrumentatie. Grotere programma's die meerdere use cases beslaan, lopen in golven van 6 tot 12 maanden."
+    },
+    {
+      "question": "Moeten we onze bestaande systemen vervangen om AI te integreren?",
+      "answer": "Nee. De overgrote meerderheid van onze enterprise-AI-integratieprojecten zit bovenop uw bestaande CRM, ERP, ticketing, documentbeheer en datawarehouse. Wij ontsluiten AI-capaciteiten via API's, ingebedde UI-componenten en event-gedreven integraties, zodat uw onderliggende systemen onaangetast blijven. Rip-and-replace is bijna nooit het juiste antwoord voor AI-integratie in een gereguleerde of operationele omgeving."
+    },
+    {
+      "question": "Hoe meten jullie AI-ROI en bewijzen jullie het aan onze directie?",
+      "answer": "Wij instrumenteren elke modelaanroep en elk bedrijfsresultaat. AI-ROI-meting begint met een baseline-meting van het proces dat u uitbreidt – tijd, foutpercentage, conversie, kosten per case. Vervolgens volgen we dezelfde metrics na uitrol en schrijven het delta toe aan specifieke AI-capaciteiten. U ontvangt een maandelijks ROI-dashboard en een kwartaalexecutive review met gedocumenteerde financiële impact, uitgesplitst per use case."
+    },
+    {
+      "question": "Kunnen jullie werken met onze data-residency- en beveiligingseisen?",
+      "answer": "Ja. Wij implementeren in uw VPC, on-premise of in een soevereine cloud-regio indien nodig. Wij ondersteunen single-tenant LLM-uitrol, klant-beheerde sleutels, private modelendpoints en volledige auditlogging. Voor gereguleerde sectoren implementeren we data loss prevention, prompt-injection-guardrails en human-in-the-loop-review voor elke hoog-risico AI-actie."
+    },
+    {
+      "question": "Wat is het verschil tussen het aanroepen van een LLM-API en het bouwen van custom-AI-modellen voor B2B?",
+      "answer": "Het aanroepen van een LLM-API is de snelste weg naar een generieke capaciteit – chat, samenvatting, classificatie. Custom-AI-modellen voor B2B betekenen fine-tunen of trainen van modellen op uw propriëtaire data, zodat het systeem uw terminologie, uw edge cases en uw concurrentiële context leert. De meeste enterprise-programma's gebruiken beide: foundation-modellen voor algemeen redeneren, custom-modellen waar nauwkeurigheid, latentie, kosten of IP-verdedigbaarheid dat vereisen."
+    }
+  ],
+  "cta": {
+    "title": "Klaar om AI een operationele competentie te maken, geen pilot?",
+    "subtitle": "Boek een AI-strategiegesprek van 30 minuten. Wij reviewen uw systemen, identificeren de drie hoogste-ROI AI-use-cases en schetsen een realistisch 90-daags leveringsplan.",
+    "button": "Boek uw AI-strategiegesprek"
+  },
+  "breadcrumb": {
+    "home_label": "Home",
+    "current_label": "AI-integratiediensten"
+  }
+}

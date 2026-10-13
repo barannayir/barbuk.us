@@ -1,0 +1,183 @@
+---
+layout: base.liquid
+title: "Enterprise Software Modernization Services | .NET, Java, Microservices"
+description: "Zero-downtime enterprise software modernization: .NET Framework to .NET 8, Java EE to Spring Boot 3, monolith to microservices, on-prem to cloud. 18-month average payback. Free assessment."
+i18n_key: enterprise-software-modernization
+permalink: /nl/enterprise-software-modernization/index.html
+---
+{% assign t = "enterprise-software-modernization" | lookupI18n: "nl" %}
+
+<!-- BreadcrumbList JSON-LD (Home > Enterprise Software Modernization) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://barbuk.us/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Enterprise Software Modernization",
+      "item": "https://barbuk.us/nl/enterprise-software-modernization/"
+    }
+  ]
+}
+</script>
+
+<!-- FAQPage JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {%- for item in t.faq.items -%}
+    {
+      "@type": "Question",
+      "name": {{ item.question | jsonify }},
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": {{ item.answer | jsonify }}
+      }
+    }{%- unless forloop.last -%},{%- endunless -%}
+    {%- endfor -%}
+  ]
+}
+</script>
+
+<!-- Hero Section -->
+<section class="page-hero">
+  <div class="container">
+    <h1>{{ t.page_hero.title }}</h1>
+    <p class="hero-subtitle">{{ t.page_hero.subtitle }}</p>
+    <div class="hero-cta">
+      <a href="/contact" class="btn-primary btn-lg">{{ t.cta.button }}</a>
+      <a href="/services" class="btn-secondary btn-lg">{{ t.cta.secondary_button }}</a>
+    </div>
+  </div>
+</section>
+
+<!-- Why Modernize Section -->
+<section class="why-modernize">
+  <div class="container">
+    <h2>{{ t.why_modernize.section_title }}</h2>
+    <p class="section-intro">{{ t.why_modernize.intro }}</p>
+
+    {% for p in t.why_modernize.paragraphs %}
+    <p>{{ p }}</p>
+    {% endfor %}
+
+    <div class="stats-grid">
+      {% for stat in t.why_modernize.stats %}
+      <div class="stat-card">
+        <div class="stat-value">{{ stat.value }}</div>
+        <div class="stat-label">{{ stat.label }}</div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- Services Grid -->
+<section class="services-detail">
+  <div class="container">
+    <h2>Our Enterprise Modernization Services</h2>
+    <div class="services-grid">
+      {% for service in t.services %}
+      <div class="service-card" id="{{ service.id }}">
+        <div class="service-icon">{{ service.icon }}</div>
+        <h3>{{ service.title }}</h3>
+        <p class="service-intro">{{ service.intro }}</p>
+        <p class="service-label"><strong>{{ service.what_we_do_label }}</strong></p>
+        <ul class="service-features">
+          {% for feature in service.features %}
+          <li><strong>{{ feature.label }}</strong> {{ feature.text }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% include "service-schema.liquid", services: t.services %}
+
+<!-- Implementation Process -->
+<section class="process-steps">
+  <div class="container">
+    <h2>{{ t.process.section_title }}</h2>
+    <p class="section-intro">{{ t.process.intro }}</p>
+    <ol class="steps-list">
+      {% for step in t.process.steps %}
+      <li>
+        <h3>{{ step.title }}</h3>
+        <p>{{ step.description }}</p>
+      </li>
+      {% endfor %}
+    </ol>
+  </div>
+</section>
+
+<!-- Tech Stack -->
+<section class="tech-stack">
+  <div class="container">
+    <h2>{{ t.tech_stack.section_title }}</h2>
+    <p class="section-intro">{{ t.tech_stack.intro }}</p>
+    <div class="tech-categories">
+      {% for cat in t.tech_stack.categories %}
+      <div class="tech-category">
+        <h3>{{ cat.name }}</h3>
+        <ul>
+          {% for item in cat.items %}
+          <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- Case Study -->
+<section class="case-study">
+  <div class="container">
+    <h2>{{ t.case_study.section_title }}</h2>
+    <p class="case-industry"><strong>Industry:</strong> {{ t.case_study.industry }}</p>
+    <h3>Challenge</h3>
+    <p>{{ t.case_study.challenge }}</p>
+    <h3>Solution</h3>
+    <p>{{ t.case_study.solution }}</p>
+    <h3>Results</h3>
+    <ul>
+      {% for result in t.case_study.results %}
+      <li>{{ result }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq">
+  <div class="container">
+    <h2>{{ t.faq.section_title }}</h2>
+    {% for item in t.faq.items %}
+    <div class="faq-item">
+      <h3>{{ item.question }}</h3>
+      <p>{{ item.answer }}</p>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<!-- Final CTA -->
+<section class="final-cta">
+  <div class="container">
+    <h2>{{ t.cta.section_title }}</h2>
+    <p>{{ t.cta.intro }}</p>
+    <a href="/contact" class="btn-primary btn-lg">{{ t.cta.button }}</a>
+  </div>
+</section>

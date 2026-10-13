@@ -1,0 +1,216 @@
+{
+  "page_hero": {
+    "title": "Cloudmigratie voor enterprise-workloads",
+    "subtitle": "Plan, migreer en moderniseer bedrijfskritische applicaties naar AWS, Azure en GCP – met nul dataverlies, aantoonbare security-verbeteringen en een gemeten migratie-ROI in weken, niet jaren.",
+    "primary_cta_label": "Boek cloudmigratie-consult",
+    "secondary_cta_label": "Download migratie-ROI-calculator"
+  },
+  "why_cloud_migration": {
+    "title": "Waarom cloudmigratie nu een infrastructuurnoodzaak is",
+    "subtitle": "Datacenteroperatie, on-premise licentiekosten en handmatige schaalvergroting zijn geen neutrale keuzes meer. Het zijn concurrentienadelen.",
+    "paragraphs": [
+      "In het enterprise-segment is cloudmigratie in enkele jaren verschoven van een kostenbesparingsproject naar een infrastructuurstrategie die agility, AI-capaciteit, wereldwijd bereik en veerkracht ontsluit. Volgens Gartner 2024 heeft 85% van de ondernemingen een cloud-first strategie aangenomen, en IDC voorspelt dat tegen 2027 meer dan 70% van de enterprise-workloads in publieke clouds draait. De ruimte om on-premise te blijven wordt niet alleen kleiner – hij wordt meetbaar en snel kleiner.",
+      "cloud_capex_opex: On-premise workloads binden CapEx in hardware die u vooraf betaalt, en OpEx in licentie-, stroom-, koel- en personeelsbudgetten die jaar na jaar stijgen. Cloudinfrastructuur zet een groot deel van die kosten om in usage-based uitgaven die met uw omzet meeschalen. Maar dat is niet de belangrijkste reden om te migreren. Het vermogen om nieuwe regio's in dagen in plaats van kwartalen te lanceren, ML-modellen te trainen zonder hardware-bottlenecks, en wereldwijde teams in realtime te laten samenwerken – dát is het concurrentievoordeel.",
+      "cloud_regulation_myth: Veel gereguleerde sectoren gaan er nog steeds van uit dat cloudmigratie compliance-risico's met zich meebrengt. De realiteit is omgeslagen. Hyperscalers bieden vandaag HIPAA-, SOC 2-, PCI DSS-, ISO 27001-, FedRAMP- en GDPR-conforme regio's die on-premise datacenters economisch niet kunnen repliceren. Audittrails, encryption at rest, key management services en data residency-vriendelijke architecturen zijn in de cloud vaak sterker dan in zelfbeheerde omgevingen.",
+      "cloud_migration_strategy: Succesvolle cloudmigratie is geen lift and shift. Het vereist een assessment van uw applicatielandschap, een helder golvenmodel dat afhankelijkheden respecteert, een datamigratiestrategie met nul dataverlies tolerantie, en een cloud security-architectuur die vanaf dag één staat. Het vereist ook kostenbeheer-discipline – clouduitgaven kunnen zonder actieve governance ontsporen. Wij brengen de operationele discipline die migraties op tijd, binnen budget en met meetbare business impact levert."
+    ],
+    "statistics": [
+      {"value": "30–60%", "label": "Gemiddelde TCO-reductie na volledige cloudmigratie"},
+      {"value": "65%", "label": "van de ondernemingen rapporteert versnelling van time-to-market na cloudmigratie"},
+      {"value": "99,99%", "label": "Cloudplatform-SLA vs. typische 99,5% on-premise"}
+    ]
+  },
+  "services": [
+    {
+      "id": "migration_assessment",
+      "icon": "🔍",
+      "title": "Cloudmigratie-assessment & strategie",
+      "intro": "Voordat er één byte wordt verplaatst, heeft u een helder golvenmodel nodig, een afhankelijkheidsdiagram en een migratie-ROI die uw directie overtuigt.",
+      "what_we_do_label": "Wat we doen:",
+      "features": [
+        {"label": "Applicatieportfolio-assessment:", "text": "Inventarisatie, afhankelijkheidsanalyse en 6R-classificatie (Rehost, Replatform, Refactor, Repurchase, Retire, Retain)"},
+        {"label": "Golfplanning:", "text": "Multi-golf migratieplannen die minimale business verstoring maximaliseren en quick-wins vroeg opleveren"},
+        {"label": "Cloud provider-selectie:", "text": "AWS, Azure of GCP – we bevelen aan op basis van uw workloadprofiel en bestaande investeringen"},
+        {"label": "ROI & business case:", "text": "TCO-vergelijkingen over 3 en 5 jaar, inclusief verborgen personeelskosten en risicobuffer"},
+        {"label": "Compliance readiness:", "text": "Mapping van regelgevende vereisten op cloudregio's en -diensten die eraan voldoen"}
+      ],
+      "tech_label": "Tools & frameworks:",
+      "tech_stack": ["AWS Migration Hub", "Azure Migrate", "Google Cloud Migration Center", "Cloudamize", "Movere"]
+    },
+    {
+      "id": "app_migration",
+      "icon": "🚀",
+      "title": "Applicatiemigratie (Rehost, Replatform, Refactor)",
+      "intro": "Wij migreren uw bedrijfskritische applicaties zonder uw klanten of operatie te verstoren – en kiezen de juiste strategie voor elke applicatie.",
+      "what_we_do_label": "Wat we doen:",
+      "features": [
+        {"label": "Rehost (Lift & Shift):", "text": "Snelle migratie met minimale wijzigingen – ideaal voor niet-strategische applicaties die met pensioen gaan"},
+        {"label": "Replatform:", "text": "Migratie met gerichte cloud-native optimalisaties, zoals overstap naar managed databases of containerisatie"},
+        {"label": "Refactor:", "text": "Cloud-native herontwerp voor strategische applicaties die maximale agility en schaalbaarheid vereisen"},
+        {"label": "Databasemigratie:", "text": "Homogene en heterogene migraties naar managed databases met minimale downtime en nul dataverlies"},
+        {"label": "Containers & Kubernetes:", "text": "Containerisatie van applicaties en deployment op AKS, EKS of GKE met Helm- en GitOps-patronen"}
+      ],
+      "tech_label": "Migratietools:",
+      "tech_stack": ["AWS DMS", "Azure Database Migration Service", "Google Database Migration Service", "Attunity", "Docker", "Kubernetes"]
+    },
+    {
+      "id": "cloud_architecture",
+      "icon": "☁️",
+      "title": "Cloudarchitectuur & landing zone",
+      "intro": "Multi-account of multi-subscription landing zones die vanaf dag één veilig, kostengestuurd en operationeel volwassen zijn.",
+      "what_we_do_label": "Wat we doen:",
+      "features": [
+        {"label": "Multi-account landing zones:", "text": "AWS Control Tower, Azure Landing Zones of GCP Landing Zones – met org-structuur, netwerk en basispolicies"},
+        {"label": "Netwerkarchitectuur:", "text": "Hub-and-spoke, Transit Gateway of Virtual WAN – ontworpen voor performance, kosten en security"},
+        {"label": "Identiteit & toegang:", "text": "Single Sign-On, RBAC, Privileged Access Management en JIT-toegangspatronen"},
+        {"label": "Provisioneringsautomatisering:", "text": "Infrastructure as Code met Terraform, Bicep of Pulumi, ingebed in CI/CD"},
+        {"label": "Kostenbeheer:", "text": "Budgetwachten, reserveringsstrategie, rightsizing-rapporten en FinOps-discipline"}
+      ],
+      "tech_label": "Architectuurstack:",
+      "tech_stack": ["Terraform", "AWS Control Tower", "Azure Landing Zones", "Pulumi", "Ansible", "HashiCorp Vault"]
+    },
+    {
+      "id": "cloud_security",
+      "icon": "🛡️",
+      "title": "Cloud security & compliance-architectuur",
+      "intro": "Security is geen post-migratie add-on. We bouwen Zero Trust-controles, encryptie en audittrail vanaf dag één in uw cloudarchitectuur in.",
+      "what_we_do_label": "Wat we doen:",
+      "features": [
+        {"label": "Zero Trust-netwerk:", "text": "Microsegmentatie, service mesh, veilige workloadidentiteit en fijnmazige Oost-West policies"},
+        {"label": "Data-encryptie:", "text": "Encryptie at rest, in transit en in gebruik met klantbeheerde sleutels en BYOK"},
+        {"label": "Compliance mapping:", "text": "SOC 2, ISO 27001, HIPAA, PCI DSS, GDPR – geïmplementeerd via Policy-as-Code en continue monitoring"},
+        {"label": "Dreigingsdetectie:", "text": "Cloud-native SIEM/SOAR met GuardDuty, Defender, Security Command Center en centrale SOC-integratie"},
+        {"label": "Vulnerability management:", "text": "Continu scannen, prioriteren en verhelpen met SBOM en patch-automatisering"}
+      ],
+      "tech_label": "Security stack:",
+      "tech_stack": ["AWS Security Hub", "Azure Defender", "GCP Security Command Center", "HashiCorp Vault", "CrowdStrike", "Wiz"]
+    },
+    {
+      "id": "data_migration",
+      "icon": "💾",
+      "title": "Datamigratie & datasynchronisatie",
+      "intro": "Databases-, datawarehouse- en object storage-migraties op petabyteschaal met nul dataverlies, verifieerbare integriteit en minimale downtime.",
+      "what_we_do_label": "Wat we doen:",
+      "features": [
+        {"label": "Databasemigratie:", "text": "Online en offline migraties voor Oracle, SQL Server, MySQL, PostgreSQL en NoSQL met CDC-streams"},
+        {"label": "Datawarehouse-migratie:", "text": "Migratie naar Snowflake, BigQuery, Redshift of Synapse met ELT-pipeline-ontwerp"},
+        {"label": "Data lake & object storage:", "text": "S3, ADLS of GCS met tiering, lifecycle-policies en cross-region replicatie"},
+        {"label": "Cutover-strategie:", "text": "Blue-Green, pilot light of golfmigratie met geteste rollback-plannen"},
+        {"label": "Datavalidatie:", "text": "Row-count-, checksum- en schemavalidatie, geautomatiseerd over alle migratiefasen"}
+      ],
+      "tech_label": "Datatools:",
+      "tech_stack": ["AWS DMS", "Azure DMS", "Google DMS", "Snowflake", "Fivetran", "Airbyte", "dbt"]
+    },
+    {
+      "id": "cloud_finops",
+      "icon": "💰",
+      "title": "Cloud FinOps & kostenoptimalisatie",
+      "intro": "Clouduitgaven verdwijnen niet in de cloud. Ze duiken elders op. We helpen u FinOps-discipline op te bouwen en verrassingen op de cloudrekening te voorkomen.",
+      "what_we_do_label": "Wat we doen:",
+      "features": [
+        {"label": "Kostentransparantie:", "text": "Showback- en chargeback-modellen die clouduitgaven toewijzen aan kostenplaatsen, teams en applicaties"},
+        {"label": "Rightsizing & reserved instances:", "text": "Continue aanbevelingen voor compute-groottes, RI-aankopen en Savings Plans"},
+        {"label": "Opschonen van inactieve resources:", "text": "Geautomatiseerde detectie en buitengebruikstelling van ongebruikte volumes, IPs en snapshots"},
+        {"label": "Budget- & anomalie-alerts:", "text": "Proactieve budgets die anomalieën signaleren voordat het factuurincidenten worden"},
+        {"label": "FinOps-cultuur:", "text": "Training, governance en verantwoordelijkheidsmodellen die teams tot cloudeigenaren maken"}
+      ],
+      "tech_label": "FinOps stack:",
+      "tech_stack": ["AWS Cost Explorer", "Azure Cost Management", "Google Cloud Billing", "CloudHealth", "Vantage", "Kubecost"]
+    }
+  ],
+  "implementation_process": {
+    "title": "Ons cloudmigratie-framework",
+    "subtitle": "Een bewezen zesfasenmethodologie die migraties op tijd, binnen budget en met gemeten businesswaarde oplevert.",
+    "steps": [
+      {"number": "1", "title": "Assessment & discovery", "text": "Wij inventariseren uw applicatieportfolio, documenteren afhankelijkheden, classificeren elke applicatie met het 6R-model, en produceren een grondige TCO- en ROI-analyse."},
+      {"number": "2", "title": "Strategie & golfplanning", "text": "Samen definiëren we migratiegolven, security-controles, compliance-vereisten en een golf-1-programma dat quick-wins oplevert zonder het pad naar latere golven te blokkeren."},
+      {"number": "3", "title": "Landing zone & architectuur", "text": "We bouwen de cloudfounding-laag – multi-account topologie, netwerk, identiteit, security-controles en IaC-pipelines – die alle golven zal dragen."},
+      {"number": "4", "title": "Migratie golf 1 & validatie", "text": "We piloten de migratie met een gekozen golf-1 workload, bewijzen security- en performance-baselines, en verfijnen het golvenmodel voordat we schalen."},
+      {"number": "5", "title": "Geschaalde migratie & modernisering", "text": "Migratie van aanvullende golven, met parallelle tracks voor Rehost, Replatform en Refactor, afhankelijk van workload-karakter en businesswaarde."},
+      {"number": "6", "title": "Optimalisatie & continue verbetering", "text": "We instrumenteren clouduitgaven, security-postuur en performance; we vestigen FinOps-discipline en identificeren moderniseringskansen die de migratie ontsluit."}
+    ]
+  },
+  "tech_stack": {
+    "title": "Onze enterprise cloudmigratie-stack",
+    "subtitle": "Multi-hyperscaler, IaC-centraal en cloud-native. We kiezen de juiste stack voor uw omgeving, regelgevende houding en bestaande investeringen.",
+    "categories": [
+      {
+        "name": "Cloudplatforms",
+        "items": ["Amazon Web Services", "Microsoft Azure", "Google Cloud Platform"]
+      },
+      {
+        "name": "Infrastructure as Code",
+        "items": ["Terraform", "OpenTofu", "Pulumi", "AWS CloudFormation", "Azure Bicep"]
+      },
+      {
+        "name": "Containers & orkestratie",
+        "items": ["Docker", "Kubernetes", "Amazon EKS", "Azure AKS", "Google GKE", "Helm"]
+      },
+      {
+        "name": "Databases & opslag",
+        "items": ["PostgreSQL", "MySQL", "MongoDB", "Amazon RDS", "Azure SQL", "Cloud SQL", "Snowflake"]
+      },
+      {
+        "name": "CI/CD & DevOps",
+        "items": ["GitHub Actions", "GitLab CI", "Azure DevOps", "ArgoCD", "Jenkins"]
+      },
+      {
+        "name": "Security & compliance",
+        "items": ["HashiCorp Vault", "AWS KMS", "Azure Key Vault", "CrowdStrike", "Wiz", "Prisma Cloud"]
+      }
+    ]
+  },
+  "case_study": {
+    "title": "Cloudmigratie case study: logistieke mid-market speler",
+    "subtitle": "Hoe een logistiek bedrijf met 480 medewerkers zijn on-premise ERP- en trackingsystemen naar AWS migreerde, de beschikbaarheid met 73% verbeterde en jaarlijks 2,1 M$ bespaarde.",
+    "client_label": "Sector:",
+    "client": "Logistiek en fleetmanagement (mid-market, 320 M$ omzet)",
+    "before_label": "Vóór de cloudmigratie",
+    "after_label": "Na 11 maanden",
+    "before": [
+      "On-premise ERP met 99,5% beschikbaarheid (gelijk aan ~44 uur downtime per jaar).",
+      "3 weken deployment-cyclus voor nieuwe logistieke regio's, met 1,2 M$ upfront-investering per regio.",
+      "Eigen datacenter dat 8% van het IT-budget opslokte aan stroom, koeling en hardware-afschrijving.",
+      "Data-analyse duurde 18+ uur per rapportagecyclus, waardoor operationele beslissingen werden vertraagd."
+    ],
+    "after": [
+      "Cloudarchitectuur op AWS met 99,98% beschikbaarheid – een vermindering van 88% in jaarlijkse downtime.",
+      "Nieuwe regio's worden in 6 dagen uitgerold in plaats van 3 weken, zonder upfront CapEx.",
+      "Datacenter gesloten; 2,1 M$ jaarlijkse besparingen, herinvesteerd in klantgroeinitiatieven.",
+      "Realtime analytics op Snowflake + dbt, met rapporten die in 4 minuten draaien in plaats van 18 uur."
+    ],
+    "metric_label": "Geverifieerd resultaat:",
+    "metric_value": "99,98% beschikbaarheid • 73% snellere time-to-market • 2,1 M$ jaarlijkse besparingen"
+  },
+  "faq": [
+    {
+      "question": "Hoe lang duurt een typische enterprise cloudmigratie?",
+      "answer": "Enterprise cloudmigraties worden in golven geleverd, niet als één project. Een typische golf-1 cloudmigratie duurt 3 tot 6 maanden van assessment tot productie. Volledige multi-golf programma's die het hele applicatieportfolio bestrijken, lopen doorgaans 12 tot 24 maanden. We leveren bij elke golf meetbare ROI, zodat de businesswaarde niet op het einde van het programma hoeft te wachten."
+    },
+    {
+      "question": "Ondervinden we downtime tijdens de migratie?",
+      "answer": "Voor de meeste applicaties kunnen we migraties ontwerpen met nul downtime via blue-green, pilot light of live replication patronen. Voor databases gebruiken we CDC (Change Data Capture) om continue synchronisatie mogelijk te maken, zodat de cutover-fase in seconden wordt gemeten in plaats van uren. Voor applicaties die een maintenance window-cutover vereisen, werken we binnen uw geplande onderhoudsvensters. We plannen elke cutover met een getest rollback-pad."
+    },
+    {
+      "question": "AWS, Azure of GCP – welke cloudprovider kiezen we?",
+      "answer": "Het eerlijke antwoord: het hangt ervan af. AWS heeft de breedste platformdiepte. Azure wint als u sterk in Microsoft investeert. GCP blinkt uit in data en ML. We helpen u kiezen op basis van uw workloadprofiel, bestaande licentie-investeringen, compliance-vereisten en teamcompetenties – en hybride strategieën wanneer geen enkele provider aan alle vereisten voldoet."
+    },
+    {
+      "question": "Is cloudmigratie veilig voor gereguleerde sectoren zoals financial services of healthcare?",
+      "answer": "Ja – vaak veiliger dan on-premise operatie wanneer goed uitgevoerd. Hyperscalers bieden vandaag HIPAA-, SOC 2-, PCI DSS-, ISO 27001-, FedRAMP- en GDPR-conforme regio's met mogelijkheden die on-premise datacenters economisch niet kunnen repliceren. We bouwen Zero Trust-controles, encryptie, audittrails en compliance-mapping vanaf dag één in de architectuur. Veel van onze klanten in gereguleerde sectoren bereiken na migratie een sterkere security-postuur dan ervoor."
+    },
+    {
+      "question": "Hoe meten en bewijzen jullie migratie-ROI?",
+      "answer": "We produceren een 3- en 5-jarige TCO-analyse voorafgaand aan de migratie, met gedetailleerde aannames over hardware, softwarelicenties, personeelskosten, stroom en vastgoed. Na migratie volgen we maandelijks clouduitgaven, rightsizing-aanbevelingen en performanceverbeteringen ten opzichte van de baseline. U ontvangt een maandelijks migratie-ROI-dashboard en een kwartaalreview die werkelijke besparingen naast het oorspronkelijke model plaatst."
+    }
+  ],
+  "cta": {
+    "title": "Klaar om cloudmigratie tot een concurrentievoordeel te maken in plaats van een risico?",
+    "subtitle": "Boek een cloudmigratie-consult van 30 minuten. We reviewen uw applicatieportfolio, schetsen een realistisch golvenplan en dimensioneren de migratie-ROI voor golf 1.",
+    "button": "Boek uw cloudmigratie-consult"
+  },
+  "breadcrumb": {
+    "home_label": "Home",
+    "current_label": "Cloudmigratiediensten"
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "page_hero": {
+    "title": "Migración a la nube para cargas de trabajo empresariales",
+    "subtitle": "Planifica, migra y moderniza aplicaciones críticas hacia AWS, Azure y GCP – con cero pérdida de datos, mejoras de seguridad verificables y un ROI de migración medido en semanas, no años.",
+    "primary_cta_label": "Reservar consultoría de migración cloud",
+    "secondary_cta_label": "Descargar calculadora de ROI de migración"
+  },
+  "why_cloud_migration": {
+    "title": "Por qué la migración cloud es ahora una necesidad de infraestructura",
+    "subtitle": "La operación de datacenter, los costes de licencias on-premise y el escalado manual ya no son decisiones neutrales. Son desventajas competitivas.",
+    "paragraphs": [
+      "En el segmento enterprise, la migración cloud ha pasado en pocos años de proyecto de ahorro a estrategia de infraestructura que desbloquea agilidad, capacidad IA, alcance global y resiliencia. Según Gartner 2024, el 85% de las empresas ha adoptado una estrategia cloud-first, e IDC prevé que para 2027 más del 70% de las cargas de trabajo empresariales correrán en nubes públicas. El margen para permanecer on-premise no se está reduciendo – se está contrayendo de forma medible y rápida.",
+      "cloud_capex_opex: Las cargas on-premise atan CapEx en hardware que pagas por adelantado, y OpEx en presupuestos de licencias, energía, refrigeración y personal que suben año tras año. La infraestructura cloud transforma gran parte de esos costes en gastos por uso que escalan con tu facturación. Pero esa no es la razón principal para migrar. La capacidad de lanzar nuevas regiones en días en lugar de trimestres, entrenar modelos ML sin cuellos de botella de hardware y hacer colaborar a equipos globales en tiempo real – esa es la ventaja competitiva.",
+      "cloud_regulation_myth: Muchos sectores regulados siguen asumiendo que la migración cloud trae riesgos de cumplimiento. La realidad se ha invertido. Los hyperscalers ofrecen hoy regiones conformes con HIPAA, SOC 2, PCI DSS, ISO 27001, FedRAMP y GDPR que los datacenters on-premise no pueden replicar económicamente. Las pistas de auditoría, el cifrado en reposo, los servicios de gestión de claves y las arquitecturas respetuosas con la residencia de datos suelen ser más sólidos en la nube que en entornos autogestionados.",
+      "cloud_migration_strategy: Una migración cloud exitosa no es un lift and shift. Requiere una evaluación de tu cartera de aplicaciones, un modelo de oleadas claro que respete dependencias, una estrategia de migración de datos con tolerancia cero a pérdidas, y una arquitectura de seguridad cloud establecida desde el día uno. También requiere disciplina de gestión de costes – el gasto cloud puede descontrolarse sin gobernanza activa. Aportamos la disciplina operativa que hace que las migraciones se entreguen a tiempo, en presupuesto y con impacto de negocio medible."
+    ],
+    "statistics": [
+      {"value": "30–60%", "label": "Reducción TCO media tras migración cloud completa"},
+      {"value": "65%", "label": "de las empresas reporta aceleración del time-to-market tras la migración cloud"},
+      {"value": "99,99%", "label": "SLA de plataforma cloud vs. 99,5% típico on-premise"}
+    ]
+  },
+  "services": [
+    {
+      "id": "migration_assessment",
+      "icon": "🔍",
+      "title": "Assessment de migración cloud & estrategia",
+      "intro": "Antes de que se mueva un solo byte, necesitas un modelo de oleadas claro, un grafo de dependencias y un ROI de migración que convenza a tu dirección.",
+      "what_we_do_label": "Qué hacemos:",
+      "features": [
+        {"label": "Assessment de cartera de aplicaciones:", "text": "Inventario, análisis de dependencias y clasificación 6R (Rehost, Replatform, Refactor, Repurchase, Retire, Retain)"},
+        {"label": "Planificación por oleadas:", "text": "Planes de migración multi-oleada que minimizan la interrupción de negocio y maximizan los quick-wins tempranos"},
+        {"label": "Selección de proveedor cloud:", "text": "AWS, Azure o GCP – recomendamos en función de tu perfil de cargas e inversiones existentes"},
+        {"label": "ROI & business case:", "text": "Comparaciones TCO a 3 y 5 años, incluyendo costes ocultos de personal y colchón de riesgo"},
+        {"label": "Readiness de cumplimiento:", "text": "Mapeo de requisitos regulatorios a regiones y servicios cloud que los cumplen"}
+      ],
+      "tech_label": "Herramientas & frameworks:",
+      "tech_stack": ["AWS Migration Hub", "Azure Migrate", "Google Cloud Migration Center", "Cloudamize", "Movere"]
+    },
+    {
+      "id": "app_migration",
+      "icon": "🚀",
+      "title": "Migración de aplicaciones (Rehost, Replatform, Refactor)",
+      "intro": "Migramos tus aplicaciones críticas sin perturbar a tus clientes ni a tu operativa – y elegimos la estrategia adecuada para cada aplicación.",
+      "what_we_do_label": "Qué hacemos:",
+      "features": [
+        {"label": "Rehost (Lift & Shift):", "text": "Migración rápida con cambios mínimos – ideal para aplicaciones no estratégicas en retirada"},
+        {"label": "Replatform:", "text": "Migración con optimizaciones cloud-native dirigidas, como el cambio a bases de datos gestionadas o la contenedorización"},
+        {"label": "Refactor:", "text": "Rediseño cloud-native para aplicaciones estratégicas que requieren máxima agilidad y escalabilidad"},
+        {"label": "Migración de bases de datos:", "text": "Migraciones homogéneas y heterogéneas hacia bases gestionadas con tiempo de inactividad mínimo y cero pérdida de datos"},
+        {"label": "Contenedores & Kubernetes:", "text": "Contenerización de aplicaciones y despliegue en AKS, EKS o GKE con patrones Helm y GitOps"}
+      ],
+      "tech_label": "Herramientas de migración:",
+      "tech_stack": ["AWS DMS", "Azure Database Migration Service", "Google Database Migration Service", "Attunity", "Docker", "Kubernetes"]
+    },
+    {
+      "id": "cloud_architecture",
+      "icon": "☁️",
+      "title": "Arquitectura cloud & landing zone",
+      "intro": "Landing zones multi-cuenta o multi-suscripción que son seguras, gobernadas en coste y operativamente maduras desde el día uno.",
+      "what_we_do_label": "Qué hacemos:",
+      "features": [
+        {"label": "Landing zones multi-cuenta:", "text": "AWS Control Tower, Azure Landing Zones o GCP Landing Zones – con estructura org, red y políticas base"},
+        {"label": "Arquitectura de red:", "text": "Hub-and-spoke, Transit Gateway o Virtual WAN – diseñadas para rendimiento, coste y seguridad"},
+        {"label": "Identidad & acceso:", "text": "Single Sign-On, RBAC, Privileged Access Management y patrones de acceso JIT"},
+        {"label": "Automatización de aprovisionamiento:", "text": "Infrastructure as Code con Terraform, Bicep o Pulumi, embebido en CI/CD"},
+        {"label": "Gestión de costes:", "text": "Guardas de presupuesto, estrategia de reserva, informes de rightsizing y disciplina FinOps"}
+      ],
+      "tech_label": "Stack de arquitectura:",
+      "tech_stack": ["Terraform", "AWS Control Tower", "Azure Landing Zones", "Pulumi", "Ansible", "HashiCorp Vault"]
+    },
+    {
+      "id": "cloud_security",
+      "icon": "🛡️",
+      "title": "Seguridad cloud & arquitectura de cumplimiento",
+      "intro": "La seguridad no es un añadido post-migración. Incorporamos controles Zero Trust, cifrado y pista de auditoría en la arquitectura cloud desde el día uno.",
+      "what_we_do_label": "Qué hacemos:",
+      "features": [
+        {"label": "Red Zero Trust:", "text": "Microsegmentación, service mesh, identidad de carga de trabajo segura y políticas Este-Oeste granulares"},
+        {"label": "Cifrado de datos:", "text": "Cifrado en reposo, en tránsito y en uso con claves gestionadas por el cliente y BYOK"},
+        {"label": "Mapeo de cumplimiento:", "text": "SOC 2, ISO 27001, HIPAA, PCI DSS, GDPR – implementados vía Policy-as-Code y monitorización continua"},
+        {"label": "Detección de amenazas:", "text": "SIEM/SOAR cloud-native con GuardDuty, Defender, Security Command Center e integración SOC central"},
+        {"label": "Gestión de vulnerabilidades:", "text": "Escaneo continuo, priorización y remediación con SBOM y automatización de parches"}
+      ],
+      "tech_label": "Stack de seguridad:",
+      "tech_stack": ["AWS Security Hub", "Azure Defender", "GCP Security Command Center", "HashiCorp Vault", "CrowdStrike", "Wiz"]
+    },
+    {
+      "id": "data_migration",
+      "icon": "💾",
+      "title": "Migración de datos & sincronización",
+      "intro": "Migraciones de bases de datos, data warehouse y almacenamiento de objetos a escala de petabytes con cero pérdida de datos, integridad verificable y tiempo de inactividad mínimo.",
+      "what_we_do_label": "Qué hacemos:",
+      "features": [
+        {"label": "Migración de bases de datos:", "text": "Migraciones online y offline para Oracle, SQL Server, MySQL, PostgreSQL y NoSQL con streams CDC"},
+        {"label": "Migración de data warehouse:", "text": "Migración a Snowflake, BigQuery, Redshift o Synapse con diseño de pipeline ELT"},
+        {"label": "Data lake & object storage:", "text": "S3, ADLS o GCS con tiering, políticas de ciclo de vida y replicación cross-region"},
+        {"label": "Estrategia de cutover:", "text": "Blue-Green, pilot light o migración por oleadas con planes de rollback probados"},
+        {"label": "Validación de datos:", "text": "Validación de row-count, checksum y esquema, automatizada en todas las fases de migración"}
+      ],
+      "tech_label": "Herramientas de datos:",
+      "tech_stack": ["AWS DMS", "Azure DMS", "Google DMS", "Snowflake", "Fivetran", "Airbyte", "dbt"]
+    },
+    {
+      "id": "cloud_finops",
+      "icon": "💰",
+      "title": "Cloud FinOps & optimización de costes",
+      "intro": "Los gastos cloud no desaparecen en la nube. Aparecen en otro sitio. Te ayudamos a construir disciplina FinOps y a evitar sorpresas en la factura.",
+      "what_we_do_label": "Qué hacemos:",
+      "features": [
+        {"label": "Transparencia de costes:", "text": "Modelos de showback y chargeback que imputan el gasto cloud a centros de coste, equipos y aplicaciones"},
+        {"label": "Rightsizing & instancias reservadas:", "text": "Recomendaciones continuas sobre tamaños de compute, compras de RI y Savings Plans"},
+        {"label": "Limpieza de recursos inactivos:", "text": "Detección y baja automatizadas de volúmenes, IPs y snapshots no utilizados"},
+        {"label": "Alertas de presupuesto & anomalías:", "text": "Presupuestos proactivos que señalan anomalías antes de que se conviertan en eventos de facturación"},
+        {"label": "Cultura FinOps:", "text": "Formación, gobernanza y modelos de responsabilidad que hacen a los equipos propietarios del cloud"}
+      ],
+      "tech_label": "Stack FinOps:",
+      "tech_stack": ["AWS Cost Explorer", "Azure Cost Management", "Google Cloud Billing", "CloudHealth", "Vantage", "Kubecost"]
+    }
+  ],
+  "implementation_process": {
+    "title": "Nuestro framework de migración cloud",
+    "subtitle": "Una metodología probada de seis fases que entrega migraciones a tiempo, en presupuesto y con valor de negocio medido.",
+    "steps": [
+      {"number": "1", "title": "Assessment & discovery", "text": "Inventariamos tu cartera de aplicaciones, documentamos dependencias, clasificamos cada aplicación con el modelo 6R y producimos un análisis TCO y ROI riguroso."},
+      {"number": "2", "title": "Estrategia & planificación por oleadas", "text": "Juntos definimos oleadas de migración, controles de seguridad, requisitos de cumplimiento y un programa oleada 1 que entrega quick-wins sin bloquear el camino a oleadas posteriores."},
+      {"number": "3", "title": "Landing zone & arquitectura", "text": "Construimos la capa de fundación cloud – topología multi-cuenta, red, identidad, controles de seguridad y pipelines IaC – que sostendrá todas las oleadas."},
+      {"number": "4", "title": "Migración oleada 1 & validación", "text": "Pilotamos la migración con una carga oleada 1 seleccionada, probamos las baselines de seguridad y rendimiento, y refinamos el modelo de oleadas antes de escalar."},
+      {"number": "5", "title": "Migración escalada & modernización", "text": "Migración de oleadas adicionales, con tracks paralelos para Rehost, Replatform y Refactor, según el carácter de la carga y el valor de negocio."},
+      {"number": "6", "title": "Optimización & mejora continua", "text": "Instrumentamos el gasto cloud, la postura de seguridad y el rendimiento; establecemos disciplina FinOps e identificamos oportunidades de modernización que la migración desbloquea."}
+    ]
+  },
+  "tech_stack": {
+    "title": "Nuestro stack de migración cloud enterprise",
+    "subtitle": "Multi-hyperscaler, IaC-céntrico y cloud-native. Elegimos el stack adecuado para tu entorno, postura regulatoria e inversiones existentes.",
+    "categories": [
+      {
+        "name": "Plataformas cloud",
+        "items": ["Amazon Web Services", "Microsoft Azure", "Google Cloud Platform"]
+      },
+      {
+        "name": "Infrastructure as Code",
+        "items": ["Terraform", "OpenTofu", "Pulumi", "AWS CloudFormation", "Azure Bicep"]
+      },
+      {
+        "name": "Contenedores & orquestación",
+        "items": ["Docker", "Kubernetes", "Amazon EKS", "Azure AKS", "Google GKE", "Helm"]
+      },
+      {
+        "name": "Bases de datos & almacenamiento",
+        "items": ["PostgreSQL", "MySQL", "MongoDB", "Amazon RDS", "Azure SQL", "Cloud SQL", "Snowflake"]
+      },
+      {
+        "name": "CI/CD & DevOps",
+        "items": ["GitHub Actions", "GitLab CI", "Azure DevOps", "ArgoCD", "Jenkins"]
+      },
+      {
+        "name": "Seguridad & cumplimiento",
+        "items": ["HashiCorp Vault", "AWS KMS", "Azure Key Vault", "CrowdStrike", "Wiz", "Prisma Cloud"]
+      }
+    ]
+  },
+  "case_study": {
+    "title": "Caso de estudio de migración cloud: operador logístico mid-market",
+    "subtitle": "Cómo una empresa logística de 480 personas migró su ERP on-premise y sistemas de tracking a AWS, mejoró la disponibilidad un 73% y ahorró 2,1 M$ anuales.",
+    "client_label": "Sector:",
+    "client": "Logística y gestión de flotas (mid-market, 320 M$ de facturación)",
+    "before_label": "Antes de la migración cloud",
+    "after_label": "Tras 11 meses",
+    "before": [
+      "ERP on-premise con 99,5% de disponibilidad (equivalente a ~44 horas de inactividad al año).",
+      "Ciclo de despliegue de 3 semanas para nuevas regiones logísticas, con 1,2 M$ de inversión inicial por región.",
+      "Datacenter propio que consumía el 8% del presupuesto de TI en energía, refrigeración y amortización de hardware.",
+      "El análisis de datos tardaba 18+ horas por ciclo de reporting, retrasando las decisiones operativas."
+    ],
+    "after": [
+      "Arquitectura cloud sobre AWS con 99,98% de disponibilidad – una reducción del 88% en el tiempo de inactividad anual.",
+      "Las nuevas regiones se despliegan en 6 días en lugar de 3 semanas, sin CapEx inicial.",
+      "Datacenter cerrado; 2,1 M$ de ahorro anual reinvertidos en iniciativas de crecimiento para clientes.",
+      "Analítica en tiempo real sobre Snowflake + dbt, con informes que corren en 4 minutos en lugar de 18 horas."
+    ],
+    "metric_label": "Resultado verificado:",
+    "metric_value": "99,98% de disponibilidad • 73% más rápido time-to-market • 2,1 M$ de ahorro anual"
+  },
+  "faq": [
+    {
+      "question": "¿Cuánto dura una migración cloud enterprise típica?",
+      "answer": "Las migraciones cloud enterprise se entregan en oleadas, no como un único proyecto. Una migración cloud típica de oleada 1 dura de 3 a 6 meses desde el assessment hasta producción. Los programas multi-oleada completos que cubren toda la cartera de aplicaciones suelen durar de 12 a 24 meses. Entregamos un ROI medible en cada oleada, para que el valor de negocio no tenga que esperar al final del programa."
+    },
+    {
+      "question": "¿Experimentaremos tiempo de inactividad durante la migración?",
+      "answer": "Para la mayoría de las aplicaciones, podemos diseñar migraciones con cero tiempo de inactividad mediante patrones blue-green, pilot light o live replication. Para bases de datos, usamos CDC (Change Data Capture) para permitir la sincronización continua, de modo que la fase de cutover se mide en segundos en lugar de horas. Para aplicaciones que requieren un cutover en ventana de mantenimiento, trabajamos dentro de vuestras ventanas de mantenimiento planificadas. Planificamos cada cutover con un camino de rollback probado."
+    },
+    {
+      "question": "¿AWS, Azure o GCP – qué proveedor cloud elegir?",
+      "answer": "La respuesta honesta: depende. AWS tiene la mayor amplitud de plataforma. Azure gana si estás fuertemente invertido en Microsoft. GCP brilla en datos y ML. Te ayudamos a elegir en función de tu perfil de cargas, inversiones de licencia existentes, requisitos de cumplimiento y competencias del equipo – y estrategias híbridas cuando ningún proveedor único cubre todos los requisitos."
+    },
+    {
+      "question": "¿Es segura la migración cloud para sectores regulados como servicios financieros o sanidad?",
+      "answer": "Sí – a menudo más segura que la operación on-premise cuando se hace bien. Los hyperscalers ofrecen hoy regiones conformes con HIPAA, SOC 2, PCI DSS, ISO 27001, FedRAMP y GDPR con capacidades que los datacenters on-premise no pueden replicar económicamente. Incorporamos controles Zero Trust, cifrado, pistas de auditoría y mapeo de cumplimiento en la arquitectura desde el día uno. Muchos de nuestros clientes en sectores regulados alcanzan tras la migración una postura de seguridad más fuerte que antes."
+    },
+    {
+      "question": "¿Cómo medís y probáis el ROI de migración?",
+      "answer": "Producimos un análisis TCO a 3 y 5 años antes de la migración, con hipótesis detalladas sobre hardware, licencias de software, costes de personal, energía e inmobiliario. Tras la migración, seguimos mensualmente el gasto cloud, las recomendaciones de rightsizing y las mejoras de rendimiento frente a la baseline. Recibes un dashboard de ROI de migración mensual y una revisión ejecutiva trimestral que pone los ahorros reales junto al modelo original."
+    }
+  ],
+  "cta": {
+    "title": "¿Listo para convertir la migración cloud en una ventaja competitiva en lugar de un riesgo?",
+    "subtitle": "Reserva una consultoría de migración cloud de 30 minutos. Revisaremos tu cartera de aplicaciones, trazaremos un plan de oleadas realista y dimensionaremos el ROI de migración para la oleada 1.",
+    "button": "Reserva tu consultoría de migración cloud"
+  },
+  "breadcrumb": {
+    "home_label": "Inicio",
+    "current_label": "Servicios de migración cloud"
+  }
+}

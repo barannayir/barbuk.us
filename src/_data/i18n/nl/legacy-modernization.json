@@ -1,0 +1,238 @@
+{
+  "page_hero": {
+    "title": "Modernisering van legacy-systemen",
+    "subtitle": "Transformeer verouderde COBOL-, ASP.NET-, Java EE- en VB.NET-systemen naar moderne cloud-native platforms – zonder uw roadmap te bevriezen of decennia aan bedrijfslogica te verliezen."
+  },
+  "why_modernize": {
+    "section_title": "Waarom uw legacy-systeem moderniseren?",
+    "intro": "Elke dag dat u een legacy-systeem in stand houdt, betaalt u in drie valuta: stijgende onderhoudskosten, verlies aan concurrentievermogen en toenemend beveiligingsrisico. Modernisering is geen sunk cost – het is een investering met hoge hefboomwerking die voor de meeste B2B-organisaties in 18 tot 24 maanden wordt terugverdiend.",
+    "paragraphs": [
+      "De meeste ondernemingen onderschatten hoe sterk technische schulden oplopen. Een Deloitte-studie uit 2019 wees uit dat 60% van de CIO's zegt dat hun technische schuld actief nieuwe productlanceringen blokkeert, en een gemiddelde Fortune 1000-onderneming besteedt meer dan 70% van zijn IT-budget simpelweg aan het brandende licht houden. Dat is een destructieve verhouding: elke dollar die aan legacy-onderhoud wordt uitgegeven, is een dollar die niet wordt geïnvesteerd in AI, klantervaring of nieuwe omzetstromen. Modernisering van legacy-systemen draait deze verhouding om en maakt kapitaal en talent vrij voor werk dat de onderneming daadwerkelijk vooruitbrengt.",
+      "Beveiliging is de tweede urgente drijfveer. Legacy-stacks zoals Windows Server 2008, Java 6, PHP 5.x en Classic ASP ontvangen geen leverancierspatches meer, maar herbergen routinematig bedrijfskritische data – klantdossiers, betalingsstromen, productietelemetrie. Aanvallers richten zich specifiek op deze ongepatchte stacks omdat exploits goed gedocumenteerd zijn en verdediging dun is. Migratie naar een modern, ondersteund platform zoals .NET 8, Spring Boot 3 of een beheerde Kubernetes-service op Azure of AWS verkleint uw aanvalsoppervlak aanzienlijk, houdt u compliant met PCI DSS, HIPAA en GDPR en geeft uw auditors een verdedigbare positie.",
+      "De derde drukfactor is talent. De mediane leeftijd van een COBOL-ontwikkelaar in 2024 is 55 jaar en de pensioenen verlopen sneller dan dat er nieuwe ontwikkelaars worden opgeleid. ASP.NET Web Forms-, klassieke VB6- en Oracle Forms-ontwikkelaars volgen dezelfde curve. Elke pensioen is geen routinematige overdracht; het is institutionele kennis die de deur uitloopt – de commentaarblokken, de tribale workarounds, de ongeschreven invarianten die het systeem in leven houden. Een gestructureerd moderniseringsinitiatief legt die kennis vast terwijl ze nog bestaat, vertaalt ze naar moderne code en stelt de volgende generatie engineers in staat het platform dat ze erven daadwerkelijk te begrijpen.",
+      "Ten slotte ontsluit modernisering de AI- en automatiseringsmogelijkheden die uw concurrenten al inzetten. U kunt geen moderne LLM-gestuurde workflow bovenop een mainframe uit de jaren 90 leggen – het integratieoppervlak is te smal, het datamodel te rigide en de releasecyclus te traag. Een gemoderniseerd platform biedt realtime API's, event-streams, vectordatabases en gecontaineriseerde workloads die AI-integratie tot een project van 6 weken maken in plaats van een replatformingsoefening van 3 jaar. De vraag is niet meer of u moet moderniseren, maar hoe u dat doet zonder de bedrijfsvoering te onderbreken."
+    ],
+    "stats": [
+      { "value": "70%", "label": "van de IT-budgetten vast in legacy-onderhoud" },
+      { "value": "3.2x", "label": "hoger datalekrisico op niet-ondersteunde stacks" },
+      { "value": "18 mnd", "label": "gemiddelde terugverdientijd voor moderniseringsprojecten" },
+      { "value": "60%", "label": "van de CIO's zegt dat tech-schuld nieuwe productlanceringen blokkeert" }
+    ]
+  },
+  "services": [
+    {
+      "id": "aspnet-modernization",
+      "icon": "🟣",
+      "title": "ASP.NET-modernisering",
+      "intro": "Migreer ASP.NET Web Forms, MVC 5 en .NET Framework-applicaties naar .NET 8 en ASP.NET Core. We behouden de bedrijfslogica, moderniseren de data access layer en leveren een cloud-klare codebase die 3 tot 5 keer sneller draait.",
+      "what_we_do_label": "Wat we doen:",
+      "features": [
+        { "label": "Web Forms → Razor Pages:", "text": "Conversie van server controls, ViewState en postbacks naar moderne Razor Pages en Blazor-componenten" },
+        { "label": ".NET Framework → .NET 8:", "text": "Cross-compilatie naar een ondersteunde runtime, verwijdering van de afhankelijkheid van Internet Explorer en legacy-COM" },
+        { "label": "Entity Framework 6 → EF Core:", "text": "Upgrade van data access, vervanging van ObjectContext-patronen en end-to-end invoering van async/await" },
+        { "label": "WCF → REST/gRPC:", "text": "Vervanging van Windows-only WCF-services door platformonafhankelijke REST API's of gRPC-contracten" },
+        { "label": "Performance-optimalisatie:", "text": "Cold start-optimalisatie, span-gebaseerde logging en moderne cachingpatronen out of the box" }
+      ],
+      "tech_label": "Migratiepad:",
+      "tech_stack": ["ASP.NET Web Forms", "MVC 5", "WCF", ".NET Framework 4.x", ".NET 8", "ASP.NET Core", "Blazor", "EF Core"]
+    },
+    {
+      "id": "cobol-modernization",
+      "icon": "🟢",
+      "title": "COBOL-modernisering",
+      "intro": "Replatform COBOL-mainframeworkloads naar cloud-native Java-, .NET- of Go-services. We gebruiken AI-ondersteunde codetranslatie in combinatie met beoordeling door vakexperts om elke bedrijfsregel te behouden en het talentrisico van verouderende mainframes te elimineren.",
+      "what_we_do_label": "Wat we doen:",
+      "features": [
+        { "label": "COBOL → Java/.NET:", "text": "Geautomatiseerde vertaling van 1+ miljoen regels met human-in-the-loop-validatie van bedrijfsregels" },
+        { "label": "Mainframe → Cloud:", "text": "Weg van z/OS en AS/400 naar Azure, AWS of on-premises Kubernetes-clusters" },
+        { "label": "VSAM/DB2 → PostgreSQL:", "text": "Schemamodernisering, datavalidatie en zero-downtime cutover met dual-write-venster" },
+        { "label": "JCL → CI/CD:", "text": "Vervanging van batch-jobs door moderne schedulers, event-triggers en gecontaineriseerde workers" },
+        { "label": "Kenniscaptatie:", "text": "Interviews met senior developers, extractie van bedrijfsregels en auditable documentatie" }
+      ],
+      "tech_label": "Bron → Doel:",
+      "tech_stack": ["COBOL", "JCL", "VSAM", "DB2", "CICS", "Java 21", "Spring Boot 3", "PostgreSQL", "Kubernetes"]
+    },
+    {
+      "id": "java-ee-modernization",
+      "icon": "☕",
+      "title": "Java EE-modernisering",
+      "intro": "Her-architectuur van Java EE-, Spring 4- en Servlet-generation-applicaties naar Spring Boot 3, Quarkus of Micronaut. We verkleinen het geheugenvoetafdruk, maken cloud-native deployment mogelijk en verwijderen vendor lock-in van WebLogic, WebSphere en JBoss.",
+      "what_we_do_label": "Wat we doen:",
+      "features": [
+        { "label": "Spring 4 → Spring Boot 3:", "text": "Upgrade naar Jakarta EE 10, vervanging van XML-zware configuratie door autoconfiguratie" },
+        { "label": "EJB → Spring-services:", "text": "Ontkoppeling van zware EJB-containers, modernisering van transactie- en beveiligingslagen" },
+        { "label": "WebLogic/WebSphere-uitstap:", "text": "Containerisatie met Docker, deployment op Kubernetes, eliminatie van per-CPU-licenties" },
+        { "label": "JSP → Thymeleaf/React:", "text": "Vervanging van server-side JSP door moderne templating of ontkoppelde React-frontends" },
+        { "label": "JMS → Kafka/RabbitMQ:", "text": "Modernisering van asynchrone berichtgeving met cloudvriendelijke brokers en event-driven patronen" }
+      ],
+      "tech_label": "Moderniserings-stack:",
+      "tech_stack": ["Java EE", "Spring 4", "EJB", "JSP", "WebLogic", "Spring Boot 3", "Quarkus", "Jakarta EE 10", "Kafka"]
+    },
+    {
+      "id": "enterprise-replatform",
+      "icon": "🏢",
+      "title": "Enterprise-replatforming",
+      "intro": "Volledige replatforming van monolithische enterprise-systemen naar modulaire cloud-native architecturen. Domain-driven decompositie, Strangler-Fig-migratiepatronen en zero-downtime cutover voor userbases met 1000+ gebruikers.",
+      "what_we_do_label": "Wat we doen:",
+      "features": [
+        { "label": "Domain discovery:", "text": "Event storming en bounded context mapping om veilige snijlijnen in het monoliet te identificeren" },
+        { "label": "Strangler-Fig-patroon:", "text": "Incrementele vervanging van legacy-modules terwijl het monoliet productietraffic blijft bedienen" },
+        { "label": "Data-decompositie:", "text": "Opsplitsing van monolithische databases per domein, eliminatie van cross-domain joins, onafhankelijke deploys" },
+        { "label": "API-modernisering:", "text": "Introductie van OpenAPI-contracten, versiebeheer van endpoints en een verenigde API-gateway" },
+        { "label": "Zero-downtime cutover:", "text": "Dual-write-vensters, traffic shadowing en feature flag-gestuurde rollouts" }
+      ],
+      "tech_label": "Doelarchitectuur:",
+      "tech_stack": ["Microservices", "Kubernetes", "API Gateway", "Service Mesh", "Event Sourcing", "CQRS", "Polyglot Persistence"]
+    },
+    {
+      "id": "vbnet-classic-modernization",
+      "icon": "🔷",
+      "title": "VB.NET & klassieke stack-modernisering",
+      "intro": "Breng VB.NET-, VB6-, Classic ASP- en PowerBuilder-applicaties naar voren op moderne .NET 8- of SaaS-platforms. We behouden desktop-workflows en maken tegelijk web-, mobiele en cloud-deployment mogelijk.",
+      "what_we_do_label": "Wat we doen:",
+      "features": [
+        { "label": "VB6 → .NET 8:", "text": "Migratie van code uit het WinForms-tijdperk naar WPF, WinUI of Blazor Hybrid zonder de hele applicatie te herschrijven" },
+        { "label": "Classic ASP → ASP.NET Core:", "text": "Vervanging van VBScript door C#, modernisering van sessiebeheer, eliminatie van COM-afhankelijkheden" },
+        { "label": "PowerBuilder → Web:", "text": "Conversie van DataWindow-centrische UIs naar moderne React- of Angular-frontends" },
+        { "label": "Crystal Reports → SSRS/Power BI:", "text": "Modernisering van de reporting-stack, self-service analyse voor business users" },
+        { "label": "Desktop → SaaS:", "text": "Multi-tenancy, abonnement-gebaseerde facturatie en role-based toegangscontrole ingebouwd" }
+      ],
+      "tech_label": "Migratiedoelen:",
+      "tech_stack": ["VB6", "VB.NET", "Classic ASP", "PowerBuilder", "Crystal Reports", ".NET 8", "WPF", "Blazor Hybrid", "React"]
+    },
+    {
+      "id": "database-modernization",
+      "icon": "🗄️",
+      "title": "Databasemodernisering",
+      "intro": "Verplaats legacy-databases – Oracle, SQL Server 2008, MySQL 5.x, DB2 – naar moderne, beheerde, cloud-native stores. We verzorgen schema-conversie, datamigratie, performance-afstemming en CDC-pipelines.",
+      "what_we_do_label": "Wat we doen:",
+      "features": [
+        { "label": "Oracle → PostgreSQL:", "text": "Schema- en PL/SQL-conversie met AWS DMS, Ora2Pg en dual-write-veiligheidsvensters" },
+        { "label": "SQL Server-upgrade:", "text": "Migratie van SQL Server 2008/2012 naar SQL Server 2022 of Azure SQL zonder downtime" },
+        { "label": "DB2 → moderne RDBMS:", "text": "Conversie van EBCDIC-gecodeerde data, herschrijven van stored procedures, validatie van referentiële integriteit" },
+        { "label": "Change Data Capture:", "text": "Debezium-, AWS DMS- of Striim-pipelines om realtime downstream-consumenten te voeden" },
+        { "label": "Performance-harding:", "text": "Indexstrategie, queryplannen, partitionering en connection pooling voor 10x doorvoer" }
+      ],
+      "tech_label": "Databasedoelen:",
+      "tech_stack": ["Oracle", "SQL Server 2008–2012", "MySQL 5.x", "DB2", "PostgreSQL 16", "SQL Server 2022", "Azure SQL", "Redis"]
+    }
+  ],
+  "process": {
+    "title": "Onze moderniseringsaanpak",
+    "subtitle": "Een methodiek in zes fasen, ontworpen om vroeg waarde te leveren, migratierisico te beperken en uw bedrijf de hele tijd operationeel te houden.",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Discovery & technische schuldaudit",
+        "text": "We brengen elke afhankelijkheid, integratie en bedrijfsregel in uw huidige systeem in kaart. U ontvangt een gekwantificeerd technisch schuldrapport, een risicoheatmap en een lijst quick wins die binnen 30 dagen kunnen worden opgeleverd."
+      },
+      {
+        "number": "2",
+        "title": "Moderniseringsstrategie & roadmap",
+        "text": "We ontwerpen een gefaseerd leveringsplan dat is afgestemd op uw zakelijke prioriteiten – replatform, refactor, rehost of replace per domein. U krijgt een fixed-price offerte, een mijlpalenplanning en een rollback-strategie."
+      },
+      {
+        "number": "3",
+        "title": "Architectuur & referentie-implementatie",
+        "text": "We bouwen een vertical-slice referentie-implementatie die de doelstack, deployment-pipeline en observability-stack valideert. U ziet echte productiecode voordat we ons committeren aan de volledige oplevering."
+      },
+      {
+        "number": "4",
+        "title": "Iteratieve migratie & parallelbedrijf",
+        "text": "Domein voor domein leveren we nieuwe code terwijl het legacy-systeem blijft draaien. We draaien beide systemen parallel, brengen dagelijks resultaten in lijn en schakelen pas verkeer om zodra pariteit bewezen is."
+      },
+      {
+        "number": "5",
+        "title": "Cutover, harding & hyper-care",
+        "text": "Zero-downtime cutover met feature flags, blue/green-deployments en shadow-traffic. We bieden 30 dagen hyper-care: 24/7 on-call, war-room dekking en snelle rollback-paden."
+      },
+      {
+        "number": "6",
+        "title": "Optimalisatie & continue modernisering",
+        "text": "Na de lancering instrumenteren we elke workload, tunen de performance en onderhouden we een backlog van continue moderniseringskansen – zodat het systeem modern blijft voor het komende decennium, niet alleen de volgende release."
+      }
+    ]
+  },
+  "tech_stack": {
+    "title": "Moderne tech-stack waarin we gespecialiseerd zijn",
+    "subtitle": "Beproefde combinaties, ontworpen voor performance, onderhoudbaarheid en lange-termijn talentbeschikbaarheid.",
+    "categories": [
+      {
+        "name": "Backend & runtime",
+        "items": ["ASP.NET Core", ".NET 8", "Java 21", "Spring Boot 3", "Quarkus", "Node.js 20", "Go 1.22"]
+      },
+      {
+        "name": "Cloud-platforms",
+        "items": ["Microsoft Azure", "Amazon Web Services", "Google Cloud Platform", "Kubernetes", "Docker", "OpenShift"]
+      },
+      {
+        "name": "Data & opslag",
+        "items": ["PostgreSQL 16", "SQL Server 2022", "Azure Cosmos DB", "Redis", "Snowflake", "Kafka"]
+      },
+      {
+        "name": "Frontend & UX",
+        "items": ["React 18", "Angular 17", "Blazor", "Next.js", "TypeScript", "Tailwind CSS"]
+      }
+    ]
+  },
+  "case_study": {
+    "title": "Case study: modernisering kernsysteem regionale bank",
+    "subtitle": "Hoe we een 22 jaar oud COBOL-core-bankingsysteem hebben gemigreerd naar een cloud-native .NET 8-platform – zonder één minuut klantuitval.",
+    "industry": "Banken & financiële diensten",
+    "duration": "14 maanden",
+    "before": {
+      "heading": "Vóór",
+      "items": [
+        "1,4 miljoen regels COBOL op IBM z/OS-mainframe",
+        "Jaarlijkse mainframe-licentiekosten: $2,8M, stijgend met 12% YoY",
+        "Gemiddeld batch-venster: 6,5 uur 's nachts, blokkeert alle nieuwe features",
+        "Klant-onboarding duurde 11 dagen door handmatige data-invoer"
+      ]
+    },
+    "after": {
+      "heading": "Na",
+      "items": [
+        "Moderne .NET 8-microservices op Azure Kubernetes Service",
+        "Jaarlijkse infrastructuurkosten: $740K, een reductie van 73%",
+        "Batch-vensters teruggebracht tot 22 minuten via event-driven verwerking",
+        "Klant-onboarding teruggebracht tot 38 minuten met realtime API-integraties"
+      ]
+    },
+    "metric": {
+      "value": "73%",
+      "label": "reductie van de jaarlijkse infrastructuurkosten, zonder klantuitval tijdens de 14 maanden durende migratie"
+    }
+  },
+  "faq": {
+    "title": "Veelgestelde vragen",
+    "subtitle": "Alles wat u moet weten over legacy-modernisering met Barbuk.",
+    "items": [
+      {
+        "question": "Hoe lang duurt een typisch legacy-moderniseringsproject?",
+        "answer": "De meeste ASP.NET-moderniseringsprojecten duren 3 tot 6 maanden. Volledige enterprise-replatformings – migratie van COBOL, Java EE of grote .NET Framework-collecties – duren doorgaans 9 tot 18 maanden. We leveren altijd gefaseerd, dus u begint binnen de eerste 6 tot 8 weken bedrijfswaarde te zien. De eerste vertical slice bewijst de architectuur; volgende domeinen gaan sneller omdat het patroon al staat."
+      },
+      {
+        "question": "Wat is het Strangler-Fig-patroon en waarom beveelt u het aan?",
+        "answer": "Het Strangler-Fig-patroon is een migratiestrategie waarbij u stukken van een legacy-systeem incrementeel vervangt door nieuwe services, terwijl het originele systeem blijft draaien. Een routeringslaag verschuift het verkeer geleidelijk van oud naar nieuw, totdat het legacy-systeem volledig wordt uitgefaseerd. We bevelen het aan omdat het het big-bang cutover-risico elimineert, u in staat stelt pariteit in productie met echte gebruikers te valideren en op elk moment rollback mogelijk maakt. Het is het enige patroon dat ons nul klantdowntime heeft opgeleverd op een codebase van 1+ miljoen regels."
+      },
+      {
+        "question": "Kunt u ons COBOL- of mainframe-systeem moderniseren zonder bedrijfslogica te verliezen?",
+        "answer": "Ja. We hanteren een aanpak in drie lagen. Ten eerste zet AI-ondersteunde codetranslatie de syntactische structuur van COBOL, JCL en copybooks om naar Java of C#. Ten tweede beoordelen onze vakexperts – voormalige mainframe-ontwikkelaars – handmatig elke bedrijfsregel, validatie en edge case om zeker te stellen dat de logica getrouw wordt weergegeven. Ten derde draaien we beide systemen parallel gedurende een volledige reconciliatieperiode en vergelijken uitvoer regel voor regel voordat verkeer wordt omgeschakeld. Het resultaat is een systeem dat zich identiek gedraagt aan het origineel, met de onderhoudbaarheid van een moderne codebase."
+      },
+      {
+        "question": "Moeten we de bedrijfsvoering pauzeren tijdens de migratie?",
+        "answer": "Nee. Onze zero-downtime-methodologie is daar specifiek voor ontworpen. We gebruiken dual-write database-vensters, shadow-traffic, feature flags en blue/green-deployments om te garanderen dat het legacy-systeem klanten blijft bedienen tijdens de gehele migratie. De enige momenten waarop we korte onderhoudsvensters aanvragen (15 tot 60 minuten) zijn voor definitieve DNS- of load-balancer cutovers, en we plannen die in uw stilste periodes. Voor bovenstaande case study voltooiden we een 14 maanden durende migratie van een core-bankingplatform met nul klantdowntime."
+      },
+      {
+        "question": "Wat kost een legacy-modernisering en hoe factureert u?",
+        "answer": "De prijs is afhankelijk van de grootte en complexiteit van uw systeem, de doelarchitectuur en de migratiestrategie. Als vuistregel: ASP.NET naar .NET 8-moderniseringsprojecten beginnen rond $45K en schalen op basis van de codebase-grootte. Volledige enterprise-replatformings variëren doorgaans van $250K tot $1,5M+. We werken altijd met een fixed-price offerte na een betaalde discovery-sprint, dus geen verrassingen op uurbasis. De meeste klanten zien binnen 18 maanden positieve ROI door lagere licentiekosten, minder onderhoud en snellere time-to-market voor nieuwe features."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Klaar om uw legacy-systeem te moderniseren?",
+    "subtitle": "Boek een gratis 30-minuten assessment met onze architecten. We auditen uw systeem, identificeren de 4 grootste moderniseringskansen en schetsen een realistisch gefaseerd plan.",
+    "button": "Gratis assessment aanvragen",
+    "secondary_button": "Bekijk alle services"
+  }
+}

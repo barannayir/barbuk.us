@@ -1,0 +1,216 @@
+{
+  "page_hero": {
+    "title": "Cloud-Migration für Unternehmens-Workloads",
+    "subtitle": "Planen, migrieren und modernisieren Sie geschäftskritische Anwendungen nach AWS, Azure und GCP – mit Null-Datenverlust, beweisbaren Sicherheitsverbesserungen und einem gemessenen Migrations-ROI in Wochen, nicht Jahren.",
+    "primary_cta_label": "Cloud-Migrations-Beratung buchen",
+    "secondary_cta_label": "Migrations-ROI-Rechner herunterladen"
+  },
+  "why_cloud_migration": {
+    "title": "Warum Cloud-Migration jetzt eine Infrastruktur-Notwendigkeit ist",
+    "subtitle": "Rechenzentrumsbetrieb, On-Premise-Lizenzkosten und manuelle Skalierung sind keine neutralen Entscheidungen mehr. Sie sind Wettbewerbsnachteile.",
+    "paragraphs": [
+      "Im Enterprise-Segment ist die Cloud-Migration in den letzten Jahren von einem Kostensparprojekt zu einer Infrastrukturstrategie geworden, die Agilität, KI-Fähigkeit, globale Reichweite und Resilienz freischaltet. Laut Gartner 2024 haben 85% der Unternehmen eine Cloud-First-Strategie verabschiedet, und IDC prognostiziert, dass bis 2027 über 70% der Unternehmens-Workloads in öffentlichen Clouds laufen werden. Der Spielraum für On-Premise-Verbleib schrumpft nicht nur – er schrumpft messbar und schnell.",
+      "cloud_capex_opex: On-Premise-Workloads binden CapEx in Hardware, für die Sie im Voraus bezahlen, und OpEx in Lizenz-, Strom-, Kühl- und Personalbudgets, die Jahr für Jahr steigen. Cloud-Infrastruktur verwandelt einen Großteil dieser Kosten in nutzungsabhängige Ausgaben, die mit Ihrem Umsatz skalieren. Aber das ist nicht der wichtigste Grund für die Migration. Die Fähigkeit, neue Regionen in Tagen statt Quartalen zu launchen, ML-Modelle ohne Hardware-Engpässe zu trainieren und globale Teams in Echtzeit zusammenzuarbeiten – das ist der Wettbewerbsvorteil.",
+      "cloud_regulation_myth: Viele regulierte Branchen gehen immer noch davon aus, dass Cloud-Migration Compliance-Risiken mit sich bringt. Die Realität hat sich umgekehrt. Hyperscaler bieten heute HIPAA-, SOC 2-, PCI DSS-, ISO 27001-, FedRAMP- und GDPR-konforme Regionen, die On-Premise-Rechenzentren wirtschaftlich nicht replizieren können. Audit-Trails, Verschlüsselung-at-Rest, Key-Management-Services und datenresidenzfähige Architekturen sind in der Cloud oft stärker als in selbstbetriebenen Umgebungen.",
+      "cloud_migration_strategy: Erfolgreiche Cloud-Migration ist kein 'Lift and Shift'. Sie erfordert eine Bewertung Ihrer Anwendungssuiten, ein klares Wellenmodell, das Abhängigkeiten respektiert, eine datenmigrations-strategie mit Null-Datenverlust-Toleranz und eine Cloud-Sicherheitsarchitektur, die ab Tag eins eingerichtet ist. Sie erfordert auch eine Kostenmanagement-Disziplin – Cloud-Spend kann ohne aktive Steuerung außer Kontrolle geraten. Wir bringen die operative Disziplin, mit der Migrationen planmäßig, im Budget und geschäftlich messbar geliefert werden."
+    ],
+    "statistics": [
+      {"value": "30–60%", "label": "Durchschnittliche TCO-Reduktion nach vollständiger Cloud-Migration"},
+      {"value": "65%", "label": "der Unternehmen melden eine Beschleunigung der Time-to-Market nach der Cloud-Migration"},
+      {"value": "99,99%", "label": "Cloud-Plattform-SLA im Vergleich zu typischen 99,5% im On-Premise-Betrieb"}
+    ]
+  },
+  "services": [
+    {
+      "id": "migration_assessment",
+      "icon": "🔍",
+      "title": "Cloud-Migrations-Bewertung & Strategie",
+      "intro": "Bevor ein Byte verschoben wird, brauchen Sie ein klares Wellenmodell, ein Abhängigkeitsdiagramm und einen Migrations-ROI, der Ihre Geschäftsleitung überzeugt.",
+      "what_we_do_label": "Was wir tun:",
+      "features": [
+        {"label": "Anwendungsportfolio-Bewertung:", "text": "Inventar, Abhängigkeitsanalyse und 6R-Klassifizierung (Rehost, Replatform, Refactor, Repurchase, Retire, Retain)"},
+        {"label": "Wellenplanung:", "text": "Mehrwellige Migrationspläne, die minimale Geschäftsstörung maximieren und Quick-Wins früh liefern"},
+        {"label": "Cloud-Provider-Auswahl:", "text": "AWS, Azure oder GCP – wir empfehlen basierend auf Ihrem Workload-Profil und bestehenden Investitionen"},
+        {"label": "ROI & Business Case:", "text": "TCO-Vergleiche über 3 und 5 Jahre, einschließlich versteckter Personalkosten und Risikopuffer"},
+        {"label": "Compliance-Readiness:", "text": "Mapping regulatorischer Anforderungen auf Cloud-Regionen und -Dienste, die sie erfüllen"}
+      ],
+      "tech_label": "Tools & Frameworks:",
+      "tech_stack": ["AWS Migration Hub", "Azure Migrate", "Google Cloud Migration Center", "Cloudamize", "Movere"]
+    },
+    {
+      "id": "app_migration",
+      "icon": "🚀",
+      "title": "Anwendungs-Migration (Rehost, Replatform, Refactor)",
+      "intro": "Wir migrieren Ihre geschäftskritischen Anwendungen, ohne Ihre Kunden oder Ihren Betrieb zu stören – und wählen für jede App die richtige Migrationsstrategie.",
+      "what_we_do_label": "Was wir tun:",
+      "features": [
+        {"label": "Rehost (Lift & Shift):", "text": "Schnelle Migration mit minimalen Änderungen – ideal für nicht-strategische Anwendungen, die in den Ruhestand gehen werden"},
+        {"label": "Replatform:", "text": "Migration mit gezielten Cloud-nativen Optimierungen, wie Wechsel zu verwalteten Datenbanken oder Containerisierung"},
+        {"label": "Refactor:", "text": "Cloud-native Redesign für strategische Anwendungen, die maximale Agilität und Skalierbarkeit erfordern"},
+        {"label": "Datenbank-Migration:", "text": "Homogene und heterogene Migrationen zu verwalteten Datenbanken mit minimaler Downtime und null Datenverlust"},
+        {"label": "Container & Kubernetes:", "text": "Containerisierung von Anwendungen und Deployment auf AKS, EKS oder GKE mit Helm- und GitOps-Mustern"}
+      ],
+      "tech_label": "Migrations-Tools:",
+      "tech_stack": ["AWS DMS", "Azure Database Migration Service", "Google Database Migration Service", "Attunity", "Docker", "Kubernetes"]
+    },
+    {
+      "id": "cloud_architecture",
+      "icon": "☁️",
+      "title": "Cloud-Architektur & Landing Zone",
+      "intro": "Multi-Account- oder Multi-Subscription-Landing-Zones, die ab Tag eins sicher, kostengesteuert und betrieblich reif sind.",
+      "what_we_do_label": "Was wir tun:",
+      "features": [
+        {"label": "Multi-Account-Landing-Zones:", "text": "AWS Control Tower, Azure Landing Zones oder GCP Landing Zones – mit Org-Struktur, Netzwerk und Basispolicies"},
+        {"label": "Netzwerkarchitektur:", "text": "Hub-and-Spoke, Transit Gateway oder Virtual WAN – entworfen für Performance, Kosten und Sicherheit"},
+        {"label": "Identität & Zugriff:", "text": "Single Sign-On, RBAC, Privileged Access Management und JIT-Zugriffsmuster"},
+        {"label": "Bereitstellungsautomatisierung:", "text": "Infrastructure as Code mit Terraform, Bicep oder Pulumi, in CI/CD eingebettet"},
+        {"label": "Kostenmanagement:", "text": "Budget-Wächter, Reservierungs-Strategie, Rightsizing-Reports und FinOps-Disziplin"}
+      ],
+      "tech_label": "Architektur-Stack:",
+      "tech_stack": ["Terraform", "AWS Control Tower", "Azure Landing Zones", "Pulumi", "Ansible", "HashiCorp Vault"]
+    },
+    {
+      "id": "cloud_security",
+      "icon": "🛡️",
+      "title": "Cloud-Sicherheit & Compliance-Architektur",
+      "intro": "Sicherheit ist keine nachträgliche Migration. Wir bauen Zero-Trust-Kontrollen, Verschlüsselung und Audit-Trail ab Tag eins in Ihre Cloud-Architektur ein.",
+      "what_we_do_label": "Was wir tun:",
+      "features": [
+        {"label": "Zero-Trust-Netzwerk:", "text": "Mikrosegmentierung, Service-Mesh, sichere Workload-Identität und feinabgestimmte Ost-West-Policen"},
+        {"label": "Datenverschlüsselung:", "text": "Verschlüsselung at rest, in transit und in Verwendung mit vom Kunden verwalteten Schlüsseln und BYOK"},
+        {"label": "Compliance-Mapping:", "text": "SOC 2, ISO 27001, HIPAA, PCI DSS, GDPR – implementiert über Policy-as-Code und kontinuierliche Überwachung"},
+        {"label": "Bedrohungserkennung:", "text": "Cloud-native SIEM/SOAR mit GuardDuty, Defender, Security Command Center und zentraler SOC-Integration"},
+        {"label": "Vulnerability Management:", "text": "Kontinuierliches Scannen, Priorisierung und Behebung mit SBOM und Patch-Automatisierung"}
+      ],
+      "tech_label": "Sicherheits-Stack:",
+      "tech_stack": ["AWS Security Hub", "Azure Defender", "GCP Security Command Center", "HashiCorp Vault", "CrowdStrike", "Wiz"]
+    },
+    {
+      "id": "data_migration",
+      "icon": "💾",
+      "title": "Daten-Migration & Datensynchronisierung",
+      "intro": "Petabyte-große Datenbank-, Data-Warehouse- und Objekt-Speicher-Migrationen mit null Datenverlust, überprüfbarer Integrität und minimaler Downtime.",
+      "what_we_do_label": "Was wir tun:",
+      "features": [
+        {"label": "Datenbank-Migration:", "text": "Online- und Offline-Migrationen für Oracle, SQL Server, MySQL, PostgreSQL und NoSQL mit CDC-Streams"},
+        {"label": "Data-Warehouse-Migration:", "text": "Migration zu Snowflake, BigQuery, Redshift oder Synapse mit ELT-Pipeline-Design"},
+        {"label": "Data Lake & Object Storage:", "text": "S3, ADLS oder GCS mit Tiering, Lifecycle-Policies und Cross-Region-Replikation"},
+        {"label": "Cutover-Strategie:", "text": "Blue-Green-, Pilot-Light- oder Wave-Migration mit geprüften Rollback-Plänen"},
+        {"label": "Datenvalidierung:", "text": "Row-Count-, Checksum- und Schema-Validierung, automatisiert über alle Migrationsphasen"}
+      ],
+      "tech_label": "Daten-Tools:",
+      "tech_stack": ["AWS DMS", "Azure DMS", "Google DMS", "Snowflake", "Fivetran", "Airbyte", "dbt"]
+    },
+    {
+      "id": "cloud_finops",
+      "icon": "💰",
+      "title": "Cloud FinOps & Kostenoptimierung",
+      "intro": "Cloud-Ausgaben verschwinden nicht in der Cloud. Sie tauchen woanders auf. Wir helfen Ihnen, FinOps-Disziplin aufzubauen und Überraschungen in der Cloud-Rechnung zu verhindern.",
+      "what_we_do_label": "Was wir tun:",
+      "features": [
+        {"label": "Kostentransparenz:", "text": "Showback- und Chargeback-Modelle, die Cloud-Spend auf Kostenstellen, Teams und Anwendungen abbilden"},
+        {"label": "Rightsizing & Reserved Instances:", "text": "Kontinuierliche Empfehlungen zu Compute-Größen, RI-Käufen und Savings Plans"},
+        {"label": "Idle-Resource-Bereinigung:", "text": "Automatisierte Erkennung und Außerbetriebnahme ungenutzter Volumes, IPs und Snapshots"},
+        {"label": "Budget- & Anomaliealarme:", "text": "Proaktive Budgets, die Anomalien markieren, bevor sie zu Rechnungsereignissen werden"},
+        {"label": "FinOps-Kultur:", "text": "Schulungen, Governance und Verantwortlichkeitsmodelle, die Teams zu Cloud-Eigentümern machen"}
+      ],
+      "tech_label": "FinOps-Stack:",
+      "tech_stack": ["AWS Cost Explorer", "Azure Cost Management", "Google Cloud Billing", "CloudHealth", "Vantage", "Kubecost"]
+    }
+  ],
+  "implementation_process": {
+    "title": "Unser Cloud-Migrations-Framework",
+    "subtitle": "Eine bewährte Sechs-Phasen-Methodik, die Migrationen termingerecht, im Budget und mit gemessenem Geschäftswert liefert.",
+    "steps": [
+      {"number": "1", "title": "Bewertung & Discovery", "text": "Wir inventarisieren Ihr Anwendungsportfolio, dokumentieren Abhängigkeiten, klassifizieren jede Anwendung mit dem 6R-Modell und erstellen eine fundierte TCO- und ROI-Analyse."},
+      {"number": "2", "title": "Strategie & Wellenplanung", "text": "Gemeinsam definieren wir Migrationswellen, Sicherheitskontrollen, Compliance-Anforderungen und ein Wellen-1-Programm, das Quick-Wins liefert, ohne den Pfad zu späteren Wellen zu blockieren."},
+      {"number": "3", "title": "Landing Zone & Architektur", "text": "Wir bauen die Cloud-Fundament-Schicht – Multi-Account-Topologie, Netzwerk, Identität, Sicherheitskontrollen und IaC-Pipelines – die alle Wellen tragen wird."},
+      {"number": "4", "title": "Migration Wave 1 & Validierung", "text": "Wir piloten die Migration mit einer ausgewählten Wellen-1-Workload, beweisen Sicherheits- und Performance-Baselines und verfeinern das Wellenmodell, bevor wir skalieren."},
+      {"number": "5", "title": "Skalierte Migration & Modernisierung", "text": "Migration zusätzlicher Wellen, mit parallelen Tracks für Rehost, Replatform und Refactor, je nach Workload-Charakter und Geschäftswert."},
+      {"number": "6", "title": "Optimierung & kontinuierliche Verbesserung", "text": "Wir instrumentieren Cloud-Spend, Sicherheitslage und Performance; wir etablieren FinOps-Disziplin und identifizieren Modernisierungschancen, die die Migration freischaltet."}
+    ]
+  },
+  "tech_stack": {
+    "title": "Unser Enterprise-Cloud-Migration-Stack",
+    "subtitle": "Hyperscaler-übergreifend, IaC-zentriert und Cloud-nativ. Wir wählen den richtigen Stack für Ihre Umgebung, regulatorische Haltung und bestehende Investitionen.",
+    "categories": [
+      {
+        "name": "Cloud-Plattformen",
+        "items": ["Amazon Web Services", "Microsoft Azure", "Google Cloud Platform"]
+      },
+      {
+        "name": "Infrastructure as Code",
+        "items": ["Terraform", "OpenTofu", "Pulumi", "AWS CloudFormation", "Azure Bicep"]
+      },
+      {
+        "name": "Container & Orchestrierung",
+        "items": ["Docker", "Kubernetes", "Amazon EKS", "Azure AKS", "Google GKE", "Helm"]
+      },
+      {
+        "name": "Datenbanken & Speicher",
+        "items": ["PostgreSQL", "MySQL", "MongoDB", "Amazon RDS", "Azure SQL", "Cloud SQL", "Snowflake"]
+      },
+      {
+        "name": "CI/CD & DevOps",
+        "items": ["GitHub Actions", "GitLab CI", "Azure DevOps", "ArgoCD", "Jenkins"]
+      },
+      {
+        "name": "Sicherheit & Compliance",
+        "items": ["HashiCorp Vault", "AWS KMS", "Azure Key Vault", "CrowdStrike", "Wiz", "Prisma Cloud"]
+      }
+    ]
+  },
+  "case_study": {
+    "title": "Cloud-Migration Case Study: Logistik-Mittelständler",
+    "subtitle": "Wie ein Logistikunternehmen mit 480 Mitarbeitern seine On-Premise-ERP- und Tracking-Systeme zu AWS migrierte, die Verfügbarkeit um 73% verbesserte und jährlich 2,1 Mio. $ einsparte.",
+    "client_label": "Branche:",
+    "client": "Logistik- und Flottenmanagement (Mittelstand, 320 Mio. $ Umsatz)",
+    "before_label": "Vor der Cloud-Migration",
+    "after_label": "Nach 11 Monaten",
+    "before": [
+      "On-Premise-ERP mit 99,5% Verfügbarkeit (entspricht ~44 Std. Downtime pro Jahr).",
+      "3-Wochen-Bereitstellungszyklus für neue Logistikregionen, mit 1,2 Mio. $ Vorabinvestition pro Region.",
+      "Eigenes Rechenzentrum, das 8% des IT-Budgets für Strom, Kühlung und Hardware-Abschreibung verbrauchte.",
+      "Datenanalyse dauerte 18+ Stunden pro Berichtszyklus, was operative Entscheidungen verzögerte."
+    ],
+    "after": [
+      "Cloud-Architektur auf AWS mit 99,98% Verfügbarkeit – eine Reduktion der jährlichen Downtime um 88%.",
+      "Neue Regionen werden in 6 Tagen statt 3 Wochen ausgerollt, ohne Vorab-CapEx.",
+      "Rechenzentrum stillgelegt; 2,1 Mio. $ jährliche Einsparungen, reinvestiert in Kundenwachstumsinitiativen.",
+      "Echtzeit-Analytics auf Snowflake + dbt, mit Berichten, die in 4 Minuten statt 18 Stunden laufen."
+    ],
+    "metric_label": "Verifiziertes Ergebnis:",
+    "metric_value": "99,98% Verfügbarkeit • 73% schnellere Time-to-Market • 2,1 Mio. $ jährliche Einsparungen"
+  },
+  "faq": [
+    {
+      "question": "Wie lange dauert eine typische Enterprise-Cloud-Migration?",
+      "answer": "Enterprise-Cloud-Migrationen werden in Wellen geliefert, nicht in einem einzigen Projekt. Eine typische Wellen-1-Cloud-Migration läuft 3 bis 6 Monate von der Bewertung bis zur Produktion. Vollständige Multi-Wellen-Programme, die das gesamte Anwendungsportfolio abdecken, laufen normalerweise 12 bis 24 Monate. Wir liefern in jeder Welle messbaren ROI, sodass der Geschäftswert nicht auf das Ende des Programms warten muss."
+    },
+    {
+      "question": "Werden wir während der Migration Ausfallzeiten erleben?",
+      "answer": "Bei den meisten Anwendungen können wir Migrationen mit null Ausfallzeiten über blue-green, pilot light oder live replication Muster entwerfen. Für Datenbanken verwenden wir CDC (Change Data Capture), um kontinuierliche Synchronisation zu ermöglichen, sodass die Cutover-Phase Sekunden statt Stunden misst. Für Anwendungen, die einen Wartungsfenster-Cutover erfordern, arbeiten wir innerhalb Ihrer geplanten Wartungsfenster. Wir planen jeden Cutover mit einem geprüften Rollback-Pfad."
+    },
+    {
+      "question": "AWS, Azure oder GCP – welchen Cloud-Provider sollten wir wählen?",
+      "answer": "Die ehrliche Antwort lautet: es kommt darauf an. AWS hat die breiteste Plattformbreite. Azure gewinnt, wenn Sie stark in Microsoft investiert sind. GCP überzeugt bei Datenanalyse und ML. Wir helfen Ihnen bei der Auswahl basierend auf Ihrem Workload-Profil, bestehender Lizenzinvestitionen, Compliance-Anforderungen und Team-Fähigkeiten – und bei hybriden Strategien, wenn kein einzelner Anbieter alle Anforderungen erfüllt."
+    },
+    {
+      "question": "Ist Cloud-Migration für regulierte Branchen wie Finanzdienstleistungen oder Gesundheitswesen sicher?",
+      "answer": "Ja – oft sicherer als On-Premise-Betrieb, wenn sie richtig umgesetzt wird. Hyperscaler bieten heute HIPAA-, SOC 2-, PCI DSS-, ISO 27001-, FedRAMP- und GDPR-konforme Regionen mit Funktionen, die On-Premise-Rechenzentren wirtschaftlich nicht replizieren können. Wir bauen Zero-Trust-Kontrollen, Verschlüsselung, Audit-Trails und Compliance-Mapping in die Architektur ab Tag eins ein. Viele unserer Kunden in regulierten Branchen erreichen nach der Migration eine stärkere Sicherheitslage als davor."
+    },
+    {
+      "question": "Wie messen Sie den Migrations-ROI und beweisen ihn?",
+      "answer": "Wir erstellen eine 3- und 5-jährige TCO-Analyse vor der Migration, mit detaillierten Annahmen zu Hardware, Software-Lizenzierung, Personalkosten, Strom- und Immobilienausgaben. Nach der Migration verfolgen wir monatlich Cloud-Spend, Rightsizing-Empfehlungen und Performance-Verbesserungen gegen die Baseline. Sie erhalten ein monatliches Migrations-ROI-Dashboard und einen quartalsweisen Executive Review, der tatsächliche Einsparungen gegen das ursprüngliche Modell zeigt."
+    }
+  ],
+  "cta": {
+    "title": "Bereit, Cloud-Migration zu einer Wettbewerbsfähigkeit statt einem Risiko zu machen?",
+    "subtitle": "Buchen Sie eine 30-minütige Cloud-Migrations-Beratung. Wir reviewen Ihr Anwendungsportfolio, skizzieren einen realistischen Wellenplan und beziffern den Migrations-ROI für Wellen 1.",
+    "button": "Cloud-Migrations-Beratung buchen"
+  },
+  "breadcrumb": {
+    "home_label": "Startseite",
+    "current_label": "Cloud-Migrationsdienste"
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "page_hero": {
+    "title": "KI-Integrationsdienste für Unternehmen",
+    "subtitle": "Produktionsreife KI-Integration, individuelle ML-Modelle und KI-Workflow-Automatisierung, die Ihre bestehenden Unternehmenssysteme in intelligente, messbare Umsatztreiber verwandeln – ohne Rip-and-Replace.",
+    "primary_cta_label": "KI-Strategiegespräch buchen",
+    "secondary_cta_label": "KI-ROI-Leitfaden herunterladen"
+  },
+  "why_ai_integration": {
+    "title": "Warum KI-Integration jetzt eine Priorität auf Vorstandsebene ist",
+    "subtitle": "Unternehmens-KI ist kein Forschungsexperiment mehr. Sie ist eine Betriebsfähigkeit.",
+    "paragraphs": [
+      "Im Mittelstand und im B2B-Enterprise-Bereich hat sich die KI-Diskussion entscheidend verschoben – von „Sollen wir?\" zu „Wie schnell und wie sicher?\". Unternehmen, die KI bereits vor zwei bis drei Jahren in ihre Kernworkflows integriert haben, berichten heute von 3- bis 10-fachem ROI auf diese Deployments, während ihre Wettbewerber noch Piloten betreiben. Die Kluft vergrößert sich jedes Quartal, und die Kosten des Wartens steigen.",
+      "ai_baseline: Enterprise-KI-Integration bedeutet mehr, als ein LLM in einen Chatbot zu stecken. Sie bedeutet, Sprachmodelle, Predictive Analytics, Computer Vision und individuelle Machine-Learning-Modelle mit den operativen Systemen zu verbinden, in denen die eigentliche Arbeit passiert – Ihrem CRM, ERP, Ticketing, Dokumentenspeichern und kundenorientierten Portalen. Sie bedeutet, Retrieval-Pipelines über Ihre proprietären Daten aufzubauen, jeden Modellaufruf zu instrumentieren, damit KI-ROI messbar wird, und Schutzmaßnahmen einzubetten, sodass Output-Qualität und Compliance nicht verhandelbar sind.",
+      "ai_decision_layer: Richtig umgesetzt, wird KI zu einer Entscheidungsschicht, die über Ihrer bestehenden Infrastruktur liegt. Genehmigungen werden automatisch weitergeleitet. Anomalien treten zutage, bevor sie zu Vorfällen werden. Dokumente werden zusammengefasst, klassifiziert und weitergeleitet, ohne menschliches Triage. Vertriebsteams erhalten Next-Best-Action-Empfehlungen, die auf Ihrer tatsächlichen Kundenhistorie basieren. Support-Teams lösen Tickets 40 bis 70 Prozent schneller, weil das System bereits den Kontext hat.",
+      "ai_enterprise_realities: Dies ist nicht die Domäne von Standard-SaaS allein. Enterprise-KI-Integration erfordert Custom-AI-Modelle für B2B-Teams, Vektordatenbanken für proprietäres Wissen, sichere Orchestrierungsschichten und rigorose KI-ROI-Messframeworks. Generische APIs liefern generische Ergebnisse. Echter Enterprise-Mehrwert entsteht aus Systemen, die Ihre Daten, Ihre Workflows und Ihre Risikohaltung verstehen."
+    ],
+    "statistics": [
+      {"value": "5–10x", "label": "Durchschnittlicher ROI produktiver KI-Deployments innerhalb von 18 Monaten"},
+      {"value": "60–70%", "label": "Reduzierung der Routineaufgabenzeit nach KI-Workflow-Automatisierung"},
+      {"value": "92%", "label": "der Unternehmen stufen KI jetzt als Top-3-Strategiepriorität ein"}
+    ]
+  },
+  "services": [
+    {
+      "id": "nlp_llm",
+      "icon": "💬",
+      "title": "Natural Language Processing & LLM-Integration",
+      "intro": "Produktionsreife NLP-Pipelines auf Basis von GPT- und Claude-Klasse-Modellen, verankert in Ihren proprietären Daten durch Retrieval-Augmented Generation.",
+      "what_we_do_label": "Was wir tun:",
+      "features": [
+        {"label": "Retrieval-Augmented Generation (RAG):", "text": "LLM-Antworten, die auf Ihrem Dokumentenkorpus, Ticketverlauf, Ihrer Wissensdatenbank oder Vertragsbibliothek basieren"},
+        {"label": "Document Intelligence:", "text": "Strukturierte Datenextraktion aus Rechnungen, Verträgen, Mietverträgen und regulatorischen Einreichungen mit >95% Feldgenauigkeit"},
+        {"label": "Sentiment- und Intent-Analyse:", "text": "Echtzeit-Klassifizierung von Kundennachrichten, Support-Tickets und Umfrageantworten"},
+        {"label": "Conversational AI:", "text": "Mehrstufige Assistenten, die bei niedriger Konfidenz elegant an Menschen eskalieren"},
+        {"label": "Mehrsprachige NLP:", "text": "Native Unterstützung für Englisch, Deutsch, Französisch, Niederländisch, Italienisch, Spanisch und Türkisch"}
+      ],
+      "tech_label": "Modelle & Frameworks:",
+      "tech_stack": ["OpenAI GPT-4o", "Claude Sonnet", "LangChain", "LlamaIndex", "Pinecone", "Azure OpenAI"]
+    },
+    {
+      "id": "predictive_analytics",
+      "icon": "📈",
+      "title": "Predictive Analytics & Forecasting",
+      "intro": "Zeitreihen-, Klassifikations- und Anomalieerkennungsmodelle, die Ihre historischen Daten in vorausschauende operative Signale verwandeln.",
+      "what_we_do_label": "Was wir tun:",
+      "features": [
+        {"label": "Demand Forecasting:", "text": "Prognosen auf SKU-, Regions- und Kanalebene, die den Lagerumschlag verbessern und Out-of-Stock reduzieren"},
+        {"label": "Churn- & Risiko-Scoring:", "text": "Kundenbezogene Wahrscheinlichkeits-Scores, die Retention-Workflows auslösen, bevor die Kündigung eintrifft"},
+        {"label": "Anomalieerkennung:", "text": "Echtzeit-Überwachung von Transaktionen, Systemmetriken und Nutzerverhalten mit erklärbaren Alerts"},
+        {"label": "Lead Scoring:", "text": "Conversion-Wahrscheinlichkeits-Modelle, die die Pipeline basierend auf tausenden Verhaltenssignalen neu ranken"},
+        {"label": "Forecasting-Validierung:", "text": "Backtesting, Drift-Monitoring und Champion-Challenger-Frameworks, um Modelle ehrlich zu halten"}
+      ],
+      "tech_label": "Modeling-Stack:",
+      "tech_stack": ["scikit-learn", "XGBoost", "Prophet", "PyTorch Forecasting", "MLflow", "Optuna"]
+    },
+    {
+      "id": "computer_vision",
+      "icon": "👁️",
+      "title": "Computer Vision & visuelle Inspektion",
+      "intro": "Bild- und Videoverstehens-Modelle für Qualitätskontrolle, OCR, visuelle Suche und Field-Service-Automatisierung.",
+      "what_we_do_label": "Was wir tun:",
+      "features": [
+        {"label": "Visuelle Qualitätskontrolle:", "text": "Erkennung von Defekten auf Fertigungslinien bei Produktionsdurchsatz und geforderter Genauigkeit"},
+        {"label": "OCR & Dokumentendigitalisierung:", "text": "Handschrift-, mehrsprachige und strukturierte Formularerkennung für Backoffice-Automatisierung"},
+        {"label": "Visuelle Suche:", "text": "Finden visuell ähnlicher Artikel in Ihrem Katalog ausgehend von einem Referenzbild – nützlich für Retail und Ersatzteile"},
+        {"label": "Field-Service-Vision:", "text": "On-Device-Modelle, die Technikern helfen, Komponenten zu identifizieren und Installationen zu verifizieren"},
+        {"label": "Video-Analytik:", "text": "Datenschutzbewusste Ereigniserkennung und -zusammenfassung für Sicherheit und Operations"}
+      ],
+      "tech_label": "Vision-Stack:",
+      "tech_stack": ["PyTorch", "YOLOv8", "Detectron2", "OpenCV", "Azure Computer Vision", "AWS Rekognition"]
+    },
+    {
+      "id": "custom_ml_models",
+      "icon": "🧠",
+      "title": "Custom-KI-Modelle B2B",
+      "intro": "Maßgeschneiderte Machine-Learning-Modelle, die auf Ihren proprietären Daten trainiert werden, wenn Standard-APIs nicht ausreichen – und Sie verteidigbares IP benötigen.",
+      "what_we_do_label": "Was wir tun:",
+      "features": [
+        {"label": "Domänenspezifisches Fine-Tuning:", "text": "Anpassung von Foundation-Modellen an Ihre Terminologie, Richtlinien und Edge Cases"},
+        {"label": "Proprietäre Forecasting-Modelle:", "text": "Modelle, die von Grund auf gebaut werden, wenn Ihre Datenform oder Zielsetzung zu keinem Vendor-Angebot passt"},
+        {"label": "Recommender-Systeme:", "text": "Personalisierungs-Engines für Cross-Sell, Next-Best-Offer und Content-Ranking"},
+        {"label": "Model-Lifecycle-Management:", "text": "Versionierung, Retraining-Trigger, Drift-Detection und Rollback-Prozeduren"},
+        {"label": "MLOps-Grundlagen:", "text": "Reproduzierbare Trainings-Pipelines, Feature-Stores und CI/CD für Modelle"}
+      ],
+      "tech_label": "Custom-Model-Stack:",
+      "tech_stack": ["PyTorch", "TensorFlow", "Hugging Face", "Ray", "Weights & Biases", "MLflow"]
+    },
+    {
+      "id": "ai_workflow_automation",
+      "icon": "⚙️",
+      "title": "KI-Workflow-Automatisierung",
+      "intro": "Agentische und regelergänzte Workflows, die LLM-Reasoning mit deterministischen Integrationen kombinieren, um End-to-End-Geschäftsprozesse zu automatisieren.",
+      "what_we_do_label": "Was wir tun:",
+      "features": [
+        {"label": "Agentic Process Automation:", "text": "Mehrstufige LLM-gesteuerte Workflows, die lesen, entscheiden, schreiben und verifizieren über Ihren SaaS-Stack"},
+        {"label": "Genehmigungs- & Triage-Automatisierung:", "text": "Anfragen weiterleiten, Kontext zusammenfassen und Entscheidungen für menschliche Genehmiger vorbefüllen"},
+        {"label": "E-Mail- & Ticket-Triage:", "text": "Eingehende Nachrichten klassifizieren, priorisieren, entwerfen und weiterleiten – mit vollständigem Audit-Trail"},
+        {"label": "Human-in-the-Loop-Design:", "text": "Konfidenzbasierte Eskalation, sodass Menschen bei hochriskanten Aktionen die Kontrolle behalten"},
+        {"label": "Workflow-Observability:", "text": "End-to-End-Traces, Cost-per-Run und Success-Rate-Dashboards für jede Automatisierung"}
+      ],
+      "tech_label": "Automatisierungs-Stack:",
+      "tech_stack": ["LangChain", "LangGraph", "n8n", "Apache Airflow", "Temporal", "Zapier Enterprise"]
+    },
+    {
+      "id": "ai_roi_consulting",
+      "icon": "📊",
+      "title": "KI-ROI-Messung & Strategieberatung",
+      "intro": "Bevor Sie etwas bauen, brauchen Sie eine verteidigbare Business Case. Wir helfen Ihnen, Use Cases zu priorisieren, den Wert zu beziffern und den Return zu beweisen.",
+      "what_we_do_label": "Was wir tun:",
+      "features": [
+        {"label": "KI-Use-Case-Discovery:", "text": "Workshops, die 20–60 KI-Initiativen in Ihrem Unternehmen identifizieren, bewerten und ranken"},
+        {"label": "Business Case & ROI-Modellierung:", "text": "Quantifizierte Werterange, Baukosten und Time-to-Value für die Top-ranked Use Cases"},
+        {"label": "Build-vs.-Buy-Entscheidungen:", "text": "Wann feinjustieren, wann eine API rufen und wann ein Vendor-Produkt kaufen"},
+        {"label": "Responsible-AI-Frameworks:", "text": "Governance für Bias, Privatsphäre, Sicherheit und Erklärbarkeit von Anfang an"},
+        {"label": "KI-Center-of-Excellence-Setup:", "text": "Betriebsmodelle, KPIs und Team-Strukturen, die KI-Fähigkeit dauerhaft machen, nicht projektgebunden"}
+      ],
+      "tech_label": "Strategie- & Messungs-Stack:",
+      "tech_stack": ["ROI Modeling", "Experiment Design", "KPI Trees", "Vendor Evaluation", "Responsible AI Toolkits"]
+    }
+  ],
+  "implementation_process": {
+    "title": "Unser Ansatz für die KI-Integrations-Implementierung",
+    "subtitle": "Eine wiederholbare Sechs-Schritt-Methodik, die messbaren KI-Mehrwert in Wochen statt Quartalen liefert.",
+    "steps": [
+      {"number": "1", "title": "Discovery & KI-Readiness-Assessment", "text": "Wir auditieren Ihre Datenlandschaft, aktuellen Systeme, regulatorischen Kontext und Team-Fähigkeiten, um zu bestimmen, wo KI echten ROI liefert – und wo sie noch nicht eingesetzt werden sollte."},
+      {"number": "2", "title": "Use-Case-Priorisierung & Business Case", "text": "Gemeinsam bewerten wir 20–60 Kandidaten-Use-Cases nach Wert, Machbarkeit, Datenreife und Risiko. Die Top drei bis fünf gehen in einen quantifizierten Business Case."},
+      {"number": "3", "title": "Architektur- & Datenpipeline-Design", "text": "Wir entwerfen die Inferenz-Schicht, Retrieval-Pipelines, Vektordatenbanken, Sicherheitsgrenzen und Integrationspunkte mit Ihren bestehenden Enterprise-Systemen."},
+      {"number": "4", "title": "Prototyp- & Validierungs-Sprint", "text": "In einem fokussierten zwei- bis vierwöchigen Sprint bauen wir einen funktionierenden Prototyp gegen Ihre echten Daten und validieren Genauigkeit, Latenz und Nutzerakzeptanz."},
+      {"number": "5", "title": "Produktive Bereitstellung & Integration", "text": "Wir deployen in Ihre Umgebung – Cloud, On-Premise oder Hybrid – mit CI/CD für Modelle, Observability, Rollback-Prozeduren und Human-in-the-Loop-Kontrollen."},
+      {"number": "6", "title": "KI-ROI-Messung & kontinuierliche Verbesserung", "text": "Wir instrumentieren jeden Modellaufruf, messen Geschäftsergebnisse gegen die Baseline und iterieren. Erwarten Sie einen quartalsweisen Review mit dokumentiertem ROI-Delta."}
+    ]
+  },
+  "tech_stack": {
+    "title": "Unser Enterprise-KI-Stack",
+    "subtitle": "Vendor-agnostisch by Design. Wir wählen das richtige Tool für Ihre Umgebung, Sicherheitshaltung und bestehende Investitionen.",
+    "categories": [
+      {
+        "name": "Sprachen & Core ML",
+        "items": ["Python", "scikit-learn", "NumPy", "pandas"]
+      },
+      {
+        "name": "Deep-Learning-Frameworks",
+        "items": ["TensorFlow", "PyTorch", "Keras", "Hugging Face Transformers"]
+      },
+      {
+        "name": "LLM-Provider & Orchestrierung",
+        "items": ["OpenAI API", "Anthropic Claude", "Azure OpenAI Service", "AWS Bedrock", "LangChain", "LlamaIndex"]
+      },
+      {
+        "name": "Cloud-KI-Plattformen",
+        "items": ["Azure Cognitive Services", "AWS Bedrock", "Google Vertex AI", "Azure Machine Learning"]
+      },
+      {
+        "name": "Vektordatenbanken & Retrieval",
+        "items": ["Pinecone", "Weaviate", "Qdrant", "pgvector", "Chroma"]
+      },
+      {
+        "name": "MLOps & Observability",
+        "items": ["MLflow", "Weights & Biases", "Arize", "LangSmith", "Prometheus + Grafana"]
+      }
+    ]
+  },
+  "case_study": {
+    "title": "KI-Integration Case Study: Industrie-Ersatzteil-Distributor",
+    "subtitle": "Wie ein 240-Personen-B2B-Distributor mit KI-Workflow-Automatisierung und individuellen ML-Modellen die Quote-to-Order-Zeit um 87 Prozent verkürzte.",
+    "client_label": "Branche:",
+    "client": "B2B-Industrie-Ersatzteil-Distribution (Mittelstand, 180 Mio. $ Umsatz)",
+    "before_label": "Vor der KI-Integration",
+    "after_label": "Nach 9 Monaten im Produktivbetrieb",
+    "before": [
+      "Die Angebotserstellung erforderte 4–7 Stunden manuelle Querverweise über 12 Legacy-Produktdatenbanken.",
+      "Kundendienstmitarbeiter verbrachten 38% ihres Tages mit der Suche nach Teilenummern, Kompatibilität und Preisen.",
+      "Demand Forecasts wurden einmal pro Quartal in Excel erstellt, mit 28% Mean Absolute Percentage Error.",
+      "E-Mail-Triage bewältigte 1.200 eingehende Nachrichten pro Tag manuell, mit 6 Stunden durchschnittlicher Erstreaktionszeit."
+    ],
+    "after": [
+      "Angebotserstellung erfolgt jetzt in unter 8 Minuten, mit 96,4% Genauigkeit bei Teilkompatibilitätsprüfungen.",
+      "Kundendienstmitarbeiter konzentrieren sich auf Ausnahmen; KI löst 62% der Routineanfragen End-to-End vorab.",
+      "Wöchentliche Demand Forecasts laufen automatisch mit 9,1% MAPE – eine 67%ige Verbesserung der Prognosegenauigkeit.",
+      "Eingehende E-Mail-Triage zu 71% automatisiert, mit Erstreaktionszeit von 11 Minuten für die übrigen."
+    ],
+    "metric_label": "Verifiziertes Ergebnis:",
+    "metric_value": "87% schnellere Quote-to-Order • 2,4 Mio. $ jährliche Einsparungen • 9,1% Forecast MAPE"
+  },
+  "faq": [
+    {
+      "question": "Wie lange dauert ein typisches Enterprise-KI-Integrationsprojekt vom Kickoff bis zur Produktion?",
+      "answer": "Die meisten Enterprise-KI-Integrationsprojekte liefern eine produktionsreife erste Fähigkeit in 8 bis 14 Wochen. Dies umfasst eine ein- bis zweiwöchige Discovery und Use-Case-Priorisierung, einen zwei- bis vierwöchigen Prototyp-Sprint gegen Ihre echten Daten und eine vier- bis achtwöchige Produktive Bereitstellung mit MLOps, Observability und KI-ROI-Messinstrumentierung. Größere Programme, die mehrere Use Cases umfassen, laufen in 6- bis 12-monatigen Wellen."
+    },
+    {
+      "question": "Müssen wir unsere bestehenden Systeme ersetzen, um KI zu integrieren?",
+      "answer": "Nein. Die überwiegende Mehrheit unserer Enterprise-KI-Integrationsprojekte sitzt auf Ihren bestehenden CRM-, ERP-, Ticketing-, Dokumenten- und Data-Warehouse-Systemen auf. Wir exponieren KI-Fähigkeiten über APIs, eingebettete UI-Komponenten und event-getriebene Integrationen, sodass Ihre zugrundeliegenden Systeme unangetastet bleiben. Rip-and-Replace ist fast nie die richtige Antwort für KI-Integration in einer regulierten oder operativen Umgebung."
+    },
+    {
+      "question": "Wie messen Sie KI-ROI und beweisen ihn unserer Geschäftsleitung?",
+      "answer": "Wir instrumentieren jeden Modellaufruf und jedes Geschäftsergebnis. Die KI-ROI-Messung beginnt mit einer Baseline-Messung des Prozesses, den Sie augmentieren – Zeit, Fehlerrate, Conversion, Cost-per-Case. Dann verfolgen wir die gleichen Metriken nach dem Deployment und attribuieren das Delta bestimmten KI-Fähigkeiten. Sie erhalten ein monatliches ROI-Dashboard und einen quartalsweisen Executive Review mit dokumentiertem finanziellen Impact, aufgeschlüsselt nach Use Case."
+    },
+    {
+      "question": "Können Sie mit unseren Data-Residency- und Sicherheitsanforderungen arbeiten?",
+      "answer": "Ja. Wir deployen in Ihrer VPC, On-Premise oder in einer souveränen Cloud-Region wie erforderlich. Wir unterstützen Single-Tenant-LLM-Deployments, vom Kunden verwaltete Schlüssel, private Modellendpunkte und vollständiges Audit-Logging. Für regulierte Branchen implementieren wir Data-Loss-Prevention, Prompt-Injection-Schutzmaßnahmen und Human-in-the-Loop-Reviews für jede hochriskante KI-Aktion."
+    },
+    {
+      "question": "Was ist der Unterschied zwischen dem Rufen einer LLM-API und dem Bauen von Custom-KI-Modellen für B2B?",
+      "answer": "Das Rufen einer LLM-API ist der schnellste Weg zu einer generischen Fähigkeit – Chat, Zusammenfassung, Klassifikation. Custom-KI-Modelle für B2B bedeuten Feinjustierung oder Training von Modellen auf Ihren proprietären Daten, sodass das System Ihre Terminologie, Ihre Edge Cases und Ihren Wettbewerbskontext lernt. Die meisten Enterprise-Programme nutzen beides: Foundation-Modelle für allgemeines Reasoning, Custom-Modelle, wo Genauigkeit, Latenz, Kosten oder IP-Verteidigbarkeit es erfordern."
+    }
+  ],
+  "cta": {
+    "title": "Bereit, KI zu einer Betriebsfähigkeit zu machen, nicht zu einem Piloten?",
+    "subtitle": "Buchen Sie ein 30-minütiges KI-Strategiegespräch. Wir reviewen Ihre Systeme, identifizieren die drei höchst-ROI-KI-Use-Cases und skizzieren einen realistischen 90-Tage-Lieferplan.",
+    "button": "KI-Strategiegespräch buchen"
+  },
+  "breadcrumb": {
+    "home_label": "Startseite",
+    "current_label": "KI-Integrationsdienste"
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "page_hero": {
+    "title": "Modernizzazione dei sistemi legacy",
+    "subtitle": "Trasforma i sistemi obsoleti COBOL, ASP.NET, Java EE e VB.NET in piattaforme moderne cloud-native – senza congelare la tua roadmap o perdere decenni di logica di business."
+  },
+  "why_modernize": {
+    "section_title": "Perché modernizzare il tuo sistema legacy?",
+    "intro": "Ogni giorno in cui mantieni in vita un sistema legacy, paghi in tre valute: costi di manutenzione in crescita, agilità competitiva persa e rischio di sicurezza crescente. La modernizzazione non è un costo sommerso – è un investimento ad alto effetto leva che si ripaga in 18-24 mesi per la maggior parte delle organizzazioni B2B.",
+    "paragraphs": [
+      "La maggior parte delle aziende sottostima quanto si accumula il debito tecnico. Uno studio Deloitte del 2019 ha rilevato che il 60% dei CIO afferma che il proprio debito tecnico blocca attivamente i nuovi lanci di prodotto, e un'azienda media Fortune 1000 spende oltre il 70% del budget IT semplicemente per tenere accese le luci. È un rapporto distruttivo: ogni dollaro speso per la manutenzione del legacy è un dollaro non investito in AI, esperienza cliente o nuove linee di ricavo. La modernizzazione del legacy inverte questo rapporto e libera capitale e talenti per il lavoro che fa davvero progredire l'azienda.",
+      "La sicurezza è il secondo driver urgente. Stack legacy come Windows Server 2008, Java 6, PHP 5.x e Classic ASP non ricevono più patch del fornitore, ma ospitano regolarmente dati business-critical – fascicoli clienti, flussi di pagamento, telemetria di produzione. Gli attaccanti prendono di mira specificamente questi stack non patchati perché gli exploit sono ben documentati e le difese sono sottili. La migrazione a una piattaforma moderna e supportata come .NET 8, Spring Boot 3 o un servizio Kubernetes gestito su Azure o AWS riduce significativamente la tua superficie di attacco, ti mantiene conforme a PCI DSS, HIPAA e GDPR e fornisce ai tuoi auditor una postura difendibile.",
+      "Il terzo fattore di pressione è il talento. L'età mediana di uno sviluppatore COBOL nel 2024 è di 55 anni e i pensionamenti sono più rapidi dei rimpiazzi formati. Gli sviluppatori ASP.NET Web Forms, VB6 classico e Oracle Forms seguono la stessa curva. Ogni pensionamento non è un passaggio di routine; è conoscenza istituzionale che esce dalla porta – i blocchi di commenti, i workaround tribali, gli invarianti non scritti che tengono in vita il sistema. Un'iniziativa di modernizzazione strutturata cattura quella conoscenza mentre esiste ancora, la traduce in codice moderno e consente alla prossima generazione di ingegneri di comprendere effettivamente la piattaforma che ereditano.",
+      "Infine, la modernizzazione sblocca le capacità di AI e automazione che i tuoi concorrenti stanno già implementando. Non puoi appiccicare un workflow moderno basato su LLM su un mainframe degli anni '90 – la superficie di integrazione è troppo stretta, il modello di dati troppo rigido e il ciclo di rilascio troppo lento. Una piattaforma modernizzata offre API in tempo reale, stream di eventi, database vettoriali e workload containerizzati che trasformano l'integrazione AI in un progetto di 6 settimane invece di un esercizio di replatforming di 3 anni. La domanda non è più se modernizzare, ma come farlo senza interrompere le operations."
+    ],
+    "stats": [
+      { "value": "70%", "label": "dei budget IT vincolati alla manutenzione del legacy" },
+      { "value": "3.2x", "label": "rischio di data breach più alto su stack non supportati" },
+      { "value": "18 mesi", "label": "periodo medio di ritorno sull'investimento per progetti di modernizzazione" },
+      { "value": "60%", "label": "dei CIO dice che il debito tecnico blocca i lanci di nuovi prodotti" }
+    ]
+  },
+  "services": [
+    {
+      "id": "aspnet-modernization",
+      "icon": "🟣",
+      "title": "Modernizzazione ASP.NET",
+      "intro": "Migra applicazioni ASP.NET Web Forms, MVC 5 e .NET Framework a .NET 8 e ASP.NET Core. Preserviamo la logica di business, modernizziamo il data access layer e consegniamo un codebase cloud-ready che gira 3-5 volte più veloce.",
+      "what_we_do_label": "Cosa facciamo:",
+      "features": [
+        { "label": "Web Forms → Razor Pages:", "text": "Conversione di server controls, ViewState e postback in moderne Razor Pages e componenti Blazor" },
+        { "label": ".NET Framework → .NET 8:", "text": "Cross-compilazione su un runtime supportato, eliminazione della dipendenza da Internet Explorer e COM legacy" },
+        { "label": "Entity Framework 6 → EF Core:", "text": "Upgrade del data access, sostituzione dei pattern ObjectContext e adozione end-to-end di async/await" },
+        { "label": "WCF → REST/gRPC:", "text": "Sostituzione di servizi WCF solo Windows con API REST cross-platform o contratti gRPC" },
+        { "label": "Ottimizzazione delle performance:", "text": "Ottimizzazione del cold start, logging basato su span e pattern di cache moderni out of the box" }
+      ],
+      "tech_label": "Percorso di migrazione:",
+      "tech_stack": ["ASP.NET Web Forms", "MVC 5", "WCF", ".NET Framework 4.x", ".NET 8", "ASP.NET Core", "Blazor", "EF Core"]
+    },
+    {
+      "id": "cobol-modernization",
+      "icon": "🟢",
+      "title": "Modernizzazione COBOL",
+      "intro": "Replatformizza i workload COBOL su mainframe verso servizi Java, .NET o Go cloud-native. Usiamo la traduzione di codice assistita da AI combinata con la revisione di esperti di dominio per preservare ogni regola di business ed eliminare il rischio di talento dei mainframe invecchiati.",
+      "what_we_do_label": "Cosa facciamo:",
+      "features": [
+        { "label": "COBOL → Java/.NET:", "text": "Traduzione automatizzata di oltre 1 milione di righe con validazione human-in-the-loop delle regole di business" },
+        { "label": "Mainframe → Cloud:", "text": "Uscita da z/OS e AS/400 verso Azure, AWS o cluster Kubernetes on-premises" },
+        { "label": "VSAM/DB2 → PostgreSQL:", "text": "Modernizzazione dello schema, validazione dei dati e cutover zero-downtime con finestra dual-write" },
+        { "label": "JCL → CI/CD:", "text": "Sostituzione dei job batch con scheduler moderni, trigger di eventi e worker containerizzati" },
+        { "label": "Cattura della conoscenza:", "text": "Interviste con sviluppatori senior, estrazione delle regole di business e documentazione di livello audit" }
+      ],
+      "tech_label": "Sorgente → Destinazione:",
+      "tech_stack": ["COBOL", "JCL", "VSAM", "DB2", "CICS", "Java 21", "Spring Boot 3", "PostgreSQL", "Kubernetes"]
+    },
+    {
+      "id": "java-ee-modernization",
+      "icon": "☕",
+      "title": "Modernizzazione Java EE",
+      "intro": "Ri-architettura applicazioni Java EE, Spring 4 e dell'era Servlet verso Spring Boot 3, Quarkus o Micronaut. Riduciamo l'occupazione di memoria, abilitiamo il deployment cloud-native e rimuoviamo il vendor lock-in da WebLogic, WebSphere e JBoss.",
+      "what_we_do_label": "Cosa facciamo:",
+      "features": [
+        { "label": "Spring 4 → Spring Boot 3:", "text": "Upgrade a Jakarta EE 10, sostituzione della configurazione XML pesante con l'autoconfigurazione" },
+        { "label": "EJB → Servizi Spring:", "text": "Disaccoppiamento dai container EJB pesanti, modernizzazione dei livelli transazione e sicurezza" },
+        { "label": "Uscita da WebLogic/WebSphere:", "text": "Containerizzazione con Docker, deployment su Kubernetes, eliminazione delle licenze per CPU" },
+        { "label": "JSP → Thymeleaf/React:", "text": "Sostituzione di JSP lato server con templating moderno o frontend React disaccoppiati" },
+        { "label": "JMS → Kafka/RabbitMQ:", "text": "Modernizzazione della messaggistica asincrona con broker cloud-friendly e pattern event-driven" }
+      ],
+      "tech_label": "Stack di modernizzazione:",
+      "tech_stack": ["Java EE", "Spring 4", "EJB", "JSP", "WebLogic", "Spring Boot 3", "Quarkus", "Jakarta EE 10", "Kafka"]
+    },
+    {
+      "id": "enterprise-replatform",
+      "icon": "🏢",
+      "title": "Re-Platforming enterprise",
+      "intro": "Replatforming completo di sistemi monolitici enterprise verso architetture modulari cloud-native. Decomposizione domain-driven, pattern di migrazione Strangler-Fig e cutover zero-downtime per basi utente con 1000+ utenti.",
+      "what_we_do_label": "Cosa facciamo:",
+      "features": [
+        { "label": "Domain discovery:", "text": "Event storming e bounded context mapping per identificare linee di taglio sicure nel monolite" },
+        { "label": "Pattern Strangler-Fig:", "text": "Sostituzione incrementale di moduli legacy mentre il monolite continua a servire il traffico di produzione" },
+        { "label": "Decomposizione dei dati:", "text": "Suddivisione dei database monolitici per dominio, eliminazione di join cross-domain, deploy indipendenti" },
+        { "label": "Modernizzazione delle API:", "text": "Introduzione di contratti OpenAPI, endpoint versionati e un API gateway unificato" },
+        { "label": "Cutover zero-downtime:", "text": "Finestre dual-write, traffic shadowing e rollout guidati da feature flag" }
+      ],
+      "tech_label": "Architettura target:",
+      "tech_stack": ["Microservices", "Kubernetes", "API Gateway", "Service Mesh", "Event Sourcing", "CQRS", "Polyglot Persistence"]
+    },
+    {
+      "id": "vbnet-classic-modernization",
+      "icon": "🔷",
+      "title": "Modernizzazione VB.NET e stack classico",
+      "intro": "Porta le applicazioni VB.NET, VB6, Classic ASP e PowerBuilder su piattaforme moderne .NET 8 o SaaS. Preserviamo i workflow desktop abilitando al contempo il deployment web, mobile e cloud.",
+      "what_we_do_label": "Cosa facciamo:",
+      "features": [
+        { "label": "VB6 → .NET 8:", "text": "Migrazione di codice dell'era WinForms a WPF, WinUI o Blazor Hybrid senza riscrivere l'intera applicazione" },
+        { "label": "Classic ASP → ASP.NET Core:", "text": "Sostituzione di VBScript con C#, modernizzazione della gestione delle sessioni, eliminazione delle dipendenze COM" },
+        { "label": "PowerBuilder → Web:", "text": "Conversione di UI centrate su DataWindow in frontend moderni React o Angular" },
+        { "label": "Crystal Reports → SSRS/Power BI:", "text": "Modernizzazione dello stack di reporting, analitica self-service per gli utenti di business" },
+        { "label": "Desktop → SaaS:", "text": "Multi-tenancy, fatturazione basata su abbonamento e controllo degli accessi basato sui ruoli integrati" }
+      ],
+      "tech_label": "Destinazioni di migrazione:",
+      "tech_stack": ["VB6", "VB.NET", "Classic ASP", "PowerBuilder", "Crystal Reports", ".NET 8", "WPF", "Blazor Hybrid", "React"]
+    },
+    {
+      "id": "database-modernization",
+      "icon": "🗄️",
+      "title": "Modernizzazione dei database",
+      "intro": "Sposta i database legacy – Oracle, SQL Server 2008, MySQL 5.x, DB2 – in store moderni, gestiti e cloud-native. Gestiamo la conversione dello schema, la migrazione dei dati, l'ottimizzazione delle performance e le pipeline CDC.",
+      "what_we_do_label": "Cosa facciamo:",
+      "features": [
+        { "label": "Oracle → PostgreSQL:", "text": "Conversione di schema e PL/SQL con AWS DMS, Ora2Pg e finestre di sicurezza dual-write" },
+        { "label": "Upgrade SQL Server:", "text": "Migrazione da SQL Server 2008/2012 a SQL Server 2022 o Azure SQL senza downtime" },
+        { "label": "DB2 → RDBMS moderno:", "text": "Conversione di dati codificati EBCDIC, riscrittura delle stored procedure, validazione dell'integrità referenziale" },
+        { "label": "Change Data Capture:", "text": "Pipeline Debezium, AWS DMS o Striim per alimentare consumatori downstream in tempo reale" },
+        { "label": "Hardening delle performance:", "text": "Strategia di indici, piani di esecuzione, partizionamento e connection pooling per 10x il throughput" }
+      ],
+      "tech_label": "Target database:",
+      "tech_stack": ["Oracle", "SQL Server 2008–2012", "MySQL 5.x", "DB2", "PostgreSQL 16", "SQL Server 2022", "Azure SQL", "Redis"]
+    }
+  ],
+  "process": {
+    "title": "Il nostro approccio alla modernizzazione",
+    "subtitle": "Una metodologia in sei fasi pensata per portare valore in anticipo, mitigare il rischio di migrazione e mantenere operativa la tua azienda per tutta la durata del progetto.",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Discovery & audit del debito tecnico",
+        "text": "Mappiamo ogni dipendenza, integrazione e regola di business nel tuo sistema attuale. Ricevi un rapporto quantificato del debito tecnico, una heatmap dei rischi e un elenco di quick win consegnabili in 30 giorni."
+      },
+      {
+        "number": "2",
+        "title": "Strategia di modernizzazione & roadmap",
+        "text": "Progettiamo un piano di consegna in fasi allineato con le priorità del tuo business – replatform, refactor, rehost o replace per dominio. Ottieni un preventivo a prezzo fisso, un piano delle milestone e una strategia di rollback."
+      },
+      {
+        "number": "3",
+        "title": "Architettura & implementazione di riferimento",
+        "text": "Costruiamo un'implementazione di riferimento vertical-slice che valida lo stack target, la pipeline di deployment e lo stack di osservabilità. Vedi codice reale di produzione prima di impegnarci nella consegna completa."
+      },
+      {
+        "number": "4",
+        "title": "Migrazione iterativa & esercizio parallelo",
+        "text": "Dominio per dominio, consegniamo nuovo codice mentre il sistema legacy continua a girare. Operiamo entrambi i sistemi in parallelo, allineiamo gli output quotidianamente e commutiamo il traffico solo quando la parità è dimostrata."
+      },
+      {
+        "number": "5",
+        "title": "Cutover, hardening & hyper-care",
+        "text": "Cutover zero-downtime con feature flag, deployment blue/green e shadow traffic. Forniamo 30 giorni di hyper-care: reperibilità 24/7, copertura war-room e percorsi di rollback rapidi."
+      },
+      {
+        "number": "6",
+        "title": "Ottimizzazione & modernizzazione continua",
+        "text": "Dopo il lancio, strumentiamo ogni workload, ottimizziamo le performance e manteniamo un backlog di opportunità di modernizzazione continua – mantenendo il sistema moderno per il prossimo decennio, non solo per la prossima release."
+      }
+    ]
+  },
+  "tech_stack": {
+    "title": "Stack tecnologico moderno in cui siamo specializzati",
+    "subtitle": "Combinazioni comprovate, progettate per performance, manutenibilità e disponibilità di talenti a lungo termine.",
+    "categories": [
+      {
+        "name": "Backend & runtime",
+        "items": ["ASP.NET Core", ".NET 8", "Java 21", "Spring Boot 3", "Quarkus", "Node.js 20", "Go 1.22"]
+      },
+      {
+        "name": "Piattaforme cloud",
+        "items": ["Microsoft Azure", "Amazon Web Services", "Google Cloud Platform", "Kubernetes", "Docker", "OpenShift"]
+      },
+      {
+        "name": "Dati & storage",
+        "items": ["PostgreSQL 16", "SQL Server 2022", "Azure Cosmos DB", "Redis", "Snowflake", "Kafka"]
+      },
+      {
+        "name": "Frontend & UX",
+        "items": ["React 18", "Angular 17", "Blazor", "Next.js", "TypeScript", "Tailwind CSS"]
+      }
+    ]
+  },
+  "case_study": {
+    "title": "Case study: modernizzazione del sistema core di una banca regionale",
+    "subtitle": "Come abbiamo migrato un sistema COBOL di core banking di 22 anni a una piattaforma .NET 8 cloud-native – senza un solo minuto di disservizio per i clienti.",
+    "industry": "Banking & servizi finanziari",
+    "duration": "14 mesi",
+    "before": {
+      "heading": "Prima",
+      "items": [
+        "1,4 milioni di righe COBOL su mainframe IBM z/OS",
+        "Licenze mainframe annuali: $2,8M, in crescita del 12% YoY",
+        "Finestra batch mediana: 6,5 ore di notte, bloccava ogni nuova funzionalità",
+        "Onboarding clienti durava 11 giorni a causa dell'inserimento manuale dei dati"
+      ]
+    },
+    "after": {
+      "heading": "Dopo",
+      "items": [
+        "Microservizi .NET 8 moderni su Azure Kubernetes Service",
+        "Costo infrastruttura annuale: $740K, una riduzione del 73%",
+        "Finestre batch ridotte a 22 minuti tramite elaborazione event-driven",
+        "Onboarding clienti ridotto a 38 minuti con integrazioni API in tempo reale"
+      ]
+    },
+    "metric": {
+      "value": "73%",
+      "label": "di riduzione del costo infrastrutturale annuale, senza disservizio clienti durante i 14 mesi di migrazione"
+    }
+  },
+  "faq": {
+    "title": "Domande frequenti",
+    "subtitle": "Tutto ciò che devi sapere sulla modernizzazione del legacy con Barbuk.",
+    "items": [
+      {
+        "question": "Quanto dura un tipico progetto di modernizzazione del legacy?",
+        "answer": "La maggior parte dei progetti di modernizzazione ASP.NET dura da 3 a 6 mesi. I replatforming enterprise completi – migrazione di COBOL, Java EE o grandi parchi .NET Framework – durano tipicamente da 9 a 18 mesi. Consegniamo sempre in fasi, quindi inizi a vedere valore di business entro le prime 6-8 settimane. Il primo vertical slice dimostra l'architettura; i domini successivi sono più veloci perché il pattern è già stabilito."
+      },
+      {
+        "question": "Cos'è il pattern Strangler-Fig e perché lo raccomandate?",
+        "answer": "Il pattern Strangler-Fig è una strategia di migrazione in cui sostituisci incrementalmente porzioni di un sistema legacy con nuovi servizi, mentre il sistema originale continua a girare. Uno strato di routing sposta progressivamente il traffico dal vecchio al nuovo, fino alla dismissione completa del sistema legacy. Lo raccomandiamo perché elimina il rischio di cutover big-bang, ti permette di validare la parità in produzione con utenti reali e consente il rollback in qualsiasi momento. È l'unico pattern che ci abbia dato zero disservizio clienti su un codebase di oltre 1 milione di righe."
+      },
+      {
+        "question": "Potete modernizzare il nostro sistema COBOL o mainframe senza perdere la logica di business?",
+        "answer": "Sì. Adottiamo un approccio a tre livelli. Primo, la traduzione di codice assistita da AI converte la struttura sintattica di COBOL, JCL e copybook in Java o C#. Secondo, i nostri esperti di dominio – ex sviluppatori mainframe – rivedono manualmente ogni regola di business, validazione e caso limite per assicurare che la logica sia fedelmente rappresentata. Terzo, operiamo entrambi i sistemi in parallelo per un intero periodo di riconciliazione, confrontando l'output riga per riga prima di qualsiasi commutazione di traffico. Il risultato è un sistema che si comporta in modo identico all'originale, con la manutenibilità di un codebase moderno."
+      },
+      {
+        "question": "Dobbiamo interrompere le operations durante la migrazione?",
+        "answer": "No. La nostra metodologia zero-downtime è progettata esattamente per questo. Usiamo finestre dual-write sui database, shadow traffic, feature flag e deployment blue/green per garantire che il sistema legacy continui a servire i clienti durante l'intera migrazione. Gli unici momenti in cui richiediamo brevi finestre di manutenzione (15-60 minuti) sono per i cutover finali di DNS o load balancer, e li pianifichiamo nei tuoi periodi di minor traffico. Per il case study sopra, abbiamo completato una migrazione di 14 mesi di una piattaforma di core banking con zero minuti di disservizio clienti."
+      },
+      {
+        "question": "Quanto costa una modernizzazione del legacy e come fatturate?",
+        "answer": "Il prezzo dipende dalla dimensione e complessità del tuo sistema, dall'architettura target e dalla strategia di migrazione. Come regola approssimativa: i progetti di modernizzazione ASP.NET a .NET 8 partono da circa $45K e crescono in base alla dimensione del codebase. I replatforming enterprise completi vanno tipicamente da $250K a $1,5M+. Lavoriamo sempre con un preventivo a prezzo fisso dopo uno sprint di discovery a pagamento, quindi niente sorprese a ore. La maggior parte dei clienti vede ROI positivo entro 18 mesi grazie a costi di licenza ridotti, minori spese di manutenzione e un time-to-market più veloce per le nuove funzionalità."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Pronto a modernizzare il tuo sistema legacy?",
+    "subtitle": "Prenota una valutazione gratuita di 30 minuti con i nostri architetti. Auditeremo il tuo sistema, identificheremo le 4 maggiori opportunità di modernizzazione e tracceremo un piano realistico in fasi.",
+    "button": "Richiedi una valutazione gratuita",
+    "secondary_button": "Vedi tutti i servizi"
+  }
+}
