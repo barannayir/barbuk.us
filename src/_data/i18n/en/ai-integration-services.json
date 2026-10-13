@@ -1,0 +1,216 @@
+{
+  "page_hero": {
+    "title": "AI Integration Services for Enterprise",
+    "subtitle": "Production-grade AI integration, custom ML models, and AI workflow automation that turn your existing enterprise systems into intelligent, measurable revenue drivers—without rip-and-replace.",
+    "primary_cta_label": "Book an AI Strategy Call",
+    "secondary_cta_label": "Download AI ROI Guide"
+  },
+  "why_ai_integration": {
+    "title": "Why AI Integration Is Now a Board-Level Priority",
+    "subtitle": "Enterprise AI is no longer a research experiment. It is an operating capability.",
+    "paragraphs": [
+      "Across mid-market and enterprise B2B, the conversation about AI has shifted decisively from \"should we?\" to \"how fast and how safely?\" Companies that integrated AI into their core workflows two to three years ago are now reporting 3x to 10x ROI on those deployments, while their peers are still running pilots. The gap is widening every quarter, and the cost of waiting compounds.",
+      "ai_baseline: Enterprise AI integration means more than plugging an LLM into a chatbot. It means connecting language models, predictive analytics, computer vision, and custom machine learning models to the operational systems where real work happens—your CRM, ERP, ticketing, document stores, and customer-facing portals. It means building retrieval pipelines over your proprietary data, instrumenting every model call so AI ROI can be measured, and embedding guardrails so that output quality and compliance are non-negotiable.",
+      "ai_decision_layer: When done right, AI becomes a decision layer that sits above your existing infrastructure. Approvals route automatically. Anomalies surface before they become incidents. Documents are summarized, classified, and routed without human triage. Sales teams get next-best-action guidance grounded in your actual account history. Support teams resolve tickets 40 to 70 percent faster because the system already has the context.",
+      "ai_enterprise_realities: This is not the domain of off-the-shelf SaaS alone. Enterprise AI integration requires custom AI models B2B teams, vector databases for proprietary knowledge, secure orchestration layers, and rigorous AI ROI measurement frameworks. Generic APIs give you generic results. Real enterprise value comes from systems that understand your data, your workflows, and your risk posture."
+    ],
+    "statistics": [
+      {"value": "5–10x", "label": "Average ROI on production AI deployments within 18 months"},
+      {"value": "60–70%", "label": "Reduction in routine task time after AI workflow automation"},
+      {"value": "92%", "label": "Of enterprises now report AI as a top-three strategic priority"}
+    ]
+  },
+  "services": [
+    {
+      "id": "nlp_llm",
+      "icon": "💬",
+      "title": "Natural Language Processing & LLM Integration",
+      "intro": "Production-grade NLP pipelines built on GPT-class and Claude-class models, grounded in your proprietary data through retrieval-augmented generation.",
+      "what_we_do_label": "What We Do:",
+      "features": [
+        {"label": "Retrieval-Augmented Generation (RAG):", "text": "Grounded LLM responses over your document corpus, ticket history, knowledge base, or contract library"},
+        {"label": "Document Intelligence:", "text": "Extract structured data from invoices, contracts, leases, and regulatory filings with >95% field accuracy"},
+        {"label": "Sentiment & Intent Analysis:", "text": "Real-time classification of customer messages, support tickets, and survey responses"},
+        {"label": "Conversational AI:", "text": "Multi-turn assistants that escalate to humans gracefully when confidence is low"},
+        {"label": "Multilingual NLP:", "text": "Native support for English, German, French, Dutch, Italian, Spanish, and Turkish"}
+      ],
+      "tech_label": "Models & Frameworks:",
+      "tech_stack": ["OpenAI GPT-4o", "Claude Sonnet", "LangChain", "LlamaIndex", "Pinecone", "Azure OpenAI"]
+    },
+    {
+      "id": "predictive_analytics",
+      "icon": "📈",
+      "title": "Predictive Analytics & Forecasting",
+      "intro": "Time-series, classification, and anomaly-detection models that turn your historical data into forward-looking operational signals.",
+      "what_we_do_label": "What We Do:",
+      "features": [
+        {"label": "Demand Forecasting:", "text": "SKU-, region-, and channel-level forecasts that improve inventory turns and reduce stockouts"},
+        {"label": "Churn & Risk Scoring:", "text": "Customer-level probability scores that trigger retention workflows before the cancellation arrives"},
+        {"label": "Anomaly Detection:", "text": "Real-time monitoring of transactions, system metrics, and user behavior with explainable alerts"},
+        {"label": "Lead Scoring:", "text": "Conversion probability models that re-rank pipeline based on thousands of behavioral signals"},
+        {"label": "Forecasting Validation:", "text": "Backtesting, drift monitoring, and champion-challenger frameworks to keep models honest"}
+      ],
+      "tech_label": "Modeling Stack:",
+      "tech_stack": ["scikit-learn", "XGBoost", "Prophet", "PyTorch Forecasting", "MLflow", "Optuna"]
+    },
+    {
+      "id": "computer_vision",
+      "icon": "👁️",
+      "title": "Computer Vision & Visual Inspection",
+      "intro": "Image and video understanding models for quality control, OCR, visual search, and field-service automation.",
+      "what_we_do_label": "What We Do:",
+      "features": [
+        {"label": "Visual Quality Control:", "text": "Detect defects on manufacturing lines at production throughput and required accuracy"},
+        {"label": "OCR & Document Digitization:", "text": "Handwriting, multi-language, and structured-form recognition for back-office automation"},
+        {"label": "Visual Search:", "text": "Find visually similar items in your catalog from a reference image—useful for retail and parts"},
+        {"label": "Field Service Vision:", "text": "On-device models that help technicians identify components and verify installations"},
+        {"label": "Video Analytics:", "text": "Privacy-aware event detection and summarization for security and operations"}
+      ],
+      "tech_label": "Vision Stack:",
+      "tech_stack": ["PyTorch", "YOLOv8", "Detectron2", "OpenCV", "Azure Computer Vision", "AWS Rekognition"]
+    },
+    {
+      "id": "custom_ml_models",
+      "icon": "🧠",
+      "title": "Custom AI Models B2B",
+      "intro": "Bespoke machine learning models trained on your proprietary data when off-the-shelf APIs are not enough—and you need defensible IP.",
+      "what_we_do_label": "What We Do:",
+      "features": [
+        {"label": "Domain-Specific Fine-Tuning:", "text": "Adapt foundation models to your terminology, policies, and edge cases"},
+        {"label": "Proprietary Forecasting Models:", "text": "Models built from scratch when your data shape or objective does not match any vendor offering"},
+        {"label": "Recommender Systems:", "text": "Personalization engines for cross-sell, next-best-offer, and content ranking"},
+        {"label": "Model Lifecycle Management:", "text": "Versioning, retraining triggers, drift detection, and rollback procedures"},
+        {"label": "MLOps Foundations:", "text": "Reproducible training pipelines, feature stores, and CI/CD for models"}
+      ],
+      "tech_label": "Custom Model Stack:",
+      "tech_stack": ["PyTorch", "TensorFlow", "Hugging Face", "Ray", "Weights & Biases", "MLflow"]
+    },
+    {
+      "id": "ai_workflow_automation",
+      "icon": "⚙️",
+      "title": "AI Workflow Automation",
+      "intro": "Agentic and rule-augmented workflows that combine LLM reasoning with deterministic integrations to automate end-to-end business processes.",
+      "what_we_do_label": "What We Do:",
+      "features": [
+        {"label": "Agentic Process Automation:", "text": "Multi-step LLM-driven workflows that read, decide, write, and verify across your SaaS stack"},
+        {"label": "Approval & Triage Automation:", "text": "Route requests, summarize context, and pre-fill decisions for human approvers"},
+        {"label": "Email & Ticket Triage:", "text": "Classify, prioritize, draft, and route incoming messages with full audit trail"},
+        {"label": "Human-in-the-Loop Design:", "text": "Confidence-based escalation so humans stay in control of high-risk actions"},
+        {"label": "Workflow Observability:", "text": "End-to-end traces, cost-per-run, and success-rate dashboards for every automation"}
+      ],
+      "tech_label": "Automation Stack:",
+      "tech_stack": ["LangChain", "LangGraph", "n8n", "Apache Airflow", "Temporal", "Zapier Enterprise"]
+    },
+    {
+      "id": "ai_roi_consulting",
+      "icon": "📊",
+      "title": "AI ROI Measurement & Strategy Consulting",
+      "intro": "Before you build anything, you need a defensible business case. We help you prioritize use cases, size the value, and prove the return.",
+      "what_we_do_label": "What We Do:",
+      "features": [
+        {"label": "AI Use-Case Discovery:", "text": "Workshops that surface, score, and rank 20–60 candidate AI initiatives across your business"},
+        {"label": "Business Case & ROI Modeling:", "text": "Quantified value ranges, cost-to-build, and time-to-value for the top-ranked use cases"},
+        {"label": "Build vs. Buy Decisions:", "text": "When to fine-tune, when to call an API, and when to buy a vendor product"},
+        {"label": "Responsible AI Frameworks:", "text": "Governance for bias, privacy, security, and explainability from day one"},
+        {"label": "AI Center of Excellence Setup:", "text": "Operating models, KPIs, and team structures that make AI capability durable, not project-bound"}
+      ],
+      "tech_label": "Strategy & Measurement Stack:",
+      "tech_stack": ["ROI Modeling", "Experiment Design", "KPI Trees", "Vendor Evaluation", "Responsible AI Toolkits"]
+    }
+  ],
+  "implementation_process": {
+    "title": "Our AI Integration Implementation Approach",
+    "subtitle": "A repeatable six-step methodology that ships measurable AI value in weeks, not quarters.",
+    "steps": [
+      {"number": "1", "title": "Discovery & AI Readiness Assessment", "text": "We audit your data landscape, current systems, regulatory context, and team capabilities to determine where AI will deliver real ROI—and where it should not be deployed yet."},
+      {"number": "2", "title": "Use-Case Prioritization & Business Case", "text": "Together we score 20–60 candidate use cases on value, feasibility, data readiness, and risk. The top three to five enter a quantified business case."},
+      {"number": "3", "title": "Architecture & Data Pipeline Design", "text": "We design the inference layer, retrieval pipelines, vector databases, security boundaries, and integration points with your existing enterprise systems."},
+      {"number": "4", "title": "Prototype & Validation Sprint", "text": "In a focused two to four-week sprint, we build a working prototype against your real data and validate accuracy, latency, and user acceptance."},
+      {"number": "5", "title": "Production Deployment & Integration", "text": "We deploy into your environment—cloud, on-premise, or hybrid—with CI/CD for models, observability, rollback procedures, and human-in-the-loop controls."},
+      {"number": "6", "title": "AI ROI Measurement & Continuous Improvement", "text": "We instrument every model call, measure business outcomes against the baseline, and iterate. Expect a quarterly review with a documented ROI delta."}
+    ]
+  },
+  "tech_stack": {
+    "title": "Our Enterprise AI Tech Stack",
+    "subtitle": "Vendor-agnostic by design. We choose the right tool for your environment, security posture, and existing investments.",
+    "categories": [
+      {
+        "name": "Languages & Core ML",
+        "items": ["Python", "scikit-learn", "NumPy", "pandas"]
+      },
+      {
+        "name": "Deep Learning Frameworks",
+        "items": ["TensorFlow", "PyTorch", "Keras", "Hugging Face Transformers"]
+      },
+      {
+        "name": "LLM Providers & Orchestration",
+        "items": ["OpenAI API", "Anthropic Claude", "Azure OpenAI Service", "AWS Bedrock", "LangChain", "LlamaIndex"]
+      },
+      {
+        "name": "Cloud AI Platforms",
+        "items": ["Azure Cognitive Services", "AWS Bedrock", "Google Vertex AI", "Azure Machine Learning"]
+      },
+      {
+        "name": "Vector Databases & Retrieval",
+        "items": ["Pinecone", "Weaviate", "Qdrant", "pgvector", "Chroma"]
+      },
+      {
+        "name": "MLOps & Observability",
+        "items": ["MLflow", "Weights & Biases", "Arize", "LangSmith", "Prometheus + Grafana"]
+      }
+    ]
+  },
+  "case_study": {
+    "title": "AI Integration Case Study: Industrial Parts Distributor",
+    "subtitle": "How a 240-person B2B distributor used AI workflow automation and custom ML models to cut quote-to-order time by 87 percent.",
+    "client_label": "Industry:",
+    "client": "B2B industrial parts distribution (mid-market, $180M revenue)",
+    "before_label": "Before AI Integration",
+    "after_label": "After 9 Months in Production",
+    "before": [
+      "Quote generation required 4–7 hours of manual cross-referencing across 12 legacy product databases.",
+      "Customer service reps spent 38% of their day looking up part numbers, compatibility, and pricing.",
+      "Demand forecasts were produced once per quarter in Excel, with a 28% mean absolute percentage error.",
+      "Email triage handled 1,200 inbound messages per day manually, with a 6-hour average first response time."
+    ],
+    "after": [
+      "Quote generation now completes in under 8 minutes, with a 96.4% accuracy rate on part compatibility checks.",
+      "Customer service reps focus on exceptions; AI pre-resolves 62% of routine inquiries end-to-end.",
+      "Weekly demand forecasts run automatically with 9.1% MAPE—a 67% improvement in forecast accuracy.",
+      "Inbound email triage automated at 71%, with first response time down to 11 minutes for the remainder."
+    ],
+    "metric_label": "Verified Outcome:",
+    "metric_value": "87% faster quote-to-order • $2.4M annual savings • 9.1% forecast MAPE"
+  },
+  "faq": [
+    {
+      "question": "How long does a typical enterprise AI integration project take from kickoff to production?",
+      "answer": "Most enterprise AI integration projects ship a production-ready first capability in 8 to 14 weeks. This includes a one to two-week discovery and use-case prioritization, a two to four-week prototype sprint against your real data, and a four to eight-week production deployment with MLOps, observability, and AI ROI measurement instrumentation. Larger programs that span multiple use cases run in 6 to 12 month waves."
+    },
+    {
+      "question": "Do we need to replace our existing systems to integrate AI?",
+      "answer": "No. The vast majority of our enterprise AI integration projects sit on top of your existing CRM, ERP, ticketing, document, and data warehouse systems. We expose AI capabilities through APIs, embedded UI components, and event-driven integrations, so your underlying systems remain untouched. Rip-and-replace is almost never the right answer for AI integration in a regulated or operational environment."
+    },
+    {
+      "question": "How do you measure AI ROI and prove it to our leadership?",
+      "answer": "We instrument every model call and every business outcome. AI ROI measurement starts with a baseline measurement of the process you are augmenting—time, error rate, conversion, cost-per-case. Then we track the same metrics after deployment and attribute the delta to specific AI capabilities. You receive a monthly ROI dashboard and a quarterly executive review with documented financial impact, broken down by use case."
+    },
+    {
+      "question": "Can you work with our data residency and security requirements?",
+      "answer": "Yes. We deploy inside your VPC, on-premise, or in a sovereign cloud region as required. We support single-tenant LLM deployments, customer-managed keys, private model endpoints, and full audit logging. For regulated industries we implement data-loss prevention, prompt-injection guardrails, and human-in-the-loop review for any high-risk AI action."
+    },
+    {
+      "question": "What is the difference between calling an LLM API and building custom AI models B2B?",
+      "answer": "Calling an LLM API is the fastest path to a generic capability—chat, summarization, classification. Custom AI models B2B means fine-tuning or training models on your proprietary data so the system learns your terminology, your edge cases, and your competitive context. Most enterprise programs use both: foundation models for general reasoning, custom models where accuracy, latency, cost, or IP defensibility require it."
+    }
+  ],
+  "cta": {
+    "title": "Ready to Make AI an Operating Capability, Not a Pilot?",
+    "subtitle": "Book a 30-minute AI strategy call. We will review your systems, identify the three highest-ROI AI use cases, and outline a realistic 90-day delivery plan.",
+    "button": "Book Your AI Strategy Call"
+  },
+  "breadcrumb": {
+    "home_label": "Home",
+    "current_label": "AI Integration Services"
+  }
+}

@@ -17,6 +17,22 @@ module.exports = function(eleventyConfig) {
     return `/${lang}${url}`;
   });
 
+  // --- 11ty 3.x compat: dateToRfc3339 filter (was removed in 3.x) ---
+  eleventyConfig.addFilter("dateToRfc3339", function(date) {
+    if (!date) return new Date().toISOString();
+    const d = date instanceof Date ? date : new Date(date);
+    return isNaN(d.getTime()) ? new Date().toISOString() : d.toISOString();
+  });
+
+  // --- 11ty 3.x compat: getNewestCollectionItemDate filter (was removed in 3.x) ---
+  eleventyConfig.addFilter("getNewestCollectionItemDate", function(collection) {
+    if (!Array.isArray(collection) || collection.length === 0) return null;
+    return collection
+      .map(item => item.date || item.data && item.data.date)
+      .filter(Boolean)
+      .sort((a, b) => new Date(b) - new Date(a))[0] || null;
+  });
+
   // --- i18n: lookupI18n filter ---
   // Kullanım: {{ "index" | lookupI18n: "de" }} -> { hero_title: "..." }
   // src/_data/i18n/<lang>/<page>.json dosyasını yükler

@@ -1,0 +1,276 @@
+{
+  "page_hero": {
+    "title": "Cloud Migration Services B2B",
+    "subtitle": "Move enterprise workloads to AWS, Azure, and Google Cloud with predictable timelines, zero downtime, and FinOps-driven cost control. End-to-end cloud migration services for B2B organizations ready to scale.",
+    "cta_primary": "Plan Your Migration",
+    "cta_secondary": "See Migration Approach"
+  },
+  "why_section": {
+    "title": "Why Cloud Migration Matters for B2B",
+    "subtitle": "Enterprise infrastructure is shifting from capital-intensive data centers to agile, consumption-based cloud platforms. The organizations that move decisively capture compounding advantages in speed, cost, and innovation capacity.",
+    "paragraph_1": "On-premise infrastructure creates structural drag. Hardware refresh cycles stretch into multi-year planning, capacity provisioning is slow and lumpy, and every new product initiative is gated by physical procurement. For B2B companies competing on time-to-market, that drag shows up as missed opportunities and shrinking margins. Cloud migration services B2B engagements are no longer an IT modernization exercise — they are a competitive repositioning.",
+    "paragraph_2": "The economics are clear. Gartner reports that organizations completing disciplined AWS migration or Azure migration programs typically reduce infrastructure total cost of ownership by 25 to 40 percent within 18 months, while simultaneously eliminating 70 percent of unplanned capacity-related downtime. The combination of elastic compute, managed databases, and consumption-based pricing turns infrastructure from a fixed cost into a variable cost that scales with revenue.",
+    "paragraph_3": "Beyond cost, the architecture unlocks capabilities that on-premise cannot match: global multi-region failover in minutes, sub-50ms edge latency, real-time analytics over petabyte-scale data, and a developer experience powered by managed Kubernetes, serverless functions, and platform engineering. Lift and shift gets you to the cloud quickly; re-platform unlocks the full compounding return.",
+    "paragraph_4": "The risk is doing it badly. Lift and shift without re-platform leaves stranded technical debt in cloud bills. Re-platform without FinOps discipline produces cloud sprawl that costs more than the data center ever did. The Barbuk approach sequences these properly: a measured migration that lands workloads safely, a deliberate re-platform that captures cloud-native value, and FinOps engineering that keeps every dollar accountable.",
+    "stats": [
+      {"value": "42%", "label": "Average TCO reduction over 3 years"},
+      {"value": "3.2x", "label": "Faster time-to-market for new products"},
+      {"value": "99.99%", "label": "Availability via multi-region architectures"},
+      {"value": "60+", "label": "Cloud migrations delivered for B2B clients"}
+    ]
+  },
+  "services": [
+    {
+      "id": "aws_migration",
+      "icon": "🟧",
+      "title": "AWS Migration",
+      "intro": "Plan, execute, and operate AWS migration programs across EC2, ECS, EKS, RDS, Aurora, S3, Lambda, and the full AWS serverless and data stack.",
+      "what_we_do_label": "What We Do:",
+      "features": [
+        {"label": "AWS Landing Zone:", "text": "Multi-account AWS Organizations architecture with Control Tower, IAM Identity Center, SCP guardrails, and centralized logging"},
+        {"label": "Migration Factory:", "text": "Repeatable AWS Server Migration Service, Application Migration Service, and Database Migration Service pipelines"},
+        {"label": "Well-Architected Reviews:", "text": "Five-pillar review (security, reliability, performance, cost, operational excellence, sustainability) with remediation roadmaps"},
+        {"label": "VPC & Networking:", "text": "Hub-and-spoke Transit Gateway, PrivateLink endpoints, Direct Connect, and Route 53 hybrid DNS architectures"},
+        {"label": "Data Migration:", "text": "Snowball Edge, AWS DMS, native backup/restore, and zero-downtime cutover for multi-terabyte databases"}
+      ],
+      "tech_label": "AWS Stack We Operate:",
+      "tech_stack": [
+        "EC2 Auto Scaling",
+        "EKS / ECS Fargate",
+        "RDS Aurora Serverless",
+        "Lambda & Step Functions",
+        "S3 + CloudFront",
+        "IAM Identity Center"
+      ]
+    },
+    {
+      "id": "azure_migration",
+      "icon": "🟦",
+      "title": "Azure Migration",
+      "intro": "Execute Azure migration projects with Azure Migrate, landing zone architectures, hybrid identity, and full integration with the Microsoft enterprise stack.",
+      "what_we_do_label": "What We Do:",
+      "features": [
+        {"label": "Azure Landing Zones:", "text": "CAF-compliant management group topology with Azure AD, policy initiatives, and hub-spoke virtual networks"},
+        {"label": "Azure Migrate Factory:", "text": "Discovery, assessment, and wave-based migration of VMware, Hyper-V, physical servers, SQL, and web apps"},
+        {"label": "Hybrid Identity:", "text": "Azure AD Connect, Pass-through Authentication, Conditional Access, and seamless federation with on-premise AD"},
+        {"label": "Integration with Microsoft 365:", "text": "Teams, SharePoint, Power Platform, and Dynamics 365 integrations across migrated workloads"},
+        {"label": "ExpressRoute & VPN:", "text": "Dedicated circuits and site-to-site VPN with BGP routing for high-throughput hybrid connectivity"}
+      ],
+      "tech_label": "Azure Stack:",
+      "tech_stack": [
+        "AKS / App Service",
+        "Azure SQL MI",
+        "Functions & Logic Apps",
+        "Front Door + CDN",
+        "Entra ID",
+        "ExpressRoute"
+      ]
+    },
+    {
+      "id": "gcp_migration",
+      "icon": "🟨",
+      "title": "GCP Migration",
+      "intro": "Migrate to Google Cloud with GKE, BigQuery, Cloud SQL, and a data-and-AI-first platform that excels at analytics, ML, and global low-latency serving.",
+      "what_we_do_label": "What We Do:",
+      "features": [
+        {"label": "GCP Landing Zone:", "text": "Folder hierarchy, organization policies, VPC SC, shared VPC, and Cloud IAM with least-privilege roles"},
+        {"label": "GKE Migration:", "text": "Lift existing Kubernetes workloads or re-platform onto GKE Autopilot with Anthos for hybrid/multi-cloud patterns"},
+        {"label": "BigQuery & Analytics:", "text": "Move data warehouses to BigQuery, build streaming pipelines with Dataflow and Pub/Sub"},
+        {"label": "Database Migration:", "text": "Cloud SQL, AlloyDB, Spanner, and Database Migration Service for homogeneous and heterogeneous database moves"},
+        {"label": "AI/ML Workloads:", "text": "Vertex AI, Gemini API, and Custom Model integration tuned for your migrated data estate"}
+      ],
+      "tech_label": "GCP Stack:",
+      "tech_stack": [
+        "GKE Autopilot",
+        "Cloud Run",
+        "BigQuery",
+        "Cloud SQL / AlloyDB",
+        "Vertex AI",
+        "Cloud CDN"
+      ]
+    },
+    {
+      "id": "kubernetes_migration",
+      "icon": "⎈",
+      "title": "Kubernetes Migration",
+      "intro": "Containerize and migrate applications to managed Kubernetes platforms with GitOps, service mesh, and production-grade observability from day one.",
+      "what_we_do_label": "What We Do:",
+      "features": [
+        {"label": "Containerization Assessment:", "text": "Application suitability scoring for 12-factor conformance and identify workloads needing re-platform versus direct lift"},
+        {"label": "Helm & Kustomize:", "text": "Production-ready Helm charts and Kustomize overlays parameterized for multi-environment promotion"},
+        {"label": "GitOps with ArgoCD / Flux:", "text": "Declarative cluster state, automated drift correction, and progressive delivery with Argo Rollouts"},
+        {"label": "Service Mesh:", "text": "Istio or Linkerd for mTLS, traffic shaping, canary releases, and zero-trust service-to-service policy"},
+        {"label": "Observability:", "text": "Prometheus, Grafana, Loki, Tempo, and OpenTelemetry instrumentation across every workload"}
+      ],
+      "tech_label": "Kubernetes Stack:",
+      "tech_stack": [
+        "EKS / AKS / GKE",
+        "Helm",
+        "ArgoCD",
+        "Istio",
+        "Prometheus + Grafana",
+        "OpenTelemetry"
+      ]
+    },
+    {
+      "id": "finops_optimization",
+      "icon": "💰",
+      "title": "FinOps Optimization",
+      "intro": "Build a FinOps practice that turns cloud spend from an opaque variable cost into a measurable, accountable engineering input with continuous optimization.",
+      "what_we_do_label": "What We Do:",
+      "features": [
+        {"label": "Cost Visibility:", "text": "Tagging strategy, AWS Cost Explorer, Azure Cost Management, and GCP billing exports unified into a single cost dashboard"},
+        {"label": "Reserved & Savings Plans:", "text": "Committed-use discount modeling across compute, database, and data transfer with utilization forecasting"},
+        {"label": "Right-Sizing:", "text": "Continuous rightsizing recommendations, idle resource cleanup, and architectural reviews against usage telemetry"},
+        {"label": "Unit Economics:", "text": "Cost-per-customer, cost-per-transaction, and cost-per-tenant metrics that connect spend to business outcomes"},
+        {"label": "FinOps Culture:", "text": "Showback/chargeback models, engineering cost guardrails, and FinOps Foundation-aligned operating practices"}
+      ],
+      "tech_label": "FinOps Tooling:",
+      "tech_stack": [
+        "AWS Cost Explorer",
+        "Azure Cost Management",
+        "GCP Billing",
+        "Vantage / CloudHealth",
+        "Kubecost",
+        "Custom dashboards"
+      ]
+    },
+    {
+      "id": "hybrid_cloud",
+      "icon": "🔗",
+      "title": "Hybrid Cloud Architecture",
+      "intro": "Bridge on-premise and cloud environments with secure, low-latency connectivity that lets regulated workloads stay on-premise while everything else moves to cloud.",
+      "what_we_do_label": "What We Do:",
+      "features": [
+        {"label": "Network Architecture:", "text": "Direct Connect, ExpressRoute, or Cloud Interconnect with BGP and IPSec for deterministic hybrid connectivity"},
+        {"label": "Identity Federation:", "text": "Azure AD, AWS IAM Identity Center, and Google Cloud IAM federated to on-premise AD with SSO and Conditional Access"},
+        {"label": "Data Synchronization:", "text": "Streaming replication, change-data-capture, and event-driven sync between on-premise databases and cloud"},
+        {"label": "Edge & On-Prem Cloud:", "text": "AWS Outposts, Azure Stack, or Anthos on bare metal for low-latency edge or air-gapped deployments"},
+        {"label": "Disaster Recovery:", "text": "Active-active, warm-standby, and pilot-light DR patterns with RPO/RTO targets verified by continuous drills"}
+      ],
+      "tech_label": "Hybrid Stack:",
+      "tech_stack": [
+        "Direct Connect",
+        "ExpressRoute",
+        "Cloud Interconnect",
+        "Anthos",
+        "AWS Outposts",
+        "Azure Stack"
+      ]
+    }
+  ],
+  "process": {
+    "title": "Our Cloud Migration Approach",
+    "subtitle": "A six-phase methodology refined across 60+ B2B cloud migration engagements — designed to land workloads safely, capture cloud-native value, and keep cost under control.",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Discovery & Assessment",
+        "text": "We inventory your application estate, map dependencies, profile workload characteristics, and produce a migration readiness score per application. Cloud-agnostic by default — we recommend AWS, Azure, or GCP only after we know the workload."
+      },
+      {
+        "number": "2",
+        "title": "Strategy & Business Case",
+        "text": "We define the target architecture, choose the right migration pattern per application (rehost / re-platform / refactor / repurchase / retire), and build a 3-year TCO model with FinOps commitments baked in."
+      },
+      {
+        "number": "3",
+        "title": "Landing Zone & Foundations",
+        "text": "We stand up the cloud landing zone — multi-account topology, identity federation, network architecture, observability, and security baselines — before any workload moves. Foundations are the single biggest predictor of migration success."
+      },
+      {
+        "number": "4",
+        "title": "Migration Waves",
+        "text": "We execute the migration in waves ordered by risk and value. Each wave ends with cutover, validation, rollback rehearsal, and a hypercare period. Wave planning is the rhythm of the engagement."
+      },
+      {
+        "number": "5",
+        "title": "Re-Platform & Modernize",
+        "text": "After workloads are stable, we sequence re-platform work: containers, managed databases, event-driven patterns, and cloud-native services. Re-platform is staged to absorb the cost of change without slowing the business."
+      },
+      {
+        "number": "6",
+        "title": "Operate, Optimize, FinOps",
+        "text": "We hand over to your platform team with runbooks, on-call rotations, and a continuous FinOps loop. Cost dashboards, rightsizing cadence, and architectural review boards keep the estate healthy long after migration ends."
+      }
+    ]
+  },
+  "tech_stack": {
+    "title": "Technologies We Migrate, Operate, and Optimize",
+    "subtitle": "A curated cloud-native toolchain proven across AWS, Azure, GCP, and hybrid environments.",
+    "categories": [
+      {
+        "name": "Hyperscale Cloud Providers",
+        "items": ["AWS", "Microsoft Azure", "Google Cloud Platform"]
+      },
+      {
+        "name": "Container & Orchestration",
+        "items": ["Kubernetes", "Docker", "Helm", "ArgoCD"]
+      },
+      {
+        "name": "Infrastructure as Code",
+        "items": ["Terraform", "Ansible", "Pulumi"]
+      },
+      {
+        "name": "Networking & Edge",
+        "items": ["CloudFront", "Azure Front Door / CDN", "Cloud CDN", "Istio Service Mesh"]
+      },
+      {
+        "name": "Observability & FinOps",
+        "items": ["Prometheus", "Grafana", "Datadog", "Vantage FinOps"]
+      }
+    ]
+  },
+  "case_study": {
+    "title": "Case Study: B2B SaaS Migration to Multi-Region AWS",
+    "subtitle": "How a mid-market B2B SaaS platform moved from a single-region on-premise deployment to a multi-region AWS architecture without losing a single transaction.",
+    "client_label": "Industry",
+    "client": "B2B SaaS — Workflow Automation",
+    "challenge_label": "Challenge",
+    "challenge": "The platform ran on a single on-premise data center with 600ms global latency, quarterly capacity upgrades, and an annual DR drill that took 36 hours. Sales deals in EMEA and APAC stalled on performance objections, and infrastructure spend consumed 28 percent of recurring revenue.",
+    "approach_label": "Approach",
+    "approach": "We sequenced a phased migration: first the data tier to Amazon Aurora PostgreSQL with cross-region replicas, then stateless services to EKS across three regions (us-east-1, eu-west-1, ap-southeast-1), and finally CloudFront with Lambda@Edge for global request routing. Terraform and ArgoCD drove the entire infrastructure and deployment pipeline.",
+    "before_label": "Before",
+    "before": "Single-region data center, 600ms p95 global latency, 28 percent infra share of revenue, 36-hour annual DR drill.",
+    "after_label": "After",
+    "after": "Three active AWS regions with Aurora global database, 85ms p95 global latency via CloudFront, 11 percent infra share of revenue, automated cross-region failover in under 90 seconds.",
+    "results_label": "Measured Results",
+    "results": [
+      {"value": "61%", "label": "Infrastructure cost reduction"},
+      {"value": "85ms", "label": "Global p95 latency (down from 600ms)"},
+      {"value": "11%", "label": "Infra cost as share of revenue"},
+      {"value": "90s", "label": "Cross-region failover RTO"}
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Common questions B2B teams ask before starting a cloud migration engagement.",
+    "items": [
+      {
+        "question": "How long does a typical B2B cloud migration take?",
+        "answer": "Most B2B cloud migration engagements run between 4 and 12 months end-to-end, depending on application count, regulatory scope, and how much re-platform work is included. A focused AWS migration or Azure migration with 20 to 40 applications typically completes in 5 to 7 months when foundations are scoped explicitly."
+      },
+      {
+        "question": "Lift and shift vs re-platform — which should we choose?",
+        "answer": "It depends on the workload. Lift and shift is right for systems you plan to retire within 18 to 36 months or for workloads where a re-platform would delay a measurable business benefit. Re-platform is right for systems you intend to evolve on cloud-native patterns. Most B2B programs use both: lift and shift for 60 to 70 percent of the estate to capture cloud economics quickly, then re-platform the strategic core."
+      },
+      {
+        "question": "Which cloud provider should we choose — AWS, Azure, or GCP?",
+        "answer": "The choice should follow the workload, not the marketing. AWS is the broadest hyperscaler and the strongest default for general enterprise workloads. Azure wins when your stack is Microsoft-heavy (Windows Server, SQL Server, .NET, Active Directory, Microsoft 365). GCP wins for data-and-AI-first workloads on BigQuery, GKE, and Vertex AI. We recommend running a two-day hyperscaler evaluation when the choice is genuinely contested."
+      },
+      {
+        "question": "What is FinOps and why is it part of cloud migration?",
+        "answer": "FinOps is the discipline of making cloud spend visible, accountable, and continuously optimized across engineering, finance, and product. Cloud migration without FinOps almost always produces cloud sprawl — workloads that cost more on cloud than they did on-premise. We embed FinOps from the landing-zone phase: tagging, cost dashboards, committed-use discount modeling, and unit-economics metrics become part of how the platform operates."
+      },
+      {
+        "question": "How do you handle data migration and cutover risk?",
+        "answer": "Every database move uses change-data-capture with a reversible cutover plan. We run a full dress rehearsal on a production-equivalent environment, validate row counts, checksums, and referential integrity, and execute cutover during a low-traffic window with a documented rollback path. For multi-terabyte databases we use AWS DMS, Azure Database Migration Service, or native backup/restore depending on the source and target."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Plan Your Cloud Migration",
+    "subtitle": "Book a free 30-minute architecture call. We will review your current estate, surface the highest-impact migration pattern, and outline a realistic 12-month path to AWS, Azure, or GCP.",
+    "button": "Schedule Migration Call"
+  }
+}

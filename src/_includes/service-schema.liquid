@@ -1,15 +1,17 @@
 {%- comment -%}
   Service JSON-LD schema generator.
   Usage: {% include "service-schema.liquid" with services: t.services %}
-  Çıktı: <script type="application/ld+json"> with ItemList of Service entries.
+  LiquidJS 10+ uyumlu: with ile geçirilen parametreler include scope'unda
+  doğrudan isimle erişilebilir (`services`), eski `include.services` artık
+  undefined döner.
 {%- endcomment -%}
-{%- if include.services -%}
+{%- if services -%}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "ItemList",
   "itemListElement": [
-    {%- for s in include.services -%}
+    {%- for s in services -%}
     {
       "@type": "ListItem",
       "position": {{ forloop.index }},

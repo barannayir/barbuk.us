@@ -1,0 +1,32 @@
+---
+permalink: /it/feed.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Barbuk — Modernizzazione Sistemi Legacy</title>
+  <subtitle>Articoli sulla modernizzazione dei sistemi legacy, integrazione AI e ingegneria del software B2B.</subtitle>
+  <link href="https://barbuk.us/it/feed.xml" rel="self"/>
+  <link href="https://barbuk.us/it/"/>
+  <id>https://barbuk.us/it/</id>
+  <updated>{{ collections.blogPosts | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
+  {%- assign targetLang = "it" -%}
+  {%- for post in collections.blogPosts -%}
+    {%- assign postLang = "en" -%}
+    {%- assign pathParts = post.url | split: "/" -%}
+    {%- for part in pathParts -%}
+      {%- if part == "de" or part == "fr" or part == "nl" or part == "it" or part == "es" -%}
+        {%- assign postLang = part -%}
+      {%- endif -%}
+    {%- endfor -%}
+    {%- if postLang == targetLang -%}
+      <entry>
+        <title>{{ post.data.title }}</title>
+        <link href="https://barbuk.us{{ post.url }}"/>
+        <id>https://barbuk.us{{ post.url }}</id>
+        <updated>{{ post.date | dateToRfc3339 }}</updated>
+        <summary>{{ post.data.description }}</summary>
+      </entry>
+    {%- endif -%}
+  {%- endfor %}
+</feed>

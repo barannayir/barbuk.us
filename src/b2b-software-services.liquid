@@ -1,0 +1,226 @@
+---
+layout: base.liquid
+title: B2B Software Services | Custom B2B SaaS Development & Enterprise Integration
+description: 'End-to-end B2B software services: custom B2B software, B2B SaaS development, B2B API development, enterprise integration, and workflow automation. Senior engineers, 6-week MVPs.'
+i18n_key: b2b-software-services
+permalink: /b2b-software-services/index.html
+---
+{% assign t = "b2b-software-services" | lookupI18n: "en" %}
+
+<!-- BreadcrumbList JSON-LD (Home > B2B Software Services) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://barbuk.us/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "B2B Software Services",
+      "item": "https://barbuk.us/b2b-software-services/"
+    }
+  ]
+}
+</script>
+
+<!-- Hero Section -->
+<section class="page-hero">
+  <div class="container">
+    <h1>{{ t.page_hero.title }}</h1>
+    <p class="hero-subtitle">{{ t.page_hero.subtitle }}</p>
+    <div class="hero-cta">
+      <a href="/contact" class="btn-primary btn-lg">{{ t.cta.button }}</a>
+      <a href="/services" class="btn-secondary btn-lg">{{ t.cta.secondary_button }}</a>
+    </div>
+  </div>
+</section>
+
+<!-- Why B2B Software Services -->
+<section class="why-modernize">
+  <div class="container">
+    <h2>{{ t.why_b2b.section_title }}</h2>
+    <p class="section-intro">{{ t.why_b2b.intro }}</p>
+
+    {% for p in t.why_b2b.paragraphs %}
+    <p>{{ p }}</p>
+    {% endfor %}
+
+    <div class="stats-grid">
+      {% for stat in t.why_b2b.stats %}
+      <div class="stat-card">
+        <div class="stat-value">{{ stat.value }}</div>
+        <div class="stat-label">{{ stat.label }}</div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- Our B2B Services Grid -->
+<section class="services-detail">
+  <div class="container">
+    <h2>{{ t.services_grid.title | default: "Our B2B Services" }}</h2>
+    <p class="section-subtitle">{{ t.services_grid.subtitle | default: "Six practice areas covering the full B2B software services lifecycle—from custom platforms and SaaS products to APIs, integrations, automation, and senior technical guidance." }}</p>
+
+    {% for service in t.services %}
+    <div class="service-detail" id="{{ service.id }}">
+      <div class="service-icon-large">{{ service.icon }}</div>
+      <h3>{{ service.title }}</h3>
+      <p class="service-intro">{{ service.intro }}</p>
+
+      <div class="service-features">
+        <h4>{{ service.what_we_do_label }}</h4>
+        <ul>
+          {% for feature in service.features %}
+          <li><strong>{{ feature.label }}</strong> {{ feature.text }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      <div class="service-tech-stack">
+        <strong>{{ service.tech_label }}</strong>
+        <div class="tech-tags">
+          {% for tech in service.tech_stack %}
+          <span>{{ tech }}</span>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<!-- Engagement Model / Process Steps -->
+<section class="process-section">
+  <div class="container">
+    <h2>{{ t.process.title }}</h2>
+    <p class="section-subtitle">{{ t.process.subtitle }}</p>
+
+    <div class="process-steps">
+      {% for step in t.process.steps %}
+      <div class="process-step">
+        <div class="step-number">{{ step.number }}</div>
+        <h3>{{ step.title }}</h3>
+        <p>{{ step.text }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- Tech Stack Section -->
+<section class="tech-stack-section">
+  <div class="container">
+    <h2>{{ t.tech_stack.title }}</h2>
+    <p class="section-subtitle">{{ t.tech_stack.subtitle }}</p>
+
+    <div class="tech-categories">
+      {% for category in t.tech_stack.categories %}
+      <div class="tech-category">
+        <h3>{{ category.name }}</h3>
+        <div class="tech-tags">
+          {% for item in category.items %}
+          <span>{{ item }}</span>
+          {% endfor %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- Case Study Section -->
+<section class="case-study">
+  <div class="container">
+    <h2>{{ t.case_study.title }}</h2>
+    <p class="section-subtitle">{{ t.case_study.subtitle }}</p>
+
+    <div class="case-study-meta">
+      <span><strong>Industry:</strong> {{ t.case_study.industry }}</span>
+      <span><strong>Duration:</strong> {{ t.case_study.duration }}</span>
+    </div>
+
+    <div class="case-study-grid">
+      <div class="case-study-before">
+        <h3>{{ t.case_study.before.heading }}</h3>
+        <ul>
+          {% for item in t.case_study.before.items %}
+          <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      <div class="case-study-after">
+        <h3>{{ t.case_study.after.heading }}</h3>
+        <ul>
+          {% for item in t.case_study.after.items %}
+          <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+
+    <div class="case-study-metric">
+      <div class="metric-value">{{ t.case_study.metric.value }}</div>
+      <div class="metric-label">{{ t.case_study.metric.label }}</div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ Section -->
+<section class="faq-section">
+  <div class="container">
+    <h2>{{ t.faq.title }}</h2>
+    <p class="section-subtitle">{{ t.faq.subtitle }}</p>
+
+    <div class="faq-list">
+      {% for item in t.faq.items %}
+      <div class="faq-item">
+        <h3 class="faq-question">{{ item.question }}</h3>
+        <p class="faq-answer">{{ item.answer }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- FAQPage JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {%- for item in t.faq.items -%}
+    {
+      "@type": "Question",
+      "name": {{ item.question | jsonify }},
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": {{ item.answer | jsonify }}
+      }
+    }{% unless forloop.last %},{% endunless %}
+    {%- endfor -%}
+  ]
+}
+</script>
+
+<!-- Final CTA Section -->
+<section class="cta-section">
+  <div class="container">
+    <h2>{{ t.cta.title }}</h2>
+    <p>{{ t.cta.subtitle }}</p>
+    <div class="cta-buttons">
+      <a href="/contact" class="btn-primary btn-lg">{{ t.cta.button }}</a>
+      <a href="/services" class="btn-secondary btn-lg">{{ t.cta.secondary_button }}</a>
+    </div>
+  </div>
+</section>
+
+<!-- Service ItemList JSON-LD -->
+{% include "service-schema.liquid", services: t.services %}
