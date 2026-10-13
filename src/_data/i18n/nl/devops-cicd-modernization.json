@@ -1,0 +1,401 @@
+{
+  "page_hero": {
+    "title": "DevOps & CI/CD-modernisatie B2B",
+    "subtitle": "Engineeringresultaten, geen slides. Wij moderniseren CI/CD-pipelines, leveren platform-engineering-fundamenten en zetten GitOps centraal in elke B2B-deliveryorganisatie. Voorspelbare deployments, meetbare DORA-metrics, security ingebouwd van commit tot productie.",
+    "cta_primary": "Architectuur-review boeken",
+    "cta_secondary": "Bekijk moderniseringsaanpak"
+  },
+  "why_section": {
+    "title": "Waarom DevOps-advies ertoe doet voor B2B",
+    "subtitle": "De snelheid van softwarelevering is een metric op bestuursniveau geworden. Bedrijven die dagelijks shippen — en in minuten herstellen van een incident — lopen weg van concurrenten die nog wekelijkse release trains draaien. DevOps-adviesopdrachten vertalen die ambitie naar pipelines, platforms en een cultuur die elkaar versterken.",
+    "paragraph_1": "De meeste enterprise-engineeringorganisaties zijn niet per ongeluk zo geworden — ze zijn gegroeid via overnames, hiring waves en productpivots die de delivery-toolchain heterogeen hebben achtergelaten. Jenkins draait naast GitHub Actions. Helm-charts worden in dezelfde repo gecheckt als Terraform. Productietoegang is verspreid over vier ticket-systemen. CI/CD-modernisatie is het bewuste werk om die verzameling samen te voegen tot één opinionated delivery-platform dat elke engineer kan gebruiken zonder een ticket te openen.",
+    "paragraph_2": "De cijfers rechtvaardigen de investering. Googles DORA-onderzoek laat consistent zien dat elite performers 208 keer vaker deployen dan low performers, met een 7 keer lagere change failure rate en 2.604 keer snellere incident recovery. Zelfs een derde van die kloof dichten vergt doorgaans twee elkaar versterkende zetten: een volledig geautomatiseerde CI/CD-pipeline die een commit zonder menselijke gate naar productie brengt, en een platform-engineering-laag die elke developer een paved road biedt voor omgevingen, secrets en observability.",
+    "paragraph_3": "Platform engineering verandert de economie van delivery. Wanneer self-service provisioning change boards vervangt voor routinewerk, is engineering velocity niet langer een functie van headcount. GitOps-adoptie maakt cluster state tot een versioned artefact dat net zo te reviewen, terug te draaien en te auditen is als applicatiecode. Infrastructure as Code maakt elke omgeving reproduceerbaar, elke drift detecteerbaar en elke wijziging zichtbaar. Dit zijn geen abstracte voordelen — ze komen direct terug in MTTR, deployment frequency en change failure rate, die raden van bestuur nu volgen.",
+    "paragraph_4": "De verkeerde zet is tools kopen zonder architectuur. ArgoCD stapelen boven op een handmatig change-proces creëert Git theatre, geen GitOps. Kubernetes omarmen zonder platformlaag maakt van elk team een toevallige cluster-operator. Barbuk sequenst het werk: beoordeel de delivery value stream, ontwerp de doel-pipeline, bouw het platformfundament, migreer workloads ernaartoe en veranker SRE-praktijken die het systeem onder productielast gezond houden. Het resultaat is een delivery-platform dat met de engineeringorganisatie meegroeit, niet ertegen.",
+    "stats": [
+      {
+        "value": "12x",
+        "label": "Hogere deployment frequency na platform engineering"
+      },
+      {
+        "value": "5%",
+        "label": "Change failure rate haalbaar op DORA Elite-niveau"
+      },
+      {
+        "value": "73%",
+        "label": "Gemiddelde verlaging van lead time for changes"
+      },
+      {
+        "value": "50+",
+        "label": "CI/CD-modernisaties opgeleverd voor B2B-klanten"
+      }
+    ]
+  },
+  "services": [
+    {
+      "id": "cicd_pipeline_modernization",
+      "icon": "🔁",
+      "title": "CI/CD-pipeline-modernisatie",
+      "intro": "Vervang fragiele, handmatige of gefragmenteerde delivery-pipelines door trunk-based commit-to-productie-automatisering over Jenkins, GitHub Actions, GitLab CI en ArgoCD.",
+      "what_we_do_label": "Wat wij doen:",
+      "features": [
+        {
+          "label": "Pipeline-assessment:",
+          "text": "Value stream mapping van elk commit-to-productie-pad, bottleneck-analyse en een doel-pipeline-design afgestemd op de vier DORA-kernmetrics"
+        },
+        {
+          "label": "Trunk-based development:",
+          "text": "Branch-strategie, feature flag-integratie met LaunchDarkly of Unleash, en kortlevende branches met geautomatiseerde merge en rollback"
+        },
+        {
+          "label": "Pipeline as Code:",
+          "text": "Jenkinsfile, GitHub Actions-workflows, GitLab CI YAML en herbruikbare shared libraries met geparameteriseerde multi-stage-promotion"
+        },
+        {
+          "label": "Progressive delivery:",
+          "text": "Canary, blue-green en Argo Rollouts met geautomatiseerde analyse, metric-based promotion en one-click rollback"
+        },
+        {
+          "label": "Build- en testoptimalisatie:",
+          "text": "Remote build caching, parallel test sharding, gecontaineriseerde build-runners en pipeline-observability met build duration tracking"
+        }
+      ],
+      "tech_label": "Pipeline-stack:",
+      "tech_stack": [
+        "Jenkins",
+        "GitHub Actions",
+        "GitLab CI",
+        "ArgoCD",
+        "Argo Rollouts",
+        "BuildKit / Kaniko"
+      ]
+    },
+    {
+      "id": "kubernetes_platform_engineering",
+      "icon": "⎈",
+      "title": "Kubernetes Platform Engineering",
+      "intro": "Richt een productie-klare internal developer platform op managed Kubernetes — EKS, AKS, GKE of on-prem — met paved-road golden paths voor elk applicatieteam.",
+      "what_we_do_label": "Wat wij doen:",
+      "features": [
+        {
+          "label": "Managed Kubernetes-migratie:",
+          "text": "Til bestaande workloads naar EKS, AKS, GKE, of migreer van zelfbeheerde clusters naar managed control planes met zero-downtime cutover"
+        },
+        {
+          "label": "Internal Developer Platform:",
+          "text": "Service catalogus op Backstage, scaffolder-templates, golden-path-pipelines en self-service-provisioning van omgevingen"
+        },
+        {
+          "label": "Multi-tenant clusterdesign:",
+          "text": "Namespace-isolatie, pod security standards, network policies, ResourceQuotas en per-team workspaces met policy-guardrails"
+        },
+        {
+          "label": "Cluster-add-ons:",
+          "text": "Ingress-nginx of Traefik, cert-manager, ExternalDNS, sealed-secrets, Velero-backups en Cluster Autoscaler met Karpenter"
+        },
+        {
+          "label": "Day-2-operations:",
+          "text": "Upgrade-runbooks, etcd-backups, node pool-beheer en Kubernetes version skew policy over productievloten"
+        }
+      ],
+      "tech_label": "Kubernetes-platformstack:",
+      "tech_stack": [
+        "AWS EKS",
+        "Azure AKS",
+        "Google GKE",
+        "On-prem K8s",
+        "Backstage",
+        "Karpenter"
+      ]
+    },
+    {
+      "id": "gitops_iac",
+      "icon": "🧬",
+      "title": "GitOps & Infrastructure as Code",
+      "intro": "Maak van elke cluster, elk netwerk en elke datastore een versioned, gereviewd, auditeerbaar artefact met Terraform, Pulumi, ArgoCD en FluxCD.",
+      "what_we_do_label": "Wat wij doen:",
+      "features": [
+        {
+          "label": "Infrastructure as Code:",
+          "text": "Terraform- of Pulumi-modules voor AWS, Azure, GCP en hybride — herbruikbaar, getest en versioned met semantic release"
+        },
+        {
+          "label": "GitOps-adoptie:",
+          "text": "ArgoCD- of FluxCD-ApplicationSets, repo-structuur voor app-of-apps, drift detection en geautomatiseerde reconciliatie tegen de desired state"
+        },
+        {
+          "label": "Omgevingspromotie:",
+          "text": "Dev, staging en prod worden via Git-branches en overlay-directories gepromoveerd met promotiegates en policy-checks"
+        },
+        {
+          "label": "State en secrets:",
+          "text": "Terraform state-backend op S3 met DynamoDB locking, sealed-secrets of External Secrets met HashiCorp Vault voor runtime-credentials"
+        },
+        {
+          "label": "Policy as Code:",
+          "text": "OPA, Conftest en Sentinel ingebed in pipelines om tag-standaarden, security baselines en compliance af te dwingen op elke PR"
+        }
+      ],
+      "tech_label": "GitOps- en IaC-stack:",
+      "tech_stack": [
+        "Terraform",
+        "Pulumi",
+        "ArgoCD",
+        "FluxCD",
+        "Atlantis",
+        "HashiCorp Vault"
+      ]
+    },
+    {
+      "id": "observability_sre",
+      "icon": "📊",
+      "title": "Observability & SRE-transformatie",
+      "intro": "Ga van reactief blussen naar SRE-engineered betrouwbaarheid — SLI's, SLO's, error budgets en een observability-stack die telemetry omzet in productbeslissingen.",
+      "what_we_do_label": "Wat wij doen:",
+      "features": [
+        {
+          "label": "OpenTelemetry-instrumentatie:",
+          "text": "End-to-end traces, metrics en logs met OTLP-collectors uitgerold in elke service, taal en runtime van het estate"
+        },
+        {
+          "label": "Metrics en dashboards:",
+          "text": "Prometheus-, Grafana- en Datadog-dashboards voor golden signals, RED-methode, USE-methode en SLO burn-rate alerting"
+        },
+        {
+          "label": "SLO-engineering:",
+          "text": "SLI-definitieworkshops, error budget policies, multi-window burn-rate alerts en SLO-review boards gekoppeld aan productroadmaps"
+        },
+        {
+          "label": "Incident response:",
+          "text": "PagerDuty- of Opsgenie-integratie, runbook-automatisering, blameless post-mortems en incident command-training voor on-call-rotaties"
+        },
+        {
+          "label": "Log- en trace-pipeline:",
+          "text": "Loki of Elasticsearch voor logs, Tempo of Jaeger voor traces, Fluent Bit-shippers en bewaartermijnen afgestemd op compliance-eisen"
+        }
+      ],
+      "tech_label": "Observability-stack:",
+      "tech_stack": [
+        "Prometheus",
+        "Grafana",
+        "Datadog",
+        "OpenTelemetry",
+        "Loki / Tempo",
+        "PagerDuty"
+      ]
+    },
+    {
+      "id": "devsecops_integration",
+      "icon": "🛡️",
+      "title": "DevSecOps-integratie",
+      "intro": "Veranker security in elke commit, image en deployment — shift-left scanning, policy gates en runtime threat detection die engineers daadwerkelijk gebruiken.",
+      "what_we_do_label": "Wat wij doen:",
+      "features": [
+        {
+          "label": "SAST en dependency-scanning:",
+          "text": "Snyk, Trivy en Grype geïntegreerd in pull request-checks met severity-gebaseerde merge-blokkering en remediation-guidance"
+        },
+        {
+          "label": "Container- en IaC-scanning:",
+          "text": "Trivy en Checkov in CI-pipelines, image signing met Cosign, admission controllers die unscored workloads weigeren"
+        },
+        {
+          "label": "Policy en compliance:",
+          "text": "OPA Gatekeeper en Conftest handhaven CIS-benchmarks, SOC 2-controls en PCI-DSS-guardrails op elke cluster"
+        },
+        {
+          "label": "Runtime threat detection:",
+          "text": "Falco met custom rules voor afwijkende syscalls, netwerkverkeer en Kubernetes-audit-events gestreamd naar SIEM"
+        },
+        {
+          "label": "Secrets en identity:",
+          "text": "HashiCorp Vault met dynamische secrets, kortlevende cloud-credentials via IRSA en Workload Identity, en zero standing privilege"
+        }
+      ],
+      "tech_label": "DevSecOps-stack:",
+      "tech_stack": [
+        "Snyk",
+        "Trivy",
+        "OPA / Gatekeeper",
+        "Falco",
+        "Cosign",
+        "HashiCorp Vault"
+      ]
+    }
+  ],
+  "process": {
+    "title": "Onze DevOps- en CI/CD-moderniseringsaanpak",
+    "subtitle": "Een vijf-fase opdracht, verfijnd over 50+ B2B-moderniseringsprogramma's — ontworpen om delivery van handmatig naar geautomatiseerd te brengen, van helden-teams naar platform-enabled product engineering.",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Delivery value stream-assessment",
+        "text": "Wij mappen elk commit-to-productie-pad, identificeren handmatige gates en knelpunten, en benchmarken uw huidige situatie tegen de vier DORA-kernmetrics. Het resultaat is een geprioriteerde doelarchitectuur met een gesequencde moderniseringsroadmap gekoppeld aan meetbare engineeringresultaten."
+      },
+      {
+        "number": "2",
+        "title": "Doel-pipeline- en platformdesign",
+        "text": "Wij ontwerpen de doel-CI/CD-architectuur, kiezen tussen GitHub Actions, GitLab CI of Jenkins, en definiëren de platform-engineering-laag die elke cluster zal omhullen. Beslissingen worden gedocumenteerd, onderbouwd en gereviewd met uw engineeringleiderschap voordat er een regel code wordt geschreven."
+      },
+      {
+        "number": "3",
+        "title": "Platformfundament bouwen",
+        "text": "Wij richten het platformfundament op: GitOps-controllers, IaC-modules, secret management, observability-stack en DevSecOps-scanning. Het fundament wordt één keer gebouwd en door elk applicatieteam dat zich aansluit hergebruikt — de grootste force multiplier in de opdracht."
+      },
+      {
+        "number": "4",
+        "title": "Pipeline-migratie en paved roads",
+        "text": "Wij migreren één team tegelijk naar de nieuwe pipeline en het nieuwe platform. Elke migratie omvat een paved-road-template, hands-on enablement en een hypercare-venster. Wij migreren niet alle teams tegelijk — sequentiële migratie laat ons elke cohorte stabiliseren voor de volgende onboarding."
+      },
+      {
+        "number": "5",
+        "title": "SRE-praktijken en continue verbetering",
+        "text": "Wij verankeren SRE-praktijken: SLI's, SLO's, error budgets, blameless post-mortems en een cadence voor continue verbetering van het platform zelf. De opdracht eindigt wanneer uw engineers het platform zonder ons draaien, met gedocumenteerde runbooks en een SRE-operating model."
+      }
+    ]
+  },
+  "tech_stack": {
+    "title": "DevOps- en CI/CD-technologieën die wij opereren",
+    "subtitle": "Een gecureerde toolchain, bewezen over enterprise B2B-moderniseringsprogramma's — opinionated defaults met de flexibiliteit om te integreren wat u al draait.",
+    "categories": [
+      {
+        "name": "Container & orchestratie",
+        "items": [
+          "Kubernetes",
+          "Docker",
+          "Helm",
+          "Kustomize"
+        ]
+      },
+      {
+        "name": "GitOps-controllers",
+        "items": [
+          "ArgoCD",
+          "FluxCD",
+          "Argo Rollouts",
+          "Atlantis"
+        ]
+      },
+      {
+        "name": "Infrastructure as Code",
+        "items": [
+          "Terraform",
+          "Pulumi",
+          "Ansible",
+          "Crossplane"
+        ]
+      },
+      {
+        "name": "CI/CD-engines",
+        "items": [
+          "GitHub Actions",
+          "GitLab CI",
+          "Jenkins",
+          "Buildkite"
+        ]
+      },
+      {
+        "name": "Observability & SRE",
+        "items": [
+          "Prometheus",
+          "Grafana",
+          "Datadog",
+          "OpenTelemetry",
+          "PagerDuty"
+        ]
+      },
+      {
+        "name": "DevSecOps-toolchain",
+        "items": [
+          "Snyk",
+          "Trivy",
+          "OPA / Gatekeeper",
+          "Falco",
+          "Cosign"
+        ]
+      },
+      {
+        "name": "Managed Kubernetes-platformen",
+        "items": [
+          "AWS EKS",
+          "Azure AKS",
+          "Google GKE",
+          "On-prem K8s"
+        ]
+      },
+      {
+        "name": "Secrets & identity",
+        "items": [
+          "HashiCorp Vault",
+          "External Secrets",
+          "IRSA",
+          "Workload Identity"
+        ]
+      }
+    ]
+  },
+  "case_study": {
+    "title": "Praktijkverhaal: productiebedrijf moderniseert CI/CD en bereikt DORA Elite",
+    "subtitle": "Hoe een Europese fabrikant is overgestapt van wekelijkse, handmatige deployments naar on-demand releases van 15 minuten en change failures terugbracht van 40 procent naar 5 procent.",
+    "client_label": "Branche",
+    "client": "Discreet fabricage — industriële automatisering",
+    "challenge_label": "Uitdaging",
+    "challenge": "De engineeringorganisatie draaide één gedeelde Jenkins-instantie, overgenomen uit een overname in 2014, met handmatige approval gates in elke fase. Productie-deployments consumeerden elke week een hele vrijdag, change failures lagen gemiddeld op 40 procent, en rollback vereiste een war room van 6 uur. Productteams behandelden releasedagen als code red, en kwartaal-roadmapbeloften schoven maanden op door deployment-risico.",
+    "approach_label": "Aanpak",
+    "approach": "Wij ontwierpen een trunk-based, GitOps-gedreven delivery-platform: GitHub Actions voor CI, ArgoCD voor cluster-sync, Terraform voor infrastructuur, en een internal developer platform op basis van Backstage draaiend op EKS. Wij migreerden teams cohort na cohort, instrumenteerden elke fase met OpenTelemetry, en richtten een SLO-gedreven release-proces op met progressive delivery via Argo Rollouts.",
+    "before_label": "Voor",
+    "before": "Wekelijkse productie-deployments van 3 uur, 40 procent change failure rate, 6 uur rollback, handmatige change advisory board-approval voor elke release.",
+    "after_label": "Na",
+    "after": "On-demand deployments van 15 minuten vanuit main branch, 5 procent change failure rate, geautomatiseerde rollback onder 90 seconden, volledig self-served pipelines met policy gates alleen op gereguleerde workloads.",
+    "results_label": "Meetbare resultaten",
+    "results": [
+      {
+        "value": "12x",
+        "label": "Toename deployment frequency (wekelijks naar meerdere keren per dag)"
+      },
+      {
+        "value": "5%",
+        "label": "Change failure rate (van 40%)"
+      },
+      {
+        "value": "90s",
+        "label": "Gemiddelde rollback-tijd (van 6 uur)"
+      },
+      {
+        "value": "2,5x",
+        "label": "Engineering-throughput gemeten in PR's gemerged naar productie"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Veelgestelde vragen",
+    "subtitle": "Veelvoorkomende vragen die B2B-engineeringleiders stellen voor de start van een DevOps-adviesopdracht.",
+    "items": [
+      {
+        "question": "Wat is het DevOps-adviesopdracht-model?",
+        "answer": "Wij starten met een fixed-scope discovery- en roadmapfase — doorgaans 3 tot 4 weken — gevolgd door een meer-maanden durende deliveryfase met een dedicated senior team. De discoveryfase levert een meetbare baseline, een doelarchitectuur en een gesequencde roadmap. De delivery verloopt in cohortes met expliciete succescriteria per cohorte. De meeste opdrachten lopen 6 tot 12 maanden end-to-end; sommige bedrijven gaan daarna door op een managed platform SRE-basis."
+      },
+      {
+        "question": "Hoe lang duurt een CI/CD-modernisatie?",
+        "answer": "Een gefocuste CI/CD-modernisatie voor één applicatieteam kan in 6 tot 8 weken worden voltooid. Een enterprise-breed programma dat 15 tot 30 teams omvat, duurt doorgaans 9 tot 14 maanden wanneer het cohorte-na-cohorte wordt gesequensd. Platform-engineering-lagen duren langer omdat ze elk ander team omhullen — reken op 6 tot 9 maanden voordat meetbare DORA-metricbewegingen zichtbaar worden over de hele engineeringorganisatie."
+      },
+      {
+        "question": "Werken jullie met onze bestaande Jenkins of GitHub Actions?",
+        "answer": "Ja — wij adviseren zelden om werkende tooling eruit te trekken. Onze default is om uw bestaande CI-engine (Jenkins, GitHub Actions, GitLab CI of Buildkite) te behouden en de omringende pipeline te moderniseren: shared libraries, omgevingspromotie, secret-integratie, security gates en progressive delivery. Wij migreren tools alleen wanneer de bestaande engine niet aan een specifieke architectuureis kan voldoen, en wij begeleiden de migratie in dat geval."
+      },
+      {
+        "question": "Wat is de ROI van platform engineering?",
+        "answer": "De meeste B2B-platform-engineeringopdrachten bereiken break-even binnen 12 tot 18 maanden. De grootste return drivers zijn: bespaarde engineering-uren per sprint op omgevings-provisioning en CI-onderhoud (doorgaans 15 tot 25 procent van de senior-engineer-tijd); verlaging van incident-MTTR door betere observability; snellere onboarding van nieuwe engineers op de paved road; en lagere compliance-kosten door policy-as-code en shift-left scanning. Wij bouwen de businesscase tijdens de discoveryfase met conservatieve modelling op basis van uw cijfers."
+      },
+      {
+        "question": "Hoe gaan jullie om met legacy-monoliet-deployments?",
+        "answer": "Legacy-monolieten blijven op hun huidige deployment-proces — wij omhullen, vervangen niet. Typisch patroon: houd de monoliet op zijn huidige release-cadans, omring hem met een platformlaag voor nieuwe microservices, en extraheer progressief goed afgebakende capabilities naar gecontaineriseerde services die de monoliet via stabiele API's consumeren. Argo Rollouts en feature flags laten ons individuele geëxtraheerde services via canary uitrollen zonder de deployment-cadans van de monoliet aan te raken. Wij hebben dit patroon geleverd bij meerdere klanten in productie en financiële dienstverlening."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Boek een DevOps-architectuur-review",
+    "subtitle": "Boek een gratis architectuurgesprek van 45 minuten. Wij reviewen uw huidige delivery-toolchain, benchmarken uw vier DORA-kernmetrics en schetsen een realistisch pad van 6 tot 12 maanden naar meetbare engineeringresultaten.",
+    "button": "Architectuur-review plannen"
+  }
+}

@@ -1,0 +1,401 @@
+{
+  "page_hero": {
+    "title": "DevOps & Modernisation CI/CD B2B",
+    "subtitle": "Des résultats d'ingénierie, pas des slides. Nous modernisons les pipelines CI/CD, livrons les fondations du platform engineering et plaçons GitOps au centre de chaque organisation de delivery B2B. Déploiements prévisibles, métriques DORA mesurables, sécurité intégrée du commit à la production.",
+    "cta_primary": "Réserver une revue d'architecture",
+    "cta_secondary": "Voir l'approche de modernisation"
+  },
+  "why_section": {
+    "title": "Pourquoi le conseil DevOps est essentiel pour le B2B",
+    "subtitle": "La vitesse de livraison logicielle est devenue une métrique de niveau conseil d'administration. Les entreprises qui livrent quotidiennement et récupèrent après incident en quelques minutes devancent les concurrents qui tournent encore avec des release trains hebdomadaires. Les engagements de conseil DevOps traduisent cette ambition en pipelines, plateformes et culture qui se renforcent.",
+    "paragraph_1": "La plupart des organisations d'ingénierie enterprise ne sont pas arrivées là par hasard — elles ont grandi par acquisitions, vagues d'embauche et pivots produit qui ont rendu la toolchain hétérogène. Jenkins à côté de GitHub Actions, des charts Helm versionnés dans le même repo que Terraform, l'accès à la production éparpillé sur quatre systèmes de tickets. La modernisation CI/CD consiste à consolider cet héritage en une plateforme unique utilisable sans ouvrir de ticket.",
+    "paragraph_2": "Les chiffres justifient l'investissement. La recherche DORA de Google montre systématiquement que les elite performers déploient 208 fois plus souvent que les low performers, avec un taux d'échec 7 fois inférieur et une récupération 2.604 fois plus rapide. Combler un tiers de cet écart requiert typiquement deux mouvements : un pipeline CI/CD totalement automatisé et une couche de platform engineering offrant à chaque développeur une paved road pour environnements, secrets et observabilité.",
+    "paragraph_3": "Le platform engineering change l'économie de la livraison. Quand le self-service remplace les change boards pour les travaux routiniers, la vélocité d'ingénierie n'est plus fonction des effectifs. GitOps transforme l'état du cluster en artefact versionné, révisable et auditable comme du code applicatif. L'Infrastructure as Code rend chaque environnement reproductible, chaque drift détectable, chaque changement visible. Bénéfices qui se retrouvent dans MTTR, fréquence de déploiement et taux d'échec suivis par les conseils d'administration.",
+    "paragraph_4": "La mauvaise démarche est d'acheter des outils sans architecture. Empiler ArgoCD sur un changement manuel crée du Git theatre, pas du GitOps. Adopter Kubernetes sans couche de plateforme fait de chaque équipe un opérateur de cluster accidentel. Barbuk séquence le travail : évaluer la valeur du delivery, concevoir le pipeline cible, bâtir les fondations, migrer les workloads et ancrer des pratiques SRE. Le résultat : une plateforme de delivery qui scale avec l'organisation d'ingénierie, pas contre elle.",
+    "stats": [
+      {
+        "value": "12x",
+        "label": "Fréquence de déploiement plus élevée après platform engineering"
+      },
+      {
+        "value": "5%",
+        "label": "Taux d'échec de changement atteignable au niveau DORA Elite"
+      },
+      {
+        "value": "73%",
+        "label": "Réduction moyenne du lead time for changes"
+      },
+      {
+        "value": "50+",
+        "label": "Modernisations CI/CD livrées pour des clients B2B"
+      }
+    ]
+  },
+  "services": [
+    {
+      "id": "cicd_pipeline_modernization",
+      "icon": "🔁",
+      "title": "Modernisation de pipeline CI/CD",
+      "intro": "Remplacez des pipelines de delivery fragiles, manuels ou fragmentés par une automatisation trunk-based de commit à production, à travers Jenkins, GitHub Actions, GitLab CI et ArgoCD.",
+      "what_we_do_label": "Ce que nous faisons :",
+      "features": [
+        {
+          "label": "Évaluation du pipeline :",
+          "text": "Value stream mapping de chaque chemin commit-to-production, analyse des goulets d'étranglement et design du pipeline cible aligné sur les quatre métriques clés DORA"
+        },
+        {
+          "label": "Développement trunk-based :",
+          "text": "Stratégie de branches, intégration de feature flags avec LaunchDarkly ou Unleash, et branches à courte durée de vie avec merge et rollback automatisés"
+        },
+        {
+          "label": "Pipeline as Code :",
+          "text": "Jenkinsfile, workflows GitHub Actions, YAML GitLab CI et shared libraries réutilisables avec promotion multi-stage paramétrée"
+        },
+        {
+          "label": "Progressive delivery :",
+          "text": "Canary, blue-green et Argo Rollouts avec analyse automatisée, promotion métrique et rollback en un clic"
+        },
+        {
+          "label": "Optimisation build et tests :",
+          "text": "Remote build caching, test sharding parallèle, runners de build conteneurisés et observabilité de pipeline avec suivi de durée de build"
+        }
+      ],
+      "tech_label": "Stack pipeline :",
+      "tech_stack": [
+        "Jenkins",
+        "GitHub Actions",
+        "GitLab CI",
+        "ArgoCD",
+        "Argo Rollouts",
+        "BuildKit / Kaniko"
+      ]
+    },
+    {
+      "id": "kubernetes_platform_engineering",
+      "icon": "⎈",
+      "title": "Kubernetes Platform Engineering",
+      "intro": "Mettez en place une internal developer platform de niveau production sur Kubernetes managé — EKS, AKS, GKE ou on-prem — avec des golden paths en paved road pour chaque équipe applicative.",
+      "what_we_do_label": "Ce que nous faisons :",
+      "features": [
+        {
+          "label": "Migration vers Kubernetes managé :",
+          "text": "Élevez les workloads existants vers EKS, AKS, GKE ou migrez depuis des clusters auto-managés vers des control planes managés avec cutover zero-downtime"
+        },
+        {
+          "label": "Internal Developer Platform :",
+          "text": "Catalogue de services basé sur Backstage, templates scaffolder, pipelines golden path et provisioning d'environnements en self-service"
+        },
+        {
+          "label": "Design de cluster multi-tenant :",
+          "text": "Isolation par namespace, pod security standards, network policies, ResourceQuotas et workspaces par équipe avec garde-fous de policy"
+        },
+        {
+          "label": "Add-ons de cluster :",
+          "text": "Ingress-nginx ou Traefik, cert-manager, ExternalDNS, sealed-secrets, backups Velero et Cluster Autoscaler avec Karpenter"
+        },
+        {
+          "label": "Opérations Day-2 :",
+          "text": "Runbooks d'upgrade, sauvegardes etcd, gestion de node pools et policy de version skew Kubernetes à travers les flottes de production"
+        }
+      ],
+      "tech_label": "Stack plateforme Kubernetes :",
+      "tech_stack": [
+        "AWS EKS",
+        "Azure AKS",
+        "Google GKE",
+        "On-prem K8s",
+        "Backstage",
+        "Karpenter"
+      ]
+    },
+    {
+      "id": "gitops_iac",
+      "icon": "🧬",
+      "title": "GitOps & Infrastructure as Code",
+      "intro": "Transformez chaque cluster, réseau et datastore en artefact versionné, revu et auditable avec Terraform, Pulumi, ArgoCD et FluxCD.",
+      "what_we_do_label": "Ce que nous faisons :",
+      "features": [
+        {
+          "label": "Infrastructure as Code :",
+          "text": "Modules Terraform ou Pulumi pour AWS, Azure, GCP et hybride — réutilisables, testés et versionnés avec semantic release"
+        },
+        {
+          "label": "Adoption de GitOps :",
+          "text": "ApplicationSets ArgoCD ou FluxCD, structure de repo pour app-of-apps, détection de drift et réconciliation automatisée contre l'état désiré"
+        },
+        {
+          "label": "Promotion d'environnements :",
+          "text": "Dev, staging et prod promus via branches Git et répertoires d'overlay avec portes de promotion et contrôles de policy"
+        },
+        {
+          "label": "State et secrets :",
+          "text": "Backend d'état Terraform sur S3 avec locking DynamoDB, sealed-secrets ou External Secrets avec HashiCorp Vault pour les credentials runtime"
+        },
+        {
+          "label": "Policy as Code :",
+          "text": "OPA, Conftest et Sentinel embarqués dans les pipelines pour faire respecter les standards de tags, baselines de sécurité et conformité sur chaque PR"
+        }
+      ],
+      "tech_label": "Stack GitOps et IaC :",
+      "tech_stack": [
+        "Terraform",
+        "Pulumi",
+        "ArgoCD",
+        "FluxCD",
+        "Atlantis",
+        "HashiCorp Vault"
+      ]
+    },
+    {
+      "id": "observability_sre",
+      "icon": "📊",
+      "title": "Observabilité et transformation SRE",
+      "intro": "Passez du pompage réactionnel à une fiabilité engineered SRE — SLIs, SLOs, error budgets et stack d'observabilité qui transforme la télémétrie en décisions produit.",
+      "what_we_do_label": "Ce que nous faisons :",
+      "features": [
+        {
+          "label": "Instrumentation OpenTelemetry :",
+          "text": "Traces, métriques et logs end-to-end avec collecteurs OTLP déployés sur chaque service, langage et runtime de l'existant"
+        },
+        {
+          "label": "Métriques et dashboards :",
+          "text": "Dashboards Prometheus, Grafana et Datadog pour golden signals, méthode RED, méthode USE et alerting SLO burn-rate"
+        },
+        {
+          "label": "SLO engineering :",
+          "text": "Ateliers de définition de SLI, politiques d'error budget, alertes multi-window burn-rate et comités de revue SLO liés aux roadmaps produit"
+        },
+        {
+          "label": "Réponse aux incidents :",
+          "text": "Intégration PagerDuty ou Opsgenie, automatisation de runbooks, post-mortems blameless et formation incident command pour les rotations d'astreinte"
+        },
+        {
+          "label": "Pipeline logs et traces :",
+          "text": "Loki ou Elasticsearch pour les logs, Tempo ou Jaeger pour les traces, shippers Fluent Bit et politiques de rétention alignées sur les exigences de conformité"
+        }
+      ],
+      "tech_label": "Stack observabilité :",
+      "tech_stack": [
+        "Prometheus",
+        "Grafana",
+        "Datadog",
+        "OpenTelemetry",
+        "Loki / Tempo",
+        "PagerDuty"
+      ]
+    },
+    {
+      "id": "devsecops_integration",
+      "icon": "🛡️",
+      "title": "Intégration DevSecOps",
+      "intro": "Intégrez la sécurité dans chaque commit, image et déploiement — shift-left scanning, portes de policy et threat detection runtime que les ingénieurs utilisent réellement.",
+      "what_we_do_label": "Ce que nous faisons :",
+      "features": [
+        {
+          "label": "SAST et scanning de dépendances :",
+          "text": "Snyk, Trivy et Grype intégrés aux vérifications de pull request avec blocage de merge basé sur la sévérité et guidance de remediation"
+        },
+        {
+          "label": "Scanning conteneur et IaC :",
+          "text": "Trivy et Checkov dans les pipelines CI, signature d'image avec Cosign, admission controllers rejetant les workloads non scorés"
+        },
+        {
+          "label": "Policy et conformité :",
+          "text": "OPA Gatekeeper et Conftest font respecter les benchmarks CIS, contrôles SOC 2 et garde-fous PCI-DSS sur chaque cluster"
+        },
+        {
+          "label": "Threat detection runtime :",
+          "text": "Falco avec règles custom pour syscalls anormaux, trafic réseau et événements d'audit Kubernetes streamés vers le SIEM"
+        },
+        {
+          "label": "Secrets et identité :",
+          "text": "HashiCorp Vault avec secrets dynamiques, credentials cloud à courte durée de vie via IRSA et Workload Identity, et zero standing privilege"
+        }
+      ],
+      "tech_label": "Stack DevSecOps :",
+      "tech_stack": [
+        "Snyk",
+        "Trivy",
+        "OPA / Gatekeeper",
+        "Falco",
+        "Cosign",
+        "HashiCorp Vault"
+      ]
+    }
+  ],
+  "process": {
+    "title": "Notre approche de modernisation DevOps et CI/CD",
+    "subtitle": "Un engagement en cinq phases, raffiné sur plus de 50 programmes de modernisation B2B — conçu pour faire passer le delivery du manuel à l'automatisé, des équipes de héros au product engineering sur plateforme.",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Évaluation du delivery value stream",
+        "text": "Nous mappons chaque chemin commit-to-production, identifions les portes manuelles et les goulets d'étranglement, et benchmarkons votre état actuel contre les quatre métriques clés DORA. Le livrable est une architecture cible priorisée avec une roadmap de modernisation séquencée, liée à des résultats d'ingénierie mesurables."
+      },
+      {
+        "number": "2",
+        "title": "Design du pipeline cible et de la plateforme",
+        "text": "Nous concevons l'architecture CI/CD cible, choisissons entre GitHub Actions, GitLab CI ou Jenkins, et définissons la couche de platform engineering qui enveloppera chaque cluster. Les décisions sont documentées, justifiées et revues avec votre direction d'ingénierie avant qu'une ligne de code ne soit écrite."
+      },
+      {
+        "number": "3",
+        "title": "Construction des fondations de plateforme",
+        "text": "Nous mettons en place les fondations de la plateforme : contrôleurs GitOps, modules IaC, gestion des secrets, stack d'observabilité et scanning DevSecOps. Les fondations sont bâties une fois et réutilisées par chaque équipe applicative qui rejoint la plateforme — le plus grand force multiplier de l'engagement."
+      },
+      {
+        "number": "4",
+        "title": "Migration des pipelines et paved roads",
+        "text": "Nous migrons une équipe à la fois sur le nouveau pipeline et la nouvelle plateforme. Chaque migration inclut un template paved-road, un enablement hands-on et une fenêtre d'hypercare. Nous ne migrons pas toutes les équipes simultanément — la migration séquentielle nous permet de stabiliser chaque cohorte avant le prochain onboarding."
+      },
+      {
+        "number": "5",
+        "title": "Pratiques SRE et amélioration continue",
+        "text": "Nous ancrons des pratiques SRE : SLIs, SLOs, error budgets, post-mortems blameless et une cadence d'amélioration continue pour la plateforme elle-même. L'engagement se termine quand vos ingénieurs opèrent la plateforme sans nous, avec des runbooks documentés et un modèle opérationnel SRE."
+      }
+    ]
+  },
+  "tech_stack": {
+    "title": "Technologies DevOps et CI/CD que nous opérons",
+    "subtitle": "Une toolchain curatée, éprouvée sur des programmes de modernisation B2B enterprise — des défauts opinionated avec la flexibilité d'intégrer ce que vous faites déjà tourner.",
+    "categories": [
+      {
+        "name": "Conteneurs et orchestration",
+        "items": [
+          "Kubernetes",
+          "Docker",
+          "Helm",
+          "Kustomize"
+        ]
+      },
+      {
+        "name": "Contrôleurs GitOps",
+        "items": [
+          "ArgoCD",
+          "FluxCD",
+          "Argo Rollouts",
+          "Atlantis"
+        ]
+      },
+      {
+        "name": "Infrastructure as Code",
+        "items": [
+          "Terraform",
+          "Pulumi",
+          "Ansible",
+          "Crossplane"
+        ]
+      },
+      {
+        "name": "Moteurs CI/CD",
+        "items": [
+          "GitHub Actions",
+          "GitLab CI",
+          "Jenkins",
+          "Buildkite"
+        ]
+      },
+      {
+        "name": "Observabilité et SRE",
+        "items": [
+          "Prometheus",
+          "Grafana",
+          "Datadog",
+          "OpenTelemetry",
+          "PagerDuty"
+        ]
+      },
+      {
+        "name": "Toolchain DevSecOps",
+        "items": [
+          "Snyk",
+          "Trivy",
+          "OPA / Gatekeeper",
+          "Falco",
+          "Cosign"
+        ]
+      },
+      {
+        "name": "Plateformes Kubernetes managées",
+        "items": [
+          "AWS EKS",
+          "Azure AKS",
+          "Google GKE",
+          "On-prem K8s"
+        ]
+      },
+      {
+        "name": "Secrets et identité",
+        "items": [
+          "HashiCorp Vault",
+          "External Secrets",
+          "IRSA",
+          "Workload Identity"
+        ]
+      }
+    ]
+  },
+  "case_study": {
+    "title": "Étude de cas : un industriel modernise sa CI/CD et atteint le niveau DORA Elite",
+    "subtitle": "Comment un industriel européen est passé de déploiements hebdomadaires manuels à des releases on-demand de 15 minutes et a réduit ses échecs de changement de 40 % à 5 %.",
+    "client_label": "Secteur",
+    "client": "Fabrication discrète — automatisation industrielle",
+    "challenge_label": "Défi",
+    "challenge": "L'organisation d'ingénierie exploitait une instance Jenkins mutualisée héritée d'une acquisition de 2014, avec des portes d'approbation manuelles à chaque étape. Les déploiements de production consommaient un vendredi entier chaque semaine, les échecs de changement tournaient en moyenne à 40 %, et un rollback exigeait un war room de 6 heures. Les équipes produit traitaient les jours de release comme du code red, et les engagements de roadmap trimestriels glissaient de plusieurs mois à cause du risque de déploiement.",
+    "approach_label": "Approche",
+    "approach": "Nous avons conçu une plateforme de delivery trunk-based, pilotée par GitOps : GitHub Actions pour la CI, ArgoCD pour la sync de cluster, Terraform pour l'infrastructure, et une internal developer platform basée sur Backstage reposant sur EKS. Nous avons migré les équipes cohorte par cohorte, instrumenté chaque étape avec OpenTelemetry, et mis en place un processus de release piloté par SLO avec progressive delivery via Argo Rollouts.",
+    "before_label": "Avant",
+    "before": "Déploiements de production hebdomadaires de 3 heures, taux d'échec de changement de 40 %, rollback de 6 heures, approbation manuelle par change advisory board pour chaque release.",
+    "after_label": "Après",
+    "after": "Déploiements on-demand de 15 minutes depuis la branche main, taux d'échec de changement de 5 %, rollback automatisé en moins de 90 secondes, pipelines entièrement self-service avec portes de policy uniquement sur les workloads régulés.",
+    "results_label": "Résultats mesurés",
+    "results": [
+      {
+        "value": "12x",
+        "label": "Augmentation de la fréquence de déploiement (hebdomadaire à plusieurs fois par jour)"
+      },
+      {
+        "value": "5%",
+        "label": "Taux d'échec de changement (depuis 40 %)"
+      },
+      {
+        "value": "90s",
+        "label": "Temps de rollback moyen (depuis 6 heures)"
+      },
+      {
+        "value": "2,5x",
+        "label": "Throughput d'ingénierie mesuré en PR mergées en production"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Questions fréquentes",
+    "subtitle": "Questions courantes que les leaders d'ingénierie B2B posent avant de démarrer un engagement de conseil DevOps.",
+    "items": [
+      {
+        "question": "Quel est le modèle d'engagement de conseil DevOps ?",
+        "answer": "Nous démarrons par une phase de discovery et roadmap à scope fixe — typiquement 3 à 4 semaines — suivie d'une phase de delivery de plusieurs mois avec une équipe senior dédiée. La discovery produit un baseline mesurable, une architecture cible et une roadmap séquencée. Le delivery avance en cohortes avec des critères de succès explicites. La plupart des engagements durent 6 à 12 mois ; certaines entreprises continuent ensuite sur une base SRE de plateforme managée."
+      },
+      {
+        "question": "Combien de temps prend une modernisation CI/CD ?",
+        "answer": "Une modernisation CI/CD focalisée pour une seule équipe applicative peut être achevée en 6 à 8 semaines. Un programme à l'échelle enterprise couvrant 15 à 30 équipes dure typiquement 9 à 14 mois lorsqu'il est séquencé cohorte par cohorte. Les couches de platform engineering prennent plus de temps parce qu'elles enveloppent toutes les autres équipes — prévoyez 6 à 9 mois avant de voir des mouvements mesurables de métriques DORA à travers l'organisation d'ingénierie."
+      },
+      {
+        "question": "Travaillez-vous avec notre Jenkins ou GitHub Actions existant ?",
+        "answer": "Oui — nous recommandons rarement d'arracher des outils qui fonctionnent. Notre approche par défaut est de garder votre moteur CI existant (Jenkins, GitHub Actions, GitLab CI ou Buildkite) et de moderniser le pipeline environnant : shared libraries, promotion d'environnement, intégration de secrets, portes de sécurité et progressive delivery. Nous ne migrons les outils que lorsque le moteur existant ne peut pas satisfaire une exigence spécifique, et nous prenons en charge la migration dans ce cas."
+      },
+      {
+        "question": "Quel est le ROI du platform engineering ?",
+        "answer": "La plupart des engagements B2B de platform engineering atteignent le payback en 12 à 18 mois. Les principaux moteurs du retour sont : heures d'ingénierie économisées par sprint sur l'approvisionnement d'environnements et la maintenance CI (typiquement 15 à 25 % du temps d'un ingénieur senior) ; réduction du MTTR ; onboarding plus rapide ; coût de conformité réduit grâce au policy-as-code et au scanning shift-left. Nous construisons un business case pendant la phase de discovery avec une modélisation basée sur vos chiffres."
+      },
+      {
+        "question": "Comment gérez-vous les déploiements de monolithes legacy ?",
+        "answer": "Les monolithes legacy restent sur leur processus de déploiement existant — nous enveloppons, nous ne remplaçons pas. Schéma typique : garder le monolithe à sa cadence actuelle, l'entourer d'une couche de plateforme pour les nouveaux microservices et extraire progressivement des capabilities bien délimitées en services conteneurisés consommant le monolithe via des API stables. Argo Rollouts et les feature flags permettent le canary de chaque service extrait sans toucher la cadence de déploiement du monolithe. Ce schéma a été livré chez plusieurs clients industriels et financiers."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Réservez une revue d'architecture DevOps",
+    "subtitle": "Réservez un appel d'architecture gratuit de 45 minutes. Nous reviendrons sur votre toolchain de delivery actuelle, benchmarkerons vos quatre métriques DORA et tracerons un chemin réaliste de 6 à 12 mois vers des résultats d'ingénierie mesurables.",
+    "button": "Planifier une revue d'architecture"
+  }
+}

@@ -4,6 +4,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/demos");
   eleventyConfig.addPassthroughCopy("src/robots.txt");
   eleventyConfig.addPassthroughCopy("src/sitemap.xml");
+  eleventyConfig.addPassthroughCopy({"src/static/63bf3278a5504d60b2b39ec1579dd771.txt": "63bf3278a5504d60b2b39ec1579dd771.txt"});
   eleventyConfig.addPassthroughCopy({"src/assets/images": "assets/images"});
 
   // Watch CSS files
