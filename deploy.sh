@@ -50,6 +50,12 @@ else
   echo "    → https://dash.cloudflare.com/?to=/:account/pages/view/$PROJECT_NAME/domains"
 fi
 
+# 5) Soft-404 / logo regression check
+NF_CODE=$(curl -s -o /dev/null -w '%{http_code}' "https://$CUSTOM_DOMAIN/__nonexistent-$RANDOM/")
+LOGO_TYPE=$(curl -s -o /dev/null -w '%{content_type}' "https://$CUSTOM_DOMAIN/assets/images/logo.png")
+[ "$NF_CODE" = "404" ] && echo "    ✓ Unknown path returns 404" || echo "    ✗ Unknown path returns $NF_CODE (soft 404)"
+case "$LOGO_TYPE" in image/*) echo "    ✓ logo.png served as $LOGO_TYPE";; *) echo "    ✗ logo.png content-type: $LOGO_TYPE";; esac
+
 echo ""
 echo "==> Done"
 echo "    Pages: $DEPLOY_URL"

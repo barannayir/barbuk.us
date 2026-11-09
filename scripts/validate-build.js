@@ -7,7 +7,7 @@
  * - All pages have hreflang alternates
  * - Sitemap URL count
  */
-import { readFileSync, readdirSync, statSync } from 'node:fs';
+import { readFileSync, readdirSync, statSync, existsSync } from 'node:fs';
 import { join, extname } from 'node:path';
 
 const DIST = './dist';
@@ -56,6 +56,19 @@ try {
 } catch (e) {
   log('WARN', `news-sitemap.xml missing`);
 }
+
+// Cloudflare Pages serves real 404s only when dist/404.html exists (otherwise SPA fallback => soft 404)
+if (!existsSync(join(DIST, '404.html'))) log('ERROR', 'dist/404.html missing — unknown paths would return 200 (soft 404)');
+
+// Every same-site image referenced from HTML/JSON-LD must exist (e.g. Organization logo)
+const missingAssets = new Set();
+for (const page of pages) {
+  const html = readFileSync(page, 'utf8');
+  for (const m of html.matchAll(/https:\/\/barbuk\.us(\/assets\/images\/[\w./-]+\.(?:png|svg|jpe?g|webp|avif))/g)) {
+    if (!existsSync(join(DIST, m[1]))) missingAssets.add(m[1]);
+  }
+}
+for (const a of missingAssets) log('ERROR', `Referenced image missing in dist: ${a}`);
 
 // Feed check
 for (const lang of ['', '/de/', '/fr/', '/nl/', '/it/', '/es/']) {
