@@ -132,6 +132,15 @@
     "inLanguage": "{{ i18n.meta[currentLang].hreflang }}"
   }
   </script>
+  {%- assign crumbNav = "common" | lookupI18n: currentLang -%}
+  {%- assign crumbHomeUrl = "/" | localizedUrl: currentLang -%}
+  {%- assign crumbBlogUrl = "/blog/" | localizedUrl: currentLang -%}
+  {%- assign crumbTitle = title | split: " | " | first -%}
+  {%- if crumbTitle == blank -%}
+    {%- assign crumbKey = page.url | split: "/" | last -%}
+    {%- assign crumbPage = crumbKey | lookupI18n: currentLang -%}
+    {%- assign crumbTitle = crumbPage.page_hero.title -%}
+  {%- endif -%}
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -140,15 +149,27 @@
       {
         "@type": "ListItem",
         "position": 1,
-        "name": "Home",
-        "item": "https://barbuk.us{{ cleanUrl }}"
-      }{% if page.url != "/" and page.url != "/index.html" %},
+        "name": "{{ crumbNav.nav.home | default: 'Home' }}",
+        "item": "https://barbuk.us{{ crumbHomeUrl }}"
+      }{% if page.url != crumbHomeUrl and page.url != "/index.html" %}{% if page.url contains "/blog/" and page.url != crumbBlogUrl %},
       {
         "@type": "ListItem",
         "position": 2,
-        "name": "{{ title }}",
+        "name": "{{ crumbNav.nav.insights | default: 'Insights' }}",
+        "item": "https://barbuk.us{{ crumbBlogUrl }}"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "{{ crumbTitle }}",
         "item": "https://barbuk.us{{ page.url }}"
-      }{% endif %}
+      }{% else %},
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "{{ crumbTitle }}",
+        "item": "https://barbuk.us{{ page.url }}"
+      }{% endif %}{% endif %}
     ]
   }
   </script>
