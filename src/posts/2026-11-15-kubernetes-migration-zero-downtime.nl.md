@@ -1,7 +1,8 @@
 ---
 layout: post.liquid
 title: "Kubernetes-migratie voor legacy B2B-applicaties: zero-downtime playbook"
-description: "Een legacy B2B-applicatie zonder downtime naar Kubernetes migreren is tegelijk een data-, verkeers- en observability-probleem. Hier is het playbook dat wij stap voor stap gebruiken."
+seo_title: "Zero-downtime Kubernetes-migratie voor legacy-apps"
+description: "Een legacy B2B-applicatie zonder downtime naar Kubernetes migreren is een data-, verkeers- en observability-vraagstuk tegelijk. Ons playbook, stap voor stap."
 date: 2026-11-15
 author: barannayir
 tags: [devops-cicd-modernization, kubernetes-migration-strategy, zero-downtime-deployment, container-orchestration-legacy, statefulset-data-migration, kubernetes]
@@ -10,8 +11,6 @@ image: /assets/images/blog/2026-11-15-kubernetes-migration-zero-downtime.png
 i18n_key: kubernetes-migration-zero-downtime
 permalink: /nl/blog/2026-11-15-kubernetes-migration-zero-downtime/
 ---
-
-# Kubernetes-migratie voor legacy B2B: zero-downtime playbook
 
 De meeste legacy B2B-applicaties draaien op één VM, praten met één database en bedienen verkeer via een load balancer die al jaren werkt. Een daarvan naar Kubernetes migreren — een container-orchestration platform dat deployment, schaling en beheer van gecontaineriseerde applicaties automatiseert — zonder downtime is een gecontroleerde vervanging van elk bewegend onderdeel, terwijl het systeem blijft betalende klanten bedienen. Dit is het playbook dat we gebruiken op [DevOps CI/CD Modernization](/nl/devops-cicd-modernization/) projecten.
 

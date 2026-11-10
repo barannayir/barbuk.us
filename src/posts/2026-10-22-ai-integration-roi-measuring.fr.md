@@ -1,12 +1,11 @@
 ---
 layout: post.liquid
 title: "ROI de l'intégration IA : mesurer ce qui compte vraiment"
+seo_title: "Mesurer le ROI de l'intégration IA"
 description: "La plupart des projets d'intégration IA échouent car les équipes mesurent des indicateurs de vanité. Un cadre pour le ROI IA lié aux résultats business réels."
 date: 2026-10-22
 permalink: /fr/blog/2026-10-22-ai-integration-roi-measuring/
 ---
-
-# ROI de l'intégration IA : mesurer ce qui compte vraiment
 
 Chaque dirigeant pose la même question après la démo du pilote IA : « Quel est le retour réel ? » La réponse honnête : la plupart des équipes n'ont pas de bon cadre pour le mesurer, donc elles l'inventent.
 

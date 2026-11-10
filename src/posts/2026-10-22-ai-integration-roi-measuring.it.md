@@ -1,12 +1,11 @@
 ---
 layout: post.liquid
 title: "ROI dell'integrazione IA: misurare ciò che conta davvero"
-description: "La maggior parte dei progetti di integrazione IA fallisce perché i team misurano metriche di vanità. Un framework per il ROI IA collegato ai risultati aziendali reali."
+seo_title: "Misurare il ROI dell'integrazione IA"
+description: "La maggior parte dei progetti di integrazione IA fallisce perché misura metriche di vanità. Un framework per collegare il ROI IA ai risultati di business."
 date: 2026-10-22
 permalink: /it/blog/2026-10-22-ai-integration-roi-measuring/
 ---
-
-# ROI dell'integrazione IA: misurare ciò che conta davvero
 
 Ogni dirigente pone la stessa domanda dopo la demo del pilota IA: "Qual è il ritorno reale?" La risposta onesta: la maggior parte dei team non ha un buon framework per misurarlo, quindi lo inventano.
 

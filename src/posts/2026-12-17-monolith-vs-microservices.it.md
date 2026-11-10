@@ -1,7 +1,8 @@
 ---
 layout: post.liquid
 title: "Monolite vs microservizi: framework decisionale pragmatico per il mid-market"
-description: "Il dibattito monolite vs microservizi è esausto. Ecco un framework decisionale che sceglie l'architettura giusta da quattro input: dimensione del team, profili di carico, età del sistema e posizione nel ciclo di vita."
+seo_title: "Monolite vs microservizi: framework decisionale"
+description: "Il dibattito monolite vs microservizi è esausto. Un framework decisionale che sceglie l'architettura in base a team, carico ed età del sistema, non alla moda."
 date: 2026-12-17
 author: barannayir
 tags: [monolite, microservizi, architettura, kubernetes, dotnet]
@@ -10,8 +11,6 @@ image: /assets/images/blog/2026-12-17-monolith-vs-microservices.png
 i18n_key: monolith-vs-microservices
 permalink: /it/blog/2026-12-17-monolith-vs-microservices/
 ---
-
-# Monolite vs microservizi: framework decisionale pragmatico per il mid-market
 
 Il dibattito "monolite vs microservizi" è esausto nella letteratura e ancor di più nella pratica. Ogni ingegnere senior ha un'opinione, per lo più plasmate dall'architettura che li ha bruciati l'ultima volta. Questo articolo non è un'altra opinione. È un framework decisionale che sceglie l'architettura giusta da quattro input.
 

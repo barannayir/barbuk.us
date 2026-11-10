@@ -1,12 +1,11 @@
 ---
 layout: post.liquid
 title: "KI-Integration ROI: Was wirklich zählt, messen"
+seo_title: "KI-Integration: ROI richtig messen"
 description: "Die meisten KI-Integrationsprojekte scheitern, weil Teams Vanity-Metriken messen. Ein Framework für KI-ROI, das mit echten Geschäftsergebnissen verbunden ist."
 date: 2026-10-22
 permalink: /de/blog/2026-10-22-ai-integration-roi-measuring/
 ---
-
-# KI-Integration ROI: Was wirklich zählt, messen
 
 Jede Führungskraft stellt nach der KI-Pilotdemo dieselbe Frage: „Was ist die tatsächliche Rendite?" Die ehrliche Antwort: Die meisten Teams haben kein gutes Framework, um sie zu messen, also erfinden sie Zahlen.
 

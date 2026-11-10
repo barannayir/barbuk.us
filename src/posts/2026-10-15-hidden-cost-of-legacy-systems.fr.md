@@ -1,6 +1,7 @@
 ---
 layout: post.liquid
 title: "Le coût caché des systèmes legacy en 2026"
+seo_title: "Le coût caché des systèmes legacy en 2026"
 description: "Les logiciels d'entreprise obsolètes drainent silencieusement votre budget. Voici comment quantifier le coût réel et ce que la modernisation apporte réellement."
 date: 2026-10-15
 author: "Barbuk Team"

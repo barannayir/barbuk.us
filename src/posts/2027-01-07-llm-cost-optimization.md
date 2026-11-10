@@ -1,7 +1,8 @@
 ---
 layout: post.liquid
 title: "LLM Cost Optimization: 7 Techniques That Cut API Spend 60-80% Without Hurting Quality"
-description: "Most LLM integrations spend 2-3x more than they need to. Here are 7 production-tested techniques — model selection, caching, batching, prompt engineering — that cut spend without hurting output quality."
+seo_title: "LLM Cost Optimization: 7 Techniques That Cut Spend"
+description: "Most LLM integrations spend 2-3x more than needed. Seven production-tested techniques, from model selection to caching and batching, that cut spend not quality."
 date: 2027-01-07
 author: barannayir
 tags: [llm, gpt-4, cost-optimization, ai-integration, caching]
@@ -10,8 +11,6 @@ image: /assets/images/blog/2027-01-07-llm-cost-optimization.png
 i18n_key: llm-cost-optimization
 permalink: /blog/2027-01-07-llm-cost-optimization/
 ---
-
-# LLM Cost Optimization: 7 Techniques That Cut API Spend 60-80% Without Hurting Quality
 
 Most teams we audit in our [AI integration work](/ai-integration-services/) are spending 2-3x more on LLM APIs than they need to. Not because the models are wrong, but because the integration is unoptimized. The good news: a small set of techniques, applied systematically, can cut spend by 60-80% with no measurable quality loss.
 

@@ -1,7 +1,8 @@
 ---
 layout: post.liquid
 title: "Misurazione del ROI del software enterprise: oltre il pitch del vendor"
-description: "I calcolatori ROI dei vendor sono strumenti di vendita, non di misura. Ecco come costruire il vostro modello ROI per il software enterprise che sopravvive al confronto con la finanza."
+seo_title: "ROI del software enterprise: oltre il pitch"
+description: "I calcolatori ROI dei vendor sono strumenti di vendita, non di misura. Come costruire un modello ROI enterprise che regga il confronto con la finanza."
 date: 2026-11-12
 author: barannayir
 tags: [software-enterprise, roi, misurazione, b2b, finanza]
@@ -10,8 +11,6 @@ image: /assets/images/blog/2026-11-12-enterprise-software-roi.png
 i18n_key: enterprise-software-roi
 permalink: /it/blog/2026-11-12-enterprise-software-roi/
 ---
-
-# Misurazione del ROI del software enterprise: oltre il pitch del vendor
 
 Ogni vendor di software enterprise fornisce un calcolatore ROI. La maggior parte produce numeri che corrispondono al risultato preferito dal vendor. Quando la finanza pone domande difficili, l'accordo è già politicamente blindato e il calcolatore diventa una finzione che nessuno vuole riaprire.
 

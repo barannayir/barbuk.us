@@ -1,7 +1,8 @@
 ---
 layout: post.liquid
 title: "Medición del ROI del software empresarial: más allá del pitch del proveedor"
-description: "Las calculadoras de ROI de los proveedores son herramientas de venta, no de medición. Cómo construir su propio modelo de ROI para software empresarial que sobreviva al contacto con finanzas."
+seo_title: "ROI de software empresarial: más allá del pitch"
+description: "Las calculadoras de ROI de los proveedores son herramientas de venta, no de medición. Cómo crear su propio modelo de ROI que resista el escrutinio de finanzas."
 date: 2026-11-12
 author: barannayir
 tags: [software-empresarial, roi, medicion, b2b, finanzas]
@@ -10,8 +11,6 @@ image: /assets/images/blog/2026-11-12-enterprise-software-roi.png
 i18n_key: enterprise-software-roi
 permalink: /es/blog/2026-11-12-enterprise-software-roi/
 ---
-
-# Medición del ROI del software empresarial: más allá del pitch del proveedor
 
 Cada proveedor de software empresarial entrega una calculadora de ROI. La mayoría produce cifras que encajan con el resultado preferido del proveedor. Cuando finanzas hace preguntas difíciles, el trato ya está políticamente cerrado y la calculadora se convierte en una ficción que nadie quiere revisar.
 

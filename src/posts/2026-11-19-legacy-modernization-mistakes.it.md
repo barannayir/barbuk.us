@@ -1,12 +1,11 @@
 ---
 layout: post.liquid
 title: "5 errori di modernizzazione legacy che bruciano il vostro budget"
+seo_title: "5 errori di modernizzazione legacy da evitare"
 description: "La maggior parte dei progetti di modernizzazione sfora il budget di 2-3×. I pattern sono prevedibili. Ecco come individuarli prima che vi costino."
 date: 2026-11-19
 permalink: /it/blog/2026-11-19-legacy-modernization-mistakes/
 ---
-
-# 5 errori di modernizzazione legacy che bruciano il vostro budget
 
 La maggior parte dei progetti di modernizzazione enterprise sfora il budget di 2-3×. Non perché la tecnologia è difficile — ma perché i pattern sono prevedibili e nessuno costruisce protezioni contro di essi.
 

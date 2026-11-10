@@ -1,12 +1,11 @@
 ---
 layout: post.liquid
 title: "5 Legacy Modernization Mistakes That Burn Your Budget"
+seo_title: "5 Legacy Modernization Mistakes That Burn Budget"
 description: "Most modernization projects overshoot budget by 2-3x. The patterns are predictable. Here's how to spot them before they cost you."
 date: 2026-11-19
 permalink: /blog/2026-11-19-legacy-modernization-mistakes/
 ---
-
-# 5 Legacy Modernization Mistakes That Burn Your Budget
 
 Most enterprise modernization projects overshoot budget by 2-3x. Not because the technology is hard — because the patterns are predictable and nobody builds guardrails against them.
 

@@ -1,7 +1,8 @@
 ---
 layout: post.liquid
 title: "Enterprise-Software ROI messen: Jenseits des Vendor-Pitch-Decks"
-description: "Vendor-ROI-Rechner sind Verkaufstools, keine Messtools. So bauen Sie Ihr eigenes ROI-Modell für Enterprise-Software, das den Kontakt mit dem Finanzteam überlebt."
+seo_title: "Enterprise-Software-ROI jenseits des Vendor-Pitch"
+description: "Vendor-ROI-Rechner sind Verkaufstools, keine Messtools. So bauen Sie Ihr eigenes ROI-Modell für Enterprise-Software, das der Finanzabteilung standhält."
 date: 2026-11-12
 author: barannayir
 tags: [enterprise-software, roi, messung, b2b, finanzen]
@@ -10,8 +11,6 @@ image: /assets/images/blog/2026-11-12-enterprise-software-roi.png
 i18n_key: enterprise-software-roi
 permalink: /de/blog/2026-11-12-enterprise-software-roi/
 ---
-
-# Enterprise-Software ROI messen: Jenseits des Vendor-Pitch-Decks
 
 Jeder Enterprise-Software-Anbieter liefert einen ROI-Rechner mit. Die meisten davon produzieren Zahlen, die zum gewünschten Ergebnis des Anbieters passen. Wenn die Finanzabteilung später kritische Fragen stellt, ist das Geschäft bereits politisch eingetütet, und der Rechner wird zur Fiktion, die niemand mehr anfassen.
 

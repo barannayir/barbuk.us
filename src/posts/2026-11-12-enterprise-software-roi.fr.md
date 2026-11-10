@@ -1,7 +1,8 @@
 ---
 layout: post.liquid
 title: "Mesure du ROI logiciel entreprise : au-delà du pitch fournisseur"
-description: "Les calculateurs ROI des éditeurs sont des outils commerciaux, pas des outils de mesure. Voici comment construire votre propre modèle ROI pour le logiciel entreprise qui résiste à la finance."
+seo_title: "ROI logiciel entreprise : au-delà du pitch"
+description: "Les calculateurs ROI des éditeurs sont des outils commerciaux, pas de mesure. Comment bâtir votre propre modèle ROI qui résiste à l'examen de la finance."
 date: 2026-11-12
 author: barannayir
 tags: [logiciel-entreprise, roi, mesure, b2b, finance]
@@ -10,8 +11,6 @@ image: /assets/images/blog/2026-11-12-enterprise-software-roi.png
 i18n_key: enterprise-software-roi
 permalink: /fr/blog/2026-11-12-enterprise-software-roi/
 ---
-
-# Mesure du ROI logiciel entreprise : au-delà du pitch fournisseur
 
 Chaque éditeur de logiciel entreprise livre avec un calculateur ROI. La plupart produisent des chiffres qui correspondent au résultat souhaité par l'éditeur. Quand la finance pose des questions difficiles, l'affaire est déjà politiquement verrouillée, et le calculateur devient une fiction que personne ne veut revisiter.
 

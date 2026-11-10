@@ -1,12 +1,11 @@
 ---
 layout: post.liquid
 title: "5 errores de modernización legacy que queman su presupuesto"
+seo_title: "5 errores de modernización legacy a evitar"
 description: "La mayoría de los proyectos de modernización exceden el presupuesto por 2-3×. Los patrones son predecibles. Aquí está cómo detectarlos antes de que le cuesten."
 date: 2026-11-19
 permalink: /es/blog/2026-11-19-legacy-modernization-mistakes/
 ---
-
-# 5 errores de modernización legacy que queman su presupuesto
 
 La mayoría de los proyectos de modernización empresarial exceden el presupuesto por 2-3×. No porque la tecnología sea difícil — sino porque los patrones son predecibles y nadie construye defensas contra ellos.
 

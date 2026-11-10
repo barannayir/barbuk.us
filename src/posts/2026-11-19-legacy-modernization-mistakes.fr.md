@@ -1,12 +1,11 @@
 ---
 layout: post.liquid
 title: "5 erreurs de modernisation legacy qui brûlent votre budget"
+seo_title: "5 erreurs de modernisation legacy à éviter"
 description: "La plupart des projets de modernisation dépassent le budget de 2 à 3×. Les schémas sont prévisibles. Voici comment les repérer avant qu'ils ne vous coûtent."
 date: 2026-11-19
 permalink: /fr/blog/2026-11-19-legacy-modernization-mistakes/
 ---
-
-# 5 erreurs de modernisation legacy qui brûlent votre budget
 
 La plupart des projets de modernisation d'entreprise dépassent le budget de 2 à 3×. Pas parce que la technologie est dure — parce que les schémas sont prévisibles et personne ne construit de garde-fous contre eux.
 

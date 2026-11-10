@@ -1,7 +1,8 @@
 ---
 layout: post.liquid
 title: "Monolithe vs Microservices : cadre de décision pragmatique pour mid-market"
-description: "Le débat monolithes vs microservices est épuisé. Voici un cadre de décision qui choisit la bonne architecture à partir de quatre entrées : taille d'équipe, profils de charge, âge du système et position dans le cycle de vie."
+seo_title: "Monolithe vs microservices : cadre de décision"
+description: "Le débat monolithe vs microservices est épuisé. Un cadre de décision qui choisit l'architecture selon la taille d'équipe, la charge et l'âge du système."
 date: 2026-12-17
 author: barannayir
 tags: [monolithe, microservices, architecture, kubernetes, dotnet]
@@ -10,8 +11,6 @@ image: /assets/images/blog/2026-12-17-monolith-vs-microservices.png
 i18n_key: monolith-vs-microservices
 permalink: /fr/blog/2026-12-17-monolith-vs-microservices/
 ---
-
-# Monolithe vs Microservices : cadre de décision pragmatique pour mid-market
 
 Le débat « monolithe vs microservices » est épuisé dans la littérature et plus encore en pratique. Chaque ingénieur senior a un avis, la plupart forgés par l'architecture qui les a brûlés la dernière fois. Cet article n'est pas un avis de plus. C'est un cadre de décision qui choisit la bonne architecture à partir de quatre entrées.
 

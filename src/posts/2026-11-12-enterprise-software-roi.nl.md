@@ -1,7 +1,8 @@
 ---
 layout: post.liquid
 title: "Enterprise-software ROI meten: voorbij de pitchdeck van de leverancier"
-description: "ROI-calculators van leveranciers zijn verkooptools, geen meettools. Zo bouwt u uw eigen ROI-model voor enterprise software dat de confrontatie met finance overleeft."
+seo_title: "ROI van enterprise-software meten"
+description: "ROI-calculators van leveranciers zijn verkooptools, geen meettools. Zo bouwt u uw eigen ROI-model voor enterprise software dat de toets van finance doorstaat."
 date: 2026-11-12
 author: barannayir
 tags: [enterprise-software, roi, meting, b2b, finance]
@@ -10,8 +11,6 @@ image: /assets/images/blog/2026-11-12-enterprise-software-roi.png
 i18n_key: enterprise-software-roi
 permalink: /nl/blog/2026-11-12-enterprise-software-roi/
 ---
-
-# Enterprise-software ROI meten: voorbij de pitchdeck van de leverancier
 
 Elke enterprise-softwareleverancier levert een ROI-calculator mee. De meeste produceren cijfers die passen bij het gewenste resultaat van de leverancier. Wanneer finance later kritische vragen stelt, is de deal al politiek bezegeld en wordt de calculator een fictie die niemand meer wil aanraken.
 

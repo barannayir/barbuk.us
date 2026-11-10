@@ -85,6 +85,35 @@ module.exports = function(eleventyConfig) {
     return (data[slug] && data[slug].description) ? data[slug].description : fallback;
   });
 
+  // --- SEO: compact title/description for blog (SERP-friendly lengths) ---
+  eleventyConfig.addFilter("shortTitle", function(text, max) {
+    let t = String(text || "").trim();
+    if (t.length <= max) return t;
+    const cut = t.search(/\s[:—–]\s|:\s/);
+    if (cut >= 15 && cut <= max) return t.slice(0, cut).trim();
+    t = t.slice(0, max + 1);
+    t = t.slice(0, Math.max(t.lastIndexOf(" "), 0)).replace(/[\s,;:—–-]+$/, "");
+    return t;
+  });
+
+  eleventyConfig.addFilter("shortDescription", function(text, max) {
+    const t = String(text || "").trim();
+    if (t.length <= max) return t;
+    const head = t.slice(0, max + 1);
+    const sentenceEnd = Math.max(head.lastIndexOf(". "), head.lastIndexOf("! "), head.lastIndexOf("? "));
+    if (sentenceEnd >= 90) return head.slice(0, sentenceEnd + 1);
+    const word = head.slice(0, max - 1).lastIndexOf(" ");
+    return head.slice(0, word).replace(/[\s,;:—–-]+$/, "") + "…";
+  });
+
+  // --- Blog: scheduled posts — skip posts dated in the future (set INCLUDE_FUTURE_POSTS=1 to preview) ---
+  eleventyConfig.addPreprocessor("skipFuturePosts", "md", function(data) {
+    if (process.env.INCLUDE_FUTURE_POSTS === "1") return;
+    if (!data.page || !/\/src\/posts\//.test(data.page.inputPath.replace(/^\.\//, "/")) ) return;
+    const published = new Date(data.date);
+    if (!isNaN(published.getTime()) && published.getTime() > Date.now()) return false;
+  });
+
   // --- URL → SEO slug helper (yardımcı) ---
   function urlToSlug(url) {
     if (!url) return "home";

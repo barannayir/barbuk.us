@@ -1,12 +1,11 @@
 ---
 layout: post.liquid
 title: "AI-integratie ROI: meten wat er echt toe doet"
+seo_title: "AI-integratie ROI: wat echt telt"
 description: "De meeste AI-integratieprojecten mislukken omdat teams ijdelheidsstatistieken meten. Een framework voor AI-ROI die gekoppeld is aan echte bedrijfsresultaten."
 date: 2026-10-22
 permalink: /nl/blog/2026-10-22-ai-integration-roi-measuring/
 ---
-
-# AI-integratie ROI: meten wat er echt toe doet
 
 Elke leidinggevende stelt na de AI-pilotdemo dezelfde vraag: "Wat is het werkelijke rendement?" Het eerlijke antwoord: de meeste teams hebben geen goed framework om het te meten, dus verzinnen ze cijfers.
 

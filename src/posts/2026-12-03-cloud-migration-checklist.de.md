@@ -1,6 +1,7 @@
 ---
 layout: post.liquid
 title: "Cloud-Migration-Checkliste: 12 Dinge, die Sie entscheiden müssen, bevor Sie einen einzigen Server verschieben"
+seo_title: "Cloud-Migration-Checkliste: 12 Entscheidungen"
 description: "Die meisten Cloud-Migrationen scheitern in der Planungsphase. Hier ist die 12-Punkte-Checkliste, die wir vor jeder Produktionsmigration verwenden."
 date: 2026-12-03
 author: barannayir
@@ -10,8 +11,6 @@ image: /assets/images/blog/2026-12-03-cloud-migration-checklist.png
 i18n_key: cloud-migration-checklist
 permalink: /de/blog/2026-12-03-cloud-migration-checklist/
 ---
-
-# Cloud-Migration-Checkliste: 12 Dinge, die Sie entscheiden müssen, bevor Sie einen einzigen Server verschieben
 
 Die meisten Cloud-Migrationen scheitern nicht während der Migration. Sie scheitern in der Planung — wenn Teams Workloads in die Cloud verschieben, die on-prem geblieben wären, oder Workloads verschieben, ohne die Verträge zu erhalten, von denen abhängige Systeme abhängen.
 

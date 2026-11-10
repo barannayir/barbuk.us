@@ -1,7 +1,8 @@
 ---
 layout: post.liquid
 title: "Legacy-Datenbank-Migration: 5 Strategien, die in der Produktion tatsächlich funktionieren"
-description: "Big-Bang-Datenbankmigrationen scheitern. Hier sind 5 inkrementelle Strategien, die wir in echten Produktionssystemen verwendet haben, um Legacy-Datenbanken ohne Ausfallzeit oder Datenverlust abzulösen."
+seo_title: "Legacy-Datenbank-Migration: 5 Strategien"
+description: "Big-Bang-Datenbankmigrationen scheitern. 5 inkrementelle, in Produktion erprobte Strategien, um Legacy-Datenbanken ohne Ausfallzeit und Datenverlust abzulösen."
 date: 2027-01-21
 author: barannayir
 tags: [datenbank, migration, legacy, sql-server, postgres, strangler-fig]
@@ -10,8 +11,6 @@ image: /assets/images/blog/2027-01-21-legacy-database-migration.png
 i18n_key: legacy-database-migration
 permalink: /de/blog/2027-01-21-legacy-database-migration/
 ---
-
-# Legacy-Datenbank-Migration: 5 Strategien, die in der Produktion tatsächlich funktionieren
 
 Big-Bang-Datenbankmigrationen scheitern. Das Muster ist bekannt: Ein Team plant ein Wochenende-Cutover von SQL Server 2008 auf PostgreSQL 16, die Migration läuft 4x langsamer als erwartet, das Cutover verschiebt sich auf Montag, der Rollback schlägt fehl, und das Unternehmen verbringt drei Monate mit der Wiederherstellung.
 

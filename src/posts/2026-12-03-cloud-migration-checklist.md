@@ -1,7 +1,8 @@
 ---
 layout: post.liquid
 title: "Cloud Migration Checklist: 12 Things to Decide Before You Move a Single Server"
-description: "Most cloud migrations go wrong in the planning phase. Here is the 12-item checklist we use before moving any production workload, derived from a decade of cloud projects."
+seo_title: "Cloud Migration Checklist: 12 Key Decisions"
+description: "Most cloud migrations go wrong in planning. The 12-item checklist we use before moving any production workload, drawn from a decade of cloud projects."
 date: 2026-12-03
 author: barannayir
 tags: [cloud-migration, aws, azure, kubernetes, checklist]
@@ -10,8 +11,6 @@ image: /assets/images/blog/2026-12-03-cloud-migration-checklist.png
 i18n_key: cloud-migration-checklist
 permalink: /blog/2026-12-03-cloud-migration-checklist/
 ---
-
-# Cloud Migration Checklist: 12 Things to Decide Before You Move a Single Server
 
 Most cloud migrations do not fail during the migration. They fail during the planning — when teams move workloads to the cloud that should have stayed on-prem, or move workloads without preserving the contracts their dependent systems depend on. By the time the cutover happens, the architecture is wrong and the migration is irreversible.
 

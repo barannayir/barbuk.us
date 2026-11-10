@@ -1,7 +1,8 @@
 ---
 layout: post.liquid
 title: "Migración de bases de datos heredadas: 5 estrategias que realmente funcionan en producción"
-description: "Las migraciones big-bang de bases de datos fallan. Aquí van 5 estrategias incrementales que hemos usado en sistemas reales de producción para salir de bases heredadas sin downtime ni pérdida de datos."
+seo_title: "Migración de bases de datos legacy: 5 estrategias"
+description: "Las migraciones big-bang de bases de datos fallan. 5 estrategias incrementales probadas en producción para dejar bases heredadas sin downtime ni pérdida."
 date: 2027-01-21
 author: barannayir
 tags: [base-de-datos, migracion, legacy, sql-server, postgres, strangler-fig]
@@ -10,8 +11,6 @@ image: /assets/images/blog/2027-01-21-legacy-database-migration.png
 i18n_key: legacy-database-migration
 permalink: /es/blog/2027-01-21-legacy-database-migration/
 ---
-
-# Migración de bases de datos heredadas: 5 estrategias que realmente funcionan en producción
 
 Las migraciones big-bang de bases de datos fallan. El patrón es bien conocido: un equipo planifica un cutover de fin de semana de SQL Server 2008 a PostgreSQL 16, la migración corre 4x más lento de lo previsto, el cutover se desliza al lunes, el rollback falla, y la empresa pasa tres meses recuperándose.
 

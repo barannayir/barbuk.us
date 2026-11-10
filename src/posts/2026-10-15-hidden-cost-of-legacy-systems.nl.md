@@ -1,6 +1,7 @@
 ---
 layout: post.liquid
 title: "De verborgen kosten van legacy-systemen in 2026"
+seo_title: "De verborgen kosten van legacy-systemen"
 description: "Verouderde bedrijfssoftware onttrekt stilletjes middelen aan uw budget. Zo kwantificeert u de werkelijke kosten en wat modernisering daadwerkelijk oplevert."
 date: 2026-10-15
 author: "Barbuk Team"

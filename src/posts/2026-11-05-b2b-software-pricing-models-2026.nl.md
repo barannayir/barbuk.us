@@ -1,12 +1,11 @@
 ---
 layout: post.liquid
 title: "B2B-softwareprijsmodellen die werken in 2026"
+seo_title: "B2B-softwareprijsmodellen die werken in 2026"
 description: "Per seat sterft. Gebruiksgebaseerd stijgt. Een praktische gids voor het kiezen van het juiste prijsmodel voor B2B-software in de huidige markt."
 date: 2026-11-05
 permalink: /nl/blog/2026-11-05-b2b-software-pricing-models-2026/
 ---
-
-# B2B-softwareprijsmodellen die werken in 2026
 
 De B2B-softwareprijswereld is fundamenteel verschoven. Per seat sterft. Gebruiksgebaseerd stijgt. En de bedrijven die dit niet doorhebben, laten geld op tafel liggen — of erger, frustreren klanten.
 

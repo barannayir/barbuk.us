@@ -1,7 +1,8 @@
 ---
 layout: post.liquid
 title: "Migrazione di database legacy: 5 strategie che funzionano davvero in produzione"
-description: "Le migrazioni big-bang di database falliscono. Ecco 5 strategie incrementali che abbiamo usato su veri sistemi di produzione per uscire dai database legacy senza downtime o perdita di dati."
+seo_title: "Migrazione database legacy: 5 strategie"
+description: "Le migrazioni big-bang dei database falliscono. 5 strategie incrementali collaudate in produzione per lasciare i database legacy senza downtime né perdite."
 date: 2027-01-21
 author: barannayir
 tags: [database, migrazione, legacy, sql-server, postgres, strangler-fig]
@@ -10,8 +11,6 @@ image: /assets/images/blog/2027-01-21-legacy-database-migration.png
 i18n_key: legacy-database-migration
 permalink: /it/blog/2027-01-21-legacy-database-migration/
 ---
-
-# Migrazione di database legacy: 5 strategie che funzionano davvero in produzione
 
 Le migrazioni big-bang di database falliscono. Il pattern è ben noto: un team pianifica un cutover nel fine settimana da SQL Server 2008 a PostgreSQL 16, la migrazione gira 4x più lentamente del previsto, il cutover slitta a lunedì, il rollback fallisce, e l'azienda passa tre mesi a recuperare.
 
