@@ -1,6 +1,7 @@
 ---
 layout: post.liquid
 title: "El coste oculto de los sistemas legacy en 2026"
+seo_title: "El coste oculto de los sistemas legacy en 2026"
 description: "El software empresarial obsoleto drena silenciosamente su presupuesto. Así es como se cuantifica el coste real y lo que la modernización realmente aporta."
 date: 2026-10-15
 author: "Barbuk Team"

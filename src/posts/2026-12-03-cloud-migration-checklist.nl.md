@@ -1,6 +1,7 @@
 ---
 layout: post.liquid
 title: "Cloudmigratie-checklist: 12 dingen die u moet beslissen voordat u één server verplaatst"
+seo_title: "Cloudmigratie-checklist: 12 beslissingen"
 description: "De meeste cloudmigraties gaan mis in de planningsfase. Hier is de 12-puntenchecklist die we hanteren vóór elke productiemigratie."
 date: 2026-12-03
 author: barannayir
@@ -10,8 +11,6 @@ image: /assets/images/blog/2026-12-03-cloud-migration-checklist.png
 i18n_key: cloud-migration-checklist
 permalink: /nl/blog/2026-12-03-cloud-migration-checklist/
 ---
-
-# Cloudmigratie-checklist: 12 dingen die u moet beslissen voordat u één server verplaatst
 
 De meeste cloudmigraties falen niet tijdens de migratie. Ze falen tijdens de planning — wanneer teams workloads naar de cloud verplaatsen die on-premises hadden moeten blijven, of workloads verplaatsen zonder de contracten te behouden waarvan afhankelijke systemen afhankelijk zijn.
 

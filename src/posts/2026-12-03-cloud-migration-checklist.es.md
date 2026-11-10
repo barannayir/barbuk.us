@@ -1,7 +1,8 @@
 ---
 layout: post.liquid
 title: "Checklist de migración a la nube: 12 cosas que decidir antes de mover un solo servidor"
-description: "La mayoría de las migraciones a la nube fracasan en la fase de planificación. Aquí está la checklist de 12 puntos que usamos antes de cualquier migración de cargas de producción."
+seo_title: "Checklist de migración cloud: 12 decisiones"
+description: "La mayoría de las migraciones a la nube fracasan en la planificación. La checklist de 12 puntos que usamos antes de mover cualquier carga de producción."
 date: 2026-12-03
 author: barannayir
 tags: [migracion-nube, aws, azure, kubernetes, checklist]
@@ -10,8 +11,6 @@ image: /assets/images/blog/2026-12-03-cloud-migration-checklist.png
 i18n_key: cloud-migration-checklist
 permalink: /es/blog/2026-12-03-cloud-migration-checklist/
 ---
-
-# Checklist de migración a la nube: 12 cosas que decidir antes de mover un solo servidor
 
 La mayoría de las migraciones a la nube no fracasan durante la migración. Fracasan durante la planificación — cuando los equipos mueven cargas que deberían quedarse on-prem, o mueven cargas sin preservar los contratos de los que dependen los sistemas aguas abajo.
 

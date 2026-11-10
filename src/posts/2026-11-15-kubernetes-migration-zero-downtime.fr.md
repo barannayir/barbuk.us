@@ -1,7 +1,8 @@
 ---
 layout: post.liquid
 title: "Migration Kubernetes pour applications B2B héritées : playbook zéro temps d'arrêt"
-description: "Migrer une application B2B héritée vers Kubernetes sans temps d'arrêt est un problème de données, de trafic et d'observabilité à la fois. Voici le playbook que nous utilisons, étape par étape."
+seo_title: "Migration Kubernetes zéro temps d'arrêt (legacy)"
+description: "Migrer une application B2B héritée vers Kubernetes sans interruption est un enjeu de données, de trafic et d'observabilité. Notre playbook, étape par étape."
 date: 2026-11-15
 author: barannayir
 tags: [devops-cicd-modernization, kubernetes-migration-strategy, zero-downtime-deployment, container-orchestration-legacy, statefulset-data-migration, kubernetes]
@@ -10,8 +11,6 @@ image: /assets/images/blog/2026-11-15-kubernetes-migration-zero-downtime.png
 i18n_key: kubernetes-migration-zero-downtime
 permalink: /fr/blog/2026-11-15-kubernetes-migration-zero-downtime/
 ---
-
-# Migration Kubernetes pour B2B hérité : playbook zéro temps d'arrêt
 
 La plupart des applications B2B héritées tournent sur une seule VM, communiquent avec une seule base et desservent du trafic via un load balancer qui fonctionne depuis des années. En migrer une vers Kubernetes — une plateforme d'orchestration de conteneurs qui automatise le déploiement, la mise à l'échelle et la gestion des applications conteneurisées — sans temps d'arrêt est un remplacement contrôlé de chaque pièce, pendant que le système sert toujours des clients payants. Voici le playbook que nous utilisons, étape par étape.
 

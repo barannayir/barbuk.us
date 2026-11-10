@@ -1,12 +1,11 @@
 ---
 layout: post.liquid
 title: "ROI de la integración de IA: medir lo que realmente importa"
-description: "La mayoría de los proyectos de integración de IA fracasan porque los equipos miden métricas de vanidad. Un marco para el ROI de IA conectado a resultados empresariales reales."
+seo_title: "Cómo medir el ROI de la integración de IA"
+description: "La mayoría de los proyectos de integración de IA fracasan por medir métricas de vanidad. Un marco para conectar el ROI de IA con resultados de negocio reales."
 date: 2026-10-22
 permalink: /es/blog/2026-10-22-ai-integration-roi-measuring/
 ---
-
-# ROI de la integración de IA: medir lo que realmente importa
 
 Cada ejecutivo hace la misma pregunta después de la demo del piloto de IA: "¿Cuál es el retorno real?" La respuesta honesta: la mayoría de los equipos no tienen un buen marco para medirlo, así que lo inventan.
 

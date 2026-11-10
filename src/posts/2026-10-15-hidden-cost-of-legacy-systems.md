@@ -1,6 +1,7 @@
 ---
 layout: post.liquid
 title: "The Hidden Cost of Legacy Systems in 2026"
+seo_title: "The Hidden Cost of Legacy Systems in 2026"
 description: "Outdated enterprise software is silently draining your budget. Here's how to quantify the true cost and what modernization actually delivers."
 date: 2026-10-15
 author: "Barbuk Team"

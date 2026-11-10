@@ -1,7 +1,8 @@
 ---
 layout: post.liquid
 title: "AI-integratiestrategie voor mid-market bedrijven: een praktische routekaart"
-description: "De meeste mid-market bedrijven blijven steken in de AI-pilotfase. Hier is een vierstappenstrategie die AI-experimenten omzet in productiesystemen die het bedrijf daadwerkelijk vooruithelpen."
+seo_title: "AI-integratiestrategie voor mid-market bedrijven"
+description: "De meeste mid-market bedrijven blijven steken in de AI-pilotfase. Een vierstappenstrategie die AI-experimenten omzet in productiesystemen met bedrijfsimpact."
 date: 2026-10-29
 author: barannayir
 tags: [ai-integratie, strategie, mid-market, gpt-4, llm]
@@ -10,8 +11,6 @@ image: /assets/images/blog/2026-10-29-ai-integration-strategy.png
 i18n_key: ai-integration-strategy
 permalink: /nl/blog/2026-10-29-ai-integration-strategy/
 ---
-
-# AI-integratiestrategie voor mid-market bedrijven: een praktische routekaart
 
 Mid-market bedrijven — 50 tot 1000 medewerkers, 10 mln € tot 500 mln € omzet — kampen met een specifiek AI-integratieprobleem. Ze kunnen zich geen dedicated AI-onderzoekslab veroorloven, maar ze kunnen ook niet drie jaar wachten tot een Big Tech-leverancier een koopbare oplossing inpakt. Ze moeten het zelf bouwen, zonder de systemen te breken die het bedrijf vandaag draaiende houden.
 

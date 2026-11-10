@@ -1,7 +1,8 @@
 ---
 layout: post.liquid
 title: "Checklist migration cloud : 12 choses à décider avant de déplacer un seul serveur"
-description: "La plupart des migrations cloud échouent en phase de planification. Voici la checklist en 12 points que nous appliquons avant toute migration de charge de production."
+seo_title: "Checklist migration cloud : 12 décisions clés"
+description: "La plupart des migrations cloud échouent à la planification. La checklist en 12 points que nous appliquons avant de déplacer toute charge de production."
 date: 2026-12-03
 author: barannayir
 tags: [migration-cloud, aws, azure, kubernetes, checklist]
@@ -10,8 +11,6 @@ image: /assets/images/blog/2026-12-03-cloud-migration-checklist.png
 i18n_key: cloud-migration-checklist
 permalink: /fr/blog/2026-12-03-cloud-migration-checklist/
 ---
-
-# Checklist migration cloud : 12 choses à décider avant de déplacer un seul serveur
 
 La plupart des migrations cloud n'échouent pas pendant la migration. Elles échouent pendant la planification — quand les équipes déplacent des charges qui auraient dû rester on-prem, ou déplacent des charges sans préserver les contrats dont dépendent les systèmes en aval.
 

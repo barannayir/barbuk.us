@@ -1,12 +1,11 @@
 ---
 layout: post.liquid
 title: "B2B Software Pricing Models That Work in 2026"
+seo_title: "B2B Software Pricing Models That Work in 2026"
 description: "Per-seat is dying. Usage-based is rising. Here's a practical guide to choosing the right pricing model for B2B software in the current market."
 date: 2026-11-05
 permalink: /blog/2026-11-05-b2b-software-pricing-models-2026/
 ---
-
-# B2B Software Pricing Models That Work in 2026
 
 The B2B software pricing world has fundamentally shifted. Per-seat is dying. Usage-based is rising. And the companies that haven't figured this out are leaving money on the table — or worse, leaving customers frustrated.
 

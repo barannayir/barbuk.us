@@ -1,7 +1,8 @@
 ---
 layout: post.liquid
 title: "Legacy-databasemigratie: 5 strategieën die in productie daadwerkelijk werken"
-description: "Big-bang databasemigraties mislukken. Hier zijn 5 incrementele strategieën die we op echte productiesystemen hebben gebruikt om van legacy-databases af te komen zonder downtime of dataverlies."
+seo_title: "Legacy-databasemigratie: 5 strategieën"
+description: "Big-bang databasemigraties mislukken. 5 incrementele, in productie bewezen strategieën om legacy-databases te verlaten zonder downtime of dataverlies."
 date: 2027-01-21
 author: barannayir
 tags: [database, migratie, legacy, sql-server, postgres, strangler-fig]
@@ -10,8 +11,6 @@ image: /assets/images/blog/2027-01-21-legacy-database-migration.png
 i18n_key: legacy-database-migration
 permalink: /nl/blog/2027-01-21-legacy-database-migration/
 ---
-
-# Legacy-databasemigratie: 5 strategieën die in productie daadwerkelijk werken
 
 Big-bang databasemigraties mislukken. Het patroon is goed bekend: een team plant een weekend-cutover van SQL Server 2008 naar PostgreSQL 16, de migratie draait 4x langzamer dan verwacht, de cutover schuift naar maandag, de rollback faalt, en het bedrijf is drie maanden bezig met herstel.
 

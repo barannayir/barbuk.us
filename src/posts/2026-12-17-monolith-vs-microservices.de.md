@@ -1,7 +1,8 @@
 ---
 layout: post.liquid
 title: "Monolith vs Microservices Entscheidungsframework: Ein pragmatischer Leitfaden für den Mittelstand"
-description: "Die Microservices-Debatte ist erschöpft. Hier ist ein Entscheidungsframework, das die richtige Architektur auswählt — basierend auf Teamgröße, Lastprofilen und Systemalter, nicht auf Mode."
+seo_title: "Monolith vs. Microservices: Entscheidungshilfe"
+description: "Die Microservices-Debatte ist erschöpft. Ein Entscheidungsframework, das die Architektur nach Teamgröße, Lastprofilen und Systemalter wählt, nicht nach Mode."
 date: 2026-12-17
 author: barannayir
 tags: [monolith, microservices, architektur, kubernetes, dotnet]
@@ -10,8 +11,6 @@ image: /assets/images/blog/2026-12-17-monolith-vs-microservices.png
 i18n_key: monolith-vs-microservices
 permalink: /de/blog/2026-12-17-monolith-vs-microservices/
 ---
-
-# Monolith vs Microservices Entscheidungsframework: Ein pragmatischer Leitfaden für den Mittelstand
 
 Die „Monolith vs Microservices"-Debatte ist in der Literatur erschöpft und in der Praxis noch mehr. Jeder Senior-Entwickler hat eine Meinung, die meisten geformt von der Architektur, die sie zuletzt verbrannt hat. Dieser Artikel ist keine weitere Meinung. Er ist ein Entscheidungsframework, das die richtige Architektur aus vier Eingaben wählt: Teamgröße, Lastprofile, Systemalter und Position im Lebenszyklus.
 

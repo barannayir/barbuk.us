@@ -1,6 +1,7 @@
 ---
 layout: post.liquid
 title: "Il costo nascosto dei sistemi legacy nel 2026"
+seo_title: "Il costo nascosto dei sistemi legacy nel 2026"
 description: "Il software aziendale obsoleto prosciuga silenziosamente il vostro budget. Ecco come quantificare il costo reale e cosa offre davvero la modernizzazione."
 date: 2026-10-15
 author: "Barbuk Team"

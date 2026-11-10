@@ -1,6 +1,7 @@
 ---
 layout: post.liquid
 title: "Die versteckten Kosten von Legacy-Systemen im Jahr 2026"
+seo_title: "Versteckte Kosten von Legacy-Systemen 2026"
 description: "Veraltete Unternehmenssoftware entzieht Ihrem Budget unbemerkt Ressourcen. So quantifizieren Sie die wahren Kosten und was Modernisierung tatsächlich liefert."
 date: 2026-10-15
 author: "Barbuk Team"

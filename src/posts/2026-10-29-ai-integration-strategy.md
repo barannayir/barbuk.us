@@ -1,7 +1,8 @@
 ---
 layout: post.liquid
 title: "AI Integration Strategy for Mid-Market Companies: A Practical Roadmap"
-description: "Most mid-market companies stall at AI pilot stage. Here is a four-step strategy that turns AI experiments into production systems that actually move the business."
+seo_title: "AI Integration Strategy for Mid-Market Companies"
+description: "Most mid-market companies stall at the AI pilot stage. A four-step strategy that turns AI experiments into production systems that move the business."
 date: 2026-10-29
 author: barannayir
 tags: [ai-integration, strategy, mid-market, gpt-4, llm]
@@ -10,8 +11,6 @@ image: /assets/images/blog/2026-10-29-ai-integration-strategy.png
 i18n_key: ai-integration-strategy
 permalink: /blog/2026-10-29-ai-integration-strategy/
 ---
-
-# AI Integration Strategy for Mid-Market Companies: A Practical Roadmap
 
 Mid-market companies — 50 to 1000 employees, €10M to €500M revenue — face a specific AI integration problem. They cannot afford a dedicated AI research lab, but they also cannot wait three years for a Big Tech vendor to package a solution they can buy. They have to build something themselves, and they have to do it without breaking the systems that run the business today.
 

@@ -1,12 +1,11 @@
 ---
 layout: post.liquid
 title: "AI Integration ROI: How to Measure What Actually Matters"
+seo_title: "How to Measure AI Integration ROI"
 description: "Most AI integration projects fail because teams measure vanity metrics. Here's a framework for tracking AI ROI that connects to real business outcomes."
 date: 2026-10-22
 permalink: /blog/2026-10-22-ai-integration-roi-measuring/
 ---
-
-# AI Integration ROI: How to Measure What Actually Matters
 
 Every executive asks the same question after the AI pilot demo: "What's the actual return?" The honest answer is: most teams don't have a good framework for measuring it, so they make it up.
 

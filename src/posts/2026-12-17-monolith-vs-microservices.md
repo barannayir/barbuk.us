@@ -1,7 +1,8 @@
 ---
 layout: post.liquid
 title: "Monolith vs Microservices Decision Framework: A Pragmatic Guide for Mid-Market"
-description: "The microservices debate is exhausted. Here is a decision framework that picks the right architecture based on team size, traffic patterns, and system age — not fashion."
+seo_title: "Monolith vs Microservices: A Decision Framework"
+description: "The microservices debate is exhausted. A decision framework that picks the right architecture from team size, traffic patterns and system age, not fashion."
 date: 2026-12-17
 author: barannayir
 tags: [monolith, microservices, architecture, kubernetes, dotnet]
@@ -10,8 +11,6 @@ image: /assets/images/blog/2026-12-17-monolith-vs-microservices.png
 i18n_key: monolith-vs-microservices
 permalink: /blog/2026-12-17-monolith-vs-microservices/
 ---
-
-# Monolith vs Microservices Decision Framework: A Pragmatic Guide for Mid-Market
 
 The "monolith vs microservices" debate is exhausted in the literature and even more exhausted in practice. Every senior engineer has an opinion, most of them shaped by whichever architecture burned them last. This article is not another opinion. It is a decision framework that picks the right architecture from four inputs: team size, traffic patterns, system age, and where the system is in its lifecycle.
 

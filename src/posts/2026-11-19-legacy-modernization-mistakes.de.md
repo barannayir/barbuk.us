@@ -1,12 +1,11 @@
 ---
 layout: post.liquid
 title: "5 Legacy-Modernisierungsfehler, die Ihr Budget verbrennen"
+seo_title: "5 Legacy-Modernisierungsfehler, die Budget kosten"
 description: "Die meisten Modernisierungsprojekte überschreiten das Budget um das 2–3-fache. Die Muster sind vorhersehbar. So erkennen Sie sie, bevor sie Sie kosten."
 date: 2026-11-19
 permalink: /de/blog/2026-11-19-legacy-modernization-mistakes/
 ---
-
-# 5 Legacy-Modernisierungsfehler, die Ihr Budget verbrennen
 
 Die meisten Enterprise-Modernisierungsprojekte überschreiten das Budget um das 2–3-fache. Nicht weil die Technologie schwer ist — sondern weil die Muster vorhersehbar sind und niemand Schutzmaßnahmen dagegen aufbaut.
 

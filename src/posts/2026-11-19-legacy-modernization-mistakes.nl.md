@@ -1,12 +1,11 @@
 ---
 layout: post.liquid
 title: "5 legacy-moderniseringsfouten die uw budget verbranden"
+seo_title: "5 legacy-moderniseringsfouten die budget kosten"
 description: "De meeste moderniseringsprojecten overschrijden het budget met 2-3×. De patronen zijn voorspelbaar. Zo herkent u ze voordat ze u geld kosten."
 date: 2026-11-19
 permalink: /nl/blog/2026-11-19-legacy-modernization-mistakes/
 ---
-
-# 5 legacy-moderniseringsfouten die uw budget verbranden
 
 De meeste enterprise-moderniseringsprojecten overschrijden het budget met 2-3×. Niet omdat de technologie moeilijk is — maar omdat de patronen voorspelbaar zijn en niemand er bescherming tegen bouwt.
 

@@ -1,7 +1,8 @@
 ---
 layout: post.liquid
 title: "Monolito vs microservicios: marco de decisión pragmático para mid-market"
-description: "El debate monolito vs microservicios está agotado. Aquí va un marco de decisión que elige la arquitectura correcta a partir de cuatro entradas: tamaño de equipo, patrones de tráfico, edad del sistema y posición en el ciclo de vida."
+seo_title: "Monolito vs microservicios: marco de decisión"
+description: "El debate monolito vs microservicios está agotado. Un marco de decisión que elige la arquitectura según equipo, tráfico y edad del sistema, no la moda."
 date: 2026-12-17
 author: barannayir
 tags: [monolito, microservicios, arquitectura, kubernetes, dotnet]
@@ -10,8 +11,6 @@ image: /assets/images/blog/2026-12-17-monolith-vs-microservices.png
 i18n_key: monolith-vs-microservices
 permalink: /es/blog/2026-12-17-monolith-vs-microservices/
 ---
-
-# Monolito vs microservicios: marco de decisión pragmático para mid-market
 
 El debate "monolito vs microservicios" está agotado en la literatura y aún más en la práctica. Cada ingeniero senior tiene una opinión, la mayoría modelada por la arquitectura que les quemó la última vez. Este artículo no es otra opinión. Es un marco de decisión que escoge la arquitectura correcta a partir de cuatro entradas.
 

@@ -38,6 +38,26 @@ for (const page of pages) {
   if (/<script\s+type="application\/ld\+json">/i.test(html)) jsonLdCount++;
 }
 
+// Blog posts: single H1, SERP-friendly title/description, no future-dated (unpublished) posts
+const today = new Date().toISOString().slice(0, 10);
+const blogTitles = new Map();
+for (const page of pages) {
+  const url = page.slice(DIST.length).replace(/\\/g, '/');
+  if (!/^(\/(de|fr|nl|it|es))?\/blog\//.test(url)) continue;
+  const html = readFileSync(page, 'utf8');
+  const h1s = (html.match(/<h1[\s>]/g) || []).length;
+  if (h1s !== 1) log('ERROR', `${url}: expected exactly 1 <h1>, found ${h1s}`);
+  const title = (html.match(/<title>([^<]*)<\/title>/) || [])[1] || '';
+  if (title.length > 65) log('ERROR', `${url}: <title> is ${title.length} chars (max 65)`);
+  if ((title.match(/\|/g) || []).length > 1) log('ERROR', `${url}: <title> has a doubled suffix: ${title}`);
+  const desc = (html.match(/<meta name="description" content="([^"]*)"/) || [])[1] || '';
+  if (desc.length < 100 || desc.length > 165) log('WARN', `${url}: meta description is ${desc.length} chars (target 100-160)`);
+  if (blogTitles.has(title)) log('ERROR', `${url}: duplicate <title> also on ${blogTitles.get(title)}`);
+  blogTitles.set(title, url);
+  const published = (html.match(/"datePublished":\s*"(\d{4}-\d{2}-\d{2})"/) || [])[1];
+  if (published && published > today) log('ERROR', `${url}: future-dated post (${published}) must not be published`);
+}
+
 // Sitemap check
 try {
   const sitemap = readFileSync(join(DIST, 'sitemap.xml'), 'utf8');

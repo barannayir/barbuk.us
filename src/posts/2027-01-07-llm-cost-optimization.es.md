@@ -1,7 +1,8 @@
 ---
 layout: post.liquid
 title: "Optimización de costes LLM: 7 técnicas que reducen el gasto en API un 60-80% sin perjudicar la calidad"
-description: "La mayoría de integraciones LLM gastan 2-3x más de lo necesario. Aquí van 7 técnicas probadas en producción que reducen el gasto sin sacrificar la calidad del output."
+seo_title: "Optimización de costes de LLM: 7 técnicas"
+description: "La mayoría de integraciones LLM gastan 2-3x más de lo necesario. 7 técnicas probadas en producción que reducen el gasto sin sacrificar la calidad."
 date: 2027-01-07
 author: barannayir
 tags: [llm, gpt-4, optimizacion-costes, integracion-ia, cache]
@@ -10,8 +11,6 @@ image: /assets/images/blog/2027-01-07-llm-cost-optimization.png
 i18n_key: llm-cost-optimization
 permalink: /es/blog/2027-01-07-llm-cost-optimization/
 ---
-
-# Optimización de costes LLM: 7 técnicas que reducen el gasto en API un 60-80% sin perjudicar la calidad
 
 La mayoría de equipos que auditamos en nuestro [trabajo de integración IA](/es/ai-integration-services/) gastan 2-3x más en APIs LLM de lo necesario. No porque los modelos sean incorrectos, sino porque la integración está sin optimizar. La buena noticia: un pequeño conjunto de técnicas, aplicadas de forma sistemática, puede reducir el gasto un 60-80% sin pérdida de calidad medible.
 

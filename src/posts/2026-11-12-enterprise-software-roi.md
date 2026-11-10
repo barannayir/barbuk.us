@@ -1,7 +1,8 @@
 ---
 layout: post.liquid
 title: "Enterprise Software ROI Measurement: Beyond the Vendor's Pitch Deck"
-description: "Vendor ROI calculators are sales tools, not measurement tools. Here is how to build your own ROI model for enterprise software that survives contact with the finance team."
+seo_title: "Enterprise Software ROI: Beyond the Vendor Pitch"
+description: "Vendor ROI calculators are sales tools, not measurement tools. How to build your own enterprise software ROI model that survives the finance team's scrutiny."
 date: 2026-11-12
 author: barannayir
 tags: [enterprise-software, roi, measurement, b2b, finance]
@@ -10,8 +11,6 @@ image: /assets/images/blog/2026-11-12-enterprise-software-roi.png
 i18n_key: enterprise-software-roi
 permalink: /blog/2026-11-12-enterprise-software-roi/
 ---
-
-# Enterprise Software ROI Measurement: Beyond the Vendor's Pitch Deck
 
 Every enterprise software vendor ships with an ROI calculator. Most of them produce numbers that match the vendor's preferred outcome. By the time finance asks hard questions, the deal is already politically locked in and the calculator becomes a piece of fiction nobody wants to revisit.
 

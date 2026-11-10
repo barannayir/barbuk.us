@@ -1,7 +1,8 @@
 ---
 layout: post.liquid
 title: "Monoliet vs microservices beslissingsraamwerk: een pragmatische gids voor mid-market"
-description: "Het monoliet vs microservices debat is uitgeput. Hier is een beslissingsraamwerk dat de juiste architectuur kiest op basis van teamgrootte, verkeerspatronen, systeemleeftijd en levenscycluspositie — niet op basis van mode."
+seo_title: "Monoliet vs microservices: beslissingsraamwerk"
+description: "Het monoliet vs microservices-debat is uitgeput. Een beslissingsraamwerk dat de architectuur kiest op teamgrootte, verkeer en systeemleeftijd, niet op mode."
 date: 2026-12-17
 author: barannayir
 tags: [monoliet, microservices, architectuur, kubernetes, dotnet]
@@ -10,8 +11,6 @@ image: /assets/images/blog/2026-12-17-monolith-vs-microservices.png
 i18n_key: monolith-vs-microservices
 permalink: /nl/blog/2026-12-17-monolith-vs-microservices/
 ---
-
-# Monoliet vs microservices beslissingsraamwerk: een pragmatische gids voor mid-market
 
 Het "monoliet vs microservices" debat is uitgeput in de literatuur en nog uitgeputer in de praktijk. Elke senior engineer heeft een mening, de meeste gevormd door welke architectuur hen het laatst heeft verbrand. Dit artikel is geen nieuwe mening. Het is een beslissingsraamwerk dat de juiste architectuur kiest uit vier inputs.
 
