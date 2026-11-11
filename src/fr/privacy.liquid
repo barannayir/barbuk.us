@@ -6,26 +6,6 @@ lang: fr
 ---
 {%- assign lang = "en" -%}
 {%- assign t = "privacy" | lookupI18n: "fr" -%}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Home",
-      "item": "https://barbuk.us/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "name": {{ t.page_hero.title | jsonify }},
-      "item": "https://barbuk.us/fr/privacy/"
-    }
-  ]
-}
-</script>
 <article class="legal-page">
   <header class="legal-hero">
     <h1>{{ t.page_hero.title }}</h1>
