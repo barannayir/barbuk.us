@@ -1,0 +1,154 @@
+{
+  "page_hero": {
+    "title": "Delphi ve VB6 Modernizasyonu",
+    "subtitle": "Delphi veya Visual Basic 6 ile yazılmış masaüstü uygulamanız yıllardır işinizi yürütüyor ama ekranları eski, kurulumu zahmetli, entegrasyonları zor. İş mantığını koruyarak uygulamanızı modern Windows, web ve bulut ortamına taşıyoruz."
+  },
+  "why_modernize": {
+    "section_title": "Masaüstü uygulamanız neden zorlanmaya başladı?",
+    "intro": "Türkiye'de çok sayıda muhasebe, stok, üretim takip, sağlık ve sektöre özel uygulama Delphi veya VB6 ile yazıldı. Bu uygulamalar işini yapıyor; ama 2000'lerin başında kurulan teknik temel bugün kurulum, güvenlik, entegrasyon ve kullanıcı deneyimi tarafında sorun çıkarıyor.",
+    "paragraphs": [
+      "Visual Basic 6 geliştirme ortamının desteği 2008'de sona erdi; uygulamalar Windows'ta hâlâ çalışsa da 32 bit, eski ActiveX/OCX bileşenleri ve COM kayıt sorunlarıyla her yeni Windows sürümünde biraz daha kırılgan hâle geliyor. Eski Delphi sürümleriyle yazılmış uygulamalarda ise BDE, Paradox tabloları ve artık güncellenmeyen üçüncü parti bileşenler benzer riskler taşıyor.",
+      "Kullanıcılar bugün web ve mobil uygulamaların sunduğu deneyimi bekliyor: her yerden erişim, arama, anlaşılır ekranlar, yüksek çözünürlüklü monitörlerde düzgün görünüm. Gri, sıkışık formlar ve sabit ekran çözünürlüğüne göre tasarlanmış pencereler bu beklentiyi karşılamıyor.",
+      "Entegrasyon ihtiyacı da büyüyor. e-Fatura, e-Arşiv, e-İrsaliye, banka entegrasyonları, e-Ticaret ve mobil saha uygulamaları gibi yeni kanallar, masaüstüne gömülü iş mantığına bağlanmayı zorlaştırıyor. Doğru modernizasyon, bu mantığı servis olarak açığa çıkarıp hem masaüstü hem web tarafından kullanılabilir hâle getirir."
+    ],
+    "signs_title": "Delphi/VB6 modernizasyonunu gündeme getiren tipik durumlar:",
+    "signs": [
+      "Uygulama yalnız belirli bilgisayarlarda, elle kurulan bileşenlerle çalışıyor.",
+      "Yeni Windows güncellemelerinden sonra hatalar veya görüntü bozulmaları yaşanıyor.",
+      "Veri Access, Paradox veya BDE üzerinden tutuluyor; çok kullanıcılı erişimde kilitlenmeler oluyor.",
+      "Uygulamayı yazan geliştirici artık ulaşılabilir değil veya kaynak kodun bir kısmı eksik.",
+      "Uzaktan ve mobil erişim için RDP veya ekran paylaşımı gibi geçici çözümler kullanılıyor."
+    ]
+  },
+  "services_section": {
+    "title": "Delphi ve VB6 modernizasyon hizmetlerimiz",
+    "subtitle": "Görsel yenilemeden web'e tam geçişe kadar, uygulamanızın ihtiyacı kadar."
+  },
+  "services": [
+    {
+      "id": "delphi-vb6-gorsel-yenileme",
+      "icon": "🎨",
+      "title": "Görsel yenileme ve hızlı iyileştirme",
+      "intro": "Uygulamayı baştan yazmadan ekranları güncelliyoruz: modern görünüm, yüksek çözünürlük (high-DPI) desteği, daha anlaşılır formlar ve kullanıcı akışları.",
+      "what_we_do_label": "Neler yapıyoruz:",
+      "features": [
+        { "label": "Delphi:", "text": "Eski Delphi sürümlerinden güncel Delphi'ye geçiş, VCL Styles ile modern tema, Unicode ve high-DPI uyumu." },
+        { "label": "VB6:", "text": "En çok kullanılan formların .NET (WinForms/WPF) karşılıklarıyla değiştirilmesi, COM birlikte çalışabilirliği ile kademeli geçiş." },
+        { "label": "Kullanılabilirlik:", "text": "Arama, filtreleme, klavye kısayolları ve anlaşılır hata mesajlarıyla ekran akışlarının sadeleştirilmesi." },
+        { "label": "Kurulum:", "text": "Elle kurulan OCX/DLL bağımlılıklarını ortadan kaldıran, tek adımlı ve güncellenebilir dağıtım." }
+      ],
+      "tech_label": "Teknolojiler:",
+      "tech_stack": ["Delphi", "VCL", "VCL Styles", "VB6", ".NET 8", "WinForms", "WPF", "MSIX"]
+    },
+    {
+      "id": "delphi-vb6-web",
+      "icon": "🌐",
+      "title": "Masaüstünden web'e geçiş",
+      "intro": "İş mantığını masaüstü formlarından ayırıp servis katmanına taşıyor, üzerine tarayıcıdan ve mobilden kullanılabilen bir web arayüzü kuruyoruz. Geçiş süresince masaüstü uygulama çalışmaya devam eder.",
+      "what_we_do_label": "Neler yapıyoruz:",
+      "features": [
+        { "label": "İş mantığı çıkarımı:", "text": "Form olaylarına (OnClick, Click) gömülü kuralları ayırıp belgelenmiş servis katmanına taşıyoruz." },
+        { "label": "Web arayüzü:", "text": "ASP.NET Core arka uç ve React veya Blazor ön yüz ile modern, mobil uyumlu ekranlar." },
+        { "label": "Kademeli geçiş:", "text": "Modül modül ilerliyoruz; masaüstü ve web aynı veritabanı ve servisler üzerinden bir süre birlikte çalışır." },
+        { "label": "Çok kullanıcılı yapı:", "text": "Rol bazlı yetkilendirme, kullanıcı yönetimi ve denetim kaydı." }
+      ],
+      "tech_label": "Kaynak → hedef:",
+      "tech_stack": ["Delphi", "VB6", "ASP.NET Core", ".NET 8", "React", "Blazor", "TypeScript"]
+    },
+    {
+      "id": "delphi-vb6-veri",
+      "icon": "🗄️",
+      "title": "Veritabanı ve raporlama modernizasyonu",
+      "intro": "BDE, Paradox, dBase ve Access gibi eski veri katmanlarını çok kullanıcılı, yedeklenebilir ve güvenli veritabanlarına taşıyoruz; raporlamayı da modern araçlara geçiriyoruz.",
+      "what_we_do_label": "Neler yapıyoruz:",
+      "features": [
+        { "label": "Veri taşıma:", "text": "Paradox/dBase/Access → SQL Server, PostgreSQL veya Firebird; veri doğrulama ve Türkçe karakter (kod sayfası) dönüşümü dahil." },
+        { "label": "Veri erişim katmanı:", "text": "BDE ve eski ADO/DAO bağlantılarını FireDAC veya .NET veri erişim katmanına geçirme." },
+        { "label": "Raporlama:", "text": "QuickReport ve Crystal Reports raporlarını FastReport, SSRS veya Power BI'a taşıma." }
+      ],
+      "tech_label": "Veri:",
+      "tech_stack": ["BDE", "Paradox", "Access", "ADO", "FireDAC", "SQL Server", "PostgreSQL", "Firebird"]
+    },
+    {
+      "id": "delphi-vb6-entegrasyon",
+      "icon": "🔌",
+      "title": "Entegrasyon ve API katmanı",
+      "intro": "Uygulamanızı dış dünyaya güvenli bir API ile açıyoruz; e-belge, banka, e-Ticaret ve mobil uygulama entegrasyonları masaüstü koduna dokunmadan eklenebilir hâle gelir.",
+      "what_we_do_label": "Neler yapıyoruz:",
+      "features": [
+        { "label": "REST API:", "text": "Mevcut veritabanı ve iş kuralları üzerinde belgelenmiş, kimlik doğrulamalı REST servisleri." },
+        { "label": "e-Belge entegrasyonları:", "text": "e-Fatura, e-Arşiv ve e-İrsaliye için entegratör bağlantıları." },
+        { "label": "Zamanlanmış işler:", "text": "Masaüstünde elle tetiklenen aktarımları güvenilir, izlenebilir arka plan işlerine dönüştürme." }
+      ],
+      "tech_label": "Teknolojiler:",
+      "tech_stack": ["REST", "OpenAPI", "ASP.NET Core", "Delphi (REST/DataSnap)", "COM Interop"]
+    }
+  ],
+  "process": {
+    "title": "Süreç: İnceleme → Teklif → Uygulama",
+    "subtitle": "Her adımın sonunda somut bir çıktı alırsınız; devam kararı sizindir.",
+    "steps": [
+      {
+        "number": "1",
+        "title": "İnceleme",
+        "text": "Kaynak kodu, kullanılan bileşenleri, veritabanını ve en çok kullanılan ekranları inceliyoruz. Bağımlılık listesi, risk noktaları (eksik kaynak kod, desteklenmeyen bileşenler) ve hızlı kazanımları içeren kısa bir rapor hazırlıyoruz."
+      },
+      {
+        "number": "2",
+        "title": "Teklif",
+        "text": "Görsel yenileme, veri taşıma, API ve web'e geçiş işlerini ayrı aşamalar olarak sabit fiyatla teklif ediyoruz. Her aşamanın kapsamı, süresi ve teslimatı yazılıdır."
+      },
+      {
+        "number": "3",
+        "title": "Uygulama",
+        "text": "İlk aşamada en çok kullanılan ekranları yeniliyor ve kurulumu sadeleştiriyoruz. Ardından veri katmanı, API ve web modülleri gelir. Mevcut uygulama geçiş boyunca çalışmaya devam eder."
+      }
+    ]
+  },
+  "tech_stack": {
+    "title": "Kaynak ve hedef teknolojiler",
+    "subtitle": "Eski masaüstü ekosistemini tanıyor, hedef mimariyi ihtiyaca göre seçiyoruz.",
+    "categories": [
+      { "name": "Masaüstü (kaynak)", "items": ["Delphi 5–7", "Delphi 2007+", "VB6", "ActiveX/OCX", "COM", "BDE"] },
+      { "name": "Modern masaüstü", "items": ["Güncel Delphi (VCL)", ".NET 8", "WinForms", "WPF", "MSIX"] },
+      { "name": "Web ve mobil", "items": ["ASP.NET Core", "React", "Blazor", "TypeScript", "PWA"] },
+      { "name": "Veri ve raporlama", "items": ["SQL Server", "PostgreSQL", "Firebird", "FastReport", "SSRS", "Power BI"] }
+    ]
+  },
+  "faq": {
+    "title": "Delphi ve VB6 modernizasyonu: sık sorulanlar",
+    "subtitle": "Masaüstü uygulama sahiplerinden en çok duyduğumuz sorular.",
+    "items": [
+      {
+        "question": "VB6 uygulamamız hâlâ çalışıyor. Neden şimdi modernize etmeliyiz?",
+        "answer": "Çalışması, riskli olmadığı anlamına gelmez. VB6 geliştirme ortamı 2008'den beri desteklenmiyor; uygulamanın bağlı olduğu ActiveX bileşenleri ve 32 bit yapı her Windows güncellemesinde kırılma riski taşıyor. Modernizasyonu bir sorun çıktıktan sonra acil olarak yapmak yerine planlı ve kademeli yapmak çok daha düşük maliyetlidir."
+      },
+      {
+        "question": "Delphi uygulamamızı web'e taşımak zorunda mıyız?",
+        "answer": "Hayır. Kullanıcılarınız ofiste ve masaüstünde çalışıyorsa, güncel Delphi sürümüne geçiş ve görsel yenileme yeterli olabilir. Web'e geçiş; uzaktan erişim, bayi veya müşteri erişimi ya da mobil kullanım gerektiğinde mantıklıdır. Bu kararı inceleme aşamasında birlikte veriyoruz."
+      },
+      {
+        "question": "Kaynak kodun bir kısmı elimizde yok. Ne yapabiliriz?",
+        "answer": "Bu sık karşılaştığımız bir durum. Eksik bölümlerin davranışını ekranlar, veritabanı ve girdi/çıktı örnekleri üzerinden analiz ediyor, bu davranışı testlerle sabitliyor ve yeni kodu bu testlere göre yazıyoruz. İnceleme aşamasında hangi bölümlerin eksik olduğunu ve riskini net olarak raporluyoruz."
+      },
+      {
+        "question": "Geçiş sırasında kullanıcılar iki ayrı uygulama mı kullanacak?",
+        "answer": "Kısa bir süre için evet, ama kontrollü şekilde. Modül modül ilerlediğimiz için yeni modüller aynı veritabanı ve servisler üzerinden çalışır; kullanıcılar yeni ekranlara gruplar hâlinde geçer. Eski modül, yenisi doğrulanana kadar yedek olarak kalır."
+      }
+    ]
+  },
+  "related": {
+    "title": "Diğer eski sistem hizmetlerimiz",
+    "items": [
+      { "title": "COBOL Modernizasyonu", "url": "/tr/cobol-modernizasyonu/", "text": "Mainframe COBOL uygulamaları için 3270 ekranlarından web arayüzüne, API'leştirme ve kademeli taşıma." },
+      { "title": "IBM AS/400 (IBM i) Modernizasyonu", "url": "/tr/as400-modernizasyonu/", "text": "RPG, CL ve 5250 yeşil ekran uygulamaları için web arayüzü, API ve veri modernizasyonu." }
+    ]
+  },
+  "cta": {
+    "title": "Uygulamanıza birlikte bakalım",
+    "subtitle": "Kısa bir ön inceleme görüşmesinde Delphi veya VB6 uygulamanızı dinliyor, ilk görünür iyileştirmeyi ve olası yol haritasını konuşuyoruz. Ücretsiz ve bağlayıcı değildir.",
+    "button": "Ücretsiz Ön İnceleme İsteyin",
+    "secondary_button": "Süreci Görün",
+    "home_button": "Tüm Yaklaşımımız"
+  }
+}

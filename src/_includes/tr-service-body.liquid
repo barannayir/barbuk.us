@@ -1,0 +1,144 @@
+{%- comment -%}
+  TR legacy hizmet sayfası gövdesi (COBOL, AS/400, Delphi/VB6).
+  Kullanım: {% assign t = "<slug>" | lookupI18n: "tr" %}{% include "tr-service-body.liquid" %}
+  Yapı EN /legacy-modernization/ pillar sayfasını izler; veri src/_data/i18n/tr/<slug>.json.
+{%- endcomment -%}
+{% include "tr-styles.liquid" %}
+
+<!-- Hero -->
+<section class="page-hero">
+  <div class="container">
+    <h1>{{ t.page_hero.title }}</h1>
+    <p class="hero-subtitle">{{ t.page_hero.subtitle }}</p>
+    <div class="hero-cta">
+      <a href="/tr/contact/" class="btn-primary btn-lg">{{ t.cta.button }}</a>
+      <a href="/tr/#surec" class="btn-secondary btn-lg">{{ t.cta.secondary_button }}</a>
+    </div>
+  </div>
+</section>
+
+<!-- Neden modernize etmeli -->
+<section class="why-modernize">
+  <div class="container">
+    <h2>{{ t.why_modernize.section_title }}</h2>
+    <p class="section-intro">{{ t.why_modernize.intro }}</p>
+
+    {% for p in t.why_modernize.paragraphs %}
+    <p>{{ p }}</p>
+    {% endfor %}
+
+    {% if t.why_modernize.signs %}
+    <h3>{{ t.why_modernize.signs_title }}</h3>
+    <ul>
+      {% for sign in t.why_modernize.signs %}
+      <li>{{ sign }}</li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </div>
+</section>
+
+<!-- Hizmetler -->
+<section class="services-detail">
+  <div class="container">
+    <h2>{{ t.services_section.title }}</h2>
+    <p class="section-subtitle">{{ t.services_section.subtitle }}</p>
+
+    {% for service in t.services %}
+    <div class="service-detail" id="{{ service.id }}">
+      <div class="service-icon-large">{{ service.icon }}</div>
+      <h3>{{ service.title }}</h3>
+      <p class="service-intro">{{ service.intro }}</p>
+
+      <div class="service-features">
+        <h4>{{ service.what_we_do_label }}</h4>
+        <ul>
+          {% for feature in service.features %}
+          <li><strong>{{ feature.label }}</strong> {{ feature.text }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      <div class="service-tech-stack">
+        <strong>{{ service.tech_label }}</strong>
+        <div class="tech-tags">
+          {% for tech in service.tech_stack %}
+          <span>{{ tech }}</span>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<!-- Süreç: İnceleme → Teklif → Uygulama -->
+<section class="process-section">
+  <div class="container">
+    <h2>{{ t.process.title }}</h2>
+    <p class="section-subtitle">{{ t.process.subtitle }}</p>
+
+    <div class="process-steps">
+      {% for step in t.process.steps %}
+      <div class="process-step">
+        <div class="step-number">{{ step.number }}</div>
+        <h3>{{ step.title }}</h3>
+        <p>{{ step.text }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- Teknoloji: kaynak → hedef -->
+<section class="tech-stack-section">
+  <div class="container">
+    <h2>{{ t.tech_stack.title }}</h2>
+    <p class="section-subtitle">{{ t.tech_stack.subtitle }}</p>
+
+    <div class="tech-categories">
+      {% for category in t.tech_stack.categories %}
+      <div class="tech-category">
+        <h3>{{ category.name }}</h3>
+        <div class="tech-tags">
+          {% for item in category.items %}
+          <span>{{ item }}</span>
+          {% endfor %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% include "tr-faq.liquid", faq: t.faq %}
+
+<!-- Diğer TR hizmet sayfaları -->
+<section class="services-preview">
+  <div class="container">
+    <h2>{{ t.related.title }}</h2>
+    <div class="services-grid">
+      {% for item in t.related.items %}
+      <div class="service-card">
+        <h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
+        <p>{{ item.text }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- Son CTA -->
+<section class="cta-section">
+  <div class="container">
+    <h2>{{ t.cta.title }}</h2>
+    <p>{{ t.cta.subtitle }}</p>
+    <div class="cta-buttons">
+      <a href="/tr/contact/" class="btn-primary btn-lg">{{ t.cta.button }}</a>
+      <a href="/tr/" class="btn-secondary btn-lg">{{ t.cta.home_button }}</a>
+    </div>
+  </div>
+</section>
+
+<!-- Service ItemList JSON-LD -->
+{% include "service-schema.liquid", services: t.services %}

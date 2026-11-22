@@ -1,0 +1,123 @@
+---
+layout: base.liquid
+title: Eski Sistem Modernizasyonu
+description: COBOL, AS/400, Delphi ve VB6 sistemlerinizi baştan yazmadan modernleştirin. Önce görsel dönüşüm, sonra API ve kademeli taşıma. İnceleme, teklif, uygulama.
+i18n_key: home
+permalink: /tr/index.html
+---
+{% assign t = "index" | lookupI18n: "tr" %}
+{% include "tr-styles.liquid" %}
+
+<!-- Hero -->
+<section class="page-hero">
+  <div class="container">
+    <h1>{{ t.hero.title }}</h1>
+    <p class="hero-subtitle">{{ t.hero.subtitle }}</p>
+    <div class="hero-cta">
+      <a href="/tr/contact/" class="btn-primary btn-lg">{{ t.hero.cta_primary }}</a>
+      <a href="#surec" class="btn-secondary btn-lg">{{ t.hero.cta_secondary }}</a>
+    </div>
+  </div>
+</section>
+
+<!-- Problem: sağlam ama eski görünüm -->
+<section class="why-modernize">
+  <div class="container">
+    <h2>{{ t.problem.title }}</h2>
+    <p class="section-intro">{{ t.problem.intro }}</p>
+
+    {% for p in t.problem.paragraphs %}
+    <p>{{ p }}</p>
+    {% endfor %}
+
+    <h3>{{ t.problem.signs_title }}</h3>
+    <ul>
+      {% for sign in t.problem.signs %}
+      <li>{{ sign }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+<!-- Yaklaşım -->
+<section class="services-preview">
+  <div class="container">
+    <h2>{{ t.approach.title }}</h2>
+    <p class="section-subtitle">{{ t.approach.subtitle }}</p>
+    <div class="services-grid">
+      {% for item in t.approach.items %}
+      <div class="service-card">
+        <div class="service-icon">{{ item.icon }}</div>
+        <h3>{{ item.title }}</h3>
+        <p>{{ item.text }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- Teknolojiler / hizmet sayfaları -->
+<section class="services-preview" id="hizmetler">
+  <div class="container">
+    <h2>{{ t.technologies.title }}</h2>
+    <p class="section-subtitle">{{ t.technologies.subtitle }}</p>
+    <div class="services-grid">
+      {% for item in t.technologies.items %}
+      <div class="service-card">
+        <div class="service-icon">{{ item.icon }}</div>
+        <h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
+        <p>{{ item.text }}</p>
+        <p><a href="{{ item.url }}">{{ t.technologies.link_label }}</a></p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- Süreç: İnceleme → Teklif → Uygulama -->
+<section class="process-section" id="surec">
+  <div class="container">
+    <h2>{{ t.process.title }}</h2>
+    <p class="section-subtitle">{{ t.process.subtitle }}</p>
+
+    <div class="process-steps">
+      {% for step in t.process.steps %}
+      <div class="process-step">
+        <div class="step-number">{{ step.number }}</div>
+        <h3>{{ step.title }}</h3>
+        <p>{{ step.text }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- Neden Barbuk -->
+<section class="why-us-section">
+  <div class="container">
+    <h2>{{ t.why.title }}</h2>
+    <div class="why-us-grid">
+      {% for item in t.why.items %}
+      <div class="why-card">
+        <div class="service-icon">{{ item.icon }}</div>
+        <h3>{{ item.title }}</h3>
+        <p>{{ item.text }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% include "tr-faq.liquid", faq: t.faq %}
+
+<!-- Son CTA -->
+<section class="cta-section">
+  <div class="container">
+    <h2>{{ t.cta.title }}</h2>
+    <p>{{ t.cta.subtitle }}</p>
+    <div class="cta-buttons">
+      <a href="/tr/contact/" class="btn-primary btn-lg">{{ t.cta.button }}</a>
+      <a href="mailto:hello@barbuk.us" class="btn-secondary btn-lg">{{ t.cta.secondary_button }}</a>
+    </div>
+  </div>
+</section>

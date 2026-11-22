@@ -1,0 +1,155 @@
+{
+  "page_hero": {
+    "title": "COBOL Modernizasyonu",
+    "subtitle": "Mainframe üzerinde yıllardır hatasız çalışan COBOL uygulamalarınızı kapatmadan modernleştiriyoruz: 3270 ekranlarından web arayüzüne, CICS işlemlerinden REST API'lere, gerekiyorsa modül modül Java veya .NET'e."
+  },
+  "why_modernize": {
+    "section_title": "COBOL sorun değil; etrafındaki her şey eskidi",
+    "intro": "COBOL, bankacılık, sigorta, kamu ve büyük perakende sistemlerinde hâlâ en kritik işlemleri taşıyor. Dil güvenilir; zorlaşan şey onu bilen ekibi bulmak, yeni kanallara bağlamak ve kullanıcılara bugünün beklediği deneyimi sunmak.",
+    "paragraphs": [
+      "Mainframe ekipleri emekliye ayrılırken iş kuralları çoğu zaman yalnız kodun içinde ve birkaç kişinin hafızasında yaşar. Her emeklilik, belgelenmemiş bir kuralın kaybolma riskidir. Modernizasyonun ilk kazancı, bu bilginin henüz erişilebilirken kayıt altına alınmasıdır.",
+      "İkinci baskı entegrasyondur. Mobil bankacılık, açık bankacılık API'leri, e-Devlet ve e-Fatura gibi kanallar gerçek zamanlı ve standart arayüzler ister. Gece çalışan batch işleri ve dosya aktarımlarıyla bu ihtiyaca yetişmek her yıl daha pahalı hâle gelir.",
+      "İyi haber şu: her şeyi bir anda yeniden yazmak zorunda değilsiniz. COBOL programlarını yerinde bırakıp önlerine modern bir arayüz ve API katmanı koymak, çoğu kurum için en hızlı ve en düşük riskli ilk adımdır. Taşıma kararı daha sonra, gerçek kullanım verisine bakılarak modül modül verilir."
+    ],
+    "signs_title": "COBOL modernizasyonunu gündeme getiren tipik durumlar:",
+    "signs": [
+      "Kullanıcılar hâlâ 3270 terminal emülatörü ve F tuşlarıyla çalışıyor.",
+      "Yeni bir kanal (mobil, web, iş ortağı API'si) için mainframe'e bağlanmak aylar sürüyor.",
+      "Gece batch penceresi uzadıkça gün içi işlemler gecikiyor.",
+      "Sistemi bilen ekip küçülüyor ve iş kuralları belgelenmemiş.",
+      "Mainframe lisans ve işletme maliyeti bütçenin büyük kısmını tüketiyor."
+    ]
+  },
+  "services_section": {
+    "title": "COBOL modernizasyon hizmetlerimiz",
+    "subtitle": "Görsel dönüşümden kademeli taşımaya kadar, ihtiyacınız kadar derine iniyoruz."
+  },
+  "services": [
+    {
+      "id": "cobol-gorsel-donusum",
+      "icon": "🎨",
+      "title": "3270 ekranlarından web arayüzüne",
+      "intro": "Yeşil ekran uygulamalarınızı, aynı COBOL/CICS işlemlerini çağıran modern ve tarayıcı tabanlı ekranlara dönüştürüyoruz. Kullanıcılar eğitim almadan kullanabileceği formlarla çalışır; çekirdek kod değişmez.",
+      "what_we_do_label": "Neler yapıyoruz:",
+      "features": [
+        { "label": "Ekran envanteri:", "text": "En çok kullanılan işlemleri ve ekran akışlarını belirleyip önceliklendiriyoruz." },
+        { "label": "Modern formlar:", "text": "Doğrulama, otomatik tamamlama ve anlaşılır hata mesajlarıyla web ve mobil uyumlu ekranlar." },
+        { "label": "Aynı işlem, yeni yüz:", "text": "Yeni ekranlar mevcut CICS işlemlerini çağırır; iş kuralı kopyalanmaz, tek kaynakta kalır." },
+        { "label": "Kademeli geçiş:", "text": "Kullanıcılar gruplar hâlinde yeni ekranlara geçer, eski terminal erişimi yedek olarak açık kalır." }
+      ],
+      "tech_label": "Teknolojiler:",
+      "tech_stack": ["3270", "CICS", "IMS", "React", "TypeScript", "Web erişilebilirliği"]
+    },
+    {
+      "id": "cobol-api",
+      "icon": "🔌",
+      "title": "COBOL programlarını API olarak açma",
+      "intro": "CICS işlemlerini ve batch programlarını güvenli REST API'ler üzerinden dışa açıyoruz. Mobil uygulama, iş ortakları ve yeni servisler mainframe'e standart bir sözleşmeyle bağlanır.",
+      "what_we_do_label": "Neler yapıyoruz:",
+      "features": [
+        { "label": "Copybook → JSON sözleşmesi:", "text": "COMMAREA ve copybook yapılarını belgelenmiş OpenAPI sözleşmelerine dönüştürüyoruz." },
+        { "label": "API katmanı:", "text": "z/OS Connect veya ara katman servisleriyle REST/JSON uçları, kimlik doğrulama ve hız sınırlama." },
+        { "label": "Batch'ten olaya:", "text": "Uygun işlemleri gece batch'inden gerçek zamanlı ya da kuyruk tabanlı akışlara taşıyoruz." },
+        { "label": "Gözlemlenebilirlik:", "text": "Her çağrı için loglama, izleme ve hata alarmı; sorun mainframe'e ulaşmadan görünür olur." }
+      ],
+      "tech_label": "Teknolojiler:",
+      "tech_stack": ["CICS", "COMMAREA", "Copybook", "z/OS Connect", "REST", "OpenAPI", "MQ", "Kafka"]
+    },
+    {
+      "id": "cobol-tasima",
+      "icon": "🧱",
+      "title": "Kademeli Java / .NET taşıma",
+      "intro": "Taşıma gerçekten gerektiğinde, modülleri tek tek Java veya .NET servislerine dönüştürüyoruz. Araç destekli kod dönüşümünü, iş kuralı çıkarımı ve satır satır çıktı karşılaştırmasıyla birlikte kullanıyoruz.",
+      "what_we_do_label": "Neler yapıyoruz:",
+      "features": [
+        { "label": "İş kuralı çıkarımı:", "text": "COBOL paragraflarından, copybook'lardan ve JCL akışlarından iş kurallarını çıkarıp belgeliyoruz." },
+        { "label": "Strangler-fig yaklaşımı:", "text": "Yeni servisler eski sistemin yanında çalışır; trafik modül modül yeni tarafa geçer." },
+        { "label": "Paralel çalıştırma:", "text": "Eski ve yeni sistemin çıktıları aynı girdilerle karşılaştırılır; eşleşmeden geçiş yapılmaz." },
+        { "label": "Batch modernizasyonu:", "text": "JCL işlerini modern zamanlayıcılara, konteyner tabanlı iş yüklerine ve olay tetikleyicilere taşıyoruz." }
+      ],
+      "tech_label": "Kaynak → hedef:",
+      "tech_stack": ["COBOL", "JCL", "Java 21", "Spring Boot", ".NET 8", "Kubernetes"]
+    },
+    {
+      "id": "cobol-veri",
+      "icon": "🗄️",
+      "title": "VSAM ve DB2 veri modernizasyonu",
+      "intro": "Mainframe verisini modern ilişkisel veritabanlarına taşıyor ya da raporlama ve analitik için güvenli şekilde dışarıya akıtıyoruz.",
+      "what_we_do_label": "Neler yapıyoruz:",
+      "features": [
+        { "label": "Kodlama dönüşümü:", "text": "EBCDIC, packed decimal (COMP-3) ve REDEFINES yapılarını doğru ve doğrulanabilir şekilde dönüştürüyoruz." },
+        { "label": "VSAM/DB2 → PostgreSQL:", "text": "Şema tasarımı, veri doğrulama ve çift yazma penceresiyle kesintisiz geçiş." },
+        { "label": "Raporlama:", "text": "Değişiklik verisi yakalama (CDC) ile mainframe verisini BI ve veri ambarına gerçek zamanlıya yakın aktarım." }
+      ],
+      "tech_label": "Veri:",
+      "tech_stack": ["VSAM", "DB2 for z/OS", "EBCDIC", "PostgreSQL", "SQL Server", "CDC"]
+    }
+  ],
+  "process": {
+    "title": "Süreç: İnceleme → Teklif → Uygulama",
+    "subtitle": "Her adımın sonunda somut bir çıktı alırsınız; devam kararı sizindir.",
+    "steps": [
+      {
+        "number": "1",
+        "title": "İnceleme",
+        "text": "COBOL programlarını, copybook'ları, JCL akışlarını ve en çok kullanılan 3270 ekranlarını inceliyoruz. Bağımlılık haritası, risk noktaları ve hızlı kazanım listesi içeren kısa bir teknik rapor hazırlıyoruz."
+      },
+      {
+        "number": "2",
+        "title": "Teklif",
+        "text": "Görsel dönüşüm, API katmanı ve olası taşıma adımlarını ayrı aşamalar olarak fiyatlandırıyoruz. Her aşamanın kapsamı, süresi, teslimatı ve geri dönüş planı yazılı ve sabit fiyatlıdır."
+      },
+      {
+        "number": "3",
+        "title": "Uygulama",
+        "text": "İlk aşamada en çok kullanılan ekranların web arayüzünü teslim ediyoruz. Ardından API'ler ve gerekiyorsa modül taşımaları gelir. Mainframe tarafındaki değişiklikler sizin değişiklik yönetimi sürecinize uygun yürür."
+      }
+    ]
+  },
+  "tech_stack": {
+    "title": "Kaynak ve hedef teknolojiler",
+    "subtitle": "Mevcut ortamınızı tanıyor, hedef mimariyi ihtiyaca göre seçiyoruz.",
+    "categories": [
+      { "name": "Mainframe (kaynak)", "items": ["COBOL", "CICS", "IMS", "JCL", "VSAM", "DB2 for z/OS", "z/OS"] },
+      { "name": "Arayüz", "items": ["React", "TypeScript", "Angular", "Mobil uyumlu web"] },
+      { "name": "Servis ve entegrasyon", "items": ["Java 21", "Spring Boot", ".NET 8", "REST", "OpenAPI", "MQ", "Kafka"] },
+      { "name": "Veri ve platform", "items": ["PostgreSQL", "SQL Server", "Kubernetes", "Azure", "AWS", "Şirket içi (on-prem)"] }
+    ]
+  },
+  "faq": {
+    "title": "COBOL modernizasyonu: sık sorulanlar",
+    "subtitle": "Mainframe ekiplerinden en çok duyduğumuz sorular.",
+    "items": [
+      {
+        "question": "Mainframe'den çıkmak zorunda mıyız?",
+        "answer": "Hayır. Pek çok kurum için en mantıklı yol mainframe'i çekirdek işlem motoru olarak tutup önüne modern bir arayüz ve API katmanı koymaktır. Mainframe'den çıkış, maliyet ve yetkinlik analizinin bunu desteklediği durumlarda ve modül modül planlanır."
+      },
+      {
+        "question": "COBOL kodunu otomatik olarak Java'ya çevirmek yeterli olmaz mı?",
+        "answer": "Otomatik dönüşüm araçları işin söz dizimi kısmını hızlandırır ama tek başına yeterli değildir. Ortaya çıkan kod çoğu zaman \"Java ile yazılmış COBOL\" olur ve bakımı zordur. Biz araç destekli dönüşümü iş kuralı çıkarımı, kodun yeniden düzenlenmesi ve eski sistemle çıktı karşılaştırmasıyla birlikte kullanıyoruz."
+      },
+      {
+        "question": "İş kurallarının kaybolmayacağından nasıl emin oluyorsunuz?",
+        "answer": "Üç katmanda: kodu ve copybook'ları analiz ederek kuralları belgeliyoruz, sistemi bilen ekibinizle bu kuralları doğruluyoruz ve geçişten önce eski ve yeni sistemi aynı girdilerle paralel çalıştırıp çıktıları karşılaştırıyoruz. Çıktılar eşleşmeden trafik yeni sisteme geçmez."
+      },
+      {
+        "question": "İlk görünür sonucu ne zaman alırız?",
+        "answer": "Süre ekran sayısına ve entegrasyon karmaşıklığına bağlıdır; kesin süreyi inceleme sonrasında teklifte yazılı olarak veriyoruz. Yaklaşımımız her zaman, en çok kullanılan birkaç ekranın yeni arayüzünü ilk aşamada teslim etmek üzerine kuruludur."
+      }
+    ]
+  },
+  "related": {
+    "title": "Diğer eski sistem hizmetlerimiz",
+    "items": [
+      { "title": "IBM AS/400 (IBM i) Modernizasyonu", "url": "/tr/as400-modernizasyonu/", "text": "RPG, CL ve 5250 yeşil ekran uygulamaları için web arayüzü, API ve veri modernizasyonu." },
+      { "title": "Delphi ve VB6 Modernizasyonu", "url": "/tr/delphi-vb6-modernizasyonu/", "text": "Masaüstü uygulamalarını modern Windows, web ve bulut ortamına taşıma." }
+    ]
+  },
+  "cta": {
+    "title": "COBOL sisteminize birlikte bakalım",
+    "subtitle": "Kısa bir ön inceleme görüşmesinde mevcut mainframe ortamınızı dinliyor, ilk görünür iyileştirmeyi ve olası yol haritasını konuşuyoruz. Ücretsiz ve bağlayıcı değildir.",
+    "button": "Ücretsiz Ön İnceleme İsteyin",
+    "secondary_button": "Süreci Görün",
+    "home_button": "Tüm Yaklaşımımız"
+  }
+}

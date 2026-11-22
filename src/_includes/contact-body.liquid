@@ -135,7 +135,7 @@
           <h3>{{ t.faq.title }}</h3>
           {% for item in t.faq.items %}
           <div class="faq-item">
-            <strong>Q: {{ item.question }}</strong>
+            <strong>{{ t.faq.q_prefix | default: "Q:" }} {{ item.question }}</strong>
             <p>{{ item.answer }}</p>
           </div>
           {% endfor %}

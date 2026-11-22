@@ -1,7 +1,9 @@
+{%- assign headerLang = page.url | detectLang -%}
+{%- if headerLang == "tr" -%}{%- assign trCommon = "common" | lookupI18n: "tr" -%}{%- endif -%}
 <header class="header">
   <nav class="nav">
     <div class="container">
-      <a href="{{ '/' | localizedUrl: page.lang }}" class="logo">
+      <a href="{% if headerLang == "tr" %}/tr/{% else %}{{ '/' | localizedUrl: page.lang }}{% endif %}" class="logo">
         <span class="logo-text">Barbuk</span>
       </a>
 
@@ -13,12 +15,21 @@
       </button>
 
       <ul class="nav-menu" id="navMenu">
+        {%- if headerLang == "tr" %}
+        <li><a href="/tr/">{{ trCommon.nav.home }}</a></li>
+        <li><a href="/tr/cobol-modernizasyonu/">{{ trCommon.nav.cobol }}</a></li>
+        <li><a href="/tr/as400-modernizasyonu/">{{ trCommon.nav.as400 }}</a></li>
+        <li><a href="/tr/delphi-vb6-modernizasyonu/">{{ trCommon.nav.delphi_vb6 }}</a></li>
+        <li><a href="/tr/#surec">{{ trCommon.nav.process }}</a></li>
+        <li><a href="/tr/contact/" class="btn-primary">{{ trCommon.nav.contact }}</a></li>
+        {%- else %}
         <li><a href="{{ '/' | localizedUrl: page.lang }}">{{ i18n.nav.home | default: 'Home' }}</a></li>
         <li><a href="{{ '/portfolio' | localizedUrl: page.lang }}">{{ i18n.nav.portfolio | default: 'Portfolio' }}</a></li>
         <li><a href="{{ '/services' | localizedUrl: page.lang }}">{{ i18n.nav.services | default: 'Services' }}</a></li>
         <li><a href="{{ '/blog' | localizedUrl: page.lang }}">{{ i18n.nav.insights | default: 'Insights' }}</a></li>
         <li><a href="{{ '/about' | localizedUrl: page.lang }}">{{ i18n.nav.about | default: 'About' }}</a></li>
         <li><a href="{{ '/contact' | localizedUrl: page.lang }}" class="btn-primary">{{ i18n.nav.contact | default: 'Contact' }}</a></li>
+        {%- endif %}
       </ul>
 
       <!-- Language Switcher -->
@@ -31,7 +42,7 @@
         <ul class="lang-menu" id="langMenu" role="menu">
           {%- for code in i18n.languages -%}
             <li>
-              <a href="{{ page.url | urlByLang: code }}" data-lang="{{ code }}" class="lang-option{% if code == currentLang %} is-active{% endif %}" role="menuitem" title="{{ i18n.meta[code].native }}" aria-label="{{ i18n.meta[code].native }}">
+              <a href="{{ page.url | urlByLang: code, alt_path }}" data-lang="{{ code }}" class="lang-option{% if code == currentLang %} is-active{% endif %}" role="menuitem" title="{{ i18n.meta[code].native }}" aria-label="{{ i18n.meta[code].native }}">
                 <span class="flag" aria-hidden="true">{{ i18n.meta[code].flag }}</span>
               </a>
             </li>
@@ -102,7 +113,7 @@
   (function() {
     const path = window.location.pathname;
     const isRoot = path === '/' || path === '/index.html' || path === '';
-    const supportedLangs = ['en', 'de', 'fr', 'nl', 'it', 'es'];
+    const supportedLangs = ['en', 'de', 'fr', 'nl', 'it', 'es', 'tr'];
     const defaultLang = 'en';
 
     // Mevcut dil (path'ten tahmin)

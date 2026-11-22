@@ -1,0 +1,33 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "cobol": "COBOL",
+    "as400": "AS/400",
+    "delphi_vb6": "Delphi/VB6",
+    "process": "Süreç",
+    "contact": "İletişim",
+    "insights": "Yazılar",
+    "menu_aria": "Menü"
+  },
+  "footer": {
+    "tagline": "Sağlam çalışan eski sistemleri, işinizi durdurmadan modern hâle getiriyoruz.",
+    "services_heading": "Hizmetler",
+    "services_cobol": "COBOL Modernizasyonu",
+    "services_as400": "AS/400 (IBM i) Modernizasyonu",
+    "services_delphi_vb6": "Delphi ve VB6 Modernizasyonu",
+    "company_heading": "Barbuk",
+    "company_contact": "İletişim",
+    "company_about": "Hakkımızda (EN)",
+    "company_portfolio": "Portföy (EN)",
+    "company_privacy": "Gizlilik Politikası (EN)",
+    "company_terms": "Kullanım Koşulları (EN)",
+    "connect_heading": "Bağlantı",
+    "connect_github": "GitHub",
+    "languages_heading": "Diller",
+    "copyright": "© 2026 Barbuk. Tüm hakları saklıdır."
+  },
+  "site": {
+    "name": "Barbuk",
+    "domain": "barbuk.us"
+  }
+}

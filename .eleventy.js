@@ -1,4 +1,21 @@
 module.exports = function(eleventyConfig) {
+  // --- i18n: ortak dil yardımcıları ---
+  // EN prefix'sizdir; diğer diller /<lang>/ prefix'i alır.
+  // Kısmi locale'ler (i18n.json → partial): yalnız listelenen (prefix'siz) yollar o dilde
+  // vardır; diğer sayfalarda o dile hreflang verilmez, dil değiştirici dilin ana sayfasına gider.
+  const i18nConfig = require("./src/_data/i18n.json");
+  const LANG_PREFIX_RE = /^\/(de|fr|nl|it|es|tr)(?=\/|$)/;
+  const PARTIAL_LANGS = i18nConfig.partial || {};
+  function stripLangPrefix(url) {
+    return String(url || "/").replace(LANG_PREFIX_RE, "") || "/";
+  }
+  function hasLangVersion(lang, strippedPath) {
+    const available = PARTIAL_LANGS[lang];
+    if (!available) return true;
+    let p = strippedPath || "/";
+    if (!p.endsWith("/") && !/\.[a-z0-9]+$/i.test(p)) p += "/";
+    return available.includes(p);
+  }
   // Copy static assets
   eleventyConfig.addPassthroughCopy("src/assets");
   eleventyConfig.addPassthroughCopy("src/demos");
@@ -120,7 +137,7 @@ module.exports = function(eleventyConfig) {
     let p = String(url).replace(/^\/+/, "").replace(/\/+$/, "");
     if (!p) return "home";
     const parts = p.split("/");
-    if (["de", "fr", "nl", "it", "es"].includes(parts[0])) {
+    if (["de", "fr", "nl", "it", "es", "tr"].includes(parts[0])) {
       parts.shift();
     }
     if (parts.length === 0 || parts[0] === "") return "home";
@@ -137,7 +154,7 @@ module.exports = function(eleventyConfig) {
         path = lang === "en" ? "/" : `/${lang}/`;
       } else {
         // Mevcut dil prefix'i varsa kaldır
-        const stripped = url.replace(/^\/(de|fr|nl|it|es)(?=\/|$)/, "") || "/";
+        const stripped = stripLangPrefix(url);
         path = lang === "en" ? stripped : `/${lang}${stripped}`;
       }
       return { lang: lang, url: path };
@@ -160,20 +177,48 @@ module.exports = function(eleventyConfig) {
   });
 
   // --- i18n: language switcher için tüm dillerdeki URL'ler ---
-  eleventyConfig.addFilter("urlByLang", function(currentUrl, lang) {
-    const url = currentUrl || "/";
+  // altPath (opsiyonel): yalnız tek dilde olan sayfalar (örn. /tr/cobol-modernizasyonu/) için
+  // diğer dillerde gidilecek en yakın sayfa (frontmatter `alt_path`).
+  eleventyConfig.addFilter("urlByLang", function(currentUrl, lang, altPath) {
+    let url = currentUrl || "/";
+    if (altPath) {
+      const m = url.match(LANG_PREFIX_RE);
+      if ((m ? m[1] : "en") === lang) return url;
+      url = altPath;
+    }
     if (url === "/" || url === "") {
       return lang === "en" ? "/" : `/${lang}/`;
     }
-    const stripped = url.replace(/^\/(de|fr|nl|it|es)(?=\/|$)/, "") || "/";
+    const stripped = stripLangPrefix(url);
+    if (!hasLangVersion(lang, stripped)) return `/${lang}/`;
     return lang === "en" ? stripped : `/${lang}${stripped}`;
+  });
+
+  // --- i18n: hreflang listesi (kısmi locale farkında) ---
+  // Kullanım: {% assign hreflangs = page.url | hreflangLinks: hreflang_standalone %}
+  // standalone=true: sayfanın başka dilde karşılığı yok → yalnız kendi dilini verir.
+  eleventyConfig.addFilter("hreflangLinks", function(pageUrl, standalone) {
+    const url = pageUrl || "/";
+    const meta = i18nConfig.meta;
+    if (standalone) {
+      const m = url.match(LANG_PREFIX_RE);
+      return [{ lang: m ? m[1] : "en", hreflang: meta[m ? m[1] : "en"].hreflang, url: url }];
+    }
+    const stripped = stripLangPrefix(url);
+    const out = [];
+    for (const lang of i18nConfig.languages) {
+      if (!hasLangVersion(lang, stripped)) continue;
+      out.push({ lang: lang, hreflang: meta[lang].hreflang, url: lang === "en" ? stripped : `/${lang}${stripped}` });
+    }
+    out.push({ lang: "x-default", hreflang: "x-default", url: stripped });
+    return out;
   });
 
   // --- i18n: page URL'den mevcut dil tespiti ---
   eleventyConfig.addFilter("detectLang", function(url) {
     const u = url || "/";
     if (u === "/" || u === "" || u === "/index.html") return "en";
-    const m = u.match(/^\/(de|fr|nl|it|es)(?=\/|$)/);
+    const m = u.match(LANG_PREFIX_RE);
     return m ? m[1] : "en";
   });
 

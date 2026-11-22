@@ -10,9 +10,14 @@ eleventyExcludeFromCollections: true
   {%- assign staticPages = "home,services,portfolio,about,contact,blog,privacy,terms" | split: "," -%}
   {%- assign langs = "en,de,fr,nl,it,es" | split: "," -%}
   {%- assign hreflangMap = "en:en-US,de:de-DE,fr:fr-FR,nl:nl-NL,it:it-IT,es:es-ES" | split: "," -%}
+  {%- comment -%} TR kısmi locale: yalnız bu statik sayfaların TR karşılığı var (i18n.json → partial.tr) {%- endcomment -%}
+  {%- assign trStaticPages = "home,contact" | split: "," -%}
+  {%- assign trOnlyPages = "cobol-modernizasyonu,as400-modernizasyonu,delphi-vb6-modernizasyonu" | split: "," -%}
 
   {%- for pageKey in staticPages -%}
-    {%- for lang in langs -%}
+    {%- assign pageLangs = langs -%}
+    {%- if trStaticPages contains pageKey -%}{%- assign pageLangs = "en,de,fr,nl,it,es,tr" | split: "," -%}{%- endif -%}
+    {%- for lang in pageLangs -%}
       {%- assign loc = "https://barbuk.us/" -%}
       {%- if lang != "en" -%}
         {%- assign loc = loc | append: lang | append: "/" -%}
@@ -45,7 +50,7 @@ eleventyExcludeFromCollections: true
         <changefreq>{{ changefreq }}</changefreq>
         <priority>{{ priority }}</priority>
 
-        {%- for altLang in langs -%}
+        {%- for altLang in pageLangs -%}
           {%- assign altLoc = "https://barbuk.us/" -%}
           {%- if altLang != "en" -%}
             {%- assign altLoc = altLoc | append: altLang | append: "/" -%}
@@ -60,6 +65,7 @@ eleventyExcludeFromCollections: true
           {%- if altLang == "nl" -%}{%- assign altHreflang = "nl-NL" -%}{%- endif -%}
           {%- if altLang == "it" -%}{%- assign altHreflang = "it-IT" -%}{%- endif -%}
           {%- if altLang == "es" -%}{%- assign altHreflang = "es-ES" -%}{%- endif -%}
+          {%- if altLang == "tr" -%}{%- assign altHreflang = "tr-TR" -%}{%- endif -%}
           <xhtml:link rel="alternate" hreflang="{{ altHreflang }}" href="{{ altLoc }}"/>
         {%- endfor -%}
         <xhtml:link rel="alternate" hreflang="x-default" href="https://barbuk.us/{% if pageKey != 'home' %}{{ pageKey }}/{% endif %}"/>
@@ -99,6 +105,16 @@ eleventyExcludeFromCollections: true
       </url>
     {%- endfor -%}
   {%- endfor %}
+
+  {%- for trKey in trOnlyPages -%}
+    <url>
+      <loc>https://barbuk.us/tr/{{ trKey }}/</loc>
+      <lastmod>{{ "now" | date: "%Y-%m-%d" }}</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.9</priority>
+      <xhtml:link rel="alternate" hreflang="tr-TR" href="https://barbuk.us/tr/{{ trKey }}/"/>
+    </url>
+  {%- endfor -%}
 
   {%- for post in collections.blogPosts -%}
     {%- assign postLang = "en" -%}

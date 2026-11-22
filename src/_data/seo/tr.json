@@ -1,0 +1,22 @@
+{
+  "home": {
+    "title": "Eski Sistem Modernizasyonu: COBOL, AS/400, Delphi",
+    "description": "COBOL, AS/400, Delphi ve VB6 sistemlerinizi baştan yazmadan modernleştirin. Önce görsel dönüşüm, sonra API ve kademeli taşıma. Ücretsiz ön inceleme."
+  },
+  "contact": {
+    "title": "İletişim: Ücretsiz Ön İnceleme",
+    "description": "Eski sisteminizi birlikte değerlendirelim. COBOL, AS/400, Delphi ve VB6 modernizasyonu için ücretsiz ön inceleme isteyin; 24 saat içinde dönüş yapıyoruz."
+  },
+  "cobol-modernizasyonu": {
+    "title": "COBOL Modernizasyonu: Mainframe'i Kapatmadan",
+    "description": "Mainframe COBOL uygulamalarınızı modernleştirin: 3270 ekranlarından web arayüzüne, CICS işlemlerinden REST API'lere, kademeli Java/.NET taşıma."
+  },
+  "as400-modernizasyonu": {
+    "title": "AS/400 (IBM i) Modernizasyonu: 5250'den Web'e",
+    "description": "RPG ve 5250 yeşil ekran uygulamalarınıza web arayüzü, REST API ve modern raporlama. İş mantığı IBM i üzerinde kalır; geçiş kademeli ve kesintisizdir."
+  },
+  "delphi-vb6-modernizasyonu": {
+    "title": "Delphi ve VB6 Modernizasyonu: Masaüstünden Web'e",
+    "description": "Delphi ve VB6 masaüstü uygulamalarınızı modernleştirin: görsel yenileme, BDE/Access veri taşıma, e-Fatura entegrasyonu ve kademeli web geçişi."
+  }
+}
