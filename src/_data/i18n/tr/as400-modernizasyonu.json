@@ -1,0 +1,154 @@
+{
+  "page_hero": {
+    "title": "IBM AS/400 (IBM i) Modernizasyonu",
+    "subtitle": "AS/400 üzerinde çalışan RPG uygulamalarınız sağlam; sadece 5250 yeşil ekranda kaldı. İş mantığını IBM i üzerinde tutarak web arayüzü, API ve modern raporlama ekliyoruz. Platformdan çıkmak isterseniz bunu da kontrollü şekilde planlıyoruz."
+  },
+  "why_modernize": {
+    "section_title": "AS/400 hâlâ çalışıyor, peki neden modernize etmeli?",
+    "intro": "IBM i (eski adıyla AS/400, iSeries) güvenilirliğiyle bilinir ve IBM tarafından güncel sürümlerle desteklenmeye devam eder. Türkiye'de pek çok üretim, dağıtım, perakende ve finans şirketinin ERP'si, stok ve sipariş sistemi bu platformda çalışır. Sorun platform değil, kullanıcıya ve diğer sistemlere gösterilen yüzdür.",
+    "paragraphs": [
+      "5250 ekranları deneyimli kullanıcılar için hızlıdır ama yeni çalışanlar için öğrenmesi zordur; fare, sekme, tablo ve arama gibi alışılmış öğeler yoktur. Saha ekibi, bayiler veya müşteriler sisteme doğrudan erişemez ve her talep birinin ekrandan veri girmesine bağlı kalır.",
+      "RPG ve CL bilen geliştirici sayısı azalıyor. Sabit formatlı (fixed-format) RPG ile yazılmış, yıllar içinde büyümüş programlar yeni ekip üyeleri için okunması zor bir hâl alır. Değişiklik talepleri sırada bekler ve iş birimleri Excel ile kendi çözümlerini üretmeye başlar.",
+      "Doğru yaklaşım çoğu zaman platformu değiştirmek değildir. DB2 for i veritabanını ve RPG iş mantığını yerinde bırakıp önüne web arayüzü ve API katmanı koymak, kısa sürede görünür sonuç verir ve riski düşük tutar. Platformdan çıkış kararı gerekiyorsa daha sonra, gerçek veriyle verilir."
+    ],
+    "signs_title": "AS/400 modernizasyonunu gündeme getiren tipik durumlar:",
+    "signs": [
+      "Kullanıcılar terminal emülatörü (5250) olmadan sisteme erişemiyor.",
+      "e-Fatura, e-Ticaret sitesi veya pazaryeri entegrasyonları dosya aktarımı ya da elle veri girişiyle yürüyor.",
+      "Raporlar için veriler sürekli Excel'e aktarılıyor.",
+      "RPG bilen ekip küçülüyor; değişiklikler uzun süre bekliyor.",
+      "Saha ekibi veya bayiler için mobil erişim gerekiyor."
+    ]
+  },
+  "services_section": {
+    "title": "AS/400 modernizasyon hizmetlerimiz",
+    "subtitle": "IBM i üzerinde kalarak ya da kontrollü şekilde platformdan çıkarak, ihtiyacınız kadar."
+  },
+  "services": [
+    {
+      "id": "as400-web-arayuz",
+      "icon": "🎨",
+      "title": "5250 yeşil ekrandan web arayüzüne",
+      "intro": "DDS ekran dosyalarıyla çalışan uygulamalarınıza, aynı RPG programlarını kullanan modern web ekranları kazandırıyoruz. Kullanıcılar tarayıcıdan, tablet veya telefondan çalışabilir.",
+      "what_we_do_label": "Neler yapıyoruz:",
+      "features": [
+        { "label": "Ekran önceliklendirme:", "text": "En çok kullanılan menü ve ekranları belirleyip ilk aşamada bunları yeniliyoruz." },
+        { "label": "Modern kullanıcı deneyimi:", "text": "Arama, filtreleme, tablo görünümü, doğrulama ve anlaşılır hata mesajları." },
+        { "label": "Tek iş mantığı:", "text": "Yeni ekranlar mevcut RPG programlarını çağırır; kurallar çoğaltılmaz, IBM i üzerinde kalır." },
+        { "label": "Yetkilendirme:", "text": "IBM i kullanıcı profilleri ve yetkileriyle uyumlu oturum ve rol yönetimi." }
+      ],
+      "tech_label": "Teknolojiler:",
+      "tech_stack": ["5250", "DDS", "RPG", "React", "TypeScript", "Node.js", ".NET 8"]
+    },
+    {
+      "id": "as400-api",
+      "icon": "🔌",
+      "title": "RPG programlarını API olarak açma",
+      "intro": "RPG programlarını ve DB2 for i verisini REST API'ler üzerinden güvenli şekilde dışa açıyoruz. e-Ticaret, pazaryeri, e-Fatura ve mobil uygulamalar AS/400 ile standart bir sözleşmeyle konuşur.",
+      "what_we_do_label": "Neler yapıyoruz:",
+      "features": [
+        { "label": "Servisleştirme:", "text": "RPG programlarını IBM i entegre web servisleri, SQL saklı yordamları veya ara katman servisleriyle REST/JSON uçlarına dönüştürüyoruz." },
+        { "label": "Entegrasyonlar:", "text": "e-Fatura/e-Arşiv entegratörleri, e-Ticaret altyapıları, pazaryerleri ve kargo firmalarıyla bağlantı." },
+        { "label": "Güvenlik:", "text": "Kimlik doğrulama, hız sınırlama, denetim kaydı ve yalnız gereken verinin dışarı açılması." },
+        { "label": "Belgelenmiş sözleşme:", "text": "OpenAPI ile belgelenmiş uçlar; iş ortaklarınız ve iç ekipleriniz için net bir arayüz." }
+      ],
+      "tech_label": "Teknolojiler:",
+      "tech_stack": ["RPG", "CL", "DB2 for i", "SQL", "REST", "OpenAPI", "JDBC (JTOpen)"]
+    },
+    {
+      "id": "as400-veri-raporlama",
+      "icon": "📊",
+      "title": "Veri ve raporlama modernizasyonu",
+      "intro": "DDS ile tanımlı fiziksel ve mantıksal dosyaları SQL tabanlı yapılara taşıyor, verinizi modern raporlama ve BI araçlarına güvenli şekilde açıyoruz.",
+      "what_we_do_label": "Neler yapıyoruz:",
+      "features": [
+        { "label": "DDS → SQL DDL:", "text": "Dosya tanımlarını, mevcut programları bozmadan SQL tablo ve görünümlerine dönüştürüyoruz." },
+        { "label": "Raporlama:", "text": "Excel aktarımları yerine Power BI, Metabase veya benzeri araçlarla güncel panolar." },
+        { "label": "Veri kalitesi:", "text": "Karakter kodlaması (CCSID) ve Türkçe karakter sorunlarının temizlenmesi, veri doğrulama kuralları." }
+      ],
+      "tech_label": "Veri:",
+      "tech_stack": ["DB2 for i", "DDS", "SQL", "CCSID", "Power BI", "Metabase", "PostgreSQL"]
+    },
+    {
+      "id": "as400-kod-ve-gecis",
+      "icon": "🧱",
+      "title": "RPG kod modernizasyonu ve platform geçişi",
+      "intro": "IBM i üzerinde kalıyorsanız RPG kodunu okunabilir ve bakımı kolay hâle getiriyoruz. Platformdan çıkmak istiyorsanız modülleri kademeli olarak Java veya .NET'e taşıyoruz.",
+      "what_we_do_label": "Neler yapıyoruz:",
+      "features": [
+        { "label": "Fixed-format → free-form RPG:", "text": "Eski RPG III/RPG IV kodunu modern, modüler ILE RPG yapısına dönüştürüyoruz." },
+        { "label": "Belgeleme:", "text": "Program çağrı zincirleri, dosya bağımlılıkları ve iş kuralları için güncel dokümantasyon." },
+        { "label": "Kademeli geçiş:", "text": "Gerekirse modülleri Java veya .NET servislerine taşıyor, eski ve yeni sistemi paralel çalıştırıp çıktıları karşılaştırıyoruz." }
+      ],
+      "tech_label": "Kaynak → hedef:",
+      "tech_stack": ["RPG III", "RPG IV", "ILE RPG", "CL", "Java 21", ".NET 8", "PostgreSQL"]
+    }
+  ],
+  "process": {
+    "title": "Süreç: İnceleme → Teklif → Uygulama",
+    "subtitle": "Her adımın sonunda somut bir çıktı alırsınız; devam kararı sizindir.",
+    "steps": [
+      {
+        "number": "1",
+        "title": "İnceleme",
+        "text": "Menüleri, en çok kullanılan 5250 ekranlarını, RPG/CL programlarını ve dosya yapısını inceliyoruz. Program bağımlılık haritası, entegrasyon ihtiyaçları ve hızlı kazanım listesi içeren kısa bir rapor hazırlıyoruz."
+      },
+      {
+        "number": "2",
+        "title": "Teklif",
+        "text": "Web arayüzü, API ve veri/raporlama işlerini ayrı aşamalar olarak sabit fiyatla teklif ediyoruz. Her aşamanın kapsamı, süresi ve teslimatı yazılıdır."
+      },
+      {
+        "number": "3",
+        "title": "Uygulama",
+        "text": "İlk aşamada en çok kullanılan ekranların web sürümünü teslim ediyoruz; 5250 erişimi yedek olarak açık kalır. Ardından API'ler, raporlama ve gerekiyorsa kod modernizasyonu gelir."
+      }
+    ]
+  },
+  "tech_stack": {
+    "title": "Kaynak ve hedef teknolojiler",
+    "subtitle": "IBM i ekosistemini tanıyor, hedef mimariyi ihtiyaca göre seçiyoruz.",
+    "categories": [
+      { "name": "IBM i (kaynak)", "items": ["AS/400", "iSeries", "IBM i", "RPG", "CL", "COBOL/400", "DDS", "DB2 for i"] },
+      { "name": "Arayüz", "items": ["React", "TypeScript", "Mobil uyumlu web", "PWA"] },
+      { "name": "Servis ve entegrasyon", "items": ["REST", "OpenAPI", "Node.js", ".NET 8", "Java 21", "JTOpen"] },
+      { "name": "Veri ve raporlama", "items": ["SQL", "Power BI", "Metabase", "PostgreSQL", "SQL Server"] }
+    ]
+  },
+  "faq": {
+    "title": "AS/400 modernizasyonu: sık sorulanlar",
+    "subtitle": "IBM i kullanan şirketlerden en çok duyduğumuz sorular.",
+    "items": [
+      {
+        "question": "AS/400'den tamamen çıkmamız gerekiyor mu?",
+        "answer": "Genellikle hayır. IBM i hâlâ desteklenen ve çok güvenilir bir platformdur. Çoğu şirket için en iyi sonuç, iş mantığını ve veritabanını IBM i üzerinde tutup modern bir arayüz ve API katmanı eklemekle alınır. Platformdan çıkış ancak maliyet ve yetkinlik analizi bunu desteklediğinde ve kademeli olarak planlanır."
+      },
+      {
+        "question": "Ekran kazıma (screen scraping) mı kullanıyorsunuz?",
+        "answer": "Hızlı bir başlangıç gerektiğinde 5250 akışlarını web'e yansıtan çözümler bir ara adım olabilir. Kalıcı çözüm olarak ise yeni ekranların doğrudan RPG programlarını veya SQL katmanını çağırmasını tercih ediyoruz; bu yaklaşım daha hızlı, daha sağlam ve bakımı daha kolaydır."
+      },
+      {
+        "question": "Türkçe karakter sorunları yaşıyoruz. Bu da çözülür mü?",
+        "answer": "Evet. Türkçe karakter sorunları genellikle CCSID ayarlarından ve farklı sistemler arasındaki kodlama dönüşümlerinden kaynaklanır. İnceleme aşamasında bu noktaları tespit eder, veri taşıma ve API katmanında doğru kodlama dönüşümünü garanti altına alırız."
+      },
+      {
+        "question": "Mevcut RPG ekibimizle birlikte çalışabilir misiniz?",
+        "answer": "Kesinlikle. İş kurallarını en iyi mevcut ekibiniz bilir. Biz web, API ve modern araçlar tarafını getirir, ekibinizle birlikte çalışır ve bilgi aktarımını sürecin parçası olarak planlarız."
+      }
+    ]
+  },
+  "related": {
+    "title": "Diğer eski sistem hizmetlerimiz",
+    "items": [
+      { "title": "COBOL Modernizasyonu", "url": "/tr/cobol-modernizasyonu/", "text": "Mainframe COBOL uygulamaları için 3270 ekranlarından web arayüzüne, API'leştirme ve kademeli taşıma." },
+      { "title": "Delphi ve VB6 Modernizasyonu", "url": "/tr/delphi-vb6-modernizasyonu/", "text": "Masaüstü uygulamalarını modern Windows, web ve bulut ortamına taşıma." }
+    ]
+  },
+  "cta": {
+    "title": "AS/400 sisteminize birlikte bakalım",
+    "subtitle": "Kısa bir ön inceleme görüşmesinde mevcut IBM i ortamınızı dinliyor, ilk görünür iyileştirmenin hangi ekranlarda olabileceğini konuşuyoruz. Ücretsiz ve bağlayıcı değildir.",
+    "button": "Ücretsiz Ön İnceleme İsteyin",
+    "secondary_button": "Süreci Görün",
+    "home_button": "Tüm Yaklaşımımız"
+  }
+}

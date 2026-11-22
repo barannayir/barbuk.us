@@ -1,0 +1,148 @@
+{
+  "hero": {
+    "title": "Sisteminiz sağlam. Sadece eski görünüyor.",
+    "subtitle": "COBOL, AS/400, Delphi ve VB6 ile yazılmış, yıllardır işinizi taşıyan uygulamaları çöpe atmıyoruz. Çalışan iş kurallarını koruyor, ekranları ve entegrasyonları bugünün standartlarına taşıyoruz. Önce görsel dönüşüm, sonra ihtiyaç kadar derin modernizasyon.",
+    "cta_primary": "Ücretsiz Ön İnceleme İsteyin",
+    "cta_secondary": "Süreci Görün"
+  },
+  "problem": {
+    "title": "Sorun sistemin kendisi değil, yüzü",
+    "intro": "Yirmi yıldır kesintisiz çalışan bir stok, muhasebe ya da çekirdek bankacılık uygulaması teknik açıdan başarısız değildir. Sorun, bu güvenilir çekirdeğin kullanıcıya, müşteriye ve diğer sistemlere eski bir yüzle dokunmasıdır.",
+    "paragraphs": [
+      "Yeşil ekranlar, F tuşu kombinasyonları ve Windows XP döneminden kalma formlar yeni çalışanların eğitimini uzatır, hata oranını artırır ve kurum içinde \"bu sistemi bir gün değiştirmemiz lazım\" baskısı yaratır. Bu baskı çoğu zaman pahalı ve riskli bir \"her şeyi baştan yazalım\" projesine dönüşür.",
+      "Biz tersinden başlıyoruz: önce çalışan mantığı koruyup kullanıcıya görünen katmanı yeniliyoruz. Ekranlar web tarayıcısında, mobil uyumlu ve anlaşılır hâle gelir; arka plandaki COBOL, RPG ya da Delphi kodu çalışmaya devam eder. Böylece kısa sürede görünür bir sonuç alırsınız ve daha derin modernizasyon kararını acele etmeden, veriye dayanarak verirsiniz."
+    ],
+    "signs_title": "Bu tablo size tanıdık geliyorsa doğru yerdesiniz:",
+    "signs": [
+      "Yeni çalışanlar ekranları öğrenmekte zorlanıyor, eğitim haftalar sürüyor.",
+      "Sistemi bilen geliştirici sayısı azalıyor, değişiklikler aylarca sırada bekliyor.",
+      "e-Fatura, e-Ticaret, mobil uygulama veya raporlama aracıyla entegrasyon çok zor ya da elle yapılıyor.",
+      "Uygulama yalnız belirli bir bilgisayarda, eski bir Windows sürümünde veya terminal emülatöründe çalışıyor.",
+      "Yönetim \"baştan yazalım\" diyor ama riski ve süreyi kimse netleştiremiyor."
+    ]
+  },
+  "approach": {
+    "title": "Üç kademeli yaklaşım",
+    "subtitle": "Her sistem aynı derinlikte modernizasyon gerektirmez. İhtiyacınıza göre ilk kademede durabilir ya da adım adım ilerleyebilirsiniz.",
+    "items": [
+      {
+        "icon": "🎨",
+        "title": "1. Görsel dönüşüm",
+        "text": "Yeşil ekranları ve eski masaüstü formları, aynı iş mantığını kullanan modern web arayüzlerine dönüştürüyoruz. Arka uç kodu değişmez; kullanıcı deneyimi değişir."
+      },
+      {
+        "icon": "🔌",
+        "title": "2. API ve entegrasyon",
+        "text": "Eski programları güvenli REST API'ler üzerinden dışa açıyoruz. e-Fatura, e-Ticaret, mobil uygulama ve BI araçları, çekirdek sisteme dokunmadan bu API'lerle konuşur."
+      },
+      {
+        "icon": "🧱",
+        "title": "3. Kademeli taşıma",
+        "text": "Gerekiyorsa modülleri tek tek modern platformlara (Java, .NET, PostgreSQL, bulut) taşıyoruz. Eski ve yeni sistem bir süre paralel çalışır; çıktılar eşleşmeden geçiş yapılmaz."
+      }
+    ]
+  },
+  "technologies": {
+    "title": "Uzmanlaştığımız eski teknolojiler",
+    "subtitle": "Türkiye'de bankacılık, sigorta, üretim, dağıtım ve kamu tarafında hâlâ kritik iş yükü taşıyan platformlar.",
+    "link_label": "Ayrıntılı bilgi →",
+    "items": [
+      {
+        "icon": "🟢",
+        "title": "COBOL Modernizasyonu",
+        "text": "Mainframe (z/OS, CICS, JCL, DB2) ve COBOL tabanlı uygulamalar için 3270 ekranlarından web arayüzüne, API'leştirmeye ve kademeli Java/.NET taşımaya kadar.",
+        "url": "/tr/cobol-modernizasyonu/"
+      },
+      {
+        "icon": "🟦",
+        "title": "IBM AS/400 (IBM i) Modernizasyonu",
+        "text": "RPG, CL ve DDS ile yazılmış 5250 yeşil ekran uygulamalarını, IBM i platformunu terk etmeden ya da kontrollü şekilde terk ederek modernleştiriyoruz.",
+        "url": "/tr/as400-modernizasyonu/"
+      },
+      {
+        "icon": "🪟",
+        "title": "Delphi ve VB6 Modernizasyonu",
+        "text": "Delphi ve Visual Basic 6 masaüstü uygulamalarını modern Windows, web ve bulut ortamına taşıyoruz; BDE, Access ve ActiveX bağımlılıklarını temizliyoruz.",
+        "url": "/tr/delphi-vb6-modernizasyonu/"
+      }
+    ]
+  },
+  "process": {
+    "title": "Süreç: İnceleme → Teklif → Uygulama",
+    "subtitle": "Sürpriz yok. Her adımın sonunda elinizde somut bir çıktı olur ve devam edip etmemeye siz karar verirsiniz.",
+    "steps": [
+      {
+        "number": "1",
+        "title": "İnceleme",
+        "text": "Sisteminizi, ekranlarınızı ve entegrasyon ihtiyaçlarınızı birlikte inceliyoruz. Kaynak kod, veri yapıları ve kullanıcı akışları üzerinden kısa bir teknik değerlendirme hazırlıyoruz: neyin korunması, neyin yenilenmesi gerektiği ve risklerin nerede olduğu."
+      },
+      {
+        "number": "2",
+        "title": "Teklif",
+        "text": "İnceleme sonucuna göre kapsamı netleştirilmiş, aşamalara bölünmüş ve sabit fiyatlı bir teklif sunuyoruz. Her aşamanın teslimatı, süresi ve geri dönüş planı yazılıdır. Saatlik faturalama sürprizi yoktur."
+      },
+      {
+        "number": "3",
+        "title": "Uygulama",
+        "text": "İlk görünür sonucu kısa sürede teslim ediyoruz; genellikle en çok kullanılan ekranların yeni arayüzü. Ardından kalan ekranlar, API'ler ve gerekiyorsa taşıma adımları gelir. Canlıya geçişler, iş saatleri dışında ve geri alma planıyla yapılır."
+      }
+    ]
+  },
+  "why": {
+    "title": "Neden Barbuk?",
+    "items": [
+      {
+        "icon": "🛡️",
+        "title": "Çalışanı bozmayız",
+        "text": "Yıllar içinde olgunlaşmış iş kuralları sizin en değerli varlığınızdır. Önce onları belgeleyip koruruz, sonra değiştiririz."
+      },
+      {
+        "icon": "⚡",
+        "title": "Hızlı görünür sonuç",
+        "text": "Büyük ve riskli bir yeniden yazım yerine, kısa sürede kullanıcıların fark edeceği bir iyileştirmeyle başlarız."
+      },
+      {
+        "icon": "🔁",
+        "title": "Paralel çalışma",
+        "text": "Yeni bileşenler eski sistemle yan yana çalışır. Sonuçlar karşılaştırılıp eşleşmeden trafik yeni sisteme yönlendirilmez."
+      },
+      {
+        "icon": "🇹🇷",
+        "title": "Türkçe iletişim",
+        "text": "Toplantılar, dokümantasyon ve destek Türkçe yürür. İsterseniz gizlilik sözleşmesini (NDA) ilk görüşmeden önce imzalarız."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Sıkça Sorulan Sorular",
+    "subtitle": "Eski sistem modernizasyonu hakkında en çok duyduğumuz sorular.",
+    "items": [
+      {
+        "question": "Sistemimizi baştan yazmamız gerekiyor mu?",
+        "answer": "Çoğu durumda hayır. Eski sistemlerin büyük kısmı iş mantığı açısından sağlamdır; sorun arayüz, entegrasyon ve bakım kolaylığındadır. Önce görsel dönüşüm ve API katmanıyla başlamayı, baştan yazmayı ise yalnız gerçekten gerektiği yerlerde ve modül modül yapmayı öneriyoruz."
+      },
+      {
+        "question": "Modernizasyon sırasında işimiz durur mu?",
+        "answer": "Hayır. Yeni arayüz ve servisler mevcut sistemin yanında çalışır. Kullanıcıları gruplar hâlinde yeni ekranlara geçiririz; bir sorun olursa eski ekranlar kullanılmaya devam eder. Canlıya geçişleri düşük trafikli saatlerde ve geri alma planıyla yaparız."
+      },
+      {
+        "question": "Kaynak kodumuz eksik ya da belgelenmemiş. Yine de çalışabilir miyiz?",
+        "answer": "Evet, bu çok yaygın bir durum. İnceleme aşamasında mevcut kodu, veri yapılarını ve ekran akışlarını analiz ederek iş kurallarını çıkarır ve belgeleriz. Kaynak kodun bir kısmı kayıpsa, programın davranışını girdi ve çıktılar üzerinden doğrulayan testlerle ilerleriz."
+      },
+      {
+        "question": "Fiyatlandırma nasıl yapılıyor?",
+        "answer": "İlk ön inceleme görüşmesi ücretsizdir. Ardından kapsamı netleştirilmiş, aşamalara bölünmüş ve sabit fiyatlı bir teklif sunarız. Her aşamanın sonunda devam edip etmemeye siz karar verirsiniz."
+      },
+      {
+        "question": "Hangi sektörlerle çalışıyorsunuz?",
+        "answer": "Eski sistemlerin yoğun olduğu her sektörle: üretim, dağıtım ve lojistik, perakende, finans ve sigorta, sağlık ve kamu. Teknik yaklaşımımız sektörden çok platforma (COBOL, AS/400, Delphi, VB6) göre şekillenir."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Sisteminize birlikte bakalım",
+    "subtitle": "Kısa bir ön inceleme görüşmesinde mevcut sisteminizi dinliyor, ilk görünür iyileştirmenin nerede olabileceğini ve olası yol haritasını konuşuyoruz. Ücretsiz ve bağlayıcı değildir.",
+    "button": "Ücretsiz Ön İnceleme İsteyin",
+    "secondary_button": "hello@barbuk.us"
+  }
+}

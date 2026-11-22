@@ -1,6 +1,39 @@
+{%- assign footerLang = page.url | detectLang -%}
 <footer class="footer">
   <div class="container">
     <div class="footer-grid">
+      {%- if footerLang == "tr" -%}
+      {%- assign trCommon = "common" | lookupI18n: "tr" %}
+      <div class="footer-col">
+        <h3>Barbuk</h3>
+        <p>{{ trCommon.footer.tagline }}</p>
+      </div>
+      <div class="footer-col">
+        <h4>{{ trCommon.footer.services_heading }}</h4>
+        <ul>
+          <li><a href="/tr/cobol-modernizasyonu/">{{ trCommon.footer.services_cobol }}</a></li>
+          <li><a href="/tr/as400-modernizasyonu/">{{ trCommon.footer.services_as400 }}</a></li>
+          <li><a href="/tr/delphi-vb6-modernizasyonu/">{{ trCommon.footer.services_delphi_vb6 }}</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>{{ trCommon.footer.company_heading }}</h4>
+        <ul>
+          <li><a href="/tr/contact/">{{ trCommon.footer.company_contact }}</a></li>
+          <li><a href="/about/" hreflang="en">{{ trCommon.footer.company_about }}</a></li>
+          <li><a href="/portfolio/" hreflang="en">{{ trCommon.footer.company_portfolio }}</a></li>
+          <li><a href="/privacy/" hreflang="en">{{ trCommon.footer.company_privacy }}</a></li>
+          <li><a href="/terms/" hreflang="en">{{ trCommon.footer.company_terms }}</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>{{ trCommon.footer.connect_heading }}</h4>
+        <ul>
+          <li><a href="mailto:hello@barbuk.us">hello@barbuk.us</a></li>
+          <li><a href="https://github.com/barbuk-dev" target="_blank">{{ trCommon.footer.connect_github }}</a></li>
+        </ul>
+      </div>
+      {%- else %}
       <div class="footer-col">
         <h3>Barbuk</h3>
         <p>{{ i18n.footer.tagline | default: 'Modernizing legacy systems for forward-thinking businesses.' }}</p>
@@ -30,8 +63,9 @@
           <li><a href="https://github.com/barbuk-dev" target="_blank">{{ i18n.footer.connect_github | default: 'GitHub' }}</a></li>
         </ul>
       </div>
+      {%- endif %}
       <div class="footer-col">
-        <h4>{{ i18n.footer.languages_heading | default: 'Languages' }}</h4>
+        <h4>{% if footerLang == "tr" %}{{ trCommon.footer.languages_heading }}{% else %}{{ i18n.footer.languages_heading | default: 'Languages' }}{% endif %}</h4>
         <div class="footer-languages">
           {%- assign currentLang = page.url | detectLang -%}
           {%- for code in i18n.languages -%}
@@ -43,7 +77,7 @@
       </div>
     </div>
     <div class="footer-bottom">
-      <p>{{ i18n.footer.copyright | default: '© 2026 Barbuk. All rights reserved.' }}</p>
+      <p>{% if footerLang == "tr" %}{{ trCommon.footer.copyright }}{% else %}{{ i18n.footer.copyright | default: '© 2026 Barbuk. All rights reserved.' }}{% endif %}</p>
     </div>
   </div>
 </footer>

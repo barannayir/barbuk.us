@@ -1,0 +1,9 @@
+---
+layout: base.liquid
+title: İletişim
+i18n_key: contact
+permalink: /tr/contact/index.html
+---
+{% assign t = "contact" | lookupI18n: "tr" %}
+{%- assign currentLang = "tr" -%}
+{% include "contact-body.liquid" %}

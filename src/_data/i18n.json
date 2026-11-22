@@ -1,12 +1,16 @@
 {
   "default": "en",
-  "languages": ["en", "de", "fr", "nl", "it", "es"],
+  "languages": ["en", "de", "fr", "nl", "it", "es", "tr"],
+  "partial": {
+    "tr": ["/", "/contact/"]
+  },
   "meta": {
     "en": { "name": "English",   "native": "English",    "hreflang": "en-US", "flag": "🇺🇸" },
     "de": { "name": "German",    "native": "Deutsch",    "hreflang": "de-DE", "flag": "🇩🇪" },
     "fr": { "name": "French",    "native": "Français",   "hreflang": "fr-FR", "flag": "🇫🇷" },
     "nl": { "name": "Dutch",     "native": "Nederlands", "hreflang": "nl-NL", "flag": "🇳🇱" },
     "it": { "name": "Italian",   "native": "Italiano",   "hreflang": "it-IT", "flag": "🇮🇹" },
-    "es": { "name": "Spanish",   "native": "Español",    "hreflang": "es-ES", "flag": "🇪🇸" }
+    "es": { "name": "Spanish",   "native": "Español",    "hreflang": "es-ES", "flag": "🇪🇸" },
+    "tr": { "name": "Turkish",   "native": "Türkçe",     "hreflang": "tr-TR", "flag": "🇹🇷" }
   }
 }

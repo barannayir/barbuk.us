@@ -61,7 +61,7 @@ function pageUrlFor(file) {
 
 function validateBreadcrumb(file, parsed) {
   const pageUrl = pageUrlFor(file);
-  const locale = (pageUrl.match(/^\/(de|fr|nl|it|es)(?=\/|$)/) || [])[1];
+  const locale = (pageUrl.match(/^\/(de|fr|nl|it|es|tr)(?=\/|$)/) || [])[1];
   const localeRoot = locale ? `/${locale}/` : "/";
   const blogIndex = locale ? `/${locale}/blog/` : "/blog/";
   const items = parsed.itemListElement;

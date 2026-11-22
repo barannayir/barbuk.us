@@ -2,14 +2,15 @@
 {%- assign currentLang = "en" -%}
 {%- assign pathParts = page.url | split: "/" -%}
 {%- for part in pathParts -%}
-  {%- if part == "de" or part == "fr" or part == "nl" or part == "it" or part == "es" -%}
+  {%- if part == "de" or part == "fr" or part == "nl" or part == "it" or part == "es" or part == "tr" -%}
     {%- assign currentLang = part -%}
   {%- endif -%}
 {%- endfor -%}
-{%- assign cleanUrl = page.url | replace: "/de/", "/" | replace: "/fr/", "/" | replace: "/nl/", "/" | replace: "/it/", "/" | replace: "/es/", "/" -%}
+{%- assign cleanUrl = page.url | replace: "/de/", "/" | replace: "/fr/", "/" | replace: "/nl/", "/" | replace: "/it/", "/" | replace: "/es/", "/" | replace: "/tr/", "/" -%}
 {%- assign pageTitle = title | seoTitle: page.url, currentLang -%}
 {%- assign pageDescription = description | seoDescription: page.url, currentLang -%}
 {%- assign titleSuffix = " | Barbuk - Legacy System Modernization" -%}
+{%- if title_suffix -%}{%- assign titleSuffix = title_suffix -%}{%- endif -%}
 {%- if seo_compact -%}
   {%- assign titleSuffix = " | Barbuk" -%}
   {%- if seo_title -%}{%- assign pageTitle = seo_title -%}{%- else -%}{%- assign pageTitle = pageTitle | shortTitle: 51 -%}{%- endif -%}
@@ -29,14 +30,11 @@
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://barbuk.us{{ page.url }}">
 
-  <!-- Hreflang: regional codes for SEO -->
-  <link rel="alternate" hreflang="en-US" href="https://barbuk.us{{ cleanUrl }}">
-  <link rel="alternate" hreflang="de-DE" href="https://barbuk.us/de{{ cleanUrl }}">
-  <link rel="alternate" hreflang="fr-FR" href="https://barbuk.us/fr{{ cleanUrl }}">
-  <link rel="alternate" hreflang="nl-NL" href="https://barbuk.us/nl{{ cleanUrl }}">
-  <link rel="alternate" hreflang="it-IT" href="https://barbuk.us/it{{ cleanUrl }}">
-  <link rel="alternate" hreflang="es-ES" href="https://barbuk.us/es{{ cleanUrl }}">
-  <link rel="alternate" hreflang="x-default" href="https://barbuk.us{{ cleanUrl }}">
+  <!-- Hreflang: regional codes for SEO (partial locales only where the page exists) -->
+  {%- assign hreflangs = page.url | hreflangLinks: hreflang_standalone -%}
+  {%- for h in hreflangs %}
+  <link rel="alternate" hreflang="{{ h.hreflang }}" href="https://barbuk.us{{ h.url }}">
+  {%- endfor %}
 
   <!-- Open Graph locale -->
   <meta property="og:locale" content="{{ i18n.meta[currentLang].hreflang | replace: '-', '_' }}">
@@ -53,9 +51,9 @@
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="{{ title }} - Barbuk">
   <meta property="og:site_name" content="Barbuk">
-  {%- for code in i18n.languages -%}
-    {%- if code != currentLang -%}
-  <meta property="og:locale:alternate" content="{{ i18n.meta[code].hreflang | replace: '-', '_' }}">
+  {%- for h in hreflangs -%}
+    {%- if h.lang != currentLang and h.lang != "x-default" -%}
+  <meta property="og:locale:alternate" content="{{ h.hreflang | replace: '-', '_' }}">
     {%- endif -%}
   {%- endfor -%}
 
@@ -101,13 +99,13 @@
     "logo": "https://barbuk.us/assets/images/logo.png",
     "description": "Expert B2B software modernization services. Transform legacy systems into modern, high-performance applications with AI integration and workflow automation.",
     "foundingDate": "2026",
-    "inLanguage": ["en-US", "de-DE", "fr-FR", "nl-NL", "it-IT", "es-ES"],
-    "knowsLanguage": ["en-US", "de-DE", "fr-FR", "nl-NL", "it-IT", "es-ES"],
+    "inLanguage": ["en-US", "de-DE", "fr-FR", "nl-NL", "it-IT", "es-ES", "tr-TR"],
+    "knowsLanguage": ["en-US", "de-DE", "fr-FR", "nl-NL", "it-IT", "es-ES", "tr-TR"],
     "contactPoint": {
       "@type": "ContactPoint",
       "contactType": "Customer Service",
       "email": "hello@barbuk.us",
-      "availableLanguage": ["English", "German", "French", "Dutch", "Italian", "Spanish"]
+      "availableLanguage": ["English", "German", "French", "Dutch", "Italian", "Spanish", "Turkish"]
     },
     "sameAs": [
       "https://github.com/barbuk-dev"
@@ -118,7 +116,8 @@
       { "@type": "Country", "name": "France" },
       { "@type": "Country", "name": "Netherlands" },
       { "@type": "Country", "name": "Italy" },
-      { "@type": "Country", "name": "Spain" }
+      { "@type": "Country", "name": "Spain" },
+      { "@type": "Country", "name": "Turkey" }
     ],
     "serviceType": [
       "Legacy System Modernization",
@@ -203,7 +202,7 @@
   <!-- RSS autodiscovery -->
   {%- assign rssLang = page.url | detectLang -%}
   {%- assign rssUrl = '/blog/rss.xml' -%}
-  {%- if rssLang != 'en' -%}{%- assign rssUrl = '/' | append: rssLang | append: rssUrl -%}{%- endif -%}
+  {%- if rssLang != 'en' and i18n.partial[rssLang] == nil -%}{%- assign rssUrl = '/' | append: rssLang | append: rssUrl -%}{%- endif -%}
   <link rel="alternate" type="application/rss+xml" title="{{ site_title }} - {{ i18n.nav.insights | default: 'Insights' }}" href="{{ rssUrl }}" />
 </head>
 <body>

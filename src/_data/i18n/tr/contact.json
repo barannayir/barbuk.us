@@ -1,0 +1,92 @@
+{
+  "page_hero": {
+    "title": "İletişime Geçin",
+    "subtitle": "Eski sisteminizi birlikte değerlendirelim. Ön inceleme görüşmesi ücretsizdir ve bağlayıcı değildir."
+  },
+  "form_section": {
+    "title": "Bize Yazın",
+    "intro": "Genellikle 24 saat içinde dönüş yapıyoruz.",
+    "fields": {
+      "name_label": "Adınız Soyadınız *",
+      "name_placeholder": "Ayşe Yılmaz",
+      "email_label": "E-posta Adresiniz *",
+      "email_placeholder": "ayse@sirketiniz.com.tr",
+      "company_label": "Şirket Adı",
+      "company_placeholder": "Şirketinizin adı",
+      "project_label": "Konu *",
+      "project_placeholder": "Bir konu seçin...",
+      "message_label": "Sisteminizi Kısaca Anlatın *",
+      "message_placeholder": "Hangi teknoloji (COBOL, AS/400, Delphi, VB6...), kaç kullanıcı, en büyük sorun ne ve neyi değiştirmek istiyorsunuz?",
+      "submit_button": "Mesaj Gönder",
+      "submitting_button": "Gönderiliyor..."
+    },
+    "project_options": [
+      "COBOL modernizasyonu",
+      "AS/400 (IBM i) modernizasyonu",
+      "Delphi / VB6 modernizasyonu",
+      "Arayüz (UI) yenileme",
+      "API ve entegrasyon",
+      "Diğer / Emin değilim"
+    ],
+    "error_fallback": "Mesaj gönderilemedi. Lütfen doğrudan hello@barbuk.us adresine e-posta gönderin.",
+    "success_message": "Teşekkürler! 24 saat içinde size dönüş yapacağız."
+  },
+  "contact_methods": {
+    "title": "Diğer İletişim Yolları",
+    "methods": [
+      {
+        "title": "E-posta",
+        "link": "hello@barbuk.us",
+        "description": "Genel sorular ve ön inceleme talepleri için"
+      },
+      {
+        "title": "Kurumsal Talepler",
+        "link": "info@barbuk.us",
+        "description": "İş ortaklıkları ve kurumsal projeler için"
+      },
+      {
+        "title": "Destek",
+        "link": "support@barbuk.us",
+        "description": "Mevcut müşterilerimiz için"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Kısa Sorular",
+    "items": [
+      {
+        "question": "İlk görüşmede ne konuşuyoruz?",
+        "answer": "Mevcut sisteminizi, kullanıcı sayısını, en çok sorun yaşadığınız noktaları ve hedeflerinizi dinliyoruz. Sonunda ilk görünür iyileştirmenin nerede olabileceğine dair ön görüşümüzü paylaşıyoruz."
+      },
+      {
+        "question": "Sabit fiyatlı teklif veriyor musunuz?",
+        "answer": "Evet. İnceleme sonrasında aşamalara bölünmüş, kapsamı ve teslimatı yazılı sabit fiyatlı bir teklif sunuyoruz."
+      },
+      {
+        "question": "Kendi yazılım ekibimizle birlikte çalışabilir misiniz?",
+        "answer": "Elbette. Ekibinizi destekleyebilir, birlikte çalışabilir veya projenin tamamını üstlenebiliriz."
+      }
+    ],
+    "q_prefix": "S:"
+  },
+  "trust_section": {
+    "cards": [
+      {
+        "title": "24 Saatte Dönüş",
+        "description": "Tüm taleplere bir iş günü içinde yanıt veriyoruz."
+      },
+      {
+        "title": "Gizlilik Sözleşmesi",
+        "description": "Projenizi konuşmadan önce gizlilik sözleşmesi (NDA) imzalayabiliriz."
+      },
+      {
+        "title": "Ücretsiz Ön İnceleme",
+        "description": "İhtiyacınızı anlamak için ücretsiz ve bağlayıcı olmayan bir görüşme."
+      },
+      {
+        "title": "Şeffaf Fiyatlandırma",
+        "description": "Teslimatı ve takvimi net, aşamalı teklifler."
+      }
+    ]
+  }
+}
